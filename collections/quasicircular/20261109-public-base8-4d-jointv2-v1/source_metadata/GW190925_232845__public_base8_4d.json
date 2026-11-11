@@ -1,0 +1,129 @@
+{
+  "event": "GW190925_232845",
+  "rows": 164960,
+  "analysis_support": {
+    "mc_det_min": 12.101587945374774,
+    "mc_det_max": 24.91904806065225,
+    "q_min": 0.05,
+    "q_max": 1.0,
+    "m1_det_min": 1.0,
+    "m1_det_max": 1000.0,
+    "m2_det_min": 1.0,
+    "m2_det_max": 1000.0,
+    "dL_min": 100.0,
+    "dL_max": 10000.0,
+    "amax": 0.99,
+    "z_min": 0.02227011364573732,
+    "z_max": 1.3689933690058993,
+    "mc_min": 5.10832495510655,
+    "mc_max": 24.37618759271273,
+    "a1max": 0.99,
+    "a2max": 0.99
+  },
+  "prior_contract": {
+    "schema": "aligned-redshift-native-prior-v1",
+    "event": "GW190925_232845",
+    "coordinate_order": [
+      "mc_source",
+      "eta",
+      "chi_eff",
+      "z"
+    ],
+    "analysis_support": {
+      "mc_det_min": 12.101587945374774,
+      "mc_det_max": 24.91904806065225,
+      "q_min": 0.05,
+      "q_max": 1.0,
+      "m1_det_min": 1.0,
+      "m1_det_max": 1000.0,
+      "m2_det_min": 1.0,
+      "m2_det_max": 1000.0,
+      "dL_min": 100.0,
+      "dL_max": 10000.0,
+      "amax": 0.99,
+      "z_min": 0.02227011364573732,
+      "z_max": 1.3689933690058993,
+      "mc_min": 5.10832495510655,
+      "mc_max": 24.37618759271273,
+      "a1max": 0.99,
+      "a2max": 0.99
+    },
+    "spin_caps": [
+      0.99,
+      0.99
+    ],
+    "spin_quadrature_order": 64,
+    "distance_prior": {
+      "kind": "distance_squared",
+      "analytic": "PowerLaw(alpha=2, minimum=100, maximum=10000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+      "status": "explicit_serialized_analytic_prior"
+    },
+    "metadata_provenance": {
+      "kind": "pinned_older_metadata",
+      "source_sha256": "f461930589e38479b61eb83c8e2145a80efee717a9b03ef4cdca0da647523266",
+      "historical_lalinference_version": null,
+      "recorded_executables": {}
+    },
+    "native_settings": {
+      "priors/analytic/a_1": [
+        "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/a_2": [
+        "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/chirp_mass": [
+        "UniformInComponentsChirpMass(minimum=12.101587945374774, maximum=24.91904806065225, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_{\\\\odot}$', boundary=None)"
+      ],
+      "priors/analytic/luminosity_distance": [
+        "PowerLaw(alpha=2, minimum=100, maximum=10000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "priors/analytic/mass_1": [
+        "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+      ],
+      "priors/analytic/mass_2": [
+        "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+      ],
+      "priors/analytic/mass_ratio": [
+        "UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/tilt_1": [
+        "Sine(name='tilt_1', latex_label='$\\\\theta_1$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+      ],
+      "priors/analytic/tilt_2": [
+        "Sine(name='tilt_2', latex_label='$\\\\theta_2$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+      ]
+    },
+    "conditional_nuisance": "Original source conditional nuisance prior at retained source mass, eta, chi_eff, z; no hidden-spin prior change",
+    "common_cosmology": {
+      "H0": 67.9,
+      "Om0": 0.3065,
+      "Tcmb0": 0.0
+    },
+    "density_convention": "Native retained prior proportional to (1+z)^2 J(Mc_source,eta) p_chi(chi|q) p_native_DL(DL(z)) dDLcommon/dz. No population rho."
+  },
+  "paired_redshift_proof": {
+    "kind": "source_bound_existing_paired_z"
+  },
+  "previous_reference_sha256": "54edf0547e3d4c868465fdc97bc1f7dc1c69dd75b1dfdbe0b8e0a372c997a5d9",
+  "previous_cohort_sha256": "31fb91b0bd23f04b686b4b95679d02f412510ce4036aeec91f4d2aaa4bb1b635",
+  "reference_sha256": "5c0c07cecc274f2ec44d8271d680b20fa0ff04334bb36eae50d866e7e7018a26",
+  "producer_sha256": "6769a7687391355273f9c25aef63d3d474ab274297d79d6697eae8ce658fc984",
+  "prior_code_sha256": "49d931177523025cd5cfca1d954a42402c0351cb9f8072f960729b9f410f3c81",
+  "historical_prior_evidence_sha256": "b3432ec6e9820b4b7393eda95788c2d44b2047002f7214f3d034d9d41436bfb9",
+  "fit_root_commit": "fa2ac1de0c20e4d60678bb4c7b94819788a6366b",
+  "native_prior_constant_free_max_log_error": 7.880358765532947e-08,
+  "source": {
+    "path": "<host-path>/mixed-nocosmo.h5",
+    "dataset": "C01:IMRPhenomXPHM",
+    "expected_sha256": "f461930589e38479b61eb83c8e2145a80efee717a9b03ef4cdca0da647523266",
+    "sampled_geocent_time_median": 1253489343.1158724,
+    "geocent_time_abs_residual_seconds": 0.0016148090362548828,
+    "record_path": null,
+    "record_sha256": null,
+    "backend_match_to_existing_baseline": "Distinct source/group; not assumed interchangeable"
+  },
+  "flat_joint_row_ess": 45442.64798915694,
+  "group_identity_available": false,
+  "weight_definition": "w4 proportional to prior-corrected native posterior weights in dMc_source deta dchi_eff dz. Native distance prior removed event-wise; NO rho embedded. Native posterior weights retained separately; pi_x proportional to posterior_weights/w4.",
+  "seconds_since_start": 12.686796174999472
+}

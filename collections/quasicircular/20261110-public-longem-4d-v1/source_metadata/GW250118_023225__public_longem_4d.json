@@ -1,0 +1,462 @@
+{
+  "event": "GW250118_023225",
+  "rows": 16413,
+  "analysis_support": {
+    "a1max": 0.99,
+    "a2max": 0.99,
+    "amax": 0.99,
+    "mc_det_min": 26.50227897651395,
+    "mc_det_max": 91.32036050460333,
+    "q_min": 0.16666667,
+    "q_max": 1.0,
+    "m1_det_min": 1.0,
+    "m1_det_max": 1000.0,
+    "m2_det_min": 1.0,
+    "m2_det_max": 1000.0,
+    "z_min": 0.0022609665563964507,
+    "z_max": 3.3758819364737223,
+    "mc_min": 6.056442875118027,
+    "mc_max": 91.11435399740753
+  },
+  "prior_contract": {
+    "schema": "aligned-redshift-native-prior-v1",
+    "event": "GW250118_023225",
+    "coordinate_order": [
+      "mc_source",
+      "eta",
+      "chi_eff",
+      "z"
+    ],
+    "analysis_support": {
+      "a1max": 0.99,
+      "a2max": 0.99,
+      "amax": 0.99,
+      "mc_det_min": 26.50227897651395,
+      "mc_det_max": 91.32036050460333,
+      "q_min": 0.16666667,
+      "q_max": 1.0,
+      "m1_det_min": 1.0,
+      "m1_det_max": 1000.0,
+      "m2_det_min": 1.0,
+      "m2_det_max": 1000.0,
+      "z_min": 0.0022609665563964507,
+      "z_max": 3.3758819364737223,
+      "mc_min": 6.056442875118027,
+      "mc_max": 91.11435399740753
+    },
+    "spin_caps": [
+      0.99,
+      0.99
+    ],
+    "spin_quadrature_order": 128,
+    "distance_prior": {
+      "kind": "common_source_time",
+      "analytic": "Audited public native distance prior: source_time",
+      "status": "corrected_public_9d_source_prior",
+      "evidence": "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=30000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+      "audited_distance": {
+        "dl_min": 10.0,
+        "dl_max": 30000.0,
+        "kind": "source_time",
+        "proof": "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=30000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+        "coordinate_cosmology": "FlatLambdaCDM67.9/.3065/Tcmb0"
+      }
+    },
+    "common_cosmology": {
+      "H0": 67.9,
+      "Om0": 0.3065,
+      "Tcmb0": 0.0
+    },
+    "native_settings": {
+      "priors/analytic/L1_time": [
+        "Uniform(minimum=1421202763.840796, maximum=1421202764.0407958, name='L1_time', latex_label='$t_L$', unit='$s$', boundary=None)"
+      ],
+      "priors/analytic/a_1": [
+        "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/a_2": [
+        "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/azimuth": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name=None, latex_label='$\\\\epsilon$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/chirp_mass": [
+        "bilby.gw.prior.UniformInComponentsChirpMass(minimum=26.50227897651395, maximum=91.32036050460333, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_\\\\{\\\\{\\\\odot\\\\}\\\\}$', boundary=None)"
+      ],
+      "priors/analytic/luminosity_distance": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=30000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "priors/analytic/mass_1": [
+        "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+      ],
+      "priors/analytic/mass_2": [
+        "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+      ],
+      "priors/analytic/mass_ratio": [
+        "bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.16666667, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)"
+      ],
+      "priors/analytic/phase": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/phi_12": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/phi_jl": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/psi": [
+        "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_0": [
+        "Gaussian(mu=3.536286332097308e-05, sigma=0.011962464481119189, name='recalib_H1_amplitude_0', latex_label='$A^H1_0$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_1": [
+        "Gaussian(mu=-0.022139435025171527, sigma=0.018748649340333857, name='recalib_H1_amplitude_1', latex_label='$A^H1_1$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_2": [
+        "Gaussian(mu=-0.014766936288524784, sigma=0.022376210212113272, name='recalib_H1_amplitude_2', latex_label='$A^H1_2$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_3": [
+        "Gaussian(mu=-0.0015441273517661112, sigma=0.01701799826697059, name='recalib_H1_amplitude_3', latex_label='$A^H1_3$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_4": [
+        "Gaussian(mu=-0.008372987232688766, sigma=0.013120708488298318, name='recalib_H1_amplitude_4', latex_label='$A^H1_4$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_5": [
+        "Gaussian(mu=-0.012469882269341964, sigma=0.013196991662544112, name='recalib_H1_amplitude_5', latex_label='$A^H1_5$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_6": [
+        "Gaussian(mu=-0.00011606156929638893, sigma=0.011739364826800823, name='recalib_H1_amplitude_6', latex_label='$A^H1_6$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_7": [
+        "Gaussian(mu=0.006793796951962959, sigma=0.007058239889225348, name='recalib_H1_amplitude_7', latex_label='$A^H1_7$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_8": [
+        "Gaussian(mu=0.0006412631984493696, sigma=0.004310336032342839, name='recalib_H1_amplitude_8', latex_label='$A^H1_8$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_9": [
+        "Gaussian(mu=-0.0016818125862997255, sigma=0.004159417025423984, name='recalib_H1_amplitude_9', latex_label='$A^H1_9$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_frequency_0": [
+        "DeltaFunction(peak=19.999999999999996, name='recalib_H1_frequency_0', latex_label='$f^H1_0$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_1": [
+        "DeltaFunction(peak=28.252543564061956, name='recalib_H1_frequency_1', latex_label='$f^H1_1$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_2": [
+        "DeltaFunction(peak=39.91031089196092, name='recalib_H1_frequency_2', latex_label='$f^H1_2$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_3": [
+        "DeltaFunction(peak=56.37838985651909, name='recalib_H1_frequency_3', latex_label='$f^H1_3$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_4": [
+        "DeltaFunction(peak=79.64164577464877, name='recalib_H1_frequency_4', latex_label='$f^H1_4$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_5": [
+        "DeltaFunction(peak=112.50395333809281, name='recalib_H1_frequency_5', latex_label='$f^H1_5$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_6": [
+        "DeltaFunction(peak=158.92614214068283, name='recalib_H1_frequency_6', latex_label='$f^H1_6$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_7": [
+        "DeltaFunction(peak=224.50338771489734, name='recalib_H1_frequency_7', latex_label='$f^H1_7$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_8": [
+        "DeltaFunction(peak=317.13958708473166, name='recalib_H1_frequency_8', latex_label='$f^H1_8$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_9": [
+        "DeltaFunction(peak=447.9999999999999, name='recalib_H1_frequency_9', latex_label='$f^H1_9$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_phase_0": [
+        "Gaussian(mu=-0.02157240772321826, sigma=0.022265578160858487, name='recalib_H1_phase_0', latex_label='$\\\\phi^H1_0$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_1": [
+        "Gaussian(mu=0.0048096124469015995, sigma=0.018214005106257796, name='recalib_H1_phase_1', latex_label='$\\\\phi^H1_1$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_2": [
+        "Gaussian(mu=0.016015913979529024, sigma=0.01122388889417591, name='recalib_H1_phase_2', latex_label='$\\\\phi^H1_2$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_3": [
+        "Gaussian(mu=-0.0020493762317301107, sigma=0.012528576246341825, name='recalib_H1_phase_3', latex_label='$\\\\phi^H1_3$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_4": [
+        "Gaussian(mu=-0.007277183402528474, sigma=0.019386558756104132, name='recalib_H1_phase_4', latex_label='$\\\\phi^H1_4$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_5": [
+        "Gaussian(mu=0.010774293327292628, sigma=0.01627859348177421, name='recalib_H1_phase_5', latex_label='$\\\\phi^H1_5$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_6": [
+        "Gaussian(mu=0.016493337614542417, sigma=0.007533392756211065, name='recalib_H1_phase_6', latex_label='$\\\\phi^H1_6$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_7": [
+        "Gaussian(mu=0.0041402524153802, sigma=0.004318865833080087, name='recalib_H1_phase_7', latex_label='$\\\\phi^H1_7$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_8": [
+        "Gaussian(mu=-0.001100671807704959, sigma=0.00414710534693054, name='recalib_H1_phase_8', latex_label='$\\\\phi^H1_8$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_9": [
+        "Gaussian(mu=0.004021368335280103, sigma=0.004590203895238941, name='recalib_H1_phase_9', latex_label='$\\\\phi^H1_9$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_0": [
+        "Gaussian(mu=0.0050789627307532, sigma=0.004983476940195529, name='recalib_L1_amplitude_0', latex_label='$A^L1_0$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_1": [
+        "Gaussian(mu=0.0006253435664893096, sigma=0.005326098907265549, name='recalib_L1_amplitude_1', latex_label='$A^L1_1$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_2": [
+        "Gaussian(mu=-0.002361049359452115, sigma=0.007698882460650252, name='recalib_L1_amplitude_2', latex_label='$A^L1_2$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_3": [
+        "Gaussian(mu=-0.001145922787092115, sigma=0.009593921690237942, name='recalib_L1_amplitude_3', latex_label='$A^L1_3$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_4": [
+        "Gaussian(mu=0.0024018742045967207, sigma=0.009339628666520532, name='recalib_L1_amplitude_4', latex_label='$A^L1_4$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_5": [
+        "Gaussian(mu=0.0046983949360766475, sigma=0.009523637136719602, name='recalib_L1_amplitude_5', latex_label='$A^L1_5$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_6": [
+        "Gaussian(mu=0.004177653492590439, sigma=0.01116079446475513, name='recalib_L1_amplitude_6', latex_label='$A^L1_6$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_7": [
+        "Gaussian(mu=0.002082492188623305, sigma=0.010876225938495639, name='recalib_L1_amplitude_7', latex_label='$A^L1_7$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_8": [
+        "Gaussian(mu=0.0004471729444886647, sigma=0.007234026688216238, name='recalib_L1_amplitude_8', latex_label='$A^L1_8$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_9": [
+        "Gaussian(mu=1.4760311016120816e-05, sigma=0.004575831286557479, name='recalib_L1_amplitude_9', latex_label='$A^L1_9$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_frequency_0": [
+        "DeltaFunction(peak=19.999999999999996, name='recalib_L1_frequency_0', latex_label='$f^L1_0$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_1": [
+        "DeltaFunction(peak=28.252543564061956, name='recalib_L1_frequency_1', latex_label='$f^L1_1$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_2": [
+        "DeltaFunction(peak=39.91031089196092, name='recalib_L1_frequency_2', latex_label='$f^L1_2$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_3": [
+        "DeltaFunction(peak=56.37838985651909, name='recalib_L1_frequency_3', latex_label='$f^L1_3$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_4": [
+        "DeltaFunction(peak=79.64164577464877, name='recalib_L1_frequency_4', latex_label='$f^L1_4$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_5": [
+        "DeltaFunction(peak=112.50395333809281, name='recalib_L1_frequency_5', latex_label='$f^L1_5$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_6": [
+        "DeltaFunction(peak=158.92614214068283, name='recalib_L1_frequency_6', latex_label='$f^L1_6$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_7": [
+        "DeltaFunction(peak=224.50338771489734, name='recalib_L1_frequency_7', latex_label='$f^L1_7$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_8": [
+        "DeltaFunction(peak=317.13958708473166, name='recalib_L1_frequency_8', latex_label='$f^L1_8$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_9": [
+        "DeltaFunction(peak=447.9999999999999, name='recalib_L1_frequency_9', latex_label='$f^L1_9$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_phase_0": [
+        "Gaussian(mu=-0.0008757228631704006, sigma=0.005347810735227163, name='recalib_L1_phase_0', latex_label='$\\\\phi^L1_0$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_1": [
+        "Gaussian(mu=-0.003375406412695159, sigma=0.00608696649851671, name='recalib_L1_phase_1', latex_label='$\\\\phi^L1_1$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_2": [
+        "Gaussian(mu=-0.002888705647300706, sigma=0.006100828935099165, name='recalib_L1_phase_2', latex_label='$\\\\phi^L1_2$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_3": [
+        "Gaussian(mu=-0.0015355665856409877, sigma=0.006920760217549551, name='recalib_L1_phase_3', latex_label='$\\\\phi^L1_3$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_4": [
+        "Gaussian(mu=-0.0013156933506110861, sigma=0.010207717611400326, name='recalib_L1_phase_4', latex_label='$\\\\phi^L1_4$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_5": [
+        "Gaussian(mu=-0.001984099643970691, sigma=0.01510160907886209, name='recalib_L1_phase_5', latex_label='$\\\\phi^L1_5$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_6": [
+        "Gaussian(mu=-0.001999842363633292, sigma=0.015004159420383951, name='recalib_L1_phase_6', latex_label='$\\\\phi^L1_6$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_7": [
+        "Gaussian(mu=-0.001008813469539254, sigma=0.009379140286422977, name='recalib_L1_phase_7', latex_label='$\\\\phi^L1_7$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_8": [
+        "Gaussian(mu=-0.00043967125444871886, sigma=0.005256733015976909, name='recalib_L1_phase_8', latex_label='$\\\\phi^L1_8$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_9": [
+        "Gaussian(mu=-0.0015422727085871136, sigma=0.003966830033935985, name='recalib_L1_phase_9', latex_label='$\\\\phi^L1_9$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_amplitude_0": [
+        "Gaussian(mu=-0.01800100000000004, sigma=0.02279899999999996, name='recalib_V1_amplitude_0', latex_label='$A^V1_0$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_amplitude_1": [
+        "Gaussian(mu=-0.008085760517567282, sigma=0.022730966234416422, name='recalib_V1_amplitude_1', latex_label='$A^V1_1$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_amplitude_2": [
+        "Gaussian(mu=0.0016902164826911499, sigma=0.022651998938264167, name='recalib_V1_amplitude_2', latex_label='$A^V1_2$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_amplitude_3": [
+        "Gaussian(mu=0.004967341756753028, sigma=0.022637999928128524, name='recalib_V1_amplitude_3', latex_label='$A^V1_3$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_amplitude_4": [
+        "Gaussian(mu=0.0026786623946749547, sigma=0.022617995253096077, name='recalib_V1_amplitude_4', latex_label='$A^V1_4$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_amplitude_5": [
+        "Gaussian(mu=-0.0033274356782744528, sigma=0.022844210658355655, name='recalib_V1_amplitude_5', latex_label='$A^V1_5$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_amplitude_6": [
+        "Gaussian(mu=-0.008907373894951512, sigma=0.02399597889616078, name='recalib_V1_amplitude_6', latex_label='$A^V1_6$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_amplitude_7": [
+        "Gaussian(mu=-0.00939767560639761, sigma=0.02378800009080119, name='recalib_V1_amplitude_7', latex_label='$A^V1_7$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_amplitude_8": [
+        "Gaussian(mu=-0.0035863686185827748, sigma=0.022312989533284693, name='recalib_V1_amplitude_8', latex_label='$A^V1_8$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_amplitude_9": [
+        "Gaussian(mu=-0.0037460000000000262, sigma=0.02216299999999999, name='recalib_V1_amplitude_9', latex_label='$A^V1_9$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_frequency_0": [
+        "DeltaFunction(peak=19.999999999999996, name='recalib_V1_frequency_0', latex_label='$f^V1_0$', unit=None)"
+      ],
+      "priors/analytic/recalib_V1_frequency_1": [
+        "DeltaFunction(peak=28.252543564061956, name='recalib_V1_frequency_1', latex_label='$f^V1_1$', unit=None)"
+      ],
+      "priors/analytic/recalib_V1_frequency_2": [
+        "DeltaFunction(peak=39.91031089196092, name='recalib_V1_frequency_2', latex_label='$f^V1_2$', unit=None)"
+      ],
+      "priors/analytic/recalib_V1_frequency_3": [
+        "DeltaFunction(peak=56.37838985651909, name='recalib_V1_frequency_3', latex_label='$f^V1_3$', unit=None)"
+      ],
+      "priors/analytic/recalib_V1_frequency_4": [
+        "DeltaFunction(peak=79.64164577464877, name='recalib_V1_frequency_4', latex_label='$f^V1_4$', unit=None)"
+      ],
+      "priors/analytic/recalib_V1_frequency_5": [
+        "DeltaFunction(peak=112.50395333809281, name='recalib_V1_frequency_5', latex_label='$f^V1_5$', unit=None)"
+      ],
+      "priors/analytic/recalib_V1_frequency_6": [
+        "DeltaFunction(peak=158.92614214068283, name='recalib_V1_frequency_6', latex_label='$f^V1_6$', unit=None)"
+      ],
+      "priors/analytic/recalib_V1_frequency_7": [
+        "DeltaFunction(peak=224.50338771489734, name='recalib_V1_frequency_7', latex_label='$f^V1_7$', unit=None)"
+      ],
+      "priors/analytic/recalib_V1_frequency_8": [
+        "DeltaFunction(peak=317.13958708473166, name='recalib_V1_frequency_8', latex_label='$f^V1_8$', unit=None)"
+      ],
+      "priors/analytic/recalib_V1_frequency_9": [
+        "DeltaFunction(peak=447.9999999999999, name='recalib_V1_frequency_9', latex_label='$f^V1_9$', unit=None)"
+      ],
+      "priors/analytic/recalib_V1_phase_0": [
+        "Gaussian(mu=-0.000421, sigma=0.027417999999999994, name='recalib_V1_phase_0', latex_label='$\\\\phi^V1_0$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_phase_1": [
+        "Gaussian(mu=0.011408948381454943, sigma=0.033353818983250245, name='recalib_V1_phase_1', latex_label='$\\\\phi^V1_1$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_phase_2": [
+        "Gaussian(mu=0.007995764686535694, sigma=0.03952192124577377, name='recalib_V1_phase_2', latex_label='$\\\\phi^V1_2$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_phase_3": [
+        "Gaussian(mu=0.000245241992014565, sigma=0.036212305677884964, name='recalib_V1_phase_3', latex_label='$\\\\phi^V1_3$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_phase_4": [
+        "Gaussian(mu=-0.003858862393166067, sigma=0.031538669988406695, name='recalib_V1_phase_4', latex_label='$\\\\phi^V1_4$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_phase_5": [
+        "Gaussian(mu=-0.003950650972628192, sigma=0.02732609118508054, name='recalib_V1_phase_5', latex_label='$\\\\phi^V1_5$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_phase_6": [
+        "Gaussian(mu=-0.006790749384565014, sigma=0.03627790241764902, name='recalib_V1_phase_6', latex_label='$\\\\phi^V1_6$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_phase_7": [
+        "Gaussian(mu=0.0013872533251062006, sigma=0.040652961908452814, name='recalib_V1_phase_7', latex_label='$\\\\phi^V1_7$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_phase_8": [
+        "Gaussian(mu=0.00030417259106722827, sigma=0.04122658349039493, name='recalib_V1_phase_8', latex_label='$\\\\phi^V1_8$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_V1_phase_9": [
+        "Gaussian(mu=0.0009210000000000002, sigma=0.04814399999999998, name='recalib_V1_phase_9', latex_label='$\\\\phi^V1_9$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/theta_jn": [
+        "Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/tilt_1": [
+        "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/tilt_2": [
+        "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/total_mass": [
+        "Constraint(minimum=60, maximum=400, name='total_mass', latex_label='$M$', unit=None)"
+      ],
+      "priors/analytic/zenith": [
+        "Sine(minimum=0, maximum=3.141592653589793, name=None, latex_label='$\\\\kappa$', unit=None, boundary=None)"
+      ]
+    },
+    "conditional_nuisance": "Original waveform-specific PE conditional nuisance prior; six spins marginalized at fixed chi_eff",
+    "metadata_provenance": {
+      "kind": "certified_public_9d_source_projected_to_4d",
+      "source_certificate_sha256": "d825d7dede0674d0ab4fb0e0403b47465b9b960979ff06a2f1ddf5d4ea409a54",
+      "parent_fit_sha256": "2957d72adb5ff309019709862bb24cfee5f9dcf3476190cbec381c5689273c24"
+    }
+  },
+  "public_source_proof": {
+    "schema": "public-source-export-proof-v1",
+    "status": "verified",
+    "event": "GW250118_023225",
+    "method": "public_release_file_checksum_match",
+    "release_id": "20348006",
+    "release_version": "record:20348006",
+    "doi": "10.5281/zenodo.20348006",
+    "public_file_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250118_023225-combined_PEDataRelease.hdf5/content",
+    "public_file_checksum": {
+      "algorithm": "md5",
+      "value": "6f7247404942702c1db5e0af80a6f67c"
+    },
+    "source_file_sha256": "87b3056a9311600e85635404ad372c03795c643d2b049378bf3e2d773c0abccf",
+    "posterior_group": "C00:NRSur7dq4",
+    "source_path": "<host-path>/IGWN-GWTC5p0-29ebe06b7_25-GW250118_023225-combined_PEDataRelease.hdf5",
+    "public_metadata_sha256": "5d7e4544c39d3317fdafdc036b94aa395178933ca27d25c267fa2d4936605876",
+    "parent_certificate_path": "collections/precessing/20261102-o4b-public-recovery-v1/public_proofs/GW250118_023225.json",
+    "parent_certificate_sha256": "d825d7dede0674d0ab4fb0e0403b47465b9b960979ff06a2f1ddf5d4ea409a54",
+    "used_columns": [
+      "chirp_mass",
+      "mass_ratio",
+      "luminosity_distance",
+      "chi_eff",
+      "mass_1",
+      "mass_2",
+      "spin_1x",
+      "spin_1y",
+      "spin_1z",
+      "spin_2x",
+      "spin_2y",
+      "spin_2z"
+    ],
+    "used_projection_sha256": "49cbdc51df76306ede645b1953330c8f83bdf6007c7f98aea1ab19367d4c29bb",
+    "retained_prior_sha256": "d6ff70f750b6e4ff24f0781811123164bc48d44c847982eba93e2a451e0f8cf8",
+    "producer_sha256": "38ae4ae9094d4a39b0a99f06badac2abff7023dcc25619c6a5d52a322488ee24",
+    "reference_sha256": "04c29c85bea6daf85cdbfa03e32bfdfb9d17210b509a7407e6dd4fe4279ab996",
+    "population_redshift_measure_embedded": false
+  },
+  "source": {
+    "path": "<host-path>/IGWN-GWTC5p0-29ebe06b7_25-GW250118_023225-combined_PEDataRelease.hdf5",
+    "dataset": "C00:NRSur7dq4",
+    "expected_sha256": "87b3056a9311600e85635404ad372c03795c643d2b049378bf3e2d773c0abccf"
+  },
+  "native_prior_independent_max_log_error": 0.00016156306013925814,
+  "intrinsic_group_definition": {
+    "columns": [
+      "mass_1",
+      "mass_2",
+      "spin_1x",
+      "spin_1y",
+      "spin_1z",
+      "spin_2x",
+      "spin_2y",
+      "spin_2z"
+    ],
+    "n_unique": 16413
+  },
+  "reference_PE_robustness": "Not certified by compression validation"
+}

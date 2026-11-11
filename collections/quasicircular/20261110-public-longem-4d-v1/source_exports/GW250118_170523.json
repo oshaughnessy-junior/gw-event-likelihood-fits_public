@@ -1,0 +1,39 @@
+{
+  "schema": "public-source-export-proof-v1",
+  "status": "verified",
+  "event": "GW250118_170523",
+  "method": "public_release_file_checksum_match",
+  "release_id": "20348006",
+  "release_version": "record:20348006",
+  "doi": "10.5281/zenodo.20348006",
+  "public_file_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250118_170523-combined_PEDataRelease.hdf5/content",
+  "public_file_checksum": {
+    "algorithm": "md5",
+    "value": "5d1f1146004e7b437ebba33ec3f5fbf2"
+  },
+  "source_file_sha256": "4368e33388881d667ba807d00f1b3e77fa6fe70b58111a985e4f7bac3451f745",
+  "posterior_group": "C00:NRSur7dq4",
+  "source_path": "<host-path>/IGWN-GWTC5p0-29ebe06b7_25-GW250118_170523-combined_PEDataRelease.hdf5",
+  "public_metadata_sha256": "5d7e4544c39d3317fdafdc036b94aa395178933ca27d25c267fa2d4936605876",
+  "parent_certificate_path": "collections/precessing/20261102-o4b-public-recovery-v1/public_proofs/GW250118_170523.json",
+  "parent_certificate_sha256": "39ede244d11532f52d0c17a80fb15bf43a656e6cc5164e9feb760cd9f07af211",
+  "used_columns": [
+    "chirp_mass",
+    "mass_ratio",
+    "luminosity_distance",
+    "chi_eff",
+    "mass_1",
+    "mass_2",
+    "spin_1x",
+    "spin_1y",
+    "spin_1z",
+    "spin_2x",
+    "spin_2y",
+    "spin_2z"
+  ],
+  "used_projection_sha256": "9dc68e81cc6d0d4fcc59cc2bafffa136b1d9b34c51bbab198c90dc76295f86a3",
+  "retained_prior_sha256": "5c6460b7fbddd82fd1ad2e5ac2e7a63ca7da039e3218eeb023e2ef241ef7501b",
+  "producer_sha256": "38ae4ae9094d4a39b0a99f06badac2abff7023dcc25619c6a5d52a322488ee24",
+  "reference_sha256": "4aae959b0adc2b3c5af58204c6f9e92acd6bf1fb15660095d042c8fd7194e8a5",
+  "population_redshift_measure_embedded": false
+}

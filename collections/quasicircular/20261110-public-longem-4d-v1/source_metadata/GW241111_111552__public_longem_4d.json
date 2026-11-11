@@ -1,0 +1,223 @@
+{
+  "event": "GW241111_111552",
+  "rows": 32853,
+  "analysis_support": {
+    "a1max": 0.99,
+    "a2max": 0.99,
+    "amax": 0.99,
+    "m1_det_min": 1.0,
+    "m2_det_min": 1.0,
+    "m1_det_max": 1000.0,
+    "m2_det_max": 1000.0,
+    "q_min": 0.05,
+    "q_max": 1.0,
+    "mtotal_det_min": 2.0,
+    "mtotal_det_max": 2000.0,
+    "mc_det_min": 21.480994775687417,
+    "mc_det_max": 28.083926319337888,
+    "z_min": 0.00022645047581897542,
+    "z_max": 0.5042200988408118,
+    "mc_min": 14.280486474181,
+    "mc_max": 28.077568140672593
+  },
+  "prior_contract": {
+    "schema": "aligned-redshift-native-prior-v1",
+    "event": "GW241111_111552",
+    "coordinate_order": [
+      "mc_source",
+      "eta",
+      "chi_eff",
+      "z"
+    ],
+    "analysis_support": {
+      "a1max": 0.99,
+      "a2max": 0.99,
+      "amax": 0.99,
+      "m1_det_min": 1.0,
+      "m2_det_min": 1.0,
+      "m1_det_max": 1000.0,
+      "m2_det_max": 1000.0,
+      "q_min": 0.05,
+      "q_max": 1.0,
+      "mtotal_det_min": 2.0,
+      "mtotal_det_max": 2000.0,
+      "mc_det_min": 21.480994775687417,
+      "mc_det_max": 28.083926319337888,
+      "z_min": 0.00022645047581897542,
+      "z_max": 0.5042200988408118,
+      "mc_min": 14.280486474181,
+      "mc_max": 28.077568140672593
+    },
+    "spin_caps": [
+      0.99,
+      0.99
+    ],
+    "spin_quadrature_order": 128,
+    "distance_prior": {
+      "kind": "common_source_time",
+      "analytic": "Audited public native distance prior: source_time",
+      "status": "corrected_public_9d_source_prior",
+      "evidence": {
+        "native_option": "cosmo_sourceframe",
+        "authority": "explicit public RIFT configuration, before LALInference fallback",
+        "cosmology": "Planck15_LAL",
+        "H0": 67.9,
+        "Om0": 0.3065,
+        "Tcmb0": 0,
+        "distance_min_defaulted": true,
+        "native_density": "dVc/dz/(1+z) times dz/dDL, normalized on recorded distance bounds"
+      },
+      "audited_distance": {
+        "dl_min": 1.0,
+        "dl_max": 2943.4971,
+        "kind": "source_time",
+        "proof": {
+          "native_option": "cosmo_sourceframe",
+          "authority": "explicit public RIFT configuration, before LALInference fallback",
+          "cosmology": "Planck15_LAL",
+          "H0": 67.9,
+          "Om0": 0.3065,
+          "Tcmb0": 0,
+          "distance_min_defaulted": true,
+          "native_density": "dVc/dz/(1+z) times dz/dDL, normalized on recorded distance bounds"
+        },
+        "coordinate_cosmology": "FlatLambdaCDM67.9/.3065/Tcmb0"
+      }
+    },
+    "common_cosmology": {
+      "H0": 67.9,
+      "Om0": 0.3065,
+      "Tcmb0": 0.0
+    },
+    "native_settings": {
+      "config_file/engine/H1-psd": [
+        "\"<host-path>/H1-psd.xml.gz\""
+      ],
+      "config_file/engine/H1-spcal-envelope": [
+        "\"<host-path>/H1.txt\""
+      ],
+      "config_file/engine/L1-psd": [
+        "\"<host-path>/L1-psd.xml.gz\""
+      ],
+      "config_file/engine/L1-spcal-envelope": [
+        "\"<host-path>/L1.txt\""
+      ],
+      "config_file/engine/a_spin1-max": [
+        "0.99"
+      ],
+      "config_file/engine/a_spin2-max": [
+        "0.99"
+      ],
+      "config_file/engine/amporder": [
+        ""
+      ],
+      "config_file/engine/approx": [
+        "SEOBNRv5PHM"
+      ],
+      "config_file/engine/chirpmass-max": [
+        "28.083926319337888"
+      ],
+      "config_file/engine/chirpmass-min": [
+        "21.480994775687417"
+      ],
+      "config_file/engine/comp-max": [
+        "1000"
+      ],
+      "config_file/engine/comp-min": [
+        "1"
+      ],
+      "config_file/engine/distance-max": [
+        "2943.4971"
+      ],
+      "config_file/engine/enable-spline-calibration": [
+        ""
+      ],
+      "config_file/engine/fmin-template": [
+        "13.33"
+      ],
+      "config_file/engine/fref": [
+        "20.0"
+      ],
+      "config_file/engine/q-max": [
+        "1.0"
+      ],
+      "config_file/engine/q-min": [
+        "0.05"
+      ],
+      "config_file/engine/seglen": [
+        "8"
+      ],
+      "config_file/engine/spcal-nodes": [
+        "10"
+      ],
+      "config_file/engine/srate": [
+        "4096"
+      ]
+    },
+    "conditional_nuisance": "Original waveform-specific PE conditional nuisance prior; six spins marginalized at fixed chi_eff",
+    "metadata_provenance": {
+      "kind": "certified_public_9d_source_projected_to_4d",
+      "source_certificate_sha256": "17116d8822bc176236e504227b5eaeab7b86b62bcf95e30fd9361ba3a23ca1c4",
+      "parent_fit_sha256": "3dbac8be5d9b56a8a2f6425f4502c44586ead827681d8d01360240320b483c44"
+    }
+  },
+  "public_source_proof": {
+    "schema": "public-source-export-proof-v1",
+    "status": "verified",
+    "event": "GW241111_111552",
+    "method": "public_release_file_checksum_match",
+    "release_id": "20348005",
+    "release_version": "record:20348005",
+    "doi": "10.5281/zenodo.20348005",
+    "public_file_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241111_111552-combined_PEDataRelease.hdf5/content",
+    "public_file_checksum": {
+      "algorithm": "md5",
+      "value": "0a12290d75258f476a99e5e060f950b4"
+    },
+    "source_file_sha256": "62caa9a301d7a3874b211655ab2f8bd2e73162095096efc61c5779d863dddfd1",
+    "posterior_group": "C00:SEOBNRv5PHM",
+    "source_path": "<host-path>/IGWN-GWTC5p0-29ebe06b7_25-GW241111_111552-combined_PEDataRelease.hdf5",
+    "public_metadata_sha256": "ff64036c4d80209c95dad803b142626518972c1c5d46b28cf41aca94f9dc7968",
+    "parent_certificate_path": "collections/precessing/20261102-o4b-cosmo-prior-corrected-v2/public_proofs/GW241111_111552.json",
+    "parent_certificate_sha256": "17116d8822bc176236e504227b5eaeab7b86b62bcf95e30fd9361ba3a23ca1c4",
+    "used_columns": [
+      "chirp_mass",
+      "mass_ratio",
+      "luminosity_distance",
+      "chi_eff",
+      "mass_1",
+      "mass_2",
+      "spin_1x",
+      "spin_1y",
+      "spin_1z",
+      "spin_2x",
+      "spin_2y",
+      "spin_2z"
+    ],
+    "used_projection_sha256": "500423d9464d151dfe7d771466a4e06395ad27f90f3c1b7aad35ff16d7878b1b",
+    "retained_prior_sha256": "730a9dcc20661a4c1a0cf9bccc98b5e4c5705248f1fce844b4f07a5b0c33ea56",
+    "producer_sha256": "38ae4ae9094d4a39b0a99f06badac2abff7023dcc25619c6a5d52a322488ee24",
+    "reference_sha256": "1e8b11def756c02aaf5c2c14fd27d662a8543894a178ab9c3478e0d77eb4be09",
+    "population_redshift_measure_embedded": false
+  },
+  "source": {
+    "path": "<host-path>/IGWN-GWTC5p0-29ebe06b7_25-GW241111_111552-combined_PEDataRelease.hdf5",
+    "dataset": "C00:SEOBNRv5PHM",
+    "expected_sha256": "62caa9a301d7a3874b211655ab2f8bd2e73162095096efc61c5779d863dddfd1"
+  },
+  "native_prior_independent_max_log_error": 0.00011014854244706385,
+  "intrinsic_group_definition": {
+    "columns": [
+      "mass_1",
+      "mass_2",
+      "spin_1x",
+      "spin_1y",
+      "spin_1z",
+      "spin_2x",
+      "spin_2y",
+      "spin_2z"
+    ],
+    "n_unique": 5986
+  },
+  "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate"
+}

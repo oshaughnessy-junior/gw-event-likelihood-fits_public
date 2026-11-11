@@ -1,0 +1,28 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW230820_212515",
+  "analysis_id": "GW230820_212515__public_nativecdf4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "diagnostic_coordinates": [
+    "mc_source",
+    "q",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "2db5cce6bf0206311f318e0a22efaeeb87851374e1b0003633a6e78218f59dde",
+  "upstream_model_sha256": "c59a26b213d2707c3ff94ddb61dc91faa0b087d61ea3f272367f5e64daaeed54",
+  "model_canonical_sha256": "b2497777cc1acf568e13c3d86c018a9c469f2974b08cc6e8d2d89185626d8d08",
+  "original_validation": {
+    "path": "validation/GW230820_212515__public_nativecdf4d__original.json",
+    "sha256": "1c7f58ebbf60298ccedee2c5eccc29c3a114a18534e566f24e4dcae9352fcc7a"
+  },
+  "upstream_status": "candidate_unresolved_or_failed",
+  "upstream_passes_declared_checks": false,
+  "scope": "Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior, not a reused private hyperposterior trace."
+}

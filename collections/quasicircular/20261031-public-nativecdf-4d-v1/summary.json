@@ -1,0 +1,65 @@
+{
+  "status": "public_source_verified_candidates",
+  "n_events": 5,
+  "scientifically_accepted": 0,
+  "metrics": [
+    {
+      "event": "GW190929_012149",
+      "original_validation_status": "candidate_unresolved_or_failed",
+      "all_declared_stress_checks": false,
+      "native_max_JS_bits": 0.0030222927183143006,
+      "predeclared_target5_max_JS_bits": 0.011838029706031341,
+      "source_rows": 153782
+    },
+    {
+      "event": "GW190805_211137",
+      "original_validation_status": "passed_declared_recovery_checks",
+      "all_declared_stress_checks": true,
+      "native_max_JS_bits": 0.0016247030662531999,
+      "predeclared_target5_max_JS_bits": 0.006617893597880131,
+      "source_rows": 169040
+    },
+    {
+      "event": "GW230928_215827",
+      "original_validation_status": "candidate_unresolved_or_failed",
+      "all_declared_stress_checks": false,
+      "native_max_JS_bits": 0.008070845487900151,
+      "predeclared_target5_max_JS_bits": 0.08963948866319678,
+      "source_rows": 19897
+    },
+    {
+      "event": "GW230820_212515",
+      "original_validation_status": "candidate_unresolved_or_failed",
+      "all_declared_stress_checks": false,
+      "native_max_JS_bits": 0.007677638002299042,
+      "predeclared_target5_max_JS_bits": 0.07305170290288034,
+      "source_rows": 15811
+    },
+    {
+      "event": "GW190719_215514",
+      "original_validation_status": "passed_declared_recovery_checks",
+      "all_declared_stress_checks": true,
+      "native_max_JS_bits": 0.003472344113262492,
+      "predeclared_target5_max_JS_bits": 0.010229335233870547,
+      "source_rows": 153538
+    }
+  ],
+  "source_bundles": [
+    {
+      "source_export_manifest_sha256": "8dbf70e65d643fea04051ac43f64af85ed6acfd72152333e4a64959a06e96d9b",
+      "source_archive_inventory_sha256": "4f9ef205d3e15f22e2128f3c2bb89d0a42b3d77d255c898f8d1ab6ae51c5784e",
+      "producer_revisions": [
+        "2c196672ae0e2424d2f20efb9f6e28a670a2b0d0"
+      ]
+    },
+    {
+      "source_export_manifest_sha256": "666a7fbdfca90cf123323c0083dfecedc7e924b75722c13074354ffbc5f29c6d",
+      "source_archive_inventory_sha256": "4c868c8cb8ff29bf895ff769dda9422aa674e582ee333b44bf339b48a143907a",
+      "producer_revisions": [
+        "8c62795d608321348e666c9a4ec89c1359b6c698"
+      ]
+    }
+  ],
+  "builder_sha256": "76d00b2724bc4b048b8a5c6d7f21bdb86d6286e577441c5df75d0365a29aac22",
+  "scope": "No PE rows, banks or old-cohort hyperposterior draws published. Source eligibility and numerical acceptance are separate."
+}

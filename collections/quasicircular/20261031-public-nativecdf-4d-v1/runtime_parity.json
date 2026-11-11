@@ -1,0 +1,44 @@
+{
+  "status": "pass",
+  "events": [
+    {
+      "event": "GW190929_012149",
+      "n_model_generated_points": 64,
+      "max_scalar_log_likelihood_error": 0.0,
+      "fit_sha256": "4e3cff2c3c09df17ad42b41d2b3788ebf793ac208492faf96f252576d1380b62",
+      "upstream_model_sha256": "b333ab124e2e1c4e07ac6d4345187850db05c1ea580cb698287a7a574de9ce7d"
+    },
+    {
+      "event": "GW190805_211137",
+      "n_model_generated_points": 64,
+      "max_scalar_log_likelihood_error": 0.0,
+      "fit_sha256": "4b9ab939346def2999f99cfc9b55de82e2ed519ff3845003c01f777e78e7c814",
+      "upstream_model_sha256": "8bb3bacd027390d2ed5cabbdee1ca206f738aa4ede5cbfaaf2cd7f561226ae32"
+    },
+    {
+      "event": "GW230928_215827",
+      "n_model_generated_points": 64,
+      "max_scalar_log_likelihood_error": 0.0,
+      "fit_sha256": "a8d4903d22f1e4037f2ef57b8401b051527aa4aeda87a38573599d18c70b784c",
+      "upstream_model_sha256": "264f195c35534e1287198211bb28460c985e7329167129ffc84e93c0d7870bc5"
+    },
+    {
+      "event": "GW230820_212515",
+      "n_model_generated_points": 64,
+      "max_scalar_log_likelihood_error": 0.0,
+      "fit_sha256": "2db5cce6bf0206311f318e0a22efaeeb87851374e1b0003633a6e78218f59dde",
+      "upstream_model_sha256": "c59a26b213d2707c3ff94ddb61dc91faa0b087d61ea3f272367f5e64daaeed54"
+    },
+    {
+      "event": "GW190719_215514",
+      "n_model_generated_points": 64,
+      "max_scalar_log_likelihood_error": 0.0,
+      "fit_sha256": "8132e2a68b9609d134bf8c865d94bbef75a2b434182d4949cb99a04c03f22ee3",
+      "upstream_model_sha256": "1bc8cf094b57317fcb062d8a289df65b8d1cf5c8e5ae5aa9bc5bb9d37aa48ac4"
+    }
+  ],
+  "reference_source_sha256": "e4536058943a2a9eafaa0cdbe812ac46f3c9b50d7735a9c517f5aefcf966ccec",
+  "runtime_source_sha256": "eb2def60066091d175b3d2295bf8147e2fc8d6eece4130bd7e0bfd3826a49239",
+  "producer_sha256": "981189efb89d47198a021ae9bb7d185cd83f20ec20f27a59ce3894511e75f733",
+  "scope": "Pointwise scalar likelihood parity of the public Collection runtime with the exact source that produced each model, on independent seeded model-generated points. No original PE rows, integration banks or private hyperposterior samples used. This checks the software port, not scientific fit recovery."
+}

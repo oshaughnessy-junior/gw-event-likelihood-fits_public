@@ -1,0 +1,153 @@
+{
+  "schema": "nal-collection-v1",
+  "collection_id": "quasicircular/20261031-public-nativecdf-4d-v1",
+  "family": "quasicircular",
+  "likelihood_backend": "native_posterior_redshift",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "coordinate_cosmology": {
+    "H0": 67.9,
+    "Om0": 0.3065,
+    "Tcmb0": 0
+  },
+  "source_revision": "sha256:76d00b2724bc4b048b8a5c6d7f21bdb86d6286e577441c5df75d0365a29aac22",
+  "source_bundles": [
+    {
+      "source_export_manifest_sha256": "8dbf70e65d643fea04051ac43f64af85ed6acfd72152333e4a64959a06e96d9b",
+      "source_archive_inventory_sha256": "4f9ef205d3e15f22e2128f3c2bb89d0a42b3d77d255c898f8d1ab6ae51c5784e",
+      "producer_revisions": [
+        "2c196672ae0e2424d2f20efb9f6e28a670a2b0d0"
+      ]
+    },
+    {
+      "source_export_manifest_sha256": "666a7fbdfca90cf123323c0083dfecedc7e924b75722c13074354ffbc5f29c6d",
+      "source_archive_inventory_sha256": "4c868c8cb8ff29bf895ff769dda9422aa674e582ee333b44bf339b48a143907a",
+      "producer_revisions": [
+        "8c62795d608321348e666c9a4ec89c1359b6c698"
+      ]
+    }
+  ],
+  "selection_policy": "Explicitly enumerated public replacements; no private or legacy fallback. Not a complete event catalog.",
+  "requested_events": [
+    "GW190929_012149",
+    "GW190805_211137",
+    "GW230928_215827",
+    "GW230820_212515",
+    "GW190719_215514"
+  ],
+  "entries": [
+    {
+      "event": "GW190929_012149",
+      "analysis_id": "GW190929_012149__public_nativecdf4d",
+      "source_id": "GW190929_012149__public_nativecdf4d",
+      "fit": {
+        "path": "fits/GW190929_012149__public_nativecdf4d.json",
+        "sha256": "4e3cff2c3c09df17ad42b41d2b3788ebf793ac208492faf96f252576d1380b62"
+      },
+      "validation": {
+        "path": "validation/GW190929_012149__public_nativecdf4d.json",
+        "sha256": "2c6cc7c4343eadf16e84f7eb223ee769820963b7d537e519f223e2492352af69"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior, not a reused private hyperposterior trace."
+      },
+      "aliases": [
+        "GW190929_012149"
+      ]
+    },
+    {
+      "event": "GW190805_211137",
+      "analysis_id": "GW190805_211137__public_nativecdf4d",
+      "source_id": "GW190805_211137__public_nativecdf4d",
+      "fit": {
+        "path": "fits/GW190805_211137__public_nativecdf4d.json",
+        "sha256": "4b9ab939346def2999f99cfc9b55de82e2ed519ff3845003c01f777e78e7c814"
+      },
+      "validation": {
+        "path": "validation/GW190805_211137__public_nativecdf4d.json",
+        "sha256": "43c0e740a201f0bd1d0b13c4b684c678c755c25a8e33daf80d79489028c5e273"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior, not a reused private hyperposterior trace."
+      },
+      "aliases": [
+        "GW190805_211137"
+      ]
+    },
+    {
+      "event": "GW230928_215827",
+      "analysis_id": "GW230928_215827__public_nativecdf4d",
+      "source_id": "GW230928_215827__public_nativecdf4d",
+      "fit": {
+        "path": "fits/GW230928_215827__public_nativecdf4d.json",
+        "sha256": "a8d4903d22f1e4037f2ef57b8401b051527aa4aeda87a38573599d18c70b784c"
+      },
+      "validation": {
+        "path": "validation/GW230928_215827__public_nativecdf4d.json",
+        "sha256": "1013187132ec3e7ccd218b602e57df7831c64524e590619b5c29fa83215de3b2"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior, not a reused private hyperposterior trace."
+      },
+      "aliases": [
+        "GW230928_215827"
+      ]
+    },
+    {
+      "event": "GW230820_212515",
+      "analysis_id": "GW230820_212515__public_nativecdf4d",
+      "source_id": "GW230820_212515__public_nativecdf4d",
+      "fit": {
+        "path": "fits/GW230820_212515__public_nativecdf4d.json",
+        "sha256": "2db5cce6bf0206311f318e0a22efaeeb87851374e1b0003633a6e78218f59dde"
+      },
+      "validation": {
+        "path": "validation/GW230820_212515__public_nativecdf4d.json",
+        "sha256": "19dc6c467f8ba986a427ba927903296cf7503d4c9a5fb7645b408665530e40ff"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior, not a reused private hyperposterior trace."
+      },
+      "aliases": [
+        "GW230820_212515"
+      ]
+    },
+    {
+      "event": "GW190719_215514",
+      "analysis_id": "GW190719_215514__public_nativecdf4d",
+      "source_id": "GW190719_215514__public_nativecdf4d",
+      "fit": {
+        "path": "fits/GW190719_215514__public_nativecdf4d.json",
+        "sha256": "8132e2a68b9609d134bf8c865d94bbef75a2b434182d4949cb99a04c03f22ee3"
+      },
+      "validation": {
+        "path": "validation/GW190719_215514__public_nativecdf4d.json",
+        "sha256": "08e06e89687a03729077cc638d18f3e75e0f6bb5f8fb8beadc7d7c02d9da092c"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior, not a reused private hyperposterior trace."
+      },
+      "aliases": [
+        "GW190719_215514"
+      ]
+    }
+  ],
+  "unresolved": [],
+  "source_manifest": {
+    "path": "sources.json",
+    "sha256": "64ebb46faf53e06258a2df021f81ce25a57b9a5d44da1e12babc27494ac2196d"
+  },
+  "counts": {
+    "public_source_verified_candidates": 5,
+    "scientifically_accepted": 0
+  }
+}

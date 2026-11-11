@@ -1,0 +1,39 @@
+{
+  "selection_sha256": "332cbc2e6329ebd733ba7b7fdaf7ee15845759f1a0f31c3615fe416ae672f395",
+  "cuts": [
+    {
+      "FAR_lt_per_year": 1.0,
+      "search_candidates": 105,
+      "released_PE_events": 104,
+      "paired_native_recovery_passes": 104,
+      "no_public_PE": [
+        "GW240406_062847"
+      ],
+      "waveforms": {
+        "SEOBNRv5PHM": 42,
+        "NRSur7dq4": 60,
+        "IMRPhenomXPHM-SpinTaylor": 2
+      },
+      "scope": "Paired-native sample-recovery candidates with reviewed native distance-prior contracts; no reference-PE robustness certificate",
+      "prior_consistent_candidates": 104,
+      "diagnostic_only_prior_conflicts": 0
+    },
+    {
+      "FAR_lt_per_year": 0.25,
+      "search_candidates": 95,
+      "released_PE_events": 94,
+      "paired_native_recovery_passes": 94,
+      "no_public_PE": [
+        "GW240406_062847"
+      ],
+      "waveforms": {
+        "SEOBNRv5PHM": 39,
+        "NRSur7dq4": 53,
+        "IMRPhenomXPHM-SpinTaylor": 2
+      },
+      "scope": "Paired-native sample-recovery candidates with reviewed native distance-prior contracts; no reference-PE robustness certificate",
+      "prior_consistent_candidates": 94,
+      "diagnostic_only_prior_conflicts": 0
+    }
+  ]
+}

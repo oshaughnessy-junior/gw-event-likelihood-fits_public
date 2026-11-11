@@ -1,0 +1,38 @@
+{
+  "schema": "public-source-export-proof-v1",
+  "status": "verified",
+  "event": "GW231102_071736",
+  "method": "public_release_file_checksum_match",
+  "release_id": "20275769",
+  "release_version": null,
+  "doi": "10.5281/zenodo.20275769",
+  "public_file_url": "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW231102_071736-combined_PEDataRelease.hdf5/content",
+  "public_file_checksum": {
+    "algorithm": "md5",
+    "value": "68e9ff2eb83aa971bdf25311d22b2754"
+  },
+  "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00",
+  "source_file_sha256": "589b76f406e2c48fb34dc0226f0ba2f367327c4ed4cf4895aa0e47702fc78e99",
+  "public_filename": "IGWN-GWTC4p1-18965dda8_5-GW231102_071736-combined_PEDataRelease.hdf5",
+  "posterior_group": "C00:IMRPhenomXPHM-SpinTaylor",
+  "producer_revision": "43b53781dcf501d7c4c2115b6362a4130e0f01c7",
+  "used_columns": [
+    "chirp_mass",
+    "mass_ratio",
+    "luminosity_distance",
+    "chi_eff",
+    "mass_1",
+    "mass_2",
+    "spin_1x",
+    "spin_1y",
+    "spin_1z",
+    "spin_2x",
+    "spin_2y",
+    "spin_2z"
+  ],
+  "used_projection_sha256": "80fd3d16f1a90047b37ffb13225d5de998920ab5b908562f82a94987e9b13959",
+  "retained_prior_sha256": "91bc31b3b7105610f48752d5353dd31ce9ff7c3d0950d57ed5503380e92de38c",
+  "source_path": "<host-path>/IGWN-GWTC4p1-18965dda8_5-GW231102_071736-combined_PEDataRelease.hdf5",
+  "population_redshift_measure_embedded": false,
+  "reference_sha256": "7e7eb41e75907f5a0890546c82c3e1a747def8220d7338bcdf12632ffe95f0f9"
+}

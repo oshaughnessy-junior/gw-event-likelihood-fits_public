@@ -1,0 +1,54 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW200220_124850",
+  "analysis_id": "GW200220_124850__public_longem_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "b57fc9ab9352d8aa05142c147480ba4e79d9a70598b0e13e044102d1b56de18e",
+  "upstream_model_sha256": "0339b28e83dff77e867f269ee69e98d69cb3ea8ee797c46f496f6773477a4416",
+  "model_canonical_sha256": "d88ef74649d4851d301a13da3d632902b9dadeda9ceaa55250d9f5ae7c9d9efd",
+  "original_validation": {
+    "path": "validation/GW200220_124850__public_longem_4d__s73.json",
+    "sha256": "8bc1d1b98af68f9323385fa44fed2b1cf40906e406bd0341bb7dc68aff198a3e"
+  },
+  "upstream_status": "passed_declared_recovery_checks",
+  "upstream_passes_declared_checks": true,
+  "upstream_failed_checks": [],
+  "training_split": "intrinsic-group split",
+  "replication_splits": [
+    {
+      "split_seed": 101,
+      "passes": true,
+      "failed": [],
+      "model_sha256": "495262e26b94caf6e97762bae0296e65e15404f2423c6daddb2b8beb261d7094",
+      "original_validation": {
+        "path": "validation/GW200220_124850__public_longem_4d__s101.json",
+        "sha256": "e5e37093326b273bba407699ce875be89f8098b9f98fd0fa5080c47f7f524fb9"
+      },
+      "native_shape_checks_pass": true
+    },
+    {
+      "split_seed": 202,
+      "passes": true,
+      "failed": [],
+      "model_sha256": "7770ab0bfccd849c30a66494f22c8ef5cc5898271331961a6f179ab104bd1a2c",
+      "original_validation": {
+        "path": "validation/GW200220_124850__public_longem_4d__s202.json",
+        "sha256": "a22e3cd0eb6f97334444bfd4de9987f06d8013ff58f54567dbc0178c990c3c9e"
+      },
+      "native_shape_checks_pass": true
+    }
+  ],
+  "native_shape_checks_pass": true,
+  "selection": {
+    "selections": [
+      "highmass"
+    ]
+  },
+  "scope": "Public native-posterior long-EM refit. Passes native shape checks on three intrinsic-group splits. Passes the producer declared checks on the published split (seed 73) and on replication seeds 101, 202. No universal population or source-PE robustness claim."
+}

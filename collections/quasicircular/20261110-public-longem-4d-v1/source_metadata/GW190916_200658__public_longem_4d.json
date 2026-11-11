@@ -1,0 +1,190 @@
+{
+  "event": "GW190916_200658",
+  "rows": 107199,
+  "analysis_support": {
+    "mc_det_min": 15.411727285548091,
+    "mc_det_max": 182.6277447098964,
+    "q_min": 0.05,
+    "q_max": 1.0,
+    "m1_det_min": 1.0,
+    "m1_det_max": 1000.0,
+    "m2_det_min": 1.0,
+    "m2_det_max": 1000.0,
+    "amax": 0.99,
+    "a1max": 0.99,
+    "a2max": 0.99,
+    "dL_min": 10.0,
+    "dL_max": 30000.0,
+    "z_min": 0.0022609665570310785,
+    "z_max": 3.375881936473756,
+    "mc_min": 3.5219705442892772,
+    "mc_max": 182.2157609681834
+  },
+  "prior_contract": {
+    "schema": "aligned-redshift-native-prior-v1",
+    "event": "GW190916_200658",
+    "coordinate_order": [
+      "mc_source",
+      "eta",
+      "chi_eff",
+      "z"
+    ],
+    "analysis_support": {
+      "mc_det_min": 15.411727285548091,
+      "mc_det_max": 182.6277447098964,
+      "q_min": 0.05,
+      "q_max": 1.0,
+      "m1_det_min": 1.0,
+      "m1_det_max": 1000.0,
+      "m2_det_min": 1.0,
+      "m2_det_max": 1000.0,
+      "amax": 0.99,
+      "a1max": 0.99,
+      "a2max": 0.99,
+      "dL_min": 10.0,
+      "dL_max": 30000.0,
+      "z_min": 0.0022609665570310785,
+      "z_max": 3.375881936473756,
+      "mc_min": 3.5219705442892772,
+      "mc_max": 182.2157609681834
+    },
+    "spin_caps": [
+      0.99,
+      0.99
+    ],
+    "spin_quadrature_order": 128,
+    "distance_prior": {
+      "kind": "distance_squared",
+      "analytic": "PowerLaw(alpha=2, minimum=10, maximum=30000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+      "status": "public_nocosmo_posterior_original_sampling_prior"
+    },
+    "common_cosmology": {
+      "H0": 67.9,
+      "Om0": 0.3065,
+      "Tcmb0": 0.0
+    },
+    "conditional_nuisance": "Original public waveform-specific conditional nuisance prior; no nuisance population change",
+    "metadata_provenance": {
+      "kind": "official_public_release_file_checksum_match",
+      "doi": "10.5281/zenodo.6513631",
+      "release_version": "v2",
+      "file": "IGWN-GWTC2p1-v2-GW190916_200658_PEDataRelease_mixed_nocosmo.h5",
+      "group": "C01:IMRPhenomXPHM",
+      "public_metadata_sha256": "b218eb002a7e7a44bcea44d379e379f7360671d72a9f94488dd53a26bbcf9b12"
+    },
+    "native_settings": {
+      "priors/analytic/a_1": [
+        "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/a_2": [
+        "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/azimuth": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name=None, latex_label='$\\\\epsilon$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/chirp_mass": [
+        "UniformInComponentsChirpMass(minimum=15.411727285548091, maximum=182.6277447098964, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_{\\\\odot}$', boundary=None)"
+      ],
+      "priors/analytic/geocent_time": [
+        "Uniform(minimum=1252699636.805762, maximum=1252699637.0057619, name='geocent_time', latex_label='$t_c$', unit='$s$', boundary=None)"
+      ],
+      "priors/analytic/luminosity_distance": [
+        "PowerLaw(alpha=2, minimum=10, maximum=30000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "priors/analytic/mass_1": [
+        "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+      ],
+      "priors/analytic/mass_2": [
+        "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+      ],
+      "priors/analytic/mass_ratio": [
+        "UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/phase": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/phi_12": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/phi_jl": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/psi": [
+        "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/theta_jn": [
+        "Sine(name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+      ],
+      "priors/analytic/tilt_1": [
+        "Sine(name='tilt_1', latex_label='$\\\\theta_1$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+      ],
+      "priors/analytic/tilt_2": [
+        "Sine(name='tilt_2', latex_label='$\\\\theta_2$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+      ],
+      "priors/analytic/time_jitter": [
+        "Uniform(minimum=-0.00048828125, maximum=0.00048828125, name=None, latex_label=None, unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/zenith": [
+        "Sine(name=None, latex_label='$\\\\kappa$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+      ]
+    }
+  },
+  "source": {
+    "path": "<host-path>/IGWN-GWTC2p1-v2-GW190916_200658_PEDataRelease_mixed_nocosmo.h5",
+    "dataset": "C01:IMRPhenomXPHM",
+    "expected_sha256": "85b4b89f8e68e51967b8bf9f74bad31cae42f1bbe25268d738299645db9055c4"
+  },
+  "public_source_proof": {
+    "schema": "public-source-export-proof-v1",
+    "status": "verified",
+    "event": "GW190916_200658",
+    "method": "public_release_file_checksum_match",
+    "release_id": "6513631",
+    "release_version": "v2",
+    "doi": "10.5281/zenodo.6513631",
+    "public_file_url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190916_200658_PEDataRelease_mixed_nocosmo.h5/content",
+    "public_file_checksum": {
+      "algorithm": "md5",
+      "value": "aa9c6cdd06523b2dc78eee428fee96a9"
+    },
+    "public_metadata_sha256": "b218eb002a7e7a44bcea44d379e379f7360671d72a9f94488dd53a26bbcf9b12",
+    "source_file_sha256": "85b4b89f8e68e51967b8bf9f74bad31cae42f1bbe25268d738299645db9055c4",
+    "public_filename": "IGWN-GWTC2p1-v2-GW190916_200658_PEDataRelease_mixed_nocosmo.h5",
+    "posterior_group": "C01:IMRPhenomXPHM",
+    "producer_revision": "43b53781dcf501d7c4c2115b6362a4130e0f01c7",
+    "used_columns": [
+      "chirp_mass",
+      "mass_ratio",
+      "luminosity_distance",
+      "chi_eff",
+      "mass_1",
+      "mass_2",
+      "spin_1x",
+      "spin_1y",
+      "spin_1z",
+      "spin_2x",
+      "spin_2y",
+      "spin_2z"
+    ],
+    "used_projection_sha256": "5a0f4ddf22a1e15f31643716284915dd6b46b6a783738783e03a8f4aacece5cd",
+    "retained_prior_sha256": "e42f2793ef6b55973631249e1f8f9756c663d72b9aba6d56983fd17bd44804d3",
+    "source_path": "<host-path>/IGWN-GWTC2p1-v2-GW190916_200658_PEDataRelease_mixed_nocosmo.h5",
+    "population_redshift_measure_embedded": false,
+    "reference_sha256": "3b56de14daf96dc1262d25d6f2ca32450346d9b2937cb96fa28cce65c339f64f"
+  },
+  "native_prior_independent_max_log_error": 5.42001186829566e-05,
+  "intrinsic_group_definition": {
+    "columns": [
+      "mass_1",
+      "mass_2",
+      "spin_1x",
+      "spin_1y",
+      "spin_1z",
+      "spin_2x",
+      "spin_2y",
+      "spin_2z"
+    ],
+    "n_unique": 60873,
+    "method": "Exact equality of all listed public intrinsic columns"
+  }
+}

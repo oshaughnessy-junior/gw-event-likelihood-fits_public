@@ -1,0 +1,187 @@
+{
+  "event": "GW240109_050431",
+  "rows": 14687,
+  "analysis_support": {
+    "mc_det_min": 18.597711579632612,
+    "mc_det_max": 33.20220500507826,
+    "q_min": 0.2076,
+    "q_max": 1.0,
+    "m1_det_min": 1.0,
+    "m1_det_max": 1000.0,
+    "m2_det_min": 1.0,
+    "m2_det_max": 1000.0,
+    "amax": 0.99,
+    "a1max": 0.99,
+    "a2max": 0.99,
+    "dL_min": 10.0,
+    "dL_max": 10000.0,
+    "z_min": 0.0022609665570082187,
+    "z_max": 1.3689933730128054,
+    "mc_min": 7.850470073700829,
+    "mc_max": 33.127305275726044
+  },
+  "prior_contract": {
+    "schema": "aligned-redshift-native-prior-v1",
+    "event": "GW240109_050431",
+    "coordinate_order": [
+      "mc_source",
+      "eta",
+      "chi_eff",
+      "z"
+    ],
+    "analysis_support": {
+      "mc_det_min": 18.597711579632612,
+      "mc_det_max": 33.20220500507826,
+      "q_min": 0.2076,
+      "q_max": 1.0,
+      "m1_det_min": 1.0,
+      "m1_det_max": 1000.0,
+      "m2_det_min": 1.0,
+      "m2_det_max": 1000.0,
+      "amax": 0.99,
+      "a1max": 0.99,
+      "a2max": 0.99,
+      "dL_min": 10.0,
+      "dL_max": 10000.0,
+      "z_min": 0.0022609665570082187,
+      "z_max": 1.3689933730128054,
+      "mc_min": 7.850470073700829,
+      "mc_max": 33.127305275726044
+    },
+    "spin_caps": [
+      0.99,
+      0.99
+    ],
+    "spin_quadrature_order": 128,
+    "distance_prior": {
+      "kind": "UniformSourceFrame",
+      "analytic": "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+      "status": "public_serialized_analytic_prior"
+    },
+    "common_cosmology": {
+      "H0": 67.9,
+      "Om0": 0.3065,
+      "Tcmb0": 0.0
+    },
+    "conditional_nuisance": "Original public waveform-specific conditional nuisance prior; no nuisance population change",
+    "metadata_provenance": {
+      "kind": "official_public_release_file_checksum_match",
+      "doi": "10.5281/zenodo.20275769",
+      "release_version": null,
+      "file": "IGWN-GWTC4p1-18965dda8_5-GW240109_050431-combined_PEDataRelease.hdf5",
+      "group": "C00:IMRPhenomXPHM-SpinTaylor",
+      "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00"
+    },
+    "native_settings": {
+      "priors/analytic/H1_time": [
+        "Uniform(minimum=1388811889.7419212, maximum=1388811889.941921, name='H1_time', latex_label='$t_H$', unit='$s$', boundary=None)"
+      ],
+      "priors/analytic/a_1": [
+        "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/a_2": [
+        "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/chirp_mass": [
+        "bilby.gw.prior.UniformInComponentsChirpMass(minimum=18.597711579632612, maximum=33.20220500507826, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_\\\\{\\\\{\\\\odot\\\\}\\\\}$', boundary=None)"
+      ],
+      "priors/analytic/dec": [
+        "Cosine(minimum=-1.5707963267948966, maximum=1.5707963267948966, name='dec', latex_label='$\\\\mathrm{DEC}$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/luminosity_distance": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "priors/analytic/mass_1": [
+        "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+      ],
+      "priors/analytic/mass_2": [
+        "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+      ],
+      "priors/analytic/mass_ratio": [
+        "bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.2076, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)"
+      ],
+      "priors/analytic/phase": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/phi_12": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/phi_jl": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/psi": [
+        "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/ra": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='ra', latex_label='$\\\\mathrm{RA}$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/theta_jn": [
+        "Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/tilt_1": [
+        "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/tilt_2": [
+        "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+      ]
+    }
+  },
+  "source": {
+    "path": "<host-path>/IGWN-GWTC4p1-18965dda8_5-GW240109_050431-combined_PEDataRelease.hdf5",
+    "dataset": "C00:IMRPhenomXPHM-SpinTaylor",
+    "expected_sha256": "6a9f229d51a0ef850b86331502802dcb4e84d57a7ecc3b3bee61570602eae93f"
+  },
+  "public_source_proof": {
+    "schema": "public-source-export-proof-v1",
+    "status": "verified",
+    "event": "GW240109_050431",
+    "method": "public_release_file_checksum_match",
+    "release_id": "20275769",
+    "release_version": null,
+    "doi": "10.5281/zenodo.20275769",
+    "public_file_url": "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW240109_050431-combined_PEDataRelease.hdf5/content",
+    "public_file_checksum": {
+      "algorithm": "md5",
+      "value": "f715629fe1f5baefe3e736605a581733"
+    },
+    "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00",
+    "source_file_sha256": "6a9f229d51a0ef850b86331502802dcb4e84d57a7ecc3b3bee61570602eae93f",
+    "public_filename": "IGWN-GWTC4p1-18965dda8_5-GW240109_050431-combined_PEDataRelease.hdf5",
+    "posterior_group": "C00:IMRPhenomXPHM-SpinTaylor",
+    "producer_revision": "43b53781dcf501d7c4c2115b6362a4130e0f01c7",
+    "used_columns": [
+      "chirp_mass",
+      "mass_ratio",
+      "luminosity_distance",
+      "chi_eff",
+      "mass_1",
+      "mass_2",
+      "spin_1x",
+      "spin_1y",
+      "spin_1z",
+      "spin_2x",
+      "spin_2y",
+      "spin_2z"
+    ],
+    "used_projection_sha256": "1b8efb8cfe27ae86239a793130af3978905ca789303a02fea35e1de4866caa44",
+    "retained_prior_sha256": "15d32e4367f8f17db4db0b58f2be60c77f50d6c6c88d3957b80815d106b90fc8",
+    "source_path": "<host-path>/IGWN-GWTC4p1-18965dda8_5-GW240109_050431-combined_PEDataRelease.hdf5",
+    "population_redshift_measure_embedded": false,
+    "reference_sha256": "e8c994769bd5583e50d55c91625ee25f57bc3cc1c180340d79db837c56f57b29"
+  },
+  "native_prior_independent_max_log_error": 0.0001015266168558071,
+  "intrinsic_group_definition": {
+    "columns": [
+      "mass_1",
+      "mass_2",
+      "spin_1x",
+      "spin_1y",
+      "spin_1z",
+      "spin_2x",
+      "spin_2y",
+      "spin_2z"
+    ],
+    "n_unique": 14687,
+    "method": "Exact equality of all listed public intrinsic columns"
+  }
+}

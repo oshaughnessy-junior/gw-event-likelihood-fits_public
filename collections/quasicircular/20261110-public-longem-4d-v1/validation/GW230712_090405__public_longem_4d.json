@@ -1,0 +1,59 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW230712_090405",
+  "analysis_id": "GW230712_090405__public_longem_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "96cd9d5b21c2dcd273ae06d4cb7ca8270d8a4e0028ea7161262f084114e25b89",
+  "upstream_model_sha256": "809684f17ac36bdafd0e47eca499666c4893b730b64e634747ec4916dd5258a3",
+  "model_canonical_sha256": "16eccd00b67f4df82df46634ccb4ba75851beee28400e6e630a7692592ae6819",
+  "original_validation": {
+    "path": "validation/GW230712_090405__public_longem_4d__s73.json",
+    "sha256": "9cbf7bbcaf57dd463ce0a3e0febc60d35c7e64871cb2eec80d09c2ad5c31765b"
+  },
+  "upstream_status": "candidate_unresolved_or_failed",
+  "upstream_passes_declared_checks": false,
+  "upstream_failed_checks": [
+    "max_marginal_JS_bits"
+  ],
+  "training_split": "intrinsic-group split",
+  "replication_splits": [
+    {
+      "split_seed": 101,
+      "passes": false,
+      "failed": [
+        "max_marginal_JS_bits"
+      ],
+      "model_sha256": "0404f3db51b18c51927d59b5b9fbbed2d542f05247334366a8269c54296f2dc8",
+      "original_validation": {
+        "path": "validation/GW230712_090405__public_longem_4d__s101.json",
+        "sha256": "4a33b6e53df33940218ba0c176703e95e037f9ba25a3148239af6fb179b8dc69"
+      },
+      "native_shape_checks_pass": true
+    },
+    {
+      "split_seed": 202,
+      "passes": true,
+      "failed": [],
+      "model_sha256": "1982d10205f30d06f46645472250c54912743c7bece04daa61c5df4cb2456e51",
+      "original_validation": {
+        "path": "validation/GW230712_090405__public_longem_4d__s202.json",
+        "sha256": "50b58ff36723e0f165f38a5228c8d15b0e35651869935d3a32ad9b516332a2fd"
+      },
+      "native_shape_checks_pass": true
+    }
+  ],
+  "native_shape_checks_pass": true,
+  "selection": {
+    "selections": [
+      "highmass",
+      "allmass"
+    ]
+  },
+  "scope": "Public native-posterior long-EM refit. Passes native shape checks on three intrinsic-group splits. Fails the producer declared checks on the published split (seed 73): max_marginal_JS_bits. No universal population or source-PE robustness claim."
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW231004_232346",
+  "analysis_id": "GW231004_232346__public_base8_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "diagnostic_coordinates": [
+    "mc_source",
+    "q",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "e6d1a414d98584817f44e9e70ae4831a9fda89d1ae74f7f0ea347cc31e589885",
+  "upstream_model_sha256": "48673d658237dfad5910f2820dafce358b17726f6f71550bc7b22732b66d015f",
+  "model_canonical_sha256": "33a668b0e74b7359e2aad24d0a1f4ef5508ca5c649f5cabf3a68f64bd97d6123",
+  "original_validation": {
+    "path": "validation/GW231004_232346__public_base8_4d__original.json",
+    "sha256": "252e056cc4f1072219d247151bfc006c81f74e310f1a907928483461073b2fcc"
+  },
+  "upstream_status": "candidate_unresolved_or_failed",
+  "upstream_passes_declared_checks": false,
+  "upstream_failed_checks": [
+    "max_marginal_JS_bits",
+    "max_axis_KS",
+    "max_projection_JS_bits",
+    "max_conditional_q_given_z_JS_bits",
+    "min_reference_information_ess"
+  ],
+  "used_by_population": {
+    "manifest_sha256": "0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc",
+    "fit_model_sha256": "48673d658237dfad5910f2820dafce358b17726f6f71550bc7b22732b66d015f"
+  },
+  "training_split": "intrinsic-group split",
+  "replication_splits": [],
+  "selection": {
+    "variant": "base8",
+    "components": 8,
+    "em_max_iterations": 100,
+    "split_seed": 73,
+    "archive": "<host-path>/all153",
+    "archive_SHA256SUMS_sha256": "60ca907ae185e586b3a1a3a082e12d6fca5e694ba6972681846b9c736fda7297",
+    "replication_archive": "<host-path>/rep28_base8_20261109",
+    "replication_SHA256SUMS_sha256": "1619fc3de9711d2770e62c949e53df56d772d577fe79c2e48063e8de5806dc68",
+    "rule": "Every paper-2 joint_v2 event with a drafted public-source proof (exact Zenodo file or equivalent Zenodo posterior group) whose base8 fit the population analysis uses (population manifest use_fit). All share one configuration: k 8, at most 100 EM iterations, the all153 fitter. Declared checks and replication splits are recorded, not selected on."
+  },
+  "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_marginal_JS_bits, max_axis_KS, max_projection_JS_bits, max_conditional_q_given_z_JS_bits, min_reference_information_ess. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior."
+}

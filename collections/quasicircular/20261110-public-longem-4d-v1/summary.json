@@ -1,0 +1,2051 @@
+{
+  "status": "public_source_verified_candidates",
+  "counts": {
+    "public_source_verified_candidates": 203,
+    "passing_all_three_declared_checks": 129,
+    "passing_native_shape_three_splits": 203,
+    "unresolved": 1,
+    "scientifically_accepted": 0
+  },
+  "metrics": [
+    {
+      "event": "GW170729_185629",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 198,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190403_051519",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 128,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190413_134308",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 92,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190421_213856",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 173,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190424_180648",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_dcc_archive_member_match",
+      "components": 8,
+      "em_iterations": 100,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190426_190642",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 136,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190503_185404",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 123,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190513_205428",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 66,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190514_065416",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 82,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190519_153544",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 137,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190521_074359",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 107,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190602_175927",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 191,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190620_030421",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 104,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190630_185205",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 99,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190701_203306",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 93,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190706_222641",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 78,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190727_060333",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 79,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190731_140936",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 113,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190803_022701",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 90,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190909_114149",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_dcc_archive_member_match",
+      "components": 8,
+      "em_iterations": 128,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190910_112807",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 164,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190915_235702",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 194,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190916_200658",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 130,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190926_050336",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 210,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW190929_012149",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 80,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW191109_010717",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 105,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW191127_050227",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 205,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW191230_180458",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 123,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW200208_130117",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 159,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW200208_222617",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 89,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW200209_085452",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 153,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW200219_094415",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 123,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW200220_061928",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 94,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW200220_124850",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 62,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW200302_015811",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 77,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230601_224134",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 187,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230605_065343",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 106,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230606_004305",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 143,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230608_205047",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 105,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230609_064958",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 167,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230624_113103",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 75,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230627_015337",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 69,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230628_231200",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 135,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230630_125806",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 166,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230630_234532",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 93,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230702_185453",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 80,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230704_212616",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 135,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230706_104333",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 188,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230707_124047",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 165,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230708_053705",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 130,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230708_230935",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 93,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230709_122727",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 152,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230712_090405",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 140,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230723_101834",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 73,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230803_033412",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 93,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230805_034249",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 79,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230806_204041",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 95,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230811_032116",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 81,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230814_061920",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 124,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230814_230901",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 139,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230819_171910",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 193,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230820_212515",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 136,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230824_033047",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 161,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230825_041334",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 140,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230831_015414",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 103,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230911_195324",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 163,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230914_111401",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 95,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230919_215712",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 149,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230922_020344",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 109,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230922_040658",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 80,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230924_124453",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 134,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230927_043729",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 103,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230927_153832",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 123,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230928_215827",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 91,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW230930_110730",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 86,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231001_140220",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 147,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231004_232346",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 132,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231005_021030",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 142,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231008_142521",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 204,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231014_040532",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 213,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231018_233037",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 71,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231028_153006",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 96,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231029_111508",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 123,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231102_071736",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 94,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231104_133418",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 174,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231108_125142",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 91,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231113_122623",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 126,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231114_043211",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 112,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231118_005626",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 256,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231118_071402",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 97,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231118_090602",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 79,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231127_165300",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 133,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231129_081745",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 118,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231206_233901",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 147,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231213_111417",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 103,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231221_135041",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 74,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231223_032836",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 80,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231223_075055",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 102,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231223_202619",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 143,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231224_024321",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 121,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231226_101520",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 176,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231230_170116",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 109,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW231231_154016",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 90,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240104_164932",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 105,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240107_013215",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 200,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240109_050431",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 79,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240413_022019",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 114,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240414_054515",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 80,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240426_031451",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 132,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240428_225440",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 133,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240501_033534",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 192,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240505_133552",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 168,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240507_041632",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 54,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240511_031507",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 181,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240512_024139",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 130,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240513_183302",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 84,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240514_121713",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 180,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240515_005301",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 161,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240519_012815",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 109,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240525_031210",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 76,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240526_093944",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 170,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240527_183429",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 116,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240527_230910",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 69,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240530_012417",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 131,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240531_040326",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 77,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240531_075248",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 90,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240601_061200",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 116,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240601_231004",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 141,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240612_081540",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 123,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240615_113620",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 79,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240615_160735",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 78,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240621_200935",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 107,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240622_004008",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 204,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240629_145256",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 205,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240630_101703",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 119,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240703_191355",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 126,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240705_053215",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 139,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240716_034900",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 161,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240824_205609",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 94,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240825_055146",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 92,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240830_211120",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 117,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240902_143306",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 110,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240907_153833",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 112,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240908_082628",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 192,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240908_125134",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 148,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240910_103535",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 131,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240915_001357",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 67,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240915_105151",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 144,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240916_184352",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 71,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240919_061559",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 79,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240920_073424",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 142,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240920_124024",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 107,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240922_142106",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 127,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240923_204006",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 126,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240924_000316",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 149,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240925_005809",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 122,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240930_035959",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 132,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW240930_234614",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 149,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241002_030559",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 89,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241006_015333",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 153,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241007_082943",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 118,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241009_022835",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 96,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241009_084816",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 107,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241009_220455",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 117,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241011_233834",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 101,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241101_220523",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 106,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241102_124058",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 91,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241102_144729",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 114,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241109_033317",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 136,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241109_115924",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 90,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241110_124123",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 66,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241111_111552",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 109,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241113_163507",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 186,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241114_024711",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 96,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241114_235258",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 108,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241116_151753",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 149,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241124_024914",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 122,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241125_010116",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 106,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241127_061008",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 113,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241129_021832",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 234,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241130_034908",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 105,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241130_110422",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 142,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241201_055758",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 121,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241210_060606",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 148,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241210_120900",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 95,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241225_042553",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 182,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241225_082815",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 173,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241229_155844",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 174,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241230_084504",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 142,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241230_233618",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 120,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW241231_054133",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 81,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW250101_011205",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 135,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW250104_015122",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 106,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW250108_152221",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 130,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW250109_010541",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 118,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW250109_074552",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 94,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW250114_082203",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 92,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW250116_015318",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 101,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW250118_023225",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": false,
+      "all_three_declared_checks_pass": false,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 101,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW250118_055802",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 130,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW250118_170523",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 159,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW250119_025138",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 105,
+      "em_iteration_limit_reached": false
+    },
+    {
+      "event": "GW250119_190238",
+      "native_shape_three_split_pass": true,
+      "primary_declared_checks_pass": true,
+      "all_three_declared_checks_pass": true,
+      "source_method": "public_release_file_checksum_match",
+      "components": 8,
+      "em_iterations": 209,
+      "em_iteration_limit_reached": false
+    }
+  ],
+  "unresolved": [
+    {
+      "event": "GW191219_163120",
+      "reason": "Producer/validation failure; no three validated native-fit splits",
+      "status": "new_4d_producer_or_validation_failure"
+    }
+  ],
+  "campaign_catalog_report_sha256": "23bea099e3b790d83fd8afed2c6f45aab252563b350c1adc17ecf7baa9e0dde3",
+  "builder_sha256": "0ce13bf452f9ca1721032e9f8dd3702cba8f7d05fed1d8a2e7c707e3bd2a178d"
+}

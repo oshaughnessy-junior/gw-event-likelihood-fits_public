@@ -1,0 +1,51 @@
+{
+  "schema": "public-fit-source-proof-v1",
+  "status": "verified",
+  "event": "GW190424_180648",
+  "fit_sha256": "653e68c597b2651b0a326bf11e49fa09aece900f16df6da4e91a8585685759d5",
+  "reference_sha256": "1eb633b6c18518cdd232df1a6672fab5f8456a49366c04b77facb1c7fd42a922",
+  "posterior_group": "C01:IMRPhenomPv2",
+  "producer_revision": "b24a0cbf492afdf3bd9c5be7b404d144699f3e339e1dc0abfb6bb7f2a33d8c3e",
+  "leaf_revision": "bea8929dc0cd1cef0947a49c15b90faa6376d9b03a1b261db9c6fb558bf496b7",
+  "source_model_sha256": "7ee79d77e80ab8c3d259b0251c457891953a34b3fa65a1c0079ba6071a53c48e",
+  "source_validation_sha256": "bf35f5aec5295a709668cf42cbb692bb089bdd6cb3176e8a8354b21e276be874",
+  "used_columns": [
+    "mass_1",
+    "mass_2",
+    "spin_1x",
+    "spin_1y",
+    "spin_1z",
+    "spin_2x",
+    "spin_2y",
+    "spin_2z",
+    "chirp_mass",
+    "chi_eff",
+    "luminosity_distance"
+  ],
+  "source_export_proof": {
+    "path": "collections/quasicircular/20261110-public-longem-4d-v1/source_exports/GW190424_180648.json",
+    "sha256": "30f54be91376f1e45b3ef05d4fdf331325ab1d449ed7e4b1db1621cd7d1cee46"
+  },
+  "method": "public_dcc_archive_member_match",
+  "release_id": "P2000223",
+  "release_version": "v7",
+  "public_file_url": "https://dcc.ligo.org/public/0169/P2000223/007/GW190424_180648.tar",
+  "public_file_name": "GW190424_180648.tar",
+  "public_file_sha256": "93ecfbde32b7940d1e6a45cda1195d4169f95d742cd4ac17171818e75cdf135c",
+  "source_file_sha256": "457135a7041857bdcb76ad0ed35ab1c5ee22ff0a4ce656c423d7cdcf4ed5b8c9",
+  "archive_member": "GW190424_180648/GW190424_180648.h5",
+  "archive_member_sha256": "457135a7041857bdcb76ad0ed35ab1c5ee22ff0a4ce656c423d7cdcf4ed5b8c9",
+  "public_file_checksum": {
+    "algorithm": "sha256",
+    "value": "93ecfbde32b7940d1e6a45cda1195d4169f95d742cd4ac17171818e75cdf135c"
+  },
+  "observed_file_checksum": {
+    "algorithm": "sha256",
+    "value": "93ecfbde32b7940d1e6a45cda1195d4169f95d742cd4ac17171818e75cdf135c"
+  },
+  "public_metadata": {
+    "path": "collections/quasicircular/20261110-public-longem-4d-v1/public_metadata/GW190424_180648__dcc.json",
+    "sha256": "c570c81e76541fb173d772f20fc15da2a1d9dabaa62a12fb61e87bb00bba97d1"
+  },
+  "public_metadata_sha256": "c570c81e76541fb173d772f20fc15da2a1d9dabaa62a12fb61e87bb00bba97d1"
+}

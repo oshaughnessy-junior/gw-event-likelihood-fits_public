@@ -1,0 +1,105 @@
+{
+  "status": "pass",
+  "events": [
+    {
+      "event": "GW230726_002940",
+      "n_model_generated_points": 256,
+      "max_scalar_log_likelihood_error": 0.0,
+      "n_bank_points": 2048,
+      "max_bank_error": {
+        "x": 0.0,
+        "y": 0.0,
+        "logw": 0.0
+      },
+      "fit_sha256": "782ddb960c056a4138f3a68381fbbffa554382179cbbca3065cccd042c38b569",
+      "upstream_model_sha256": "359a6dcfd71882547a122e82811d76cfdb26d588c6dfb159cba350f187adc882"
+    },
+    {
+      "event": "GW230729_082317",
+      "n_model_generated_points": 256,
+      "max_scalar_log_likelihood_error": 0.0,
+      "n_bank_points": 2048,
+      "max_bank_error": {
+        "x": 0.0,
+        "y": 0.0,
+        "logw": 0.0
+      },
+      "fit_sha256": "1a293bd754a727fd309d34beebfc911a8bae0769b2d7d6a285f328762b424a04",
+      "upstream_model_sha256": "4801d26bb61733fbe01e3799913d88de3e4c6e681ff159805078366fa01775c6"
+    },
+    {
+      "event": "GW230731_215307",
+      "n_model_generated_points": 256,
+      "max_scalar_log_likelihood_error": 0.0,
+      "n_bank_points": 2048,
+      "max_bank_error": {
+        "x": 0.0,
+        "y": 0.0,
+        "logw": 0.0
+      },
+      "fit_sha256": "2c0fe259392630d43de0cb69233820604c421df5edb155273ca27cef553aafb2",
+      "upstream_model_sha256": "568f56c477dc92d5b90ea610f9e8550586c97978222d0f055fe596d455ec6e40"
+    },
+    {
+      "event": "GW231020_142947",
+      "n_model_generated_points": 256,
+      "max_scalar_log_likelihood_error": 0.0,
+      "n_bank_points": 2048,
+      "max_bank_error": {
+        "x": 0.0,
+        "y": 0.0,
+        "logw": 0.0
+      },
+      "fit_sha256": "6ae15e70a26f66fa01b0d24496d6ae2c30693cc4451c3ef6e8d171ef1d9e0900",
+      "upstream_model_sha256": "f915e2731853a9c566330f66a0c15c9b2d94927dc4de0208ab5076a972d7de52"
+    },
+    {
+      "event": "GW231110_040320",
+      "n_model_generated_points": 256,
+      "max_scalar_log_likelihood_error": 0.0,
+      "n_bank_points": 2048,
+      "max_bank_error": {
+        "x": 0.0,
+        "y": 0.0,
+        "logw": 0.0
+      },
+      "fit_sha256": "bc5cd79d334b31d16428c505da07bcfecebbef5aad26a0dba6580c35eb516a67",
+      "upstream_model_sha256": "99837f188dc7cfcb66eedbcffb4892a4158827a1570a74a8243453a7e094c066"
+    },
+    {
+      "event": "GW231113_200417",
+      "n_model_generated_points": 256,
+      "max_scalar_log_likelihood_error": 0.0,
+      "n_bank_points": 2048,
+      "max_bank_error": {
+        "x": 0.0,
+        "y": 0.0,
+        "logw": 0.0
+      },
+      "fit_sha256": "a7616d0480fe4365c4f080b68a3bff40650eaa024dccb0fecb644affdab168ca",
+      "upstream_model_sha256": "ac906f4ac40be9a7c520cb426c34462ba48fa2ac74f44f9428f0e9267f8fe93d"
+    },
+    {
+      "event": "GW231123_135430",
+      "n_model_generated_points": 256,
+      "max_scalar_log_likelihood_error": 0.0,
+      "n_bank_points": 2048,
+      "max_bank_error": {
+        "x": 0.0,
+        "y": 0.0,
+        "logw": 0.0
+      },
+      "fit_sha256": "87dc1b87f11523bfc6d05410c357ca46b0a2e450cc7c0d4473191141ce72415f",
+      "upstream_model_sha256": "6c23dceccd129a1aa0743bb1744bd168ad21946256a64e897ab183f5d98dd0da"
+    }
+  ],
+  "reference_source_sha256": "bea8929dc0cd1cef0947a49c15b90faa6376d9b03a1b261db9c6fb558bf496b7",
+  "reference_dependency_sha256": {
+    "posterior_joint.py": "e4536058943a2a9eafaa0cdbe812ac46f3c9b50d7735a9c517f5aefcf966ccec",
+    "joint_adapter.py": "a9efac73b4b1d049f172714f079b1b3397107365af275352450186e9254daa2e",
+    "prior_contract.py": "49d931177523025cd5cfca1d954a42402c0351cb9f8072f960729b9f410f3c81"
+  },
+  "runtime_source_sha256": "86fac95b498a5b940571c1dbb376d25d80808048088cee590b751201e6dca7d8",
+  "producer_sha256": "28c8bb2ab83291057ac75db229d76ff719e90542447d75957e7c5428d09a4dff",
+  "scope": "Pointwise scalar likelihood and integration-bank parity of the public Collection runtime with the exact leaf source that produced each model, on seeded model-generated points. No PE rows or private samples used. This checks the software port, not scientific fit recovery."
+}

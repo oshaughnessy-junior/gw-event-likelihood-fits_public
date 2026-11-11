@@ -1,0 +1,55 @@
+{
+  "schema": "public-fit-source-proof-v1",
+  "status": "verified",
+  "event": "GW230820_212515",
+  "method": "public_release_file_checksum_match",
+  "release_id": "20275769",
+  "release_version": "record:20275769",
+  "doi": "10.5281/zenodo.20275769",
+  "public_file_url": "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW230820_212515-combined_PEDataRelease.hdf5/content",
+  "public_file_checksum": {
+    "algorithm": "md5",
+    "value": "65cd77ea15eb502c9807264f2edefac3"
+  },
+  "public_metadata_sha256": "7387201239bc9ed505366ce714dd0b36a7c15486fa729de44ecb5baf5d845b1d",
+  "source_file_sha256": "d8a99c02f1dea4540a08a98827b6394c03ceb2c08002830e4f72616acdce628d",
+  "public_filename": "IGWN-GWTC4p1-18965dda8_5-GW230820_212515-combined_PEDataRelease.hdf5",
+  "posterior_group": "C00:IMRPhenomXPHM-SpinTaylor",
+  "producer_revision": "942bfc7cc74c1d0407d01bd3b7d9ee619f50f9b2e7a5851c6745cdfea4eecd5b",
+  "used_columns": [
+    "chirp_mass",
+    "mass_ratio",
+    "luminosity_distance",
+    "chi_eff",
+    "mass_1",
+    "mass_2",
+    "spin_1x",
+    "spin_1y",
+    "spin_1z",
+    "spin_2x",
+    "spin_2y",
+    "spin_2z"
+  ],
+  "used_projection_sha256": "bec6a0b9c1b266ed9f0f8ebec1dcf572a23b5758cf93c1a3b88b12699551bd9d",
+  "retained_prior_sha256": "347576bf6df58a6bfb6ed208a0eb355269794697abc4e7880cedcbbdcbc94b4a",
+  "source_path": "<host-path>/IGWN-GWTC4p1-18965dda8_5-GW230820_212515-combined_PEDataRelease.h5",
+  "population_redshift_measure_embedded": false,
+  "reference_sha256": "3708a8f44f7755203cc04088e944843084ac7ab20b7ddcce1e323bb748e7b363",
+  "fit_sha256": "2db5cce6bf0206311f318e0a22efaeeb87851374e1b0003633a6e78218f59dde",
+  "public_file_name": "IGWN-GWTC4p1-18965dda8_5-GW230820_212515-combined_PEDataRelease.hdf5",
+  "public_file_sha256": "d8a99c02f1dea4540a08a98827b6394c03ceb2c08002830e4f72616acdce628d",
+  "observed_file_checksum": {
+    "algorithm": "md5",
+    "value": "65cd77ea15eb502c9807264f2edefac3"
+  },
+  "public_metadata": {
+    "path": "collections/quasicircular/20261031-public-nativecdf-4d-v1/public_metadata/20275769_7387201239bc9ed505366ce714dd0b36a7c15486fa729de44ecb5baf5d845b1d.json",
+    "sha256": "7387201239bc9ed505366ce714dd0b36a7c15486fa729de44ecb5baf5d845b1d"
+  },
+  "export_producer_revision": "2c196672ae0e2424d2f20efb9f6e28a670a2b0d0",
+  "source_model_sha256": "c59a26b213d2707c3ff94ddb61dc91faa0b087d61ea3f272367f5e64daaeed54",
+  "source_validation_sha256": "1c7f58ebbf60298ccedee2c5eccc29c3a114a18534e566f24e4dcae9352fcc7a",
+  "source_export_manifest_sha256": "8dbf70e65d643fea04051ac43f64af85ed6acfd72152333e4a64959a06e96d9b",
+  "upstream_release_label": null,
+  "release_version_source": "zenodo_record_id"
+}

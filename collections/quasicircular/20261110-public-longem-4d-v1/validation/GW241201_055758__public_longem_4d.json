@@ -1,0 +1,62 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW241201_055758",
+  "analysis_id": "GW241201_055758__public_longem_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "b3a627ed758bb2fc2f7d8801276cf00118184de810dc57831e328602b222942c",
+  "upstream_model_sha256": "4d08500d46af580571125fd0ec0cf7f3636b4af572b0fd276846a1ac3ade3bf7",
+  "model_canonical_sha256": "5631f1df99541bb9742f7d74dc82b297a52460857116211fd959e2d0d1f85a7f",
+  "original_validation": {
+    "path": "validation/GW241201_055758__public_longem_4d__s73.json",
+    "sha256": "bfd887d6e3c1afef031a990193df7b1a208bdf440d950b0204f201703aff433a"
+  },
+  "upstream_status": "candidate_unresolved_or_failed",
+  "upstream_passes_declared_checks": false,
+  "upstream_failed_checks": [
+    "max_conditional_q_given_z_JS_bits"
+  ],
+  "training_split": "intrinsic-group split",
+  "replication_splits": [
+    {
+      "split_seed": 101,
+      "passes": false,
+      "failed": [
+        "max_marginal_JS_bits",
+        "max_conditional_q_given_z_JS_bits"
+      ],
+      "model_sha256": "9c520b4cc851a74d61aa989cb496a4e4ecee5a0809c0ef9933619a99ba1c6d7d",
+      "original_validation": {
+        "path": "validation/GW241201_055758__public_longem_4d__s101.json",
+        "sha256": "44f550c08dd871d788eb615c7508496425453f131471d43cac8a63e6facc0d50"
+      },
+      "native_shape_checks_pass": true
+    },
+    {
+      "split_seed": 202,
+      "passes": false,
+      "failed": [
+        "max_conditional_q_given_z_JS_bits"
+      ],
+      "model_sha256": "ccdcc84f85d3f4e640d336071c6cb5e59ce433a7d8205b985d812b8f84cdf6c4",
+      "original_validation": {
+        "path": "validation/GW241201_055758__public_longem_4d__s202.json",
+        "sha256": "2fd4ba69b427abddac7339e5d126eb84cd9ab931a511f893de7c37c20b91dd89"
+      },
+      "native_shape_checks_pass": true
+    }
+  ],
+  "native_shape_checks_pass": true,
+  "selection": {
+    "selections": [
+      "highmass",
+      "allmass"
+    ]
+  },
+  "scope": "Public native-posterior long-EM refit. Passes native shape checks on three intrinsic-group splits. Fails the producer declared checks on the published split (seed 73): max_conditional_q_given_z_JS_bits. No universal population or source-PE robustness claim."
+}

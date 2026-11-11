@@ -1,0 +1,54 @@
+{
+  "schema": "public-fit-source-proof-v1",
+  "status": "verified",
+  "event": "GW190719_215514",
+  "method": "public_release_file_checksum_match",
+  "release_id": "6513631",
+  "release_version": "v2",
+  "doi": "10.5281/zenodo.6513631",
+  "public_file_url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190719_215514_PEDataRelease_mixed_nocosmo.h5/content",
+  "public_file_checksum": {
+    "algorithm": "md5",
+    "value": "80fa386bd7ffd29550b90de830056ba5"
+  },
+  "public_metadata_sha256": "0e8391b90b918e9892ad0c4477a8f7c56f227b3f81ed75824384ab047eec419d",
+  "source_file_sha256": "0a1cb05e6e8fd1a8093008191a1f87fe1be43dc00c54df880c7947c82da56c89",
+  "public_filename": "IGWN-GWTC2p1-v2-GW190719_215514_PEDataRelease_mixed_nocosmo.h5",
+  "posterior_group": "C01:IMRPhenomXPHM",
+  "producer_revision": "942bfc7cc74c1d0407d01bd3b7d9ee619f50f9b2e7a5851c6745cdfea4eecd5b",
+  "used_columns": [
+    "chirp_mass",
+    "mass_ratio",
+    "luminosity_distance",
+    "chi_eff",
+    "mass_1",
+    "mass_2",
+    "spin_1x",
+    "spin_1y",
+    "spin_1z",
+    "spin_2x",
+    "spin_2y",
+    "spin_2z"
+  ],
+  "used_projection_sha256": "57b033b5a5d7fe8eb571f580080c717c5c6e5c5b65b4b7ee856dc5644498805e",
+  "retained_prior_sha256": "bccff833bcd4b7624584a6edddb1de51122923e5e0eb426c3c3c1b5a8d5a263c",
+  "source_path": "<host-path>/IGWN-GWTC2p1-v2-GW190719_215514_PEDataRelease_mixed_nocosmo.h5",
+  "population_redshift_measure_embedded": false,
+  "reference_sha256": "5461c3e9efc92f47c22382ff411c243be7ee5f1bb63bb3c4ac6baf083bc91e20",
+  "fit_sha256": "8132e2a68b9609d134bf8c865d94bbef75a2b434182d4949cb99a04c03f22ee3",
+  "public_file_name": "IGWN-GWTC2p1-v2-GW190719_215514_PEDataRelease_mixed_nocosmo.h5",
+  "public_file_sha256": "0a1cb05e6e8fd1a8093008191a1f87fe1be43dc00c54df880c7947c82da56c89",
+  "observed_file_checksum": {
+    "algorithm": "md5",
+    "value": "80fa386bd7ffd29550b90de830056ba5"
+  },
+  "public_metadata": {
+    "path": "collections/quasicircular/20261031-public-nativecdf-4d-v1/public_metadata/6513631_0e8391b90b918e9892ad0c4477a8f7c56f227b3f81ed75824384ab047eec419d.json",
+    "sha256": "0e8391b90b918e9892ad0c4477a8f7c56f227b3f81ed75824384ab047eec419d"
+  },
+  "export_producer_revision": "8c62795d608321348e666c9a4ec89c1359b6c698",
+  "source_model_sha256": "1bc8cf094b57317fcb062d8a289df65b8d1cf5c8e5ae5aa9bc5bb9d37aa48ac4",
+  "source_validation_sha256": "51ac46024335793e454a5a69786aea7ce27fd62d51b27c6483a46119cfb2082d",
+  "source_export_manifest_sha256": "666a7fbdfca90cf123323c0083dfecedc7e924b75722c13074354ffbc5f29c6d",
+  "release_version_source": "metadata.version"
+}

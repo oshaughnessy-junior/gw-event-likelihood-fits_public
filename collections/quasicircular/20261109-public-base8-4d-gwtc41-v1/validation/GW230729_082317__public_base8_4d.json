@@ -1,0 +1,73 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW230729_082317",
+  "analysis_id": "GW230729_082317__public_base8_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "diagnostic_coordinates": [
+    "mc_source",
+    "q",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "1a293bd754a727fd309d34beebfc911a8bae0769b2d7d6a285f328762b424a04",
+  "upstream_model_sha256": "4801d26bb61733fbe01e3799913d88de3e4c6e681ff159805078366fa01775c6",
+  "model_canonical_sha256": "27f1a926f8cfc94ce52940828110b84d949d7adef0955d8e9e12e3007a26cdd1",
+  "original_validation": {
+    "path": "validation/GW230729_082317__public_base8_4d__original.json",
+    "sha256": "5fe89089b57b697b63a37fe280cee07234e2cb1609aa07d3666baee69e20d733"
+  },
+  "upstream_status": "passed_declared_recovery_checks",
+  "upstream_passes_declared_checks": true,
+  "upstream_failed_checks": [],
+  "used_by_population": null,
+  "training_split": "intrinsic-group split",
+  "replication_splits": [
+    {
+      "passes": true,
+      "model_sha256": "3a4e4c0b7919a7735144defe30a2a0c142cf480801480e14da85ae01b7412275",
+      "em_iterations": 86,
+      "em_limit_reached": false,
+      "failed": [],
+      "max_marginal_JS_bits": 0.024973578553867264,
+      "max_axis_KS": 0.06191268521644877,
+      "max_projection_JS_bits": 0.028331344782633952,
+      "max_conditional_q_given_z_JS_bits": 0.039377717315956844,
+      "min_reference_information_ess": 823.2060761735356,
+      "min_proposal_ess": 7787.714659036444,
+      "max_population_response_nats": 0.009084311697642455,
+      "max_half_response_difference_nats": 0.014834054072752068,
+      "split_seed": 101,
+      "archive_path": "<host-path>/GW230729_082317"
+    },
+    {
+      "passes": true,
+      "model_sha256": "fc8f92fba47fab78a2f45401bf141b767ff421d8fd84358880262c6ef05529f1",
+      "em_iterations": 141,
+      "em_limit_reached": false,
+      "failed": [],
+      "max_marginal_JS_bits": 0.02180103557330756,
+      "max_axis_KS": 0.07005322532291747,
+      "max_projection_JS_bits": 0.02005812966775869,
+      "max_conditional_q_given_z_JS_bits": 0.030671359973623698,
+      "min_reference_information_ess": 817.6592149147034,
+      "min_proposal_ess": 7863.318736018714,
+      "max_population_response_nats": 0.02768367429174301,
+      "max_half_response_difference_nats": 0.0019890408950535843,
+      "split_seed": 202,
+      "archive_path": "<host-path>/GW230729_082317"
+    }
+  ],
+  "selection": {
+    "components": 16,
+    "em_tolerance": 2e-05,
+    "max_em_iterations": 2000,
+    "rule": "k16, tol 2e-5 adopted from quasicircular/20261109-public-base8-4d-v1, where it was the fewest components passing on split seeds 73, 101 and 202. Here k16 ran and passed on seeds 73, 101 and 202; k8 ran on seed 73 only and passed."
+  },
+  "scope": "Released because it passes the producer declared checks on every split; no population analysis uses it. Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73) and on replication seeds 101, 202. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior."
+}

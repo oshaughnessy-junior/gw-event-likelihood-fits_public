@@ -1,0 +1,55 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW230805_034249",
+  "analysis_id": "GW230805_034249__public_longem_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "a41d6de8bbbde1ba449fa899c4e47963a1d5b4d7c78dc89fdde5576fa2c54a89",
+  "upstream_model_sha256": "432d89a5a47414cdac7f867d857bc96df3693e494b88d848012e5074db0e9594",
+  "model_canonical_sha256": "9f4140415cd618a436eaca3db44a5ed45b525dc51acbbf6f17e2fc6772dc901a",
+  "original_validation": {
+    "path": "validation/GW230805_034249__public_longem_4d__s73.json",
+    "sha256": "eec7bdf15ac0923cc0311618ff8bfe68fd9f1fc9ec842573bdb8fddf8fb448d5"
+  },
+  "upstream_status": "passed_declared_recovery_checks",
+  "upstream_passes_declared_checks": true,
+  "upstream_failed_checks": [],
+  "training_split": "intrinsic-group split",
+  "replication_splits": [
+    {
+      "split_seed": 101,
+      "passes": true,
+      "failed": [],
+      "model_sha256": "003761ebe6224c24c9b6c562db53d2629b334ed4f60ab9f574b158fad8ca3d20",
+      "original_validation": {
+        "path": "validation/GW230805_034249__public_longem_4d__s101.json",
+        "sha256": "a689fbeac4d616c211ad67e7c328ff9f6e0efa24540aa26f83fcced26f23f1e7"
+      },
+      "native_shape_checks_pass": true
+    },
+    {
+      "split_seed": 202,
+      "passes": true,
+      "failed": [],
+      "model_sha256": "2d697e55b1f657cfaa0bce58b14c7ac4ce8b6bed95a23b4a2a9302cfe0a44258",
+      "original_validation": {
+        "path": "validation/GW230805_034249__public_longem_4d__s202.json",
+        "sha256": "551d690a9b1b26cc5bd69e55b06ffeac8b3200b9aba056f9c84beae7591f7157"
+      },
+      "native_shape_checks_pass": true
+    }
+  ],
+  "native_shape_checks_pass": true,
+  "selection": {
+    "selections": [
+      "highmass",
+      "allmass"
+    ]
+  },
+  "scope": "Public native-posterior long-EM refit. Passes native shape checks on three intrinsic-group splits. Passes the producer declared checks on the published split (seed 73) and on replication seeds 101, 202. No universal population or source-PE robustness claim."
+}

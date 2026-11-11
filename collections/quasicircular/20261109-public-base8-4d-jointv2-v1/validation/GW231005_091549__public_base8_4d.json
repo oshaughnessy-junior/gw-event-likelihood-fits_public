@@ -1,0 +1,81 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW231005_091549",
+  "analysis_id": "GW231005_091549__public_base8_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "diagnostic_coordinates": [
+    "mc_source",
+    "q",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "45b35012e7ff7c1ff076b231b9e39042f080848bfc4d56f22a95ebe114154c30",
+  "upstream_model_sha256": "54eb235bcda7cadd3033222b544b6454606d5251efd418dafc456579b8e1e3ab",
+  "model_canonical_sha256": "6ecade6db5a41af02a4beeee8e3d81072d3e6258400d429dee6dda9ebc788a8e",
+  "original_validation": {
+    "path": "validation/GW231005_091549__public_base8_4d__original.json",
+    "sha256": "df7d80ea36b0ef1defe43acac545dc6990cf23fc608d6a147923dbbee75f55c9"
+  },
+  "upstream_status": "passed_declared_recovery_checks",
+  "upstream_passes_declared_checks": true,
+  "upstream_failed_checks": [],
+  "used_by_population": {
+    "manifest_sha256": "0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc",
+    "fit_model_sha256": "54eb235bcda7cadd3033222b544b6454606d5251efd418dafc456579b8e1e3ab"
+  },
+  "training_split": "intrinsic-group split",
+  "replication_splits": [
+    {
+      "split_seed": 101,
+      "passes": true,
+      "model_sha256": "e1bb78c6b3f808cd61e46307bcb33f1485091e515883f2b13508061df6f73526",
+      "archive_path": "<host-path>/GW231005_091549",
+      "em_iterations": 100,
+      "em_iteration_limit_reached": true,
+      "failed": [],
+      "max_marginal_JS_bits": 0.018121598190104338,
+      "max_axis_KS": 0.0361580558617558,
+      "max_projection_JS_bits": 0.01902262821883224,
+      "max_conditional_q_given_z_JS_bits": 0.04367198362663105,
+      "min_reference_information_ess": 1136.1452068242202,
+      "min_proposal_ess": 11731.72963679106,
+      "max_population_response_nats": 0.007360974129640763,
+      "max_half_response_difference_nats": 0.0036138426367884335
+    },
+    {
+      "split_seed": 202,
+      "passes": true,
+      "model_sha256": "2526342dba6a1d5d123a1811e5dff03438c1742647eba928a68b8871585a6b09",
+      "archive_path": "<host-path>/GW231005_091549",
+      "em_iterations": 100,
+      "em_iteration_limit_reached": true,
+      "failed": [],
+      "max_marginal_JS_bits": 0.022429888134354602,
+      "max_axis_KS": 0.04465318599680601,
+      "max_projection_JS_bits": 0.017573798621793424,
+      "max_conditional_q_given_z_JS_bits": 0.04556624665721712,
+      "min_reference_information_ess": 1066.3772846737627,
+      "min_proposal_ess": 12180.820552130399,
+      "max_population_response_nats": 0.02041075216741195,
+      "max_half_response_difference_nats": 0.014578744305918434
+    }
+  ],
+  "selection": {
+    "variant": "base8",
+    "components": 8,
+    "em_max_iterations": 100,
+    "split_seed": 73,
+    "archive": "<host-path>/all153",
+    "archive_SHA256SUMS_sha256": "60ca907ae185e586b3a1a3a082e12d6fca5e694ba6972681846b9c736fda7297",
+    "replication_archive": "<host-path>/rep28_base8_20261109",
+    "replication_SHA256SUMS_sha256": "1619fc3de9711d2770e62c949e53df56d772d577fe79c2e48063e8de5806dc68",
+    "rule": "Every paper-2 joint_v2 event with a drafted public-source proof (exact Zenodo file or equivalent Zenodo posterior group) whose base8 fit the population analysis uses (population manifest use_fit). All share one configuration: k 8, at most 100 EM iterations, the all153 fitter. Declared checks and replication splits are recorded, not selected on."
+  },
+  "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73) and on replication seeds 101, 202. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior."
+}

@@ -1,0 +1,81 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW200224_222234",
+  "analysis_id": "GW200224_222234__public_base8_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "diagnostic_coordinates": [
+    "mc_source",
+    "q",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "170a48ac692fbee655e59544e462a7fa85bffc3f15727bd86e3c4916d0b6a153",
+  "upstream_model_sha256": "31404f6dce0d0842efab448dad45cc96d7536a00447e99d1000d46b1781d2d93",
+  "model_canonical_sha256": "060419ee9beaacdfbff243ecd383a8012a7b67d4c882836e52da0be230a0617b",
+  "original_validation": {
+    "path": "validation/GW200224_222234__public_base8_4d__original.json",
+    "sha256": "77f975e0fff820ab62b88c7d70db16555e41829674c9872da3b6939d0da942e7"
+  },
+  "upstream_status": "passed_declared_recovery_checks",
+  "upstream_passes_declared_checks": true,
+  "upstream_failed_checks": [],
+  "used_by_population": {
+    "manifest_sha256": "0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc",
+    "fit_model_sha256": "31404f6dce0d0842efab448dad45cc96d7536a00447e99d1000d46b1781d2d93"
+  },
+  "training_split": "row split; independent intrinsic groups unavailable",
+  "replication_splits": [
+    {
+      "split_seed": 101,
+      "passes": true,
+      "model_sha256": "585dbfa696831d5b124f6dd9ff711eef9dd545e0aa8bc0e1bfc924589979ab2e",
+      "archive_path": "<host-path>/GW200224_222234",
+      "em_iterations": 100,
+      "em_iteration_limit_reached": true,
+      "failed": [],
+      "max_marginal_JS_bits": 0.001989380153846445,
+      "max_axis_KS": 0.019043782095332196,
+      "max_projection_JS_bits": 0.002131055044825056,
+      "max_conditional_q_given_z_JS_bits": 0.0034178403177614804,
+      "min_reference_information_ess": 19622.484612688346,
+      "min_proposal_ess": 12029.589955494986,
+      "max_population_response_nats": 0.0034758030628312397,
+      "max_half_response_difference_nats": 0.005924211196671969
+    },
+    {
+      "split_seed": 202,
+      "passes": true,
+      "model_sha256": "f61275013745d4c5255d09dcef11a4934b37074fe10e82020b8e4ff21841533f",
+      "archive_path": "<host-path>/GW200224_222234",
+      "em_iterations": 100,
+      "em_iteration_limit_reached": true,
+      "failed": [],
+      "max_marginal_JS_bits": 0.002102928642008804,
+      "max_axis_KS": 0.01866123651585727,
+      "max_projection_JS_bits": 0.002008545157094676,
+      "max_conditional_q_given_z_JS_bits": 0.0038477198750524718,
+      "min_reference_information_ess": 19708.858102588587,
+      "min_proposal_ess": 12077.736854251176,
+      "max_population_response_nats": 0.004314337616563968,
+      "max_half_response_difference_nats": 0.006511306293083052
+    }
+  ],
+  "selection": {
+    "variant": "base8",
+    "components": 8,
+    "em_max_iterations": 100,
+    "split_seed": 73,
+    "archive": "<host-path>/all153",
+    "archive_SHA256SUMS_sha256": "60ca907ae185e586b3a1a3a082e12d6fca5e694ba6972681846b9c736fda7297",
+    "replication_archive": "<host-path>/rep28_base8_20261109",
+    "replication_SHA256SUMS_sha256": "1619fc3de9711d2770e62c949e53df56d772d577fe79c2e48063e8de5806dc68",
+    "rule": "Every paper-2 joint_v2 event with a drafted public-source proof (exact Zenodo file or equivalent Zenodo posterior group) whose base8 fit the population analysis uses (population manifest use_fit). All share one configuration: k 8, at most 100 EM iterations, the all153 fitter. Declared checks and replication splits are recorded, not selected on."
+  },
+  "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73) and on replication seeds 101, 202. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior."
+}

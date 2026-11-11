@@ -1,0 +1,71 @@
+{
+  "schema": "public-fit-source-proof-v1",
+  "status": "verified",
+  "event": "GW200311_115853",
+  "method": "public_release_file_checksum_match",
+  "release_id": "22685054",
+  "release_version": "record:22685054",
+  "release_version_source": "zenodo_record_id",
+  "doi": "10.5281/zenodo.22685054",
+  "public_file_url": "https://zenodo.org/api/records/22685054/files/IGWN-GWTC3p0-v3-GW200311_115853_PEDataRelease_mixed_nocosmo.h5/content",
+  "public_file_name": "IGWN-GWTC3p0-v3-GW200311_115853_PEDataRelease_mixed_nocosmo.h5",
+  "public_filename": "IGWN-GWTC3p0-v3-GW200311_115853_PEDataRelease_mixed_nocosmo.h5",
+  "public_file_checksum": {
+    "algorithm": "md5",
+    "value": "8f54cc369b395f730fb620d092353293"
+  },
+  "observed_file_checksum": {
+    "algorithm": "md5",
+    "value": "8f54cc369b395f730fb620d092353293"
+  },
+  "public_metadata_sha256": "bbed5e874164c634da6092df1848121fb22cbccfe2a96b3e39e8a03b1e9124cf",
+  "public_metadata": {
+    "path": "collections/quasicircular/20261109-public-base8-4d-jointv2-v1/public_metadata/22685054_bbed5e874164c634da6092df1848121fb22cbccfe2a96b3e39e8a03b1e9124cf.json",
+    "sha256": "bbed5e874164c634da6092df1848121fb22cbccfe2a96b3e39e8a03b1e9124cf"
+  },
+  "source_file_sha256": "11386fe955b3868fc78e4a1839e1c00271fb3b5cf9b8e867b26588debf431bb0",
+  "public_file_sha256": "11386fe955b3868fc78e4a1839e1c00271fb3b5cf9b8e867b26588debf431bb0",
+  "posterior_group": "C01:IMRPhenomXPHM",
+  "producer_revision": "a6613be579df7441283a66ebbfcc3ae8831ed5d4e75c2897e71e52a1e852180c",
+  "export_producer_revision": "6769a7687391355273f9c25aef63d3d474ab274297d79d6697eae8ce658fc984",
+  "fit_sha256": "ee5267967d74a853824c3928be631a8fdf741fad85f5e548c6f1cf0d281857d3",
+  "source_validation_sha256": "c2c85d1b3054b9ce910c15f3c7d0d8b4b560734cf01c6f42385b4c59c8687771",
+  "reference_sha256": "e13ebb41e02ad3c0a15fd5260f71c6d88fc5fb806cd4bed5147b1d7d3db42ea1",
+  "reference_rows": 202628,
+  "reference_rowwise_check": {
+    "max_relative_error": {
+      "chi_eff": 0.0,
+      "eta": 1.942890293094024e-16,
+      "luminosity_distance": 1.1428037849370298e-08,
+      "mc_det": 6.533210436122647e-16
+    },
+    "rowwise": "match"
+  },
+  "used_columns": [
+    "mass_1",
+    "mass_2",
+    "luminosity_distance",
+    "chi_eff",
+    "spin_1x",
+    "spin_1y",
+    "spin_1z",
+    "spin_2x",
+    "spin_2y",
+    "spin_2z",
+    "chirp_mass",
+    "mass_ratio"
+  ],
+  "canonical_hash_definition": "audit_public_sources.py: float64 little-endian, column-major, file row order; prior = sorted-key JSON of priors/analytic strings",
+  "original_used_columns_sha256": "10f9627667fd6f05eac116686148ba0d14a09b629291ffbf96f58dafce5dc4bb",
+  "original_prior_sha256": "bcf0a6d3f2a25aa5cfe581de583698dddd484de1c82960ffeda7e29de8aeff6a",
+  "population_redshift_measure_embedded": false,
+  "leaf_revision": "bea8929dc0cd1cef0947a49c15b90faa6376d9b03a1b261db9c6fb558bf496b7",
+  "source_model_sha256": "b31e36b30c7e1fa7f83a9600f7c4a2dbb296c388412ed4802f19749122ef80ed",
+  "promoted_from": {
+    "commit": "6b9e3f4dac31d419582db6cb7e0877009a1bcf88",
+    "tag": "drafts/jointv2-public-proofs-20261109",
+    "path": "provenance/drafts/20261109-joint-v2-public-sources/public_proofs/GW200311_115853__base8.json",
+    "sha256": "19aacd4c8b04dace4271d3e63c28f1b8ad2192c3c40994618f72077e750a75f5",
+    "change": "status draft to verified; draft_note removed; fit_sha256 rebound from the model to the published artifact; public_metadata moved into the collection; leaf_revision and source_model_sha256 added"
+  }
+}

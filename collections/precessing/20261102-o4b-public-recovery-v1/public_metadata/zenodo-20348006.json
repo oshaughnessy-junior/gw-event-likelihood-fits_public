@@ -1,0 +1,293 @@
+{
+  "created": "2026-05-26T21:06:01.699333+00:00",
+  "modified": "2026-06-15T23:02:19.374843+00:00",
+  "id": 20348006,
+  "conceptrecid": "20291739",
+  "doi": "10.5281/zenodo.20348006",
+  "conceptdoi": "10.5281/zenodo.20291739",
+  "doi_url": "https://doi.org/10.5281/zenodo.20348006",
+  "metadata": {
+    "title": "GWTC-5.0: Parameter estimation data release (Part 2 of 2)",
+    "doi": "10.5281/zenodo.20348006",
+    "publication_date": "2026-05-26",
+    "description": "<p>This material is part of several data products associated with GWTC-5.0, the fifth Gravitational-Wave Transient Catalog from the <a href=\"https://www.ligo.org/\">LIGO</a> Scientific Collaboration, the&nbsp;<a href=\"https://www.virgo-gw.eu/\">Virgo</a> Collaboration, and the <a href=\"https://gwcenter.icrr.u-tokyo.ac.jp/en/\">KAGRA</a> Collaboration. For more information, see the results paper (<a href=\"https://dcc.ligo.org/LIGO-P2600152/public\">https://dcc.ligo.org/LIGO-P2600152/public</a>), the related material linked from this page, and the GWTC-5.0 data release documentation (<a href=\"https://www.gw-openscience.org/GWTC-5.0/\">www.gw-openscience.org/GWTC-5.0/</a>).</p>\n<p><strong>Parameter estimation data release</strong></p>\n<p>The release of parameter estimation results is split into two parts. The first part of the release can be found at <a href=\"https://doi.org/10.5281/zenodo.20348005\">10.5281/zenodo.20348005</a>.</p>\n<p>This data release contains posterior samples (*.hdf5) for gravitational-wave candidates from the second part of the fourth observing run (O4b) as well as a summary file (<code>IGWN-GWTC5p0-29ebe06b7_25-PESummaryTable.hdf5</code>) that includes a table of credible intervals for all released posterior samples. We provide results for all O4b candidates that have a false alarm rate of less than 1 per year. There is one .hdf5 file per event that contains posterior samples for all parameter estimation runs on that event, as well as mixed samples where multiple waveform models have been equally weighted (for analyses where mixed samples are applicable).</p>\n<p>In addition to containing the posterior samples, the .hdf5 files also contain metadata about the analyses, including the configuration files (which specify details such as the detector data analysed), noise power spectral densities (potentially for a superset of the detectors used in the analysis), priors, and calibration uncertainty envelopes. See the&nbsp;<a href=\"https://dcc.ligo.org/LIGO-P2400386/public\">paper</a> appendices and the provided notebook for further information</p>\n<p>The inference of the source parameters was performed with either <a href=\"https://lscsoft.docs.ligo.org/bilby/\">Bilby</a> or <a href=\"https://git.ligo.org/rapidpe-rift/rift\">RIFT</a>. The results are formatted using&nbsp;<a href=\"https://lscsoft.docs.ligo.org/pesummary/\">PESummary</a>.</p>\n<p>This release is primarily composed of results from the second part of O4 (O4b). A similar release was made for the previous <a href=\"https://doi.org/10.5281/zenodo.16053483\">GWTC-4.0 catalog</a> that contained candidates from the first part of O4 (O4a).&nbsp;</p>\n<p><strong>Sky localization data release</strong></p>\n<p>The sky localization tar file (<code>IGWN-GWTC5p0-29ebe06b7_25-Archived_Skymaps.tar.gz</code> from <a href=\"https://doi.org/10.5281/zenodo.20276105\">10.5281/zenodo.20276105</a>) contains candidate sky localizations corresponding to different parameter estimation configurations (.fits). There is one .fits file per set of posterior samples.</p>\n<p><strong>Python notebook</strong></p>\n<p>The Python notebook (<code>GWTC5p0_PE_data_release.ipynb</code> from <a href=\"https://doi.org/10.5281/zenodo.20276105\">10.5281/zenodo.20276105</a>) explains how to read and use the data files included in this release with a selection of examples.</p>\n<p><strong>How to download all files from this page</strong></p>\n<p>If you would like to download all files on this page, we recommend <a href=\"https://gitlab.com/dvolgyes/zenodo_get\">zenodo_get</a>:</p>\n<pre><code>pip install zenodo-get\nzenodo_get RECORD_ID_OR_DOI\n</code></pre>\n<p>where the record ID for the most recent version of this page is 20291739 and IDs for other versions can be found in the Versions section at the side of this page.</p>\n<p><strong>Additional information</strong></p>\n<p>For more general background on gravitational-wave search analysis and sky maps, try the materials from a <a href=\"https://www.gw-openscience.org/workshops/\">GW Open Data Workshop</a> or the <a href=\"https://doi.org/10.1088/1361-6382/ab685e\">guide to LIGO&ndash;Virgo data analysis</a>.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "LIGO Scientific Collaboration and Virgo Collaboration and KAGRA Collaboration",
+        "affiliation": null
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "communities": [
+      {
+        "id": "ligo-virgo-kagra"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "20291739"
+          }
+        }
+      ]
+    },
+    "notes": "<p>This material is based upon work supported by NSF's LIGO Laboratory, which is a major facility fully funded by the National Science Foundation. The authors also gratefully acknowledge the support of the Science and Technology Facilities Council (STFC) of the United Kingdom, the Max-Planck-Society (MPS), and the State of Niedersachsen/Germany for support of the construction of Advanced LIGO and construction and operation of the GEO 600 detector. Additional support for Advanced LIGO was provided by the Australian Research Council.The authors gratefully acknowledge the Italian Istituto Nazionale di Fisica Nucleare (INFN), &nbsp;the French Centre National de la Recherche Scientifique (CNRS) and the Netherlands Organization for Scientific Research (NWO)for the construction and operation of the Virgo detector and the creation and support of the EGO consortium. The authors also gratefully acknowledge research support from these agencies as well as by the Council of Scientific and Industrial Research of India, the Department of Science and Technology, India, the Science &amp; Engineering Research Board (SERB), India, the Ministry of Human Resource Development, India,the Spanish Agencia Estatal de Investigaci&oacute;n (AEI),the Spanish Ministerio de Ciencia, Innovaci&oacute;n y Universidades, the European Union NextGenerationEU/PRTR (PRTR-C17.I1), the ICSC - CentroNazionale di Ricerca in High Performance Computing, Big Data and Quantum Computing, funded by the European Union NextGenerationEU, the Comunitat Aut&ograve;noma de les Illes Balears through the Conselleria d'Educaci&oacute; i Universitats, the Conselleria d'Innovaci&oacute;, Universitats, Ci&egrave;ncia i Societat Digital de la Generalitat Valenciana and the CERCA Programme Generalitat de Catalunya, Spain, the Polish National Agency for Academic Exchange, the National Science Centre of Poland and the European Union - European Regional Development Fund; the Foundation for Polish Science (FNP), the Polish Ministry of Science and Higher Education, the Swiss National Science Foundation (SNSF), the Russian Science Foundation, the European Commission, the European Social Funds (ESF), the European Regional Development Funds (ERDF), the Royal Society, the Scottish Funding Council, the Scottish Universities Physics Alliance, the Hungarian Scientific Research Fund (OTKA), the French Lyon Institute of Origins (LIO), the Belgian Fonds de la Recherche Scientifique (FRS-FNRS), Actions de Recherche Concert&eacute;es (ARC) and Fonds Wetenschappelijk Onderzoek - Vlaanderen (FWO), Belgium, the Paris &Icirc;le-de-France Region, the National Research, Development and Innovation Office of Hungary (NKFIH), the National Research Foundation of Korea, the Natural Sciences and Engineering Research Council of Canada (NSERC), the Canadian Foundation for Innovation (CFI), the Brazilian Ministry of Science, Technology, and Innovations, the International Center for Theoretical Physics South American Institute for Fundamental Research (ICTP-SAIFR), the Research Grants Council of Hong Kong, the National Natural Science Foundation of China (NSFC), the Israel Science Foundation (ISF), the US-Israel Binational Science Fund (BSF), the Leverhulme Trust, the Research Corporation, the National Science and Technology Council (NSTC), Taiwan, the United States Department of Energy, and the Kavli Foundation. The authors gratefully acknowledge the support of the NSF, STFC, INFN and CNRS for provision of computational resources. This work was supported by MEXT, the JSPS Leading-edge Research Infrastructure Program, JSPS Grant-in-Aid for Specially Promoted Research 26000005, JSPS Grant-in-Aid for Scientific Research on Innovative Areas 2402: 24103006, 24103005, and 2905: JP17H06358, JP17H06361 and JP17H06364, JSPS Core-to-Core Program A. Advanced Research Networks, JSPS Grants-in-Aid for Scientific Research (S) 17H06133 and 20H05639, JSPS Grant-in-Aid for Transformative Research Areas (A) 20A203: JP20H05854, the joint research program of the Institute for Cosmic Ray Research, University of Tokyo, the National Research Foundation (NRF), the Computing Infrastructure Project of the Global Science experimental Data hub Center (GSDC) at KISTI, the Korea Astronomy and Space Science Institute (KASI), the Ministry of Science and ICT (MSIT) in Korea, Academia Sinica (AS), the AS Grid Center (ASGC) and the National Science and Technology Council (NSTC) in Taiwan under grants including the Science Vanguard Research Program, the Advanced Technology Center (ATC) of NAOJ, and the Mechanical Engineering Center of KEK.</p>"
+  },
+  "title": "GWTC-5.0: Parameter estimation data release (Part 2 of 2)",
+  "links": {
+    "self": "https://zenodo.org/api/records/20348006",
+    "self_html": "https://zenodo.org/records/20348006",
+    "preview_html": "https://zenodo.org/records/20348006?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.20348006",
+    "self_doi": "https://doi.org/10.5281/zenodo.20348006",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20348006",
+    "reserve_doi": "https://zenodo.org/api/records/20348006/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/20291739",
+    "parent_html": "https://zenodo.org/records/20291739",
+    "parent_doi": "https://doi.org/10.5281/zenodo.20291739",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.20291739",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:20348006/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:20348006/sequence/default",
+    "files": "https://zenodo.org/api/records/20348006/files",
+    "media_files": "https://zenodo.org/api/records/20348006/media-files",
+    "latest": "https://zenodo.org/api/records/20348006/versions/latest",
+    "latest_html": "https://zenodo.org/records/20348006/latest",
+    "versions": "https://zenodo.org/api/records/20348006/versions",
+    "draft": "https://zenodo.org/api/records/20348006/draft",
+    "access_links": "https://zenodo.org/api/records/20348006/access/links",
+    "access_grants": "https://zenodo.org/api/records/20348006/access/grants",
+    "access_users": "https://zenodo.org/api/records/20348006/access/users",
+    "access_request": "https://zenodo.org/api/records/20348006/access/request",
+    "access": "https://zenodo.org/api/records/20348006/access",
+    "communities": "https://zenodo.org/api/records/20348006/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/20348006/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/20348006/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/20348006/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/20348006/quota-increase",
+    "requests": "https://zenodo.org/api/records/20348006/requests"
+  },
+  "updated": "2026-06-15T23:02:19.374843+00:00",
+  "recid": "20348006",
+  "revision": 6,
+  "files": [
+    {
+      "id": "3aa0883a-4c9a-481b-91e7-fe01e95d1f0c",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW250108_152221-combined_PEDataRelease.hdf5",
+      "size": 274199980,
+      "checksum": "md5:42e2060a23d0694eb212f60f94c6cfa0",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250108_152221-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "c9ee0fc8-0cd3-4d83-aeb7-d621761d398b",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW250119_190238-combined_PEDataRelease.hdf5",
+      "size": 1351276824,
+      "checksum": "md5:33638594bcbb8ecf30588fa627804f1e",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250119_190238-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "56a72e47-c44c-4e35-a4ec-6fe8abd81426",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW250116_015318-combined_PEDataRelease.hdf5",
+      "size": 153897552,
+      "checksum": "md5:47f6e737709b4cf88548dd885ddf3026",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250116_015318-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "6d3844ba-42c8-43dc-accc-fbf3dc587297",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW250109_074552-combined_PEDataRelease.hdf5",
+      "size": 170071532,
+      "checksum": "md5:1a07a34fd480bf6ccc3b852ab0857d8c",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250109_074552-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "5f1f3f0d-cbd2-41cf-8b17-95fbb733652e",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW241225_042553-combined_PEDataRelease.hdf5",
+      "size": 204698344,
+      "checksum": "md5:96d3c5d49d3876babce40fdc3a06c565",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241225_042553-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "becf57be-07f7-4aae-a48d-cc35f933409d",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW250101_011205-combined_PEDataRelease.hdf5",
+      "size": 486514224,
+      "checksum": "md5:8d130c93b813682cff19f083b660000d",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250101_011205-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "e3a5ae48-12d3-49d1-b609-287553fe4f39",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW241210_060606-combined_PEDataRelease.hdf5",
+      "size": 331836704,
+      "checksum": "md5:14ba29f53301486bece3a297cf062e94",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241210_060606-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "c87c90dc-9a6b-4036-8f4c-d581fba73191",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW250114_082203-combined_PEDataRelease.hdf5",
+      "size": 1735932504,
+      "checksum": "md5:c19521744221e3117e799739b672f9b0",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250114_082203-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "e8cd0d41-1ab3-4303-a4e2-8643fd5b460b",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW241201_055758-combined_PEDataRelease.hdf5",
+      "size": 253799108,
+      "checksum": "md5:21eccd07e07ad55f15a59bea92fc5d0c",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241201_055758-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "ca4146c8-6e82-4545-a497-a9abc241df8d",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW241230_084504-combined_PEDataRelease.hdf5",
+      "size": 160549876,
+      "checksum": "md5:248f6aa86c41aabe58e4a1ec3289596d",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241230_084504-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "075090c0-ff74-41b1-8a36-2f53c5f08e19",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW241229_155844-combined_PEDataRelease.hdf5",
+      "size": 208635964,
+      "checksum": "md5:254d9593898315151d2dd99c5310e40f",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241229_155844-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "4eb687d6-0b0e-4ae8-95c5-136198ec796e",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW250118_023225-combined_PEDataRelease.hdf5",
+      "size": 248098780,
+      "checksum": "md5:6f7247404942702c1db5e0af80a6f67c",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250118_023225-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "fe789f0c-90c4-4fe6-bdc4-95d0718a81ea",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW250118_055802-combined_PEDataRelease.hdf5",
+      "size": 761426984,
+      "checksum": "md5:2e092ced095294d7910b65bdf7215b7a",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250118_055802-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "2ac5ece7-6f37-47a5-ae48-72aa9fd1b0d3",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW250104_015122-combined_PEDataRelease.hdf5",
+      "size": 221028524,
+      "checksum": "md5:b112f279a582a0c7a3587ff9fc3e5afc",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250104_015122-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "859bfd80-a66e-4e0d-aef3-75802b64c3c7",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW241230_233618-combined_PEDataRelease.hdf5",
+      "size": 357691108,
+      "checksum": "md5:93ddf0bc482d9ab7f1fb857cc5969005",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241230_233618-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "d5113f5e-4cb7-4fa2-a1af-c8b4f12dae46",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW241210_120900-combined_PEDataRelease.hdf5",
+      "size": 173545500,
+      "checksum": "md5:99a5392695550824561cacf89094c0d4",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241210_120900-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "1fbace4d-f182-4c44-b06d-c403ed4f53ea",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW241231_054133-combined_PEDataRelease.hdf5",
+      "size": 436653664,
+      "checksum": "md5:0378341e35688c394ee0f8f0b9749e0c",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241231_054133-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "f1eaf333-b8c4-45e3-b3ec-5859097cecdb",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW241225_082815-combined_PEDataRelease.hdf5",
+      "size": 252309884,
+      "checksum": "md5:43a3a0f36e7212131039b7e806e7b189",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241225_082815-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "53e8e84b-4101-4902-8ffd-ab2518a4fb85",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW250109_010541-combined_PEDataRelease.hdf5",
+      "size": 507508740,
+      "checksum": "md5:e3c6d6644de5a8ab1770a7f2d4e1d11f",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250109_010541-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "8d990aff-a46b-4054-9930-c019fe77d1f3",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW250118_170523-combined_PEDataRelease.hdf5",
+      "size": 248777060,
+      "checksum": "md5:5d1f1146004e7b437ebba33ec3f5fbf2",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250118_170523-combined_PEDataRelease.hdf5/content"
+      }
+    },
+    {
+      "id": "dcd8178f-3ae8-4ab3-94db-00447beac1ad",
+      "key": "IGWN-GWTC5p0-29ebe06b7_25-GW250119_025138-combined_PEDataRelease.hdf5",
+      "size": 418169812,
+      "checksum": "md5:3ba41a66fd5bce528b7fc982f9374651",
+      "links": {
+        "self": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250119_025138-combined_PEDataRelease.hdf5/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "232132"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 10822,
+    "unique_downloads": 5271,
+    "views": 1650,
+    "unique_views": 1474,
+    "version_downloads": 9941,
+    "version_unique_downloads": 4479,
+    "version_unique_views": 1284,
+    "version_views": 1436
+  },
+  "state": "done",
+  "submitted": true
+}

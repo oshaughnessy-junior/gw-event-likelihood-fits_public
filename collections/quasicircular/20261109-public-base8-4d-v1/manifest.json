@@ -1,0 +1,92 @@
+{
+  "schema": "nal-collection-v1",
+  "collection_id": "quasicircular/20261109-public-base8-4d-v1",
+  "family": "quasicircular",
+  "likelihood_backend": "native_spin_base_redshift",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "coordinate_cosmology": {
+    "H0": 67.9,
+    "Om0": 0.3065,
+    "Tcmb0": 0
+  },
+  "source_revision": "sha256:f648b63c3416902120f32b98606b38afa6d2f9aa8408460cd67275ac925dd0a1",
+  "proof_source_collection": "quasicircular/20261031-public-nativecdf-4d-v1",
+  "selection_policy": "The five public-certified events of quasicircular/20261031-public-nativecdf-4d-v1; published only where the base-measure fit passes the declared checks on three intrinsic-group splits. Not a complete event catalog.",
+  "requested_events": [
+    "GW190719_215514",
+    "GW190805_211137",
+    "GW190929_012149",
+    "GW230820_212515",
+    "GW230928_215827"
+  ],
+  "entries": [
+    {
+      "event": "GW190719_215514",
+      "analysis_id": "GW190719_215514__public_base8_4d",
+      "source_id": "GW190719_215514__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190719_215514__public_base8_4d.json",
+        "sha256": "1fa8ddd93efa256107acb5c15ed1b2f23f414364b6b7bb72d7094c4ae9ab9d95"
+      },
+      "validation": {
+        "path": "validation/GW190719_215514__public_base8_4d.json",
+        "sha256": "253de60f1e5be04f15ab886b18acd88872ec514b211cc3cf983cf887d437bf60"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passed the producer declared checks on the published intrinsic-group split and on every listed replication split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior."
+      },
+      "aliases": [
+        "GW190719_215514"
+      ]
+    },
+    {
+      "event": "GW190805_211137",
+      "analysis_id": "GW190805_211137__public_base8_4d",
+      "source_id": "GW190805_211137__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190805_211137__public_base8_4d.json",
+        "sha256": "9edebf10acb9bfbc877d60f71c08a69e570b006829a68a21372810e9cae9a504"
+      },
+      "validation": {
+        "path": "validation/GW190805_211137__public_base8_4d.json",
+        "sha256": "1ae21f83559bef1f3f5eaaf5095a7bf5eb63a7acdd866e05527ad4023a099ba8"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passed the producer declared checks on the published intrinsic-group split and on every listed replication split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior."
+      },
+      "aliases": [
+        "GW190805_211137"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "event": "GW190929_012149",
+      "reason": "No base-measure fit passes the declared checks: 6 variants (k 8-16, two EM tolerances) give conditional q|z JS 0.071-0.089 bits (threshold 0.06; PE train-versus-heldout floor 0.037-0.052), and four of them also exceed axis KS 0.1. The native-CDF candidate remains in quasicircular/20261031-public-nativecdf-4d-v1."
+    },
+    {
+      "event": "GW230820_212515",
+      "reason": "Reference-limited: the held-out reference information ESS is 59 under the declared population targets (threshold 80), independent of the fit, and the PE train-versus-heldout q|z JS floor exceeds 0.3 bits. All 6 variants fail. The native-CDF candidate remains in quasicircular/20261031-public-nativecdf-4d-v1."
+    },
+    {
+      "event": "GW230928_215827",
+      "reason": "Reference-limited: the held-out reference information ESS is 53 under the declared population targets (threshold 80), independent of the fit, and the PE train-versus-heldout q|z JS floor exceeds 0.3 bits. All 6 variants fail. The native-CDF candidate remains in quasicircular/20261031-public-nativecdf-4d-v1."
+    }
+  ],
+  "source_manifest": {
+    "path": "sources.json",
+    "sha256": "dce771da834598bc9080df2b713940e2bd50a75e8f856e3e4413b1a32b5f1fc4"
+  },
+  "counts": {
+    "public_source_verified_candidates": 2,
+    "unresolved": 3,
+    "scientifically_accepted": 0
+  }
+}

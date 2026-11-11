@@ -1,0 +1,2204 @@
+{
+  "event": "GW230609_064958",
+  "rows": 15212,
+  "analysis_support": {
+    "a1max": 0.99,
+    "a2max": 0.99,
+    "amax": 0.99,
+    "mc_det_min": 23.89353510139339,
+    "mc_det_max": 56.09155823482591,
+    "q_min": 0.16666667,
+    "q_max": 1.0,
+    "m1_det_min": 1.0,
+    "m1_det_max": 1000.0,
+    "m2_det_min": 1.0,
+    "m2_det_max": 1000.0,
+    "z_min": 0.02227011352908153,
+    "z_max": 1.3689933730127648,
+    "mc_min": 10.085944255304865,
+    "mc_max": 54.869605882526095,
+    "mtotal_det_min": 60.0,
+    "mtotal_det_max": 400.0
+  },
+  "prior_contract": {
+    "schema": "aligned-redshift-native-prior-v1",
+    "event": "GW230609_064958",
+    "coordinate_order": [
+      "mc_source",
+      "eta",
+      "chi_eff",
+      "z"
+    ],
+    "analysis_support": {
+      "a1max": 0.99,
+      "a2max": 0.99,
+      "amax": 0.99,
+      "mc_det_min": 23.89353510139339,
+      "mc_det_max": 56.09155823482591,
+      "q_min": 0.16666667,
+      "q_max": 1.0,
+      "m1_det_min": 1.0,
+      "m1_det_max": 1000.0,
+      "m2_det_min": 1.0,
+      "m2_det_max": 1000.0,
+      "z_min": 0.02227011352908153,
+      "z_max": 1.3689933730127648,
+      "mc_min": 10.085944255304865,
+      "mc_max": 54.869605882526095,
+      "mtotal_det_min": 60.0,
+      "mtotal_det_max": 400.0
+    },
+    "spin_caps": [
+      0.99,
+      0.99
+    ],
+    "spin_quadrature_order": 128,
+    "distance_prior": {
+      "kind": "UniformSourceFrame",
+      "analytic": "bilby.gw.prior.UniformSourceFrame(minimum=100.0, maximum=10000.0, cosmology=LambdaCDM(name=None, H0=67.9, Om0=0.3065, Ode0=0.6935, Tcmb0=0., Neff=3.04, m_nu=None, Ob0=None), name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+      "status": "explicit_serialized_analytic_prior"
+    },
+    "metadata_provenance": {
+      "kind": "source_bound_staged_posterior",
+      "source_sha256": "e9a67be249137c56748987a43182d9cf7f2bd77a50a1f780a6eec25685b106e6",
+      "export_sha256": "cf79b8bcc3babc538ca51f9566aa7b5760f0e93af1991d9716ba8211d4ec6e53"
+    },
+    "native_settings": {
+      "config_file/config/additional-transfer-paths": [
+        "<host-path>/NRSur7dq4.h5"
+      ],
+      "config_file/config/analysis-executable": [
+        "/cvmfs/software.igwn.org/conda/envs/igwn-py310-20241106/bin/bilby_pipe_analysis"
+      ],
+      "config_file/config/calibration-marginalization": [
+        "False"
+      ],
+      "config_file/config/calibration-model": [
+        "CubicSpline"
+      ],
+      "config_file/config/catch-waveform-errors": [
+        "True"
+      ],
+      "config_file/config/coherence-test": [
+        "False"
+      ],
+      "config_file/config/conversion-function": [
+        "None"
+      ],
+      "config_file/config/create-summary": [
+        "False"
+      ],
+      "config_file/config/data-dict": [
+        "None"
+      ],
+      "config_file/config/data-format": [
+        "gwf"
+      ],
+      "config_file/config/default-prior": [
+        "BBHPriorDict"
+      ],
+      "config_file/config/deltaT": [
+        "0.2"
+      ],
+      "config_file/config/desired-sites": [
+        "None"
+      ],
+      "config_file/config/detectors": [
+        "['H1', 'L1']"
+      ],
+      "config_file/config/distance-marginalization": [
+        "True"
+      ],
+      "config_file/config/distance-marginalization-lookup-table": [
+        "bilby-NRSur7dq4-2.TD.npz"
+      ],
+      "config_file/config/duration": [
+        "8"
+      ],
+      "config_file/config/enforce-signal-duration": [
+        "False"
+      ],
+      "config_file/config/environment-variables": [
+        "{'HDF5_USE_FILE_LOCKING': False, 'OMP_NUM_THREADS'=1, 'OMP_PROC_BIND'=False}"
+      ],
+      "config_file/config/existing-dir": [
+        "None"
+      ],
+      "config_file/config/extra-likelihood-kwargs": [
+        "None"
+      ],
+      "config_file/config/final-result": [
+        "True"
+      ],
+      "config_file/config/final-result-nsamples": [
+        "20000"
+      ],
+      "config_file/config/frame-type-dict": [
+        "{ H1:H1_HOFT_C00_AR,L1:L1_HOFT_C00_AR, }"
+      ],
+      "config_file/config/frequency-domain-source-model": [
+        "lal_binary_black_hole"
+      ],
+      "config_file/config/gaussian-noise": [
+        "False"
+      ],
+      "config_file/config/generation-function": [
+        "None"
+      ],
+      "config_file/config/generation-seed": [
+        "42"
+      ],
+      "config_file/config/gps-file": [
+        "None"
+      ],
+      "config_file/config/gps-tuple": [
+        "None"
+      ],
+      "config_file/config/ignore-gwpy-data-quality-check": [
+        "True"
+      ],
+      "config_file/config/injection": [
+        "False"
+      ],
+      "config_file/config/injection-dict": [
+        "None"
+      ],
+      "config_file/config/injection-file": [
+        "None"
+      ],
+      "config_file/config/injection-numbers": [
+        "None"
+      ],
+      "config_file/config/injection-waveform-approximant": [
+        "None"
+      ],
+      "config_file/config/jitter-time": [
+        "True"
+      ],
+      "config_file/config/label": [
+        "bilby-NRSur7dq4-2"
+      ],
+      "config_file/config/likelihood-type": [
+        "GravitationalWaveTransient"
+      ],
+      "config_file/config/local": [
+        "False"
+      ],
+      "config_file/config/local-generation": [
+        "False"
+      ],
+      "config_file/config/local-plot": [
+        "False"
+      ],
+      "config_file/config/log-directory": [
+        "None"
+      ],
+      "config_file/config/maximum-frequency": [
+        "{ H1:448,L1:448, }"
+      ],
+      "config_file/config/minimum-frequency": [
+        "{ H1:20,L1:20, waveform: 0  }"
+      ],
+      "config_file/config/mode-array": [
+        "None"
+      ],
+      "config_file/config/n-parallel": [
+        "3"
+      ],
+      "config_file/config/n-simulation": [
+        "0"
+      ],
+      "config_file/config/numerical-relativity-file": [
+        "None"
+      ],
+      "config_file/config/online-pe": [
+        "False"
+      ],
+      "config_file/config/osg": [
+        "True"
+      ],
+      "config_file/config/outdir": [
+        "<host-path>/bilby-NRSur7dq4-2"
+      ],
+      "config_file/config/periodic-restart-time": [
+        "10000"
+      ],
+      "config_file/config/phase-marginalization": [
+        "False"
+      ],
+      "config_file/config/plot-calibration": [
+        "False"
+      ],
+      "config_file/config/plot-corner": [
+        "False"
+      ],
+      "config_file/config/plot-format": [
+        "png"
+      ],
+      "config_file/config/plot-marginal": [
+        "False"
+      ],
+      "config_file/config/plot-skymap": [
+        "False"
+      ],
+      "config_file/config/plot-waveform": [
+        "False"
+      ],
+      "config_file/config/pn-amplitude-order": [
+        "0"
+      ],
+      "config_file/config/pn-phase-order": [
+        "-1"
+      ],
+      "config_file/config/pn-spin-order": [
+        "-1"
+      ],
+      "config_file/config/pn-tidal-order": [
+        "-1"
+      ],
+      "config_file/config/post-trigger-duration": [
+        "2.0"
+      ],
+      "config_file/config/postprocessing-arguments": [
+        "None"
+      ],
+      "config_file/config/postprocessing-executable": [
+        "None"
+      ],
+      "config_file/config/prior-dict": [
+        "{\nchirp_mass = bilby.gw.prior.UniformInComponentsChirpMass(name='chirp_mass', minimum=23.89353510139339, maximum=56.09155823482591, unit='$M_\\{\\{\\odot\\}\\}$'),\nmass_ratio = bilby.gw.prior.UniformInComponentsMassRatio(name='mass_ratio', minimum=0.16666667, maximum=1.0),\ntotal_mass = Constraint(name='total_mass', minimum=60, maximum=400),\nmass_1 = Constraint(name='mass_1', minimum=1, maximum=1000),\nmass_2 = Constraint(name='mass_2', minimum=1, maximum=1000),\na_1 = Uniform(name='a_1', minimum=0, maximum=0.99),\na_2 = Uniform(name='a_2', minimum=0, maximum=0.99),\ntilt_1 = Sine(name='tilt_1'),\ntilt_2 = Sine(name='tilt_2'),\nphi_12 = Uniform(name='phi_12', minimum=0, maximum=2 * np.pi, boundary='periodic'),\nphi_jl = Uniform(name='phi_jl', minimum=0, maximum=2 * np.pi, boundary='periodic'),\nluminosity_distance =  bilby.gw.prior.UniformSourceFrame(name='luminosity_distance', maximum=10000.0, minimum=100.0,   unit='Mpc'),\ndec = Cosine(name='dec'),\nra = Uniform(name='ra', minimum=0, maximum=2 * np.pi, boundary='periodic'),\ntheta_jn = Sine(name='theta_jn'),\npsi = Uniform(name='psi', minimum=0, maximum=np.pi, boundary='periodic'),\nphase = Uniform(name='phase', minimum=0, maximum=2 * np.pi, boundary='periodic')}"
+      ],
+      "config_file/config/psd-dict": [
+        "{ H1:<host-path>/glitch_median_PSD_forLI_H1.dat,L1:<host-path>/glitch_median_PSD_forLI_L1.dat, }"
+      ],
+      "config_file/config/psd-fractional-overlap": [
+        "0.5"
+      ],
+      "config_file/config/psd-length": [
+        "8"
+      ],
+      "config_file/config/psd-maximum-duration": [
+        "1024"
+      ],
+      "config_file/config/psd-method": [
+        "median"
+      ],
+      "config_file/config/psd-start-time": [
+        "None"
+      ],
+      "config_file/config/reference-frame": [
+        "L1H1"
+      ],
+      "config_file/config/reference-frequency": [
+        "20.0"
+      ],
+      "config_file/config/request-cpus": [
+        "16"
+      ],
+      "config_file/config/request-disk": [
+        "8"
+      ],
+      "config_file/config/request-memory": [
+        "4.0"
+      ],
+      "config_file/config/request-memory-generation": [
+        "None"
+      ],
+      "config_file/config/resampling-method": [
+        "lal"
+      ],
+      "config_file/config/result-format": [
+        "hdf5"
+      ],
+      "config_file/config/sampler": [
+        "dynesty"
+      ],
+      "config_file/config/sampler-kwargs": [
+        "{'nlive': 1000, 'naccept': 60, 'check_point_plot': True, 'check_point_delta_t': 1800, 'print_method': 'interval-60', 'sample': 'acceptance-walk'}"
+      ],
+      "config_file/config/sampling-frequency": [
+        "1024"
+      ],
+      "config_file/config/sampling-seed": [
+        "1"
+      ],
+      "config_file/config/scheduler": [
+        "condor"
+      ],
+      "config_file/config/scheduler-args": [
+        "None"
+      ],
+      "config_file/config/scheduler-env": [
+        "None"
+      ],
+      "config_file/config/scheduler-module": [
+        "None"
+      ],
+      "config_file/config/single-postprocessing-arguments": [
+        "None"
+      ],
+      "config_file/config/single-postprocessing-executable": [
+        "None"
+      ],
+      "config_file/config/spline-calibration-amplitude-uncertainty-dict": [
+        "None"
+      ],
+      "config_file/config/spline-calibration-envelope-dict": [
+        "{ H1:<host-path>/H1.txt,L1:<host-path>/L1.txt, }"
+      ],
+      "config_file/config/spline-calibration-nodes": [
+        "10"
+      ],
+      "config_file/config/spline-calibration-phase-uncertainty-dict": [
+        "None"
+      ],
+      "config_file/config/summarypages-arguments": [
+        "None"
+      ],
+      "config_file/config/time-marginalization": [
+        "False"
+      ],
+      "config_file/config/time-reference": [
+        "L1"
+      ],
+      "config_file/config/timeslide-dict": [
+        "None"
+      ],
+      "config_file/config/timeslide-file": [
+        "None"
+      ],
+      "config_file/config/transfer-files": [
+        "True"
+      ],
+      "config_file/config/trigger-time": [
+        "1370328616.273052"
+      ],
+      "config_file/config/tukey-roll-off": [
+        "1.0"
+      ],
+      "config_file/config/waveform-approximant": [
+        "NRSur7dq4"
+      ],
+      "config_file/config/waveform-arguments-dict": [
+        "None"
+      ],
+      "config_file/config/waveform-generator": [
+        "bilby.gw.waveform_generator.LALCBCWaveformGenerator"
+      ],
+      "config_file/config/webdir": [
+        "<host-path>/bilby-NRSur7dq4-2"
+      ],
+      "config_file/config/zero-noise": [
+        "False"
+      ],
+      "meta_data/meta_data/IFOs": [
+        "H1 L1"
+      ],
+      "meta_data/meta_data/approximant": [
+        "NRSur7dq4"
+      ],
+      "meta_data/meta_data/backward_spin_evolution": [
+        "hybrid_orbit_averaged",
+        "lalsimulation.tilts_at_infinity.hybrid_spin_evolution.calc_tilts_at_infty_hybrid_evolve==v2",
+        "approx=SpinTaylorT5"
+      ],
+      "meta_data/meta_data/calibration_marginalization": [
+        "False"
+      ],
+      "meta_data/meta_data/cosmology": [
+        "Planck15_LAL"
+      ],
+      "meta_data/meta_data/delta_f": [
+        0.00390625
+      ],
+      "meta_data/meta_data/distance_marginalization": [
+        "True"
+      ],
+      "meta_data/meta_data/duration": [
+        8.0
+      ],
+      "meta_data/meta_data/f_final": [
+        448
+      ],
+      "meta_data/meta_data/f_low": [
+        20.0
+      ],
+      "meta_data/meta_data/f_ref": [
+        20.0
+      ],
+      "meta_data/meta_data/f_start": [
+        0
+      ],
+      "meta_data/meta_data/final_kick_NR_fits": [
+        "NRSur7dq4Remnant"
+      ],
+      "meta_data/meta_data/final_mass_NR_fits": [
+        "NRSur7dq4Remnant"
+      ],
+      "meta_data/meta_data/final_spin_NR_fits": [
+        "NRSur7dq4Remnant"
+      ],
+      "meta_data/meta_data/forward_spin_evolution": [
+        0.408248290463863
+      ],
+      "meta_data/meta_data/frequency_domain_source_model": [
+        "bilby.gw.sourcelal_binary_black_hole"
+      ],
+      "meta_data/meta_data/lal_version": [
+        "lal_version=7.6.0, lal_git_version=Branch: None;Tag: lal-v7.6.0;Id: 43d3b7d8137d11b0dd40905636c9f1628d5cbde2;;Builder: Adam Mercer <adam.mercer@ligo.org>;Repository status: CLEAN: All modifications committed"
+      ],
+      "meta_data/meta_data/lalsimulation_version": [
+        "lalsimulation_version=6.0.0, lalsimulation_git_version=Branch: None;Tag: lalsimulation-v6.0.0;Id: 5fd08c4d441c0684ae5ab3bffaad442240e30461;;Builder: Adam Mercer <adam.mercer@ligo.org>;Repository status: CLEAN: All modifications committed"
+      ],
+      "meta_data/meta_data/parameter_conversion": [
+        "bilby.gw.conversionconvert_to_lal_binary_black_hole_parameters"
+      ],
+      "meta_data/meta_data/peak_luminosity_NR_fits": [
+        "function bbh_peak_luminosity_non_precessing_UIB2016 at 0x14da2e454700",
+        "function bbh_peak_luminosity_non_precessing_Healyetal at 0x14da2e454790"
+      ],
+      "meta_data/meta_data/phase_marginalization": [
+        "False"
+      ],
+      "meta_data/meta_data/precessing_snr/approximant": [
+        "IMRPhenomPv2"
+      ],
+      "meta_data/meta_data/precessing_snr/f_final": [
+        448
+      ],
+      "meta_data/meta_data/precessing_snr/psd": [
+        "stored"
+      ],
+      "meta_data/meta_data/reference_frame": [
+        "L1H1"
+      ],
+      "meta_data/meta_data/sampling_frequency": [
+        1024.0
+      ],
+      "meta_data/meta_data/start_time": [
+        1370328610.2730103
+      ],
+      "meta_data/meta_data/time_domain_source_model": [
+        "None"
+      ],
+      "meta_data/meta_data/time_marginalization": [
+        "False"
+      ],
+      "meta_data/meta_data/time_reference": [
+        "L1"
+      ],
+      "meta_data/meta_data/waveform_generator_class": [
+        "bilby.gw.waveform_generatorLALCBCWaveformGenerator"
+      ],
+      "meta_data/other/area50": [
+        "341.4673238932265"
+      ],
+      "meta_data/other/area90": [
+        "1300.909997256967"
+      ],
+      "meta_data/other/bilby_pipe_version": [
+        "1.4.0"
+      ],
+      "meta_data/other/bilby_version": [
+        "2.2.2.1"
+      ],
+      "meta_data/other/coinc_event_id": [
+        "nan"
+      ],
+      "meta_data/other/command_line_args/additional_transfer_paths": [
+        "<host-path>/NRSur7dq4.h5"
+      ],
+      "meta_data/other/command_line_args/allow_tape": [
+        "True"
+      ],
+      "meta_data/other/command_line_args/analysis_executable": [
+        "/cvmfs/software.igwn.org/conda/envs/igwn-py310-20241106/bin/bilby_pipe_analysis"
+      ],
+      "meta_data/other/command_line_args/analysis_executable_parser": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/calibration_lookup_table": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/calibration_marginalization": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/calibration_model": [
+        "CubicSpline"
+      ],
+      "meta_data/other/command_line_args/calibration_prior_boundary": [
+        "reflective"
+      ],
+      "meta_data/other/command_line_args/catch_waveform_errors": [
+        "True"
+      ],
+      "meta_data/other/command_line_args/coherence_test": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/conda_env": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/condor_job_priority": [
+        0
+      ],
+      "meta_data/other/command_line_args/conversion_function": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/create_summary": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/data_dict": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/data_dump_file": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/data_find_url": [
+        "https://datafind.igwn.org"
+      ],
+      "meta_data/other/command_line_args/data_find_urltype": [
+        "osdf"
+      ],
+      "meta_data/other/command_line_args/data_format": [
+        "gwf"
+      ],
+      "meta_data/other/command_line_args/default_prior": [
+        "BBHPriorDict"
+      ],
+      "meta_data/other/command_line_args/deltaT": [
+        0.2
+      ],
+      "meta_data/other/command_line_args/desired_sites": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/detectors": [
+        "'H1'",
+        "'L1'"
+      ],
+      "meta_data/other/command_line_args/disable_hdf5_locking": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/distance_marginalization": [
+        "True"
+      ],
+      "meta_data/other/command_line_args/distance_marginalization_lookup_table": [
+        "bilby-NRSur7dq4-2.TD.npz"
+      ],
+      "meta_data/other/command_line_args/duration": [
+        8.0
+      ],
+      "meta_data/other/command_line_args/enforce_signal_duration": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/environment_variables": [
+        "{'HDF5_USE_FILE_LOCKING': False, 'OMP_NUM_THREADS'=1, 'OMP_PROC_BIND'=False}"
+      ],
+      "meta_data/other/command_line_args/epsilon": [
+        0.025
+      ],
+      "meta_data/other/command_line_args/existing_dir": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/extra_likelihood_kwargs": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/fiducial_parameters": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/final_result": [
+        "True"
+      ],
+      "meta_data/other/command_line_args/final_result_nsamples": [
+        20000
+      ],
+      "meta_data/other/command_line_args/frame_type_dict": [
+        "{ H1:H1_HOFT_C00_AR,L1:L1_HOFT_C00_AR, }"
+      ],
+      "meta_data/other/command_line_args/frequency_domain_source_model": [
+        "lal_binary_black_hole"
+      ],
+      "meta_data/other/command_line_args/gaussian_noise": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/generation_function": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/generation_pool": [
+        "local-pool"
+      ],
+      "meta_data/other/command_line_args/generation_seed": [
+        42
+      ],
+      "meta_data/other/command_line_args/getenv": [
+        "__none__"
+      ],
+      "meta_data/other/command_line_args/gps_file": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/gps_tuple": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/idx": [
+        0
+      ],
+      "meta_data/other/command_line_args/ignore_gwpy_data_quality_check": [
+        "True"
+      ],
+      "meta_data/other/command_line_args/ini": [
+        "working/S230609u/bilby-NRSur7dq4-2/bilby-NRSur7dq4-2_config_complete.ini"
+      ],
+      "meta_data/other/command_line_args/injection": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/injection_dict": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/injection_file": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/injection_frequency_domain_source_model": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/injection_numbers": [
+        "__none__"
+      ],
+      "meta_data/other/command_line_args/injection_waveform_approximant": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/injection_waveform_arguments": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/jitter_time": [
+        "True"
+      ],
+      "meta_data/other/command_line_args/label": [
+        "bilby-NRSur7dq4-2_data0_1370328616-273052_generation"
+      ],
+      "meta_data/other/command_line_args/likelihood_type": [
+        "GravitationalWaveTransient"
+      ],
+      "meta_data/other/command_line_args/local": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/local_generation": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/local_plot": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/log_directory": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/maximum_frequency": [
+        "{ H1:448,L1:448, }"
+      ],
+      "meta_data/other/command_line_args/minimum_frequency": [
+        "{ H1:20,L1:20, waveform: 0  }"
+      ],
+      "meta_data/other/command_line_args/mode_array": [
+        "__none__"
+      ],
+      "meta_data/other/command_line_args/n_parallel": [
+        3
+      ],
+      "meta_data/other/command_line_args/n_simulation": [
+        0
+      ],
+      "meta_data/other/command_line_args/notification": [
+        "Never"
+      ],
+      "meta_data/other/command_line_args/number_of_response_curves": [
+        1000
+      ],
+      "meta_data/other/command_line_args/numerical_relativity_file": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/osg": [
+        "True"
+      ],
+      "meta_data/other/command_line_args/outdir": [
+        "working/S230609u/bilby-NRSur7dq4-2"
+      ],
+      "meta_data/other/command_line_args/overwrite_outdir": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/periodic_restart_time": [
+        10000
+      ],
+      "meta_data/other/command_line_args/phase_marginalization": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/plot_calibration": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/plot_corner": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/plot_data": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/plot_format": [
+        "png"
+      ],
+      "meta_data/other/command_line_args/plot_injection": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/plot_marginal": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/plot_skymap": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/plot_spectrogram": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/plot_trace": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/plot_waveform": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/pn_amplitude_order": [
+        0
+      ],
+      "meta_data/other/command_line_args/pn_phase_order": [
+        -1
+      ],
+      "meta_data/other/command_line_args/pn_spin_order": [
+        -1
+      ],
+      "meta_data/other/command_line_args/pn_tidal_order": [
+        -1
+      ],
+      "meta_data/other/command_line_args/post_trigger_duration": [
+        2.0
+      ],
+      "meta_data/other/command_line_args/postprocessing_arguments": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/postprocessing_executable": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/prior_dict": [
+        "{chirp-mass: bilby.gw.prior.UniformInComponentsChirpMass(name='chirp_mass', minimum=23.89353510139339, maximum=56.09155823482591, unit='$M_\\{\\{\\odot\\}\\}$'), mass_ratio = bilby.gw.prior.UniformInComponentsMassRatio(name='mass_ratio', minimum=0.16666667, maximum=1.0), total_mass = Constraint(name='total_mass', minimum=60, maximum=400), mass_1 = Constraint(name='mass_1', minimum=1, maximum=1000), mass_2 = Constraint(name='mass_2', minimum=1, maximum=1000), a_1 = Uniform(name='a_1', minimum=0, maximum=0.99), a_2 = Uniform(name='a_2', minimum=0, maximum=0.99), tilt_1 = Sine(name='tilt_1'), tilt_2 = Sine(name='tilt_2'), phi_12 = Uniform(name='phi_12', minimum=0, maximum=2 * np.pi, boundary='periodic'), phi_jl = Uniform(name='phi_jl', minimum=0, maximum=2 * np.pi, boundary='periodic'), luminosity_distance =  bilby.gw.prior.UniformSourceFrame(name='luminosity_distance', maximum=10000.0, minimum=100.0,   unit='Mpc'), dec = Cosine(name='dec'), ra = Uniform(name='ra', minimum=0, maximum=2 * np.pi, boundary='periodic'), theta_jn = Sine(name='theta_jn'), psi = Uniform(name='psi', minimum=0, maximum=np.pi, boundary='periodic'), phase = Uniform(name='phase', minimum=0, maximum=2 * np.pi, boundary='periodic')}"
+      ],
+      "meta_data/other/command_line_args/prior_file": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/psd_dict": [
+        "{ H1:<host-path>/glitch_median_PSD_forLI_H1.dat,L1:<host-path>/glitch_median_PSD_forLI_L1.dat, }"
+      ],
+      "meta_data/other/command_line_args/psd_fractional_overlap": [
+        0.5
+      ],
+      "meta_data/other/command_line_args/psd_length": [
+        8
+      ],
+      "meta_data/other/command_line_args/psd_maximum_duration": [
+        1024
+      ],
+      "meta_data/other/command_line_args/psd_method": [
+        "median"
+      ],
+      "meta_data/other/command_line_args/psd_start_time": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/queue": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/reference_frame": [
+        "L1H1"
+      ],
+      "meta_data/other/command_line_args/reference_frequency": [
+        20.0
+      ],
+      "meta_data/other/command_line_args/request_cpus": [
+        16
+      ],
+      "meta_data/other/command_line_args/request_disk": [
+        8.0
+      ],
+      "meta_data/other/command_line_args/request_memory": [
+        4.0
+      ],
+      "meta_data/other/command_line_args/request_memory_generation": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/resampling_method": [
+        "lal"
+      ],
+      "meta_data/other/command_line_args/result_format": [
+        "hdf5"
+      ],
+      "meta_data/other/command_line_args/reweight_nested_samples": [
+        "True"
+      ],
+      "meta_data/other/command_line_args/reweighting_configuration": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/roq_folder": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/roq_linear_matrix": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/roq_quadratic_matrix": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/roq_scale_factor": [
+        1.0
+      ],
+      "meta_data/other/command_line_args/roq_weight_format": [
+        "hdf5"
+      ],
+      "meta_data/other/command_line_args/roq_weights": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/sampler": [
+        "dynesty"
+      ],
+      "meta_data/other/command_line_args/sampler_kwargs": [
+        "{'nlive': 1000, 'naccept': 60, 'check_point_plot': True, 'check_point_delta_t': 1800, 'print_method': 'interval-60', 'sample': 'acceptance-walk', 'npool': 16}"
+      ],
+      "meta_data/other/command_line_args/sampling_frequency": [
+        1024.0
+      ],
+      "meta_data/other/command_line_args/sampling_seed": [
+        1
+      ],
+      "meta_data/other/command_line_args/scheduler": [
+        "condor"
+      ],
+      "meta_data/other/command_line_args/scheduler_analysis_time": [
+        "7-00:00:00"
+      ],
+      "meta_data/other/command_line_args/scheduler_args": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/scheduler_env": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/scheduler_module": [
+        "__none__"
+      ],
+      "meta_data/other/command_line_args/single_postprocessing_arguments": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/single_postprocessing_executable": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/spline_calibration_amplitude_uncertainty_dict": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/spline_calibration_envelope_dict": [
+        "{ H1:<host-path>/H1.txt,L1:<host-path>/L1.txt, }"
+      ],
+      "meta_data/other/command_line_args/spline_calibration_nodes": [
+        10
+      ],
+      "meta_data/other/command_line_args/spline_calibration_phase_uncertainty_dict": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/submit": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/summarypages_arguments": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/time_marginalization": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/time_reference": [
+        "L1"
+      ],
+      "meta_data/other/command_line_args/timeslide_dict": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/timeslide_file": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/transfer_files": [
+        "True"
+      ],
+      "meta_data/other/command_line_args/trigger_time": [
+        "1370328616.273052"
+      ],
+      "meta_data/other/command_line_args/tukey_roll_off": [
+        1.0
+      ],
+      "meta_data/other/command_line_args/update_fiducial_parameters": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/verbose": [
+        "False"
+      ],
+      "meta_data/other/command_line_args/waveform_approximant": [
+        "NRSur7dq4"
+      ],
+      "meta_data/other/command_line_args/waveform_arguments_dict": [
+        "None"
+      ],
+      "meta_data/other/command_line_args/waveform_generator": [
+        "bilby.gw.waveform_generator.LALCBCWaveformGenerator"
+      ],
+      "meta_data/other/command_line_args/webdir": [
+        "<host-path>/bilby-NRSur7dq4-2"
+      ],
+      "meta_data/other/command_line_args/zero_noise": [
+        "False"
+      ],
+      "meta_data/other/data_dump": [
+        "working/S230609u/bilby-NRSur7dq4-2/data/bilby-NRSur7dq4-2_data0_1370328616-273052_generation_data_dump.pickle"
+      ],
+      "meta_data/other/dist50": [
+        "1539.1918222561867"
+      ],
+      "meta_data/other/dist90": [
+        "3668.7914634640556"
+      ],
+      "meta_data/other/distmean": [
+        "3344.148422836421"
+      ],
+      "meta_data/other/diststd": [
+        "1081.3307527423274"
+      ],
+      "meta_data/other/injection_parameters": [
+        "None"
+      ],
+      "meta_data/other/likelihood/calibration_marginalization": [
+        "False"
+      ],
+      "meta_data/other/likelihood/distance_marginalization": [
+        "True"
+      ],
+      "meta_data/other/likelihood/duration": [
+        8.0
+      ],
+      "meta_data/other/likelihood/frequency_domain_source_model": [
+        "bilby.gw.sourcelal_binary_black_hole"
+      ],
+      "meta_data/other/likelihood/interferometers/H1/name": [
+        "H1"
+      ],
+      "meta_data/other/likelihood/interferometers/L1/name": [
+        "L1"
+      ],
+      "meta_data/other/likelihood/lal_version": [
+        "lal_version=7.6.0, lal_git_version=Branch: None;Tag: lal-v7.6.0;Id: 43d3b7d8137d11b0dd40905636c9f1628d5cbde2;;Builder: Adam Mercer <adam.mercer@ligo.org>;Repository status: CLEAN: All modifications committed"
+      ],
+      "meta_data/other/likelihood/lalsimulation_version": [
+        "lalsimulation_version=6.0.0, lalsimulation_git_version=Branch: None;Tag: lalsimulation-v6.0.0;Id: 5fd08c4d441c0684ae5ab3bffaad442240e30461;;Builder: Adam Mercer <adam.mercer@ligo.org>;Repository status: CLEAN: All modifications committed"
+      ],
+      "meta_data/other/likelihood/parameter_conversion": [
+        "bilby.gw.conversionconvert_to_lal_binary_black_hole_parameters"
+      ],
+      "meta_data/other/likelihood/phase_marginalization": [
+        "False"
+      ],
+      "meta_data/other/likelihood/reference_frame": [
+        "L1H1"
+      ],
+      "meta_data/other/likelihood/sampling_frequency": [
+        1024.0
+      ],
+      "meta_data/other/likelihood/start_time": [
+        1370328610.2730103
+      ],
+      "meta_data/other/likelihood/time_domain_source_model": [
+        "None"
+      ],
+      "meta_data/other/likelihood/time_marginalization": [
+        "False"
+      ],
+      "meta_data/other/likelihood/time_reference": [
+        "L1"
+      ],
+      "meta_data/other/likelihood/waveform_arguments/catch_waveform_errors": [
+        "True"
+      ],
+      "meta_data/other/likelihood/waveform_arguments/maximum_frequency": [
+        448
+      ],
+      "meta_data/other/likelihood/waveform_arguments/minimum_frequency": [
+        0
+      ],
+      "meta_data/other/likelihood/waveform_arguments/mode_array": [
+        "None"
+      ],
+      "meta_data/other/likelihood/waveform_arguments/pn_amplitude_order": [
+        0
+      ],
+      "meta_data/other/likelihood/waveform_arguments/pn_phase_order": [
+        -1
+      ],
+      "meta_data/other/likelihood/waveform_arguments/pn_spin_order": [
+        -1
+      ],
+      "meta_data/other/likelihood/waveform_arguments/pn_tidal_order": [
+        -1
+      ],
+      "meta_data/other/likelihood/waveform_arguments/reference_frequency": [
+        20.0
+      ],
+      "meta_data/other/likelihood/waveform_generator_class": [
+        "bilby.gw.waveform_generatorLALCBCWaveformGenerator"
+      ],
+      "meta_data/other/loaded_modules/PIL": [
+        "11.0.0"
+      ],
+      "meta_data/other/loaded_modules/__future__": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/__main__": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/__mp_main__": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_abc": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_ast": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_asyncio": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_bisect": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_blake2": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_brotli": [
+        "1.1.0"
+      ],
+      "meta_data/other/loaded_modules/_bz2": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_codecs": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_collections": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_collections_abc": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_compat_pickle": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_compression": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_contextvars": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_csparsetools": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_csv": [
+        "1.0"
+      ],
+      "meta_data/other/loaded_modules/_ctypes": [
+        "1.1.0"
+      ],
+      "meta_data/other/loaded_modules/_cython_0_29_35": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_cython_0_29_37": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_cython_3_0_11": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_cython_3_0_6": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_cython_3_0_7": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_cython_3_0_9": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_datetime": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_decimal": [
+        "1.70"
+      ],
+      "meta_data/other/loaded_modules/_distutils_hack": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_elementtree": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_frozen_importlib": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_frozen_importlib_external": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_functools": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_hashlib": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_heapq": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_imp": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_io": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_json": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_locale": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_lzma": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_moduleTNC": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_multibytecodec": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_multiprocessing": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_ni_label": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_opcode": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_operator": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_pickle": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_posixsubprocess": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_pytest": [
+        "8.3.3"
+      ],
+      "meta_data/other/loaded_modules/_queue": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_random": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_sha512": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_signal": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_sitebuiltins": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_socket": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_sre": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_ssl": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_stat": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_string": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_strptime": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_struct": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_sysconfigdata__linux_x86_64-linux-gnu": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_thread": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_uuid": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_warnings": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_weakref": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_weakrefset": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/_zoneinfo": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/abc": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/argparse": [
+        "1.1"
+      ],
+      "meta_data/other/loaded_modules/array": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/ast": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/astropy": [
+        "6.1.4"
+      ],
+      "meta_data/other/loaded_modules/astropy_iers_data": [
+        "0.2024.11.4.0.33.34"
+      ],
+      "meta_data/other/loaded_modules/asyncio": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/atexit": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/attr": [
+        "24.2.0"
+      ],
+      "meta_data/other/loaded_modules/backports": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/base64": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/bdb": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/bilby": [
+        "2.2.2.1"
+      ],
+      "meta_data/other/loaded_modules/bilby_cython": [
+        "0.4.2"
+      ],
+      "meta_data/other/loaded_modules/bilby_pipe": [
+        "1.4.0"
+      ],
+      "meta_data/other/loaded_modules/binascii": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/bisect": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/brotli": [
+        "1.1.0"
+      ],
+      "meta_data/other/loaded_modules/builtins": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/bz2": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/calendar": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/certifi": [
+        "2024.08.30"
+      ],
+      "meta_data/other/loaded_modules/charset_normalizer": [
+        "3.4.0"
+      ],
+      "meta_data/other/loaded_modules/cloudpickle": [
+        "3.1.0"
+      ],
+      "meta_data/other/loaded_modules/cmath": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/codecs": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/collections": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/concurrent": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/configargparse": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/configparser": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/contextlib": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/contextvars": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/copy": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/copyreg": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/csv": [
+        "1.0"
+      ],
+      "meta_data/other/loaded_modules/ctypes": [
+        "1.1.0"
+      ],
+      "meta_data/other/loaded_modules/cupy": [
+        "13.3.0"
+      ],
+      "meta_data/other/loaded_modules/cupy_backends": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/cupyx": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/cycler": [
+        "0.12.1"
+      ],
+      "meta_data/other/loaded_modules/cython_runtime": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/cytoolz": [
+        "1.0.0"
+      ],
+      "meta_data/other/loaded_modules/dask": [
+        "2023.10.1"
+      ],
+      "meta_data/other/loaded_modules/dataclasses": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/datetime": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/dateutil": [
+        "2.9.0"
+      ],
+      "meta_data/other/loaded_modules/decimal": [
+        "1.70"
+      ],
+      "meta_data/other/loaded_modules/defusedxml": [
+        "0.7.1"
+      ],
+      "meta_data/other/loaded_modules/difflib": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/dis": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/distutils": [
+        "3.10.15"
+      ],
+      "meta_data/other/loaded_modules/encodings": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/enum": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/erfa": [
+        "2.0.1.4"
+      ],
+      "meta_data/other/loaded_modules/errno": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/exceptiongroup": [
+        "1.2.2"
+      ],
+      "meta_data/other/loaded_modules/fastrlock": [
+        "0.8.2"
+      ],
+      "meta_data/other/loaded_modules/fcntl": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/fnmatch": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/fractions": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/ftplib": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/functools": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/gc": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/genericpath": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/getopt": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/gettext": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/glob": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/google": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/grp": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/gwosc": [
+        "0.7.1"
+      ],
+      "meta_data/other/loaded_modules/gzip": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/hashlib": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/heapq": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/hmac": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/html": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/http": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/idna": [
+        "3.10"
+      ],
+      "meta_data/other/loaded_modules/importlib": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/importlib_metadata": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/iniconfig": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/inspect": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/io": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/ipaddress": [
+        "1.0"
+      ],
+      "meta_data/other/loaded_modules/itertools": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/jaraco": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/jinja2": [
+        "3.1.4"
+      ],
+      "meta_data/other/loaded_modules/json": [
+        "2.0.9"
+      ],
+      "meta_data/other/loaded_modules/keyword": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/kiwisolver": [
+        "1.4.7"
+      ],
+      "meta_data/other/loaded_modules/lal": [
+        "7.6.0"
+      ],
+      "meta_data/other/loaded_modules/lalsimulation": [
+        "6.0.0"
+      ],
+      "meta_data/other/loaded_modules/ligo": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/locale": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/logging": [
+        "0.5.1.2"
+      ],
+      "meta_data/other/loaded_modules/lzma": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/markupsafe": [
+        "3.0.2"
+      ],
+      "meta_data/other/loaded_modules/marshal": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/math": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/matplotlib": [
+        "3.7.3"
+      ],
+      "meta_data/other/loaded_modules/mimetypes": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/mmap": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/more_itertools": [
+        "10.5.0"
+      ],
+      "meta_data/other/loaded_modules/mpl_toolkits": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/msgpack": [
+        "1.1.0"
+      ],
+      "meta_data/other/loaded_modules/multiprocessing": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/ntpath": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/numbers": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/numcodecs": [
+        "0.13.1"
+      ],
+      "meta_data/other/loaded_modules/numexpr": [
+        "2.7.3"
+      ],
+      "meta_data/other/loaded_modules/numpy": [
+        "1.24.4"
+      ],
+      "meta_data/other/loaded_modules/opcode": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/operator": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/os": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/packaging": [
+        "24.1"
+      ],
+      "meta_data/other/loaded_modules/pandas": [
+        "2.2.3"
+      ],
+      "meta_data/other/loaded_modules/pathlib": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/pickle": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/pkgutil": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/platform": [
+        "1.0.8"
+      ],
+      "meta_data/other/loaded_modules/pluggy": [
+        "1.5.0"
+      ],
+      "meta_data/other/loaded_modules/posix": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/posixpath": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/pprint": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/psutil": [
+        "6.1.0"
+      ],
+      "meta_data/other/loaded_modules/pwd": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/py": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/pyarrow": [
+        "17.0.0"
+      ],
+      "meta_data/other/loaded_modules/pycondor": [
+        "0.6.0"
+      ],
+      "meta_data/other/loaded_modules/pydoc": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/pyexpat": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/pyparsing": [
+        "3.2.0"
+      ],
+      "meta_data/other/loaded_modules/pytest": [
+        "8.3.3"
+      ],
+      "meta_data/other/loaded_modules/pytz": [
+        "2024.1"
+      ],
+      "meta_data/other/loaded_modules/queue": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/quopri": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/random": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/re": [
+        "2.2.1"
+      ],
+      "meta_data/other/loaded_modules/reprlib": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/requests": [
+        "2.32.3"
+      ],
+      "meta_data/other/loaded_modules/resource": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/scipy": [
+        "1.12.0"
+      ],
+      "meta_data/other/loaded_modules/secrets": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/select": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/selectors": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/setuptools": [
+        "75.3.0"
+      ],
+      "meta_data/other/loaded_modules/shlex": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/shutil": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/signal": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/site": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/six": [
+        "1.16.0"
+      ],
+      "meta_data/other/loaded_modules/socket": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/socks": [
+        "1.7.1"
+      ],
+      "meta_data/other/loaded_modules/sortedcontainers": [
+        "2.4.0"
+      ],
+      "meta_data/other/loaded_modules/sre_compile": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/sre_constants": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/sre_parse": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/ssl": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/stat": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/string": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/stringprep": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/struct": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/subprocess": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/swig_runtime_data4": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/swiglal_runtime_data": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/sys": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/sysconfig": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/tarfile": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/tblib": [
+        "3.0.0"
+      ],
+      "meta_data/other/loaded_modules/tempfile": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/termios": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/textwrap": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/threading": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/time": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/tlz": [
+        "1.0.0"
+      ],
+      "meta_data/other/loaded_modules/toolz": [
+        "0.12.1"
+      ],
+      "meta_data/other/loaded_modules/traceback": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/types": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/typing": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/unicodedata": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/unittest": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/urllib": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/urllib3": [
+        "1.26.19"
+      ],
+      "meta_data/other/loaded_modules/uu": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/uuid": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/warnings": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/weakref": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/xml": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/xxhash": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/yaml": [
+        "6.0.2"
+      ],
+      "meta_data/other/loaded_modules/zipfile": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/zipimport": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/zipp": [
+        "N/A"
+      ],
+      "meta_data/other/loaded_modules/zlib": [
+        "1.0"
+      ],
+      "meta_data/other/loaded_modules/zoneinfo": [
+        "N/A"
+      ],
+      "meta_data/other/log_bci": [
+        "nan"
+      ],
+      "meta_data/other/log_bsn": [
+        "nan"
+      ],
+      "meta_data/other/preferred": [
+        "False"
+      ],
+      "meta_data/other/reweighting_configuration": [
+        "None"
+      ],
+      "meta_data/other/run_statistics/ncores": [
+        16
+      ],
+      "meta_data/other/run_statistics/neffsamples": [
+        7919
+      ],
+      "meta_data/other/run_statistics/nlikelihood": [
+        25659492
+      ],
+      "meta_data/other/run_statistics/sampling_time_s": [
+        59824
+      ],
+      "meta_data/other/runtime": [
+        "nan"
+      ],
+      "meta_data/other/unknown_command_line_args": [
+        "--online-pe",
+        "False"
+      ],
+      "meta_data/other/vol50": [
+        "3692684569.1213865"
+      ],
+      "meta_data/other/vol90": [
+        "14705843307.264908"
+      ],
+      "meta_data/reweighting/analysis_label": [
+        "__none__"
+      ],
+      "meta_data/reweighting/append_to_label": [
+        "__none__"
+      ],
+      "meta_data/reweighting/log_file": [
+        "__none__"
+      ],
+      "meta_data/reweighting/log_level": [
+        "INFO"
+      ],
+      "meta_data/reweighting/metafile": [
+        "<host-path>/posterior_samples.h5"
+      ],
+      "meta_data/reweighting/n_pool": [
+        8
+      ],
+      "meta_data/reweighting/new_cosmology": [
+        "Planck15_LAL"
+      ],
+      "meta_data/reweighting/new_label": [
+        "__none__"
+      ],
+      "meta_data/reweighting/new_metafile": [
+        "releases/v1.0/S230609u/C00-NRSur7dq4-reweighted.h5"
+      ],
+      "meta_data/reweighting/overwrite": [
+        "False"
+      ],
+      "meta_data/reweighting/plot": [
+        "False"
+      ],
+      "meta_data/reweighting/plotting_dir": [
+        "__none__"
+      ],
+      "meta_data/reweighting/seed": [
+        1234
+      ],
+      "meta_data/reweighting/validate": [
+        "False"
+      ],
+      "meta_data/sampler/ln_bayes_factor": [
+        39.18
+      ],
+      "meta_data/sampler/ln_evidence": [
+        -6793.98
+      ],
+      "meta_data/sampler/ln_evidence_error": [
+        0.15
+      ],
+      "meta_data/sampler/ln_noise_evidence": [
+        -6833.16
+      ],
+      "meta_data/sampler/nsamples": [
+        15212
+      ],
+      "meta_data/sampler/pe_algorithm": [
+        "bilby-reweighted"
+      ],
+      "priors/analytic/L1_time": [
+        "Uniform(minimum=1370328616.173052, maximum=1370328616.373052, name='L1_time', latex_label='$t_L$', unit='$s$', boundary=None)"
+      ],
+      "priors/analytic/a_1": [
+        "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/a_2": [
+        "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/azimuth": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name=None, latex_label='$\\\\epsilon$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/chirp_mass": [
+        "bilby.gw.prior.UniformInComponentsChirpMass(minimum=23.89353510139339, maximum=56.09155823482591, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_\\\\{\\\\{\\\\odot\\\\}\\\\}$', boundary=None)"
+      ],
+      "priors/analytic/luminosity_distance": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=100.0, maximum=10000.0, cosmology=LambdaCDM(name=None, H0=67.9, Om0=0.3065, Ode0=0.6935, Tcmb0=0., Neff=3.04, m_nu=None, Ob0=None), name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "priors/analytic/mass_1": [
+        "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+      ],
+      "priors/analytic/mass_2": [
+        "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+      ],
+      "priors/analytic/mass_ratio": [
+        "bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.16666667, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)"
+      ],
+      "priors/analytic/phase": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/phi_12": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/phi_jl": [
+        "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/psi": [
+        "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_0": [
+        "Gaussian(mu=0.005970955162163153, sigma=0.04404538801018423, name='recalib_H1_amplitude_0', latex_label='$A^H1_0$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_1": [
+        "Gaussian(mu=-0.002545107142941076, sigma=0.03347454288541915, name='recalib_H1_amplitude_1', latex_label='$A^H1_1$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_2": [
+        "Gaussian(mu=0.0009108263434499571, sigma=0.025230554104779934, name='recalib_H1_amplitude_2', latex_label='$A^H1_2$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_3": [
+        "Gaussian(mu=0.018376755038375037, sigma=0.033154796453251735, name='recalib_H1_amplitude_3', latex_label='$A^H1_3$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_4": [
+        "Gaussian(mu=0.030231369715321386, sigma=0.029966432277140388, name='recalib_H1_amplitude_4', latex_label='$A^H1_4$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_5": [
+        "Gaussian(mu=0.021689955250958487, sigma=0.022519239772491387, name='recalib_H1_amplitude_5', latex_label='$A^H1_5$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_6": [
+        "Gaussian(mu=0.0020231889831132887, sigma=0.0411966856434026, name='recalib_H1_amplitude_6', latex_label='$A^H1_6$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_7": [
+        "Gaussian(mu=-0.010788310916641775, sigma=0.027256998492508504, name='recalib_H1_amplitude_7', latex_label='$A^H1_7$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_8": [
+        "Gaussian(mu=-0.008472039782502067, sigma=0.013606555709193769, name='recalib_H1_amplitude_8', latex_label='$A^H1_8$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_amplitude_9": [
+        "Gaussian(mu=0.0012990933891081809, sigma=0.017042659713878625, name='recalib_H1_amplitude_9', latex_label='$A^H1_9$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_frequency_0": [
+        "DeltaFunction(peak=19.999999999999996, name='recalib_H1_frequency_0', latex_label='$f^H1_0$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_1": [
+        "DeltaFunction(peak=28.252543564061956, name='recalib_H1_frequency_1', latex_label='$f^H1_1$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_2": [
+        "DeltaFunction(peak=39.91031089196092, name='recalib_H1_frequency_2', latex_label='$f^H1_2$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_3": [
+        "DeltaFunction(peak=56.37838985651909, name='recalib_H1_frequency_3', latex_label='$f^H1_3$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_4": [
+        "DeltaFunction(peak=79.64164577464877, name='recalib_H1_frequency_4', latex_label='$f^H1_4$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_5": [
+        "DeltaFunction(peak=112.50395333809281, name='recalib_H1_frequency_5', latex_label='$f^H1_5$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_6": [
+        "DeltaFunction(peak=158.92614214068283, name='recalib_H1_frequency_6', latex_label='$f^H1_6$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_7": [
+        "DeltaFunction(peak=224.50338771489734, name='recalib_H1_frequency_7', latex_label='$f^H1_7$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_8": [
+        "DeltaFunction(peak=317.13958708473166, name='recalib_H1_frequency_8', latex_label='$f^H1_8$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_frequency_9": [
+        "DeltaFunction(peak=447.9999999999999, name='recalib_H1_frequency_9', latex_label='$f^H1_9$', unit=None)"
+      ],
+      "priors/analytic/recalib_H1_phase_0": [
+        "Gaussian(mu=-0.009248043718651917, sigma=0.020316669150765045, name='recalib_H1_phase_0', latex_label='$\\\\phi^H1_0$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_1": [
+        "Gaussian(mu=0.004189983408759157, sigma=0.027826875903700934, name='recalib_H1_phase_1', latex_label='$\\\\phi^H1_1$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_2": [
+        "Gaussian(mu=0.02019172193567725, sigma=0.03193036077622229, name='recalib_H1_phase_2', latex_label='$\\\\phi^H1_2$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_3": [
+        "Gaussian(mu=0.01914873456598531, sigma=0.034762924044772193, name='recalib_H1_phase_3', latex_label='$\\\\phi^H1_3$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_4": [
+        "Gaussian(mu=-0.001791197569699781, sigma=0.03434668029804024, name='recalib_H1_phase_4', latex_label='$\\\\phi^H1_4$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_5": [
+        "Gaussian(mu=-0.015879411698248698, sigma=0.043904204178782255, name='recalib_H1_phase_5', latex_label='$\\\\phi^H1_5$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_6": [
+        "Gaussian(mu=-0.008649834577065014, sigma=0.0374221012251813, name='recalib_H1_phase_6', latex_label='$\\\\phi^H1_6$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_7": [
+        "Gaussian(mu=0.002303397293971894, sigma=0.01324294716178758, name='recalib_H1_phase_7', latex_label='$\\\\phi^H1_7$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_8": [
+        "Gaussian(mu=0.0028458820844179276, sigma=0.014076984117128138, name='recalib_H1_phase_8', latex_label='$\\\\phi^H1_8$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_H1_phase_9": [
+        "Gaussian(mu=-0.0005578733104265363, sigma=0.015669219202158576, name='recalib_H1_phase_9', latex_label='$\\\\phi^H1_9$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_0": [
+        "Gaussian(mu=-0.0024342522322487645, sigma=0.01609898803463057, name='recalib_L1_amplitude_0', latex_label='$A^L1_0$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_1": [
+        "Gaussian(mu=0.00536280048943298, sigma=0.01472415666097127, name='recalib_L1_amplitude_1', latex_label='$A^L1_1$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_2": [
+        "Gaussian(mu=0.008216863983331222, sigma=0.024926879080901795, name='recalib_L1_amplitude_2', latex_label='$A^L1_2$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_3": [
+        "Gaussian(mu=0.007300172080648716, sigma=0.03341573747597734, name='recalib_L1_amplitude_3', latex_label='$A^L1_3$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_4": [
+        "Gaussian(mu=0.004073530338995208, sigma=0.028458490187500178, name='recalib_L1_amplitude_4', latex_label='$A^L1_4$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_5": [
+        "Gaussian(mu=-0.0037396007404990822, sigma=0.009566710745263359, name='recalib_L1_amplitude_5', latex_label='$A^L1_5$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_6": [
+        "Gaussian(mu=-0.005129026101458077, sigma=0.021858969607522555, name='recalib_L1_amplitude_6', latex_label='$A^L1_6$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_7": [
+        "Gaussian(mu=-0.001188587088239182, sigma=0.022643230830991665, name='recalib_L1_amplitude_7', latex_label='$A^L1_7$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_8": [
+        "Gaussian(mu=-0.001556184948838051, sigma=0.012487704591745887, name='recalib_L1_amplitude_8', latex_label='$A^L1_8$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_amplitude_9": [
+        "Gaussian(mu=0.00416936300467698, sigma=0.008749065071316089, name='recalib_L1_amplitude_9', latex_label='$A^L1_9$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_frequency_0": [
+        "DeltaFunction(peak=19.999999999999996, name='recalib_L1_frequency_0', latex_label='$f^L1_0$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_1": [
+        "DeltaFunction(peak=28.252543564061956, name='recalib_L1_frequency_1', latex_label='$f^L1_1$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_2": [
+        "DeltaFunction(peak=39.91031089196092, name='recalib_L1_frequency_2', latex_label='$f^L1_2$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_3": [
+        "DeltaFunction(peak=56.37838985651909, name='recalib_L1_frequency_3', latex_label='$f^L1_3$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_4": [
+        "DeltaFunction(peak=79.64164577464877, name='recalib_L1_frequency_4', latex_label='$f^L1_4$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_5": [
+        "DeltaFunction(peak=112.50395333809281, name='recalib_L1_frequency_5', latex_label='$f^L1_5$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_6": [
+        "DeltaFunction(peak=158.92614214068283, name='recalib_L1_frequency_6', latex_label='$f^L1_6$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_7": [
+        "DeltaFunction(peak=224.50338771489734, name='recalib_L1_frequency_7', latex_label='$f^L1_7$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_8": [
+        "DeltaFunction(peak=317.13958708473166, name='recalib_L1_frequency_8', latex_label='$f^L1_8$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_frequency_9": [
+        "DeltaFunction(peak=447.9999999999999, name='recalib_L1_frequency_9', latex_label='$f^L1_9$', unit=None)"
+      ],
+      "priors/analytic/recalib_L1_phase_0": [
+        "Gaussian(mu=0.033122162539026556, sigma=0.025296198820977184, name='recalib_L1_phase_0', latex_label='$\\\\phi^L1_0$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_1": [
+        "Gaussian(mu=0.019813973208303595, sigma=0.026122056050115926, name='recalib_L1_phase_1', latex_label='$\\\\phi^L1_1$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_2": [
+        "Gaussian(mu=0.010217712006094094, sigma=0.021623358617139453, name='recalib_L1_phase_2', latex_label='$\\\\phi^L1_2$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_3": [
+        "Gaussian(mu=0.0009276493763519653, sigma=0.015843730269639582, name='recalib_L1_phase_3', latex_label='$\\\\phi^L1_3$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_4": [
+        "Gaussian(mu=-0.007826332507515361, sigma=0.0293180875817489, name='recalib_L1_phase_4', latex_label='$\\\\phi^L1_4$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_5": [
+        "Gaussian(mu=-0.0075105840604141215, sigma=0.04098204682685068, name='recalib_L1_phase_5', latex_label='$\\\\phi^L1_5$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_6": [
+        "Gaussian(mu=-0.004000370390620734, sigma=0.029417091805341744, name='recalib_L1_phase_6', latex_label='$\\\\phi^L1_6$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_7": [
+        "Gaussian(mu=-0.006222052794796138, sigma=0.010767729622479232, name='recalib_L1_phase_7', latex_label='$\\\\phi^L1_7$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_8": [
+        "Gaussian(mu=-0.007522487697879596, sigma=0.007330061733188162, name='recalib_L1_phase_8', latex_label='$\\\\phi^L1_8$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/recalib_L1_phase_9": [
+        "Gaussian(mu=-0.012006548397157922, sigma=0.010496297303331523, name='recalib_L1_phase_9', latex_label='$\\\\phi^L1_9$', unit=None, boundary='reflective')"
+      ],
+      "priors/analytic/theta_jn": [
+        "Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/tilt_1": [
+        "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/tilt_2": [
+        "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+      ],
+      "priors/analytic/total_mass": [
+        "Constraint(minimum=60, maximum=400, name='total_mass', latex_label='$M$', unit=None)"
+      ],
+      "priors/analytic/zenith": [
+        "Sine(minimum=0, maximum=3.141592653589793, name=None, latex_label='$\\\\kappa$', unit=None, boundary=None)"
+      ],
+      "version": [
+        "bilby=2.2.2.1"
+      ]
+    },
+    "conditional_nuisance": "Original source conditional nuisance prior at retained source mass, eta, chi_eff, z; no hidden-spin prior change",
+    "common_cosmology": {
+      "H0": 67.9,
+      "Om0": 0.3065,
+      "Tcmb0": 0.0
+    },
+    "density_convention": "Native retained prior proportional to (1+z)^2 J(Mc_source,eta) p_chi(chi|q) p_native_DL(DL(z)) dDLcommon/dz. No population rho."
+  },
+  "paired_redshift_proof": {
+    "kind": "exact_source_bound_staged_rows",
+    "posterior_path": "<host-path>/posterior.h5",
+    "posterior_export_sha256": "cf79b8bcc3babc538ca51f9566aa7b5760f0e93af1991d9716ba8211d4ec6e53",
+    "rowwise_coordinate_max_relative_error": 1.8373918556780375e-15,
+    "original_posterior_weight_column": "weights"
+  },
+  "previous_reference_sha256": "a1abf80dbb91cea7d599ace79fab16302493f54734ebfb0b1e366c133e0b61ac",
+  "previous_cohort_sha256": "31fb91b0bd23f04b686b4b95679d02f412510ce4036aeec91f4d2aaa4bb1b635",
+  "reference_sha256": "e21e21d8f15436c2b5563a38ebb2c7341e0cd73a8d058fa39671a7daf4618c31",
+  "producer_sha256": "6769a7687391355273f9c25aef63d3d474ab274297d79d6697eae8ce658fc984",
+  "prior_code_sha256": "49d931177523025cd5cfca1d954a42402c0351cb9f8072f960729b9f410f3c81",
+  "historical_prior_evidence_sha256": "b3432ec6e9820b4b7393eda95788c2d44b2047002f7214f3d034d9d41436bfb9",
+  "fit_root_commit": "fa2ac1de0c20e4d60678bb4c7b94819788a6366b",
+  "native_prior_constant_free_max_log_error": 1.4210854715202004e-13,
+  "source": {
+    "path": "<host-path>/IGWN-GWTC4-ecfbac9a4_720-GW230609_064958-combined_PEDataRelease.hdf5",
+    "dataset": "C00:NRSur7dq4",
+    "expected_sha256": "e9a67be249137c56748987a43182d9cf7f2bd77a50a1f780a6eec25685b106e6",
+    "sampled_geocent_time_median": 1370328616.2555485,
+    "geocent_time_abs_residual_seconds": 0.0004649162292480469,
+    "record_path": "editions/population-aligned-validated-edition-20261028/sources/GW230609_064958.json",
+    "record_sha256": "cf92bc6c592d5324390304915580335143c63e6333494bdb2d5cd8adda8fed39",
+    "backend_match_to_existing_baseline": "Distinct source/group; not assumed interchangeable"
+  },
+  "flat_joint_row_ess": 907.345023769316,
+  "group_identity_available": true,
+  "weight_definition": "w4 proportional to prior-corrected native posterior weights in dMc_source deta dchi_eff dz. Native distance prior removed event-wise; NO rho embedded. Native posterior weights retained separately; pi_x proportional to posterior_weights/w4.",
+  "seconds_since_start": 23.49458915300056
+}

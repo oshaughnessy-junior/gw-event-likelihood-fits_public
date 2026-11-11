@@ -1,0 +1,85 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW230609_064958",
+  "analysis_id": "GW230609_064958__public_base8_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "diagnostic_coordinates": [
+    "mc_source",
+    "q",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "a83b853d70028000b38d5e71e78185c5fba6edcfb2f65cd29102cb75bc5748c9",
+  "upstream_model_sha256": "ce9f73b58fa9cca7c92d0d87e092256cb96ab2e520b849665e1650f12340441a",
+  "model_canonical_sha256": "ec7af0d846ff53ba68605ce311253957f06a0d49b03617156ba333488a7dc4bf",
+  "original_validation": {
+    "path": "validation/GW230609_064958__public_base8_4d__original.json",
+    "sha256": "e0208123d8bfff2c6f1121b5ca8a02777fa63bdcbc865135228bff9000ace7bf"
+  },
+  "upstream_status": "passed_declared_recovery_checks",
+  "upstream_passes_declared_checks": true,
+  "upstream_failed_checks": [],
+  "used_by_population": {
+    "manifest_sha256": "0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc",
+    "fit_model_sha256": "ce9f73b58fa9cca7c92d0d87e092256cb96ab2e520b849665e1650f12340441a"
+  },
+  "training_split": "intrinsic-group split",
+  "replication_splits": [
+    {
+      "split_seed": 101,
+      "passes": false,
+      "model_sha256": "9d9a86026043a4a1be3fd2dc27b8ae50244f1d87a2e6749dc9e16d0a94ec7e2d",
+      "archive_path": "<host-path>/GW230609_064958",
+      "em_iterations": 100,
+      "em_iteration_limit_reached": true,
+      "failed": [
+        "max_conditional_q_given_z_JS_bits"
+      ],
+      "max_marginal_JS_bits": 0.027112220935204247,
+      "max_axis_KS": 0.06365082063686123,
+      "max_projection_JS_bits": 0.0274360240880911,
+      "max_conditional_q_given_z_JS_bits": 0.08430535233005285,
+      "min_reference_information_ess": 660.794899917764,
+      "min_proposal_ess": 6142.208824542351,
+      "max_population_response_nats": 0.012424228104431556,
+      "max_half_response_difference_nats": 0.003259580465546641
+    },
+    {
+      "split_seed": 202,
+      "passes": false,
+      "model_sha256": "c78df46bc9a610242ba92abd936041b7e751bae11da4fc767c9b4cd3ce488303",
+      "archive_path": "<host-path>/GW230609_064958",
+      "em_iterations": 100,
+      "em_iteration_limit_reached": true,
+      "failed": [
+        "max_conditional_q_given_z_JS_bits"
+      ],
+      "max_marginal_JS_bits": 0.026364533048808404,
+      "max_axis_KS": 0.046248615361122125,
+      "max_projection_JS_bits": 0.022692985818600984,
+      "max_conditional_q_given_z_JS_bits": 0.06656932021779866,
+      "min_reference_information_ess": 676.0489091910152,
+      "min_proposal_ess": 6351.796298914856,
+      "max_population_response_nats": 0.025908511239719267,
+      "max_half_response_difference_nats": 0.006979744912866792
+    }
+  ],
+  "selection": {
+    "variant": "base8",
+    "components": 8,
+    "em_max_iterations": 100,
+    "split_seed": 73,
+    "archive": "<host-path>/all153",
+    "archive_SHA256SUMS_sha256": "60ca907ae185e586b3a1a3a082e12d6fca5e694ba6972681846b9c736fda7297",
+    "replication_archive": "<host-path>/rep28_base8_20261109",
+    "replication_SHA256SUMS_sha256": "1619fc3de9711d2770e62c949e53df56d772d577fe79c2e48063e8de5806dc68",
+    "rule": "Every paper-2 joint_v2 event with a drafted public-source proof (exact Zenodo file or equivalent Zenodo posterior group) whose base8 fit the population analysis uses (population manifest use_fit). All share one configuration: k 8, at most 100 EM iterations, the all153 fitter. Declared checks and replication splits are recorded, not selected on."
+  },
+  "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); fails on replication seed 101 (max_conditional_q_given_z_JS_bits); seed 202 (max_conditional_q_given_z_JS_bits). Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior."
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "public-fit-source-proof-v1",
+  "status": "verified",
+  "event": "GW241110_124123",
+  "fit_sha256": "7761b83fbfd547b653ad63a4cdb3f1af303bbd3c80ba78e17d6f488a0168af3e",
+  "method": "public_release_file_checksum_match",
+  "release_id": "20348005",
+  "release_version": "record:20348005",
+  "release_version_source": "zenodo_record_id",
+  "doi": "10.5281/zenodo.20348005",
+  "public_file_name": "IGWN-GWTC5p0-29ebe06b7_25-GW241110_124123-combined_PEDataRelease.hdf5",
+  "public_file_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241110_124123-combined_PEDataRelease.hdf5/content",
+  "public_file_checksum": {
+    "algorithm": "md5",
+    "value": "324d29eb6e7ca1c1ae4d649b89c7e0e8"
+  },
+  "observed_file_checksum": {
+    "algorithm": "md5",
+    "value": "324d29eb6e7ca1c1ae4d649b89c7e0e8"
+  },
+  "source_file_sha256": "3b59e79f1700806b87abee43608c9d8076415b99a1760700d922fd6c0171edd5",
+  "public_file_sha256": "3b59e79f1700806b87abee43608c9d8076415b99a1760700d922fd6c0171edd5",
+  "reference_sha256": "f5fe9df1dd911a687309bcd68beddc14a2e913c11d96976ce22a2773514b5a12",
+  "posterior_group": "C00:SEOBNRv5PHM",
+  "producer_revision": "sha256:8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+  "public_metadata_sha256": "ff64036c4d80209c95dad803b142626518972c1c5d46b28cf41aca94f9dc7968",
+  "public_metadata": {
+    "path": "collections/precessing/20261102-o4b-public-recovery-v1/public_metadata/zenodo-20348005.json",
+    "sha256": "ff64036c4d80209c95dad803b142626518972c1c5d46b28cf41aca94f9dc7968"
+  },
+  "upstream_fit_sha256": "a4e5bed94bf7dadf6fac77fb2a03942edff67e5cf266ef7e1035427f975fddfb",
+  "upstream_validation_sha256": "f3654143efb1d2763c69abaa4f6670ccafa9197843d35f8e02e3129ec9749248",
+  "exporter_sha256": "de868ed585b0fbd892a4b8fa463e033a4c21dde9ec02fd5d4bc50ae4c1433f52",
+  "relocation_witness": {
+    "method": "remove_only_bounds.distance.dl_and_log_pdf_dl; exact canonical restoration checked at export",
+    "restored_model_canonical_sha256": "e4718eb662f00e2920068e73f3a10a13082740abaf343eaad389f7db30d50bc3"
+  },
+  "external_distance_grid": {
+    "filename": "GW241110_124123.json",
+    "sha256": "8e2fd108c15559a339a1b6ddca36f9831ddd88fb82c84d96f46fea80cb837370",
+    "canonical_sha256": "f4f0a7b70f96c8ed10dbd7eb620ab2d3ef2de567905b1949221d1bf4b53b6d0a",
+    "CIT_directory": "<host-path>/repository-grid-assets-v1"
+  },
+  "scope": "Public-source eligibility only. Paired-native recovery scope remains separate from source PE robustness and generic/population acceptance.",
+  "prior_correction": {
+    "edition": "population-o4b-cosmo-prior-repair-20261102-v2",
+    "original_fit_sha256": "2a3ac766d7d45f8fa10ac5e38e513691abb969c10bd37aea5cd40baa111a1801",
+    "independent_review_sha256": "65f23127979201e5ade395847d85320ecf0e1b8f665e1bf0ff3361596b8affd2",
+    "native_option": "cosmo_sourceframe",
+    "posterior_density_unchanged": true
+  }
+}

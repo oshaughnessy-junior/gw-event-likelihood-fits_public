@@ -1,0 +1,53 @@
+{
+  "schema": "public-fit-source-proof-v1",
+  "status": "draft",
+  "draft_note": "Source proof for the GWTC-4.1 export. fit_sha256 names the k16 seed-73 model; the builder rebinds it to the published artifact.",
+  "event": "GW231020_142947",
+  "method": "public_release_file_checksum_match",
+  "release_id": "20275769",
+  "release_version": "record:20275769",
+  "release_version_source": "zenodo_record_id",
+  "doi": "10.5281/zenodo.20275769",
+  "public_file_url": "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW231020_142947-combined_PEDataRelease.hdf5/content",
+  "public_file_name": "IGWN-GWTC4p1-18965dda8_5-GW231020_142947-combined_PEDataRelease.hdf5",
+  "public_filename": "IGWN-GWTC4p1-18965dda8_5-GW231020_142947-combined_PEDataRelease.hdf5",
+  "public_file_checksum": {
+    "algorithm": "md5",
+    "value": "f1b5bb36c0a550c75622c828a753c9f1"
+  },
+  "observed_file_checksum": {
+    "algorithm": "md5",
+    "value": "f1b5bb36c0a550c75622c828a753c9f1"
+  },
+  "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00",
+  "public_metadata": {
+    "path": "provenance/drafts/20261109-gwtc41-seven-public-sources/public_metadata/20275769_50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00.json",
+    "sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00"
+  },
+  "source_file_sha256": "9112dbfb5cbcbfd7b59705cec4c4f413282c21de93366c575748612a723f987a",
+  "public_file_sha256": "9112dbfb5cbcbfd7b59705cec4c4f413282c21de93366c575748612a723f987a",
+  "posterior_group": "C00:IMRPhenomXPHM-SpinTaylor",
+  "producer_revision": "b24a0cbf492afdf3bd9c5be7b404d144699f3e339e1dc0abfb6bb7f2a33d8c3e",
+  "export_producer_revision": "f8c7e098cd5f511aea93b64d307fb913f8aa5911",
+  "fit_sha256": "f915e2731853a9c566330f66a0c15c9b2d94927dc4de0208ab5076a972d7de52",
+  "source_validation_sha256": "94ae8afda4a27eb16b8aeaf0044e32b0ec110498e4d8a12943d5703c9eac0c1e",
+  "reference_sha256": "07731dffa28cb348eabf4f519060196991cbcab00bb3be60fce41825ce1b2a3b",
+  "reference_rows": 16741,
+  "used_columns": [
+    "chirp_mass",
+    "mass_ratio",
+    "luminosity_distance",
+    "chi_eff",
+    "mass_1",
+    "mass_2",
+    "spin_1x",
+    "spin_1y",
+    "spin_1z",
+    "spin_2x",
+    "spin_2y",
+    "spin_2z"
+  ],
+  "used_projection_sha256": "fdc3a775fca27a29dfcfd3754cfba850e5bc3306a081b428795e71ce6c325cb1",
+  "retained_prior_sha256": "f988365670a690caa2c429d8edfc3590d428309adad8211e25b0d25fb780c463",
+  "population_redshift_measure_embedded": false
+}

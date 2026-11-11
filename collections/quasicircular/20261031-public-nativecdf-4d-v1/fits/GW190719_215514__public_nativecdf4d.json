@@ -1,0 +1,815 @@
+{
+  "schema": "public-native-redshift-artifact-v1",
+  "event": "GW190719_215514",
+  "analysis_id": "GW190719_215514__public_nativecdf4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "upstream_model_sha256": "1bc8cf094b57317fcb062d8a289df65b8d1cf5c8e5ae5aa9bc5bb9d37aa48ac4",
+  "model_canonical_sha256": "2d60f89b9c9242debd2643f0b28b8b6eb6364b044d4fd3608565f222fb118373",
+  "fit": {
+    "schema": "aligned-redshift-native-spin-cdf-posterior-v1",
+    "event": "GW190719_215514",
+    "coordinates": [
+      "mc_source",
+      "eta",
+      "chi_eff",
+      "z"
+    ],
+    "density_chart": [
+      "mc_detector",
+      "delta",
+      "s_native_spin_CDF",
+      "logz"
+    ],
+    "density_target": "Original native posterior density in the declared chart; scalar likelihood is the explicit native retained-prior quotient",
+    "conditional_mass_chart": "detector",
+    "bounded_mass_coordinate": "delta",
+    "components": [
+      {
+        "schema": "bounded-marginal-conditional-gaussian-pair-v1",
+        "bounded_center": [
+          0.04932294144675881,
+          0.894867918803515
+        ],
+        "bounded_scale": [
+          0.033073490054831484,
+          0.09401785205850251
+        ],
+        "bounded_standardized_bounds": [
+          [
+            -1.4913134768960845,
+            5.347713061140338
+          ],
+          [
+            -20.047978947983815,
+            1.011851250731501
+          ]
+        ],
+        "natural_parameters": [
+          -0.3181756562840438,
+          0.976379219032246,
+          -0.2626340449290473,
+          0.0031844446704565946,
+          -0.0060297857596658564
+        ],
+        "bounded_log_integral_standardized": 2.041130232851721,
+        "effective_sample_size": 30473.56455017888,
+        "gradient_max": 5.723005591651287e-08,
+        "conditioned_gradient_max": 5.723005591651287e-08,
+        "quadrature_crosscheck_max_error": 2.19824158875781e-14,
+        "quadrature_attempts": [
+          {
+            "order": 64,
+            "moment_equation_residual": 5.7230077898928755e-08,
+            "higher_order": 128,
+            "higher_order_error": 2.19824158875781e-14,
+            "optimizer_success": false
+          }
+        ],
+        "fit_method": "normalized joint eta/chi bounded-quadratic maximum likelihood plus conditional Gaussian Mc; full joint cross terms",
+        "other_bound_normalization": "Mc>0 omitted from fit normalization; gate its sampling rejection fraction",
+        "fit_bounded_mass_bounds": [
+          0.0,
+          0.9047619047619048
+        ],
+        "bounded_solver_coordinate": "delta/4; density in delta includes the exact 1/4 factor",
+        "conditional_mass_chart": "detector",
+        "bounded_mass_coordinate": "delta",
+        "joint_conditional_intercept": [
+          43.90632312726275,
+          -0.19367547643607735
+        ],
+        "joint_conditional_slopes": [
+          [
+            0.28170762578790953,
+            -0.009286996315329034
+          ],
+          [
+            2.618996712396944,
+            0.0433230292327005
+          ]
+        ],
+        "joint_conditional_cov": [
+          [
+            9.008861283848207,
+            0.24944502215572087
+          ],
+          [
+            0.24944502215572087,
+            0.0911182361633014
+          ]
+        ]
+      },
+      {
+        "schema": "bounded-marginal-conditional-gaussian-pair-v1",
+        "bounded_center": [
+          0.10520423634220341,
+          0.40725215902057943
+        ],
+        "bounded_scale": [
+          0.0361413757097673,
+          0.26580692524392097
+        ],
+        "bounded_standardized_bounds": [
+          [
+            -2.910908460902104,
+            3.3475825829058286
+          ],
+          [
+            -5.256643173379978,
+            2.1923726796984497
+          ]
+        ],
+        "natural_parameters": [
+          -0.004751265059843369,
+          0.050679955648968364,
+          -0.500821982590627,
+          -0.1625643405516369,
+          -0.45733029197413944
+        ],
+        "bounded_log_integral_standardized": 1.8729094154742914,
+        "effective_sample_size": 25281.55799334496,
+        "gradient_max": 1.474376176702208e-11,
+        "conditioned_gradient_max": 1.474376176702208e-11,
+        "quadrature_crosscheck_max_error": 3.914868429433227e-12,
+        "quadrature_attempts": [
+          {
+            "order": 64,
+            "moment_equation_residual": 1.0828893337588852e-11,
+            "higher_order": 128,
+            "higher_order_error": 3.914868429433227e-12,
+            "optimizer_success": true
+          }
+        ],
+        "fit_method": "normalized joint eta/chi bounded-quadratic maximum likelihood plus conditional Gaussian Mc; full joint cross terms",
+        "other_bound_normalization": "Mc>0 omitted from fit normalization; gate its sampling rejection fraction",
+        "fit_bounded_mass_bounds": [
+          0.0,
+          0.9047619047619048
+        ],
+        "bounded_solver_coordinate": "delta/4; density in delta includes the exact 1/4 factor",
+        "conditional_mass_chart": "detector",
+        "bounded_mass_coordinate": "delta",
+        "joint_conditional_intercept": [
+          34.014194833284584,
+          -0.455127659678014
+        ],
+        "joint_conditional_slopes": [
+          [
+            -2.2293052154258826,
+            -0.13432306902882232
+          ],
+          [
+            1.869710575369768,
+            0.0333998342044378
+          ]
+        ],
+        "joint_conditional_cov": [
+          [
+            2.2810130506811923,
+            0.06928835928635751
+          ],
+          [
+            0.0692883592863575,
+            0.04778997503094395
+          ]
+        ]
+      },
+      {
+        "schema": "bounded-marginal-conditional-gaussian-pair-v1",
+        "bounded_center": [
+          0.05434108964562308,
+          0.06290874135854281
+        ],
+        "bounded_scale": [
+          0.039188330195319254,
+          0.3686022114864157
+        ],
+        "bounded_standardized_bounds": [
+          [
+            -1.3866650958277804,
+            4.385218397628465
+          ],
+          [
+            -2.8564905704515726,
+            2.515153815553339
+          ]
+        ],
+        "natural_parameters": [
+          -0.41404981352189585,
+          0.011851434956691397,
+          -0.25484597857335217,
+          -0.31171461205393486,
+          -0.5052212702490041
+        ],
+        "bounded_log_integral_standardized": 1.9557205789589354,
+        "effective_sample_size": 22356.052338549158,
+        "gradient_max": 1.0748180123698603e-11,
+        "conditioned_gradient_max": 1.0748180123698603e-11,
+        "quadrature_crosscheck_max_error": 5.551115123125783e-15,
+        "quadrature_attempts": [
+          {
+            "order": 64,
+            "moment_equation_residual": 1.0749512391328153e-11,
+            "higher_order": 128,
+            "higher_order_error": 5.551115123125783e-15,
+            "optimizer_success": true
+          }
+        ],
+        "fit_method": "normalized joint eta/chi bounded-quadratic maximum likelihood plus conditional Gaussian Mc; full joint cross terms",
+        "other_bound_normalization": "Mc>0 omitted from fit normalization; gate its sampling rejection fraction",
+        "fit_bounded_mass_bounds": [
+          0.0,
+          0.9047619047619048
+        ],
+        "bounded_solver_coordinate": "delta/4; density in delta includes the exact 1/4 factor",
+        "conditional_mass_chart": "detector",
+        "bounded_mass_coordinate": "delta",
+        "joint_conditional_intercept": [
+          33.567719372073256,
+          -0.48632517982501045
+        ],
+        "joint_conditional_slopes": [
+          [
+            -0.921542636578768,
+            -0.04494288330515197
+          ],
+          [
+            1.7011331667075154,
+            0.06356037286500413
+          ]
+        ],
+        "joint_conditional_cov": [
+          [
+            1.2851943067159615,
+            0.04206948120745813
+          ],
+          [
+            0.04206948120745812,
+            0.07663738140527365
+          ]
+        ]
+      },
+      {
+        "schema": "bounded-marginal-conditional-gaussian-pair-v1",
+        "bounded_center": [
+          0.041843580790391195,
+          0.6732600726042495
+        ],
+        "bounded_scale": [
+          0.03202855568459755,
+          0.1868711567315948
+        ],
+        "bounded_standardized_bounds": [
+          [
+            -1.3064460727623026,
+            5.75570429136575
+          ],
+          [
+            -8.900571397399808,
+            1.6949642359772394
+          ]
+        ],
+        "natural_parameters": [
+          -0.5015677976891864,
+          0.1895793042182479,
+          -0.1727971038317048,
+          -0.03624926854459428,
+          -0.3399973985608976
+        ],
+        "bounded_log_integral_standardized": 2.0600794481842692,
+        "effective_sample_size": 41791.62864181484,
+        "gradient_max": 1.8107071397821528e-11,
+        "conditioned_gradient_max": 1.8107071397821528e-11,
+        "quadrature_crosscheck_max_error": 3.441691376337985e-14,
+        "quadrature_attempts": [
+          {
+            "order": 64,
+            "moment_equation_residual": 1.8109957977685553e-11,
+            "higher_order": 128,
+            "higher_order_error": 3.441691376337985e-14,
+            "optimizer_success": true
+          }
+        ],
+        "fit_method": "normalized joint eta/chi bounded-quadratic maximum likelihood plus conditional Gaussian Mc; full joint cross terms",
+        "other_bound_normalization": "Mc>0 omitted from fit normalization; gate its sampling rejection fraction",
+        "fit_bounded_mass_bounds": [
+          0.0,
+          0.9047619047619048
+        ],
+        "bounded_solver_coordinate": "delta/4; density in delta includes the exact 1/4 factor",
+        "conditional_mass_chart": "detector",
+        "bounded_mass_coordinate": "delta",
+        "joint_conditional_intercept": [
+          37.58923848175373,
+          -0.45963198370385777
+        ],
+        "joint_conditional_slopes": [
+          [
+            -0.25765606402911106,
+            -0.10125267341206182
+          ],
+          [
+            1.9086381290602001,
+            0.023174518866617175
+          ]
+        ],
+        "joint_conditional_cov": [
+          [
+            1.604551002551309,
+            0.036072114297748044
+          ],
+          [
+            0.03607211429774804,
+            0.10145354547172672
+          ]
+        ]
+      },
+      {
+        "schema": "bounded-marginal-conditional-gaussian-pair-v1",
+        "bounded_center": [
+          0.19235618187249773,
+          0.8638723164991223
+        ],
+        "bounded_scale": [
+          0.013728508063211067,
+          0.10541608878068333
+        ],
+        "bounded_standardized_bounds": [
+          [
+            -14.01144108207677,
+            2.4645281309660896
+          ],
+          [
+            -17.586236958156146,
+            1.196474702863284
+          ]
+        ],
+        "natural_parameters": [
+          0.024003802252333863,
+          0.6507492870706153,
+          -0.4850295260648853,
+          -0.17468928153860827,
+          -0.12530601907058425
+        ],
+        "bounded_log_integral_standardized": 1.9761648367304434,
+        "effective_sample_size": 6341.96292205201,
+        "gradient_max": 3.669842207898455e-12,
+        "conditioned_gradient_max": 3.669842207898455e-12,
+        "quadrature_crosscheck_max_error": 3.6703973194107675e-12,
+        "quadrature_attempts": [
+          {
+            "order": 64,
+            "moment_equation_residual": 9.2148511043888e-15,
+            "higher_order": 128,
+            "higher_order_error": 3.6703973194107675e-12,
+            "optimizer_success": true
+          }
+        ],
+        "fit_method": "normalized joint eta/chi bounded-quadratic maximum likelihood plus conditional Gaussian Mc; full joint cross terms",
+        "other_bound_normalization": "Mc>0 omitted from fit normalization; gate its sampling rejection fraction",
+        "fit_bounded_mass_bounds": [
+          0.0,
+          0.9047619047619048
+        ],
+        "bounded_solver_coordinate": "delta/4; density in delta includes the exact 1/4 factor",
+        "conditional_mass_chart": "detector",
+        "bounded_mass_coordinate": "delta",
+        "joint_conditional_intercept": [
+          40.468046954713614,
+          -0.4056593903887847
+        ],
+        "joint_conditional_slopes": [
+          [
+            -2.549904547115251,
+            -0.12118230273668636
+          ],
+          [
+            4.795644804513341,
+            0.1545912683191418
+          ]
+        ],
+        "joint_conditional_cov": [
+          [
+            17.223546024985144,
+            0.3726364356444913
+          ],
+          [
+            0.3726364356444913,
+            0.049525698855158694
+          ]
+        ]
+      },
+      {
+        "schema": "bounded-marginal-conditional-gaussian-pair-v1",
+        "bounded_center": [
+          0.056872369147200064,
+          0.6482019960846902
+        ],
+        "bounded_scale": [
+          0.04189396529454817,
+          0.44841900356322184
+        ],
+        "bounded_standardized_bounds": [
+          [
+            -1.3575312994924615,
+            4.041587036529822
+          ],
+          [
+            -3.653284055910273,
+            0.7622290786057649
+          ]
+        ],
+        "natural_parameters": [
+          -0.442993471951747,
+          2.004213844101661,
+          -0.21195743586073104,
+          -0.18949427998097515,
+          0.41634347543171424
+        ],
+        "bounded_log_integral_standardized": 2.0827850336942477,
+        "effective_sample_size": 9245.127546631931,
+        "gradient_max": 2.151121503146669e-09,
+        "conditioned_gradient_max": 2.151121503146669e-09,
+        "quadrature_crosscheck_max_error": 6.439293542825908e-15,
+        "quadrature_attempts": [
+          {
+            "order": 64,
+            "moment_equation_residual": 2.1511150638531262e-09,
+            "higher_order": 128,
+            "higher_order_error": 6.439293542825908e-15,
+            "optimizer_success": false
+          }
+        ],
+        "fit_method": "normalized joint eta/chi bounded-quadratic maximum likelihood plus conditional Gaussian Mc; full joint cross terms",
+        "other_bound_normalization": "Mc>0 omitted from fit normalization; gate its sampling rejection fraction",
+        "fit_bounded_mass_bounds": [
+          0.0,
+          0.9047619047619048
+        ],
+        "bounded_solver_coordinate": "delta/4; density in delta includes the exact 1/4 factor",
+        "conditional_mass_chart": "detector",
+        "bounded_mass_coordinate": "delta",
+        "joint_conditional_intercept": [
+          71.34398115435569,
+          0.14826519432903532
+        ],
+        "joint_conditional_slopes": [
+          [
+            -6.193430761511925,
+            -0.1277042366015261
+          ],
+          [
+            8.056255515471513,
+            0.1297919651298187
+          ]
+        ],
+        "joint_conditional_cov": [
+          [
+            179.15183755335246,
+            1.8037470586329492
+          ],
+          [
+            1.8037470586329492,
+            0.11362553925093018
+          ]
+        ]
+      },
+      {
+        "schema": "bounded-marginal-conditional-gaussian-pair-v1",
+        "bounded_center": [
+          0.09096119581250181,
+          0.7993789772315404
+        ],
+        "bounded_scale": [
+          0.031094018510821893,
+          0.11312889139660563
+        ],
+        "bounded_standardized_bounds": [
+          [
+            -2.9253599299442072,
+            4.349044827734617
+          ],
+          [
+            -15.817170619646234,
+            1.6849897529728561
+          ]
+        ],
+        "natural_parameters": [
+          -0.005940821365175212,
+          0.1944851089900142,
+          -0.5066317921115171,
+          -0.17833031678351105,
+          -0.3516021311326981
+        ],
+        "bounded_log_integral_standardized": 1.9213719107401959,
+        "effective_sample_size": 38377.947092605136,
+        "gradient_max": 7.201683693836003e-12,
+        "conditioned_gradient_max": 7.201683693836003e-12,
+        "quadrature_crosscheck_max_error": 7.20024040390399e-12,
+        "quadrature_attempts": [
+          {
+            "order": 64,
+            "moment_equation_residual": 8.326672684688674e-15,
+            "higher_order": 128,
+            "higher_order_error": 7.20024040390399e-12,
+            "optimizer_success": true
+          }
+        ],
+        "fit_method": "normalized joint eta/chi bounded-quadratic maximum likelihood plus conditional Gaussian Mc; full joint cross terms",
+        "other_bound_normalization": "Mc>0 omitted from fit normalization; gate its sampling rejection fraction",
+        "fit_bounded_mass_bounds": [
+          0.0,
+          0.9047619047619048
+        ],
+        "bounded_solver_coordinate": "delta/4; density in delta includes the exact 1/4 factor",
+        "conditional_mass_chart": "detector",
+        "bounded_mass_coordinate": "delta",
+        "joint_conditional_intercept": [
+          39.01024412092951,
+          -0.23645896926719837
+        ],
+        "joint_conditional_slopes": [
+          [
+            -0.5401271739511783,
+            -0.045097951676673874
+          ],
+          [
+            2.407679053645265,
+            0.05616207243890506
+          ]
+        ],
+        "joint_conditional_cov": [
+          [
+            2.5294667541604583,
+            0.059411909334335766
+          ],
+          [
+            0.059411909334335766,
+            0.03230140162251126
+          ]
+        ]
+      },
+      {
+        "schema": "bounded-marginal-conditional-gaussian-pair-v1",
+        "bounded_center": [
+          0.123471282261756,
+          0.9157183414272365
+        ],
+        "bounded_scale": [
+          0.03706371728638975,
+          0.19216094911614856
+        ],
+        "bounded_standardized_bounds": [
+          [
+            -3.331324845473505,
+            2.7714217960118086
+          ],
+          [
+            -9.917302918166563,
+            0.3865595945192024
+          ]
+        ],
+        "natural_parameters": [
+          0.011989807334790535,
+          3.5940873133918174,
+          -0.5018651444512952,
+          -0.24327655714405155,
+          0.30128029653800303
+        ],
+        "bounded_log_integral_standardized": 1.0657948408632434,
+        "effective_sample_size": 10484.809194888478,
+        "gradient_max": 3.004596571543061e-12,
+        "conditioned_gradient_max": 3.004596571543061e-12,
+        "quadrature_crosscheck_max_error": 3.885780586188048e-14,
+        "quadrature_attempts": [
+          {
+            "order": 64,
+            "moment_equation_residual": 2.9657387656811807e-12,
+            "higher_order": 128,
+            "higher_order_error": 3.885780586188048e-14,
+            "optimizer_success": true
+          }
+        ],
+        "fit_method": "normalized joint eta/chi bounded-quadratic maximum likelihood plus conditional Gaussian Mc; full joint cross terms",
+        "other_bound_normalization": "Mc>0 omitted from fit normalization; gate its sampling rejection fraction",
+        "fit_bounded_mass_bounds": [
+          0.0,
+          0.9047619047619048
+        ],
+        "bounded_solver_coordinate": "delta/4; density in delta includes the exact 1/4 factor",
+        "conditional_mass_chart": "detector",
+        "bounded_mass_coordinate": "delta",
+        "joint_conditional_intercept": [
+          71.50667172973826,
+          0.20118386828839668
+        ],
+        "joint_conditional_slopes": [
+          [
+            -9.55856193738946,
+            -0.13992234972680498
+          ],
+          [
+            5.135810466265981,
+            0.14843014528555787
+          ]
+        ],
+        "joint_conditional_cov": [
+          [
+            50.146494332116355,
+            0.5904665625129365
+          ],
+          [
+            0.5904665625129364,
+            0.059269127473937554
+          ]
+        ]
+      }
+    ],
+    "component_weights": [
+      0.16303259574402104,
+      0.12001109268912892,
+      0.12252216127385039,
+      0.21237169069563602,
+      0.04551751000307935,
+      0.05995192536141848,
+      0.20623049690193582,
+      0.07036252733093
+    ],
+    "analysis_support": {
+      "mc_det_min": 15.0,
+      "mc_det_max": 150.0,
+      "q_min": 0.05,
+      "q_max": 1.0,
+      "m1_det_min": 1.0,
+      "m1_det_max": 1000.0,
+      "m2_det_min": 1.0,
+      "m2_det_max": 1000.0,
+      "amax": 0.99,
+      "a1max": 0.99,
+      "a2max": 0.99,
+      "dL_min": 10.0,
+      "dL_max": 20000.0,
+      "z_min": 0.002260966557031795,
+      "z_max": 2.4107121868041954,
+      "mc_min": 4.397908465579107,
+      "mc_max": 149.6616200821231
+    },
+    "prior_contract": {
+      "schema": "aligned-redshift-native-prior-v1",
+      "event": "GW190719_215514",
+      "coordinate_order": [
+        "mc_source",
+        "eta",
+        "chi_eff",
+        "z"
+      ],
+      "analysis_support": {
+        "mc_det_min": 15.0,
+        "mc_det_max": 150.0,
+        "q_min": 0.05,
+        "q_max": 1.0,
+        "m1_det_min": 1.0,
+        "m1_det_max": 1000.0,
+        "m2_det_min": 1.0,
+        "m2_det_max": 1000.0,
+        "amax": 0.99,
+        "a1max": 0.99,
+        "a2max": 0.99,
+        "dL_min": 10.0,
+        "dL_max": 20000.0,
+        "z_min": 0.002260966557031795,
+        "z_max": 2.4107121868041954,
+        "mc_min": 4.397908465579107,
+        "mc_max": 149.6616200821231
+      },
+      "spin_caps": [
+        0.99,
+        0.99
+      ],
+      "spin_quadrature_order": 128,
+      "distance_prior": {
+        "kind": "distance_squared",
+        "analytic": "PowerLaw(alpha=2, minimum=10, maximum=20000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+        "status": "public_nocosmo_posterior_original_sampling_prior"
+      },
+      "common_cosmology": {
+        "H0": 67.9,
+        "Om0": 0.3065,
+        "Tcmb0": 0.0
+      },
+      "conditional_nuisance": "Original public waveform-specific conditional nuisance prior; no nuisance population change",
+      "metadata_provenance": {
+        "kind": "official_public_release_file_checksum_match",
+        "doi": "10.5281/zenodo.6513631",
+        "release_version": "v2",
+        "file": "IGWN-GWTC2p1-v2-GW190719_215514_PEDataRelease_mixed_nocosmo.h5",
+        "group": "C01:IMRPhenomXPHM",
+        "public_metadata_sha256": "0e8391b90b918e9892ad0c4477a8f7c56f227b3f81ed75824384ab047eec419d"
+      },
+      "native_settings": {
+        "priors/analytic/a_1": [
+          "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+        ],
+        "priors/analytic/a_2": [
+          "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+        ],
+        "priors/analytic/azimuth": [
+          "Uniform(minimum=0, maximum=6.283185307179586, name=None, latex_label='$\\\\epsilon$', unit=None, boundary='periodic')"
+        ],
+        "priors/analytic/chirp_mass": [
+          "UniformInComponentsChirpMass(minimum=15, maximum=150, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_{\\\\odot}$', boundary=None)"
+        ],
+        "priors/analytic/geocent_time": [
+          "Uniform(minimum=1247608532.830176, maximum=1247608533.030176, name='geocent_time', latex_label='$t_c$', unit='$s$', boundary=None)"
+        ],
+        "priors/analytic/luminosity_distance": [
+          "PowerLaw(alpha=2, minimum=10, maximum=20000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+        ],
+        "priors/analytic/mass_1": [
+          "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+        ],
+        "priors/analytic/mass_2": [
+          "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+        ],
+        "priors/analytic/mass_ratio": [
+          "UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)"
+        ],
+        "priors/analytic/phase": [
+          "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+        ],
+        "priors/analytic/phi_12": [
+          "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+        ],
+        "priors/analytic/phi_jl": [
+          "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+        ],
+        "priors/analytic/psi": [
+          "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+        ],
+        "priors/analytic/theta_jn": [
+          "Sine(name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+        ],
+        "priors/analytic/tilt_1": [
+          "Sine(name='tilt_1', latex_label='$\\\\theta_1$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+        ],
+        "priors/analytic/tilt_2": [
+          "Sine(name='tilt_2', latex_label='$\\\\theta_2$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+        ],
+        "priors/analytic/time_jitter": [
+          "Uniform(minimum=-0.00048828125, maximum=0.00048828125, name=None, latex_label=None, unit=None, boundary='periodic')"
+        ],
+        "priors/analytic/zenith": [
+          "Sine(name=None, latex_label='$\\\\kappa$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+        ]
+      }
+    },
+    "spin_caps": [
+      0.99,
+      0.99
+    ],
+    "cdf_order": 64,
+    "inverse_iterations": 25,
+    "rho_embedded_in_scalar_likelihood": false,
+    "validation_status": "candidate_unvalidated",
+    "em_iterations": 12,
+    "em_objective_history": [
+      -2.5698605391318656,
+      -2.4262074396047417,
+      -2.375692520024135,
+      -2.34832283978834,
+      -2.3278600515100396,
+      -2.3105340437620794,
+      -2.2952986478964994,
+      -2.2821522509872483,
+      -2.271299844452711,
+      -2.262419499331058,
+      -2.254902225094928,
+      -2.2482698361780042
+    ],
+    "source": {
+      "reference_sha256": "5461c3e9efc92f47c22382ff411c243be7ee5f1bb63bb3c4ac6baf083bc91e20",
+      "metadata_sha256": "ff20bc27af8dbb8191774597697f0f5b6fb63f81dc5a13fe88d8847c1065aa80",
+      "fitter_sha256": "942bfc7cc74c1d0407d01bd3b7d9ee619f50f9b2e7a5851c6745cdfea4eecd5b",
+      "adapter_sha256": "e4536058943a2a9eafaa0cdbe812ac46f3c9b50d7735a9c517f5aefcf966ccec",
+      "density_fitter_sha256": "1652aa88d44cdc5869d6bd3711059efcda81f956e083296cc438a1d52b67c600",
+      "density_kernel_sha256": "a9efac73b4b1d049f172714f079b1b3397107365af275352450186e9254daa2e"
+    },
+    "training": {
+      "split": "intrinsic-group split",
+      "split_seed": 73,
+      "train_mask_sha256": "efc2b374a0a83c7d3d343e01faa8132c7edec6231695543da0899ef8d34984d4",
+      "heldout_mask_sha256": "737cd863111eabdc4e7a0346623bf4b37f2d47b9b41d537055e83118b6387d53",
+      "n_train": 122726,
+      "n_heldout": 30812,
+      "native_posterior_row_ess": 122725.99999999632,
+      "component_attempt_failures": [],
+      "cdf_saturation_rows": 0,
+      "cdf_saturation_posterior_mass": 0.0
+    }
+  }
+}

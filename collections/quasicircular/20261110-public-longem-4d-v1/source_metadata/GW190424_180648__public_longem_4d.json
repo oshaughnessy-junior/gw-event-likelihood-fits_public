@@ -1,0 +1,196 @@
+{
+  "event": "GW190424_180648",
+  "rows": 38975,
+  "prior_contract": {
+    "schema": "aligned-redshift-native-prior-v1",
+    "event": "GW190424_180648",
+    "coordinate_order": [
+      "mc_source",
+      "eta",
+      "chi_eff",
+      "z"
+    ],
+    "analysis_support": {
+      "m1_det_min": 10.0,
+      "m2_det_min": 10.0,
+      "m1_det_max": 140.0,
+      "m2_det_max": 140.0,
+      "mtotal_det_min": 55.0,
+      "mtotal_det_max": 180.0,
+      "mc_det_min": 22.0,
+      "mc_det_max": 80.0,
+      "q_min": 0.125,
+      "q_max": 1.0,
+      "dL_min": 1.0,
+      "dL_max": 15000.0,
+      "amax": 0.99,
+      "z_min": 0.00022645053316891803,
+      "z_max": 1.9038310908028944,
+      "mc_min": 7.576198240207255,
+      "mc_max": 79.98188805880524,
+      "a1max": 0.99,
+      "a2max": 0.99
+    },
+    "spin_caps": [
+      0.99,
+      0.99
+    ],
+    "spin_quadrature_order": 128,
+    "distance_prior": {
+      "kind": "distance_squared",
+      "analytic": "Historical LALInference native D_L^2 prior",
+      "status": "versioned_default_with_exact_source_and_no_override",
+      "native_version": "1.11.5",
+      "implementation_evidence_sha256": "12c6580b1e6111e5cb3f66c6b9f23a1df97657fde3501bc850ff169e87e37b0f"
+    },
+    "common_cosmology": {
+      "H0": 67.9,
+      "Om0": 0.3065,
+      "Tcmb0": 0.0
+    },
+    "native_settings": {
+      "config_file/engine/L1-spcal-envelope": [
+        "<host-path>/Aug-24-2019_O3_LLO_GPSTime_1240164964_C01_RelativeResponseUncertainty_FinalResults.txt"
+      ],
+      "config_file/engine/a_spin1-max": [
+        "0.99"
+      ],
+      "config_file/engine/a_spin2-max": [
+        "0.99"
+      ],
+      "config_file/engine/adapt-temps": [
+        ""
+      ],
+      "config_file/engine/amporder": [
+        "0"
+      ],
+      "config_file/engine/approx": [
+        "IMRPhenomPv2pseudoFourPN"
+      ],
+      "config_file/engine/chirpmass-max": [
+        "80"
+      ],
+      "config_file/engine/chirpmass-min": [
+        "22"
+      ],
+      "config_file/engine/comp-max": [
+        "140"
+      ],
+      "config_file/engine/comp-min": [
+        "10"
+      ],
+      "config_file/engine/distance-max": [
+        "15000"
+      ],
+      "config_file/engine/enable-spline-calibration": [
+        ""
+      ],
+      "config_file/engine/fref": [
+        "20"
+      ],
+      "config_file/engine/maxmcmc": [
+        "5000"
+      ],
+      "config_file/engine/mtotal-max": [
+        "180"
+      ],
+      "config_file/engine/mtotal-min": [
+        "55"
+      ],
+      "config_file/engine/neff": [
+        "1000"
+      ],
+      "config_file/engine/nlive": [
+        "2048"
+      ],
+      "config_file/engine/ntemps": [
+        "8"
+      ],
+      "config_file/engine/progress": [
+        ""
+      ],
+      "config_file/engine/q-min": [
+        "0.125"
+      ],
+      "config_file/engine/resume": [
+        ""
+      ],
+      "config_file/engine/seglen": [
+        "4"
+      ],
+      "config_file/engine/spcal-nodes": [
+        "10"
+      ],
+      "config_file/engine/srate": [
+        "1024"
+      ],
+      "config_file/engine/tolerance": [
+        "0.1"
+      ]
+    },
+    "conditional_nuisance": "Original public IMRPhenomPv2 PE conditional nuisance prior",
+    "metadata_provenance": {
+      "source_manifest_sha256": "3610011452288a6409b89271868e2871e91bb4583b409155d812eb5896033050",
+      "support_manifest_sha256": "27814acc0d5b03112ce62fc8bfe284c6d6f402830551a787816360b427111f18",
+      "source_file_sha256": "457135a7041857bdcb76ad0ed35ab1c5ee22ff0a4ce656c423d7cdcf4ed5b8c9",
+      "historical_default_evidence_sha256": "12c6580b1e6111e5cb3f66c6b9f23a1df97657fde3501bc850ff169e87e37b0f"
+    }
+  },
+  "analysis_support": {
+    "m1_det_min": 10.0,
+    "m2_det_min": 10.0,
+    "m1_det_max": 140.0,
+    "m2_det_max": 140.0,
+    "mtotal_det_min": 55.0,
+    "mtotal_det_max": 180.0,
+    "mc_det_min": 22.0,
+    "mc_det_max": 80.0,
+    "q_min": 0.125,
+    "q_max": 1.0,
+    "dL_min": 1.0,
+    "dL_max": 15000.0,
+    "amax": 0.99,
+    "z_min": 0.00022645053316891803,
+    "z_max": 1.9038310908028944,
+    "mc_min": 7.576198240207255,
+    "mc_max": 79.98188805880524,
+    "a1max": 0.99,
+    "a2max": 0.99
+  },
+  "public_source_proof": {
+    "schema": "public-dcc-source-export-proof-v1",
+    "status": "public_archive_member_exact_match",
+    "event": "GW190424_180648",
+    "public_archive_url": "https://dcc.ligo.org/public/0169/P2000223/007/GW190424_180648.tar",
+    "dcc_document": "P2000223",
+    "dcc_version": 7,
+    "archive_sha256": "93ecfbde32b7940d1e6a45cda1195d4169f95d742cd4ac17171818e75cdf135c",
+    "archive_member": "GW190424_180648/GW190424_180648.h5",
+    "member_sha256": "457135a7041857bdcb76ad0ed35ab1c5ee22ff0a4ce656c423d7cdcf4ed5b8c9",
+    "historical_source_sha256": "457135a7041857bdcb76ad0ed35ab1c5ee22ff0a4ce656c423d7cdcf4ed5b8c9",
+    "posterior_group": "C01:IMRPhenomPv2",
+    "reference_sha256": "1eb633b6c18518cdd232df1a6672fab5f8456a49366c04b77facb1c7fd42a922",
+    "producer_sha256": "355085fc7b6082b001d6d95c216697027adf45ad6e0eaf22d867b0bcf8901486",
+    "used_columns": [
+      "mass_1",
+      "mass_2",
+      "spin_1x",
+      "spin_1y",
+      "spin_1z",
+      "spin_2x",
+      "spin_2y",
+      "spin_2z",
+      "chirp_mass",
+      "chi_eff",
+      "luminosity_distance"
+    ],
+    "population_redshift_measure_embedded": false,
+    "repository_scope": "Not a Zenodo certificate and not loaded or published through the current fit repository certificate runtime"
+  },
+  "native_prior_independent_max_log_error": 0.00010358012058730992,
+  "source": {
+    "path": "<host-path>/GW190424_180648.h5",
+    "dataset": "C01:IMRPhenomPv2",
+    "expected_sha256": "457135a7041857bdcb76ad0ed35ab1c5ee22ff0a4ce656c423d7cdcf4ed5b8c9"
+  }
+}

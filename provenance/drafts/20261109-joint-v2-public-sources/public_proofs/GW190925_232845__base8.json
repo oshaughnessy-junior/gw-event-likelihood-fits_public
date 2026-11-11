@@ -1,0 +1,63 @@
+{
+  "schema": "public-fit-source-proof-v1",
+  "status": "draft",
+  "draft_note": "Source proof only. fit_sha256 names the candidate base8 model; it is not certified until the base8 per-event quality gate passes and a collection is built.",
+  "event": "GW190925_232845",
+  "method": "public_release_file_checksum_match",
+  "release_id": "6513631",
+  "release_version": "v2",
+  "release_version_source": "metadata.version",
+  "doi": "10.5281/zenodo.6513631",
+  "public_file_url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190925_232845_PEDataRelease_mixed_nocosmo.h5/content",
+  "public_file_name": "IGWN-GWTC2p1-v2-GW190925_232845_PEDataRelease_mixed_nocosmo.h5",
+  "public_filename": "IGWN-GWTC2p1-v2-GW190925_232845_PEDataRelease_mixed_nocosmo.h5",
+  "public_file_checksum": {
+    "algorithm": "md5",
+    "value": "9e03629caab8e2f44ebaf61e99724184"
+  },
+  "observed_file_checksum": {
+    "algorithm": "md5",
+    "value": "9e03629caab8e2f44ebaf61e99724184"
+  },
+  "public_metadata_sha256": "b218eb002a7e7a44bcea44d379e379f7360671d72a9f94488dd53a26bbcf9b12",
+  "public_metadata": {
+    "path": "provenance/drafts/20261109-joint-v2-public-sources/public_metadata/6513631_b218eb002a7e7a44bcea44d379e379f7360671d72a9f94488dd53a26bbcf9b12.json",
+    "sha256": "b218eb002a7e7a44bcea44d379e379f7360671d72a9f94488dd53a26bbcf9b12"
+  },
+  "source_file_sha256": "f461930589e38479b61eb83c8e2145a80efee717a9b03ef4cdca0da647523266",
+  "public_file_sha256": "f461930589e38479b61eb83c8e2145a80efee717a9b03ef4cdca0da647523266",
+  "posterior_group": "C01:IMRPhenomXPHM",
+  "producer_revision": "a6613be579df7441283a66ebbfcc3ae8831ed5d4e75c2897e71e52a1e852180c",
+  "export_producer_revision": "6769a7687391355273f9c25aef63d3d474ab274297d79d6697eae8ce658fc984",
+  "fit_sha256": "ec4774975c2b5917a7987ad7b253ae0a0e312da23fdabfa92a4553582c39f3e4",
+  "source_validation_sha256": "4fac2cdeff3fb27d9e01ebbc20158b45639f981313feaf1e96d1565aedc4001c",
+  "reference_sha256": "5c0c07cecc274f2ec44d8271d680b20fa0ff04334bb36eae50d866e7e7018a26",
+  "reference_rows": 164960,
+  "reference_rowwise_check": {
+    "max_relative_error": {
+      "chi_eff": 0.0,
+      "eta": 1.6653345369377348e-16,
+      "luminosity_distance": 6.238025063165509e-08,
+      "mc_det": 6.010734684424944e-16
+    },
+    "rowwise": "match"
+  },
+  "used_columns": [
+    "mass_1",
+    "mass_2",
+    "luminosity_distance",
+    "chi_eff",
+    "spin_1x",
+    "spin_1y",
+    "spin_1z",
+    "spin_2x",
+    "spin_2y",
+    "spin_2z",
+    "chirp_mass",
+    "mass_ratio"
+  ],
+  "canonical_hash_definition": "audit_public_sources.py: float64 little-endian, column-major, file row order; prior = sorted-key JSON of priors/analytic strings",
+  "original_used_columns_sha256": "6364e987344942e696d7adfa8a669df25d26995848f6b812cb75ac2a450da5ea",
+  "original_prior_sha256": "4a898f8c061810a90ee003f5554b14adca64a461f7404bcd57626237cc6d0024",
+  "population_redshift_measure_embedded": false
+}

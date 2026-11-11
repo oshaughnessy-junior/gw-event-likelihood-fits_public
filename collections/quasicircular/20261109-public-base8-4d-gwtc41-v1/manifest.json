@@ -1,0 +1,285 @@
+{
+  "schema": "nal-collection-v1",
+  "collection_id": "quasicircular/20261109-public-base8-4d-gwtc41-v1",
+  "family": "quasicircular",
+  "likelihood_backend": "native_spin_base_redshift",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "coordinate_cosmology": {
+    "H0": 67.9,
+    "Om0": 0.3065,
+    "Tcmb0": 0
+  },
+  "source_revision": "sha256:6762b289a9a963f429d069a557a3cf5403e9cab8bada88bdd0f56581e432850b",
+  "proof_source": {
+    "commit": "fea1cf91654250b76a04b7afad4395ce2fa59321",
+    "tag": "drafts/gwtc41-seven-public-proofs-20261109",
+    "path": "provenance/drafts/20261109-gwtc41-seven-public-sources"
+  },
+  "population_manifest_sha256": null,
+  "selection_policy": "Seven GWTC-4 events whose GWTC-4.0 release reweighted a different bilby run from the paper-2 joint_v2 source, refit from GWTC-4.1 (Zenodo 20275769). No population analysis uses these fits; released only where the k16, tol 2e-5 base-measure fit passes the declared checks on split seed 73 and replication seeds 101 and 202. Not a complete event catalog.",
+  "requested_events": [
+    "GW230726_002940",
+    "GW230729_082317",
+    "GW230731_215307",
+    "GW231020_142947",
+    "GW231110_040320",
+    "GW231113_200417",
+    "GW231123_135430"
+  ],
+  "entries": [
+    {
+      "event": "GW230726_002940",
+      "analysis_id": "GW230726_002940__public_base8_4d",
+      "source_id": "GW230726_002940__public_base8_4d",
+      "fit": {
+        "path": "fits/GW230726_002940__public_base8_4d.json",
+        "sha256": "782ddb960c056a4138f3a68381fbbffa554382179cbbca3065cccd042c38b569"
+      },
+      "validation": {
+        "path": "validation/GW230726_002940__public_base8_4d.json",
+        "sha256": "698837f6ff1399db7ff7c1708a0d1759b7097d5652305953035ef992459cacfa"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because it passes the producer declared checks on every split; no population analysis uses it. Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73) and on replication seeds 101, 202. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": [
+            {
+              "split_seed": 101,
+              "passes": true
+            },
+            {
+              "split_seed": 202,
+              "passes": true
+            }
+          ]
+        }
+      },
+      "aliases": [
+        "GW230726_002940"
+      ]
+    },
+    {
+      "event": "GW230729_082317",
+      "analysis_id": "GW230729_082317__public_base8_4d",
+      "source_id": "GW230729_082317__public_base8_4d",
+      "fit": {
+        "path": "fits/GW230729_082317__public_base8_4d.json",
+        "sha256": "1a293bd754a727fd309d34beebfc911a8bae0769b2d7d6a285f328762b424a04"
+      },
+      "validation": {
+        "path": "validation/GW230729_082317__public_base8_4d.json",
+        "sha256": "ea03042969a145d624d764c8ea0d57d31b089d11c6d06b374f5932c7aff48fc3"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because it passes the producer declared checks on every split; no population analysis uses it. Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73) and on replication seeds 101, 202. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": [
+            {
+              "split_seed": 101,
+              "passes": true
+            },
+            {
+              "split_seed": 202,
+              "passes": true
+            }
+          ]
+        }
+      },
+      "aliases": [
+        "GW230729_082317"
+      ]
+    },
+    {
+      "event": "GW230731_215307",
+      "analysis_id": "GW230731_215307__public_base8_4d",
+      "source_id": "GW230731_215307__public_base8_4d",
+      "fit": {
+        "path": "fits/GW230731_215307__public_base8_4d.json",
+        "sha256": "2c0fe259392630d43de0cb69233820604c421df5edb155273ca27cef553aafb2"
+      },
+      "validation": {
+        "path": "validation/GW230731_215307__public_base8_4d.json",
+        "sha256": "116ccb515ea9431cbbca25d41a34397d76fd5d15184e36a6bc78043dad7026de"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because it passes the producer declared checks on every split; no population analysis uses it. Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73) and on replication seeds 101, 202. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": [
+            {
+              "split_seed": 101,
+              "passes": true
+            },
+            {
+              "split_seed": 202,
+              "passes": true
+            }
+          ]
+        }
+      },
+      "aliases": [
+        "GW230731_215307"
+      ]
+    },
+    {
+      "event": "GW231020_142947",
+      "analysis_id": "GW231020_142947__public_base8_4d",
+      "source_id": "GW231020_142947__public_base8_4d",
+      "fit": {
+        "path": "fits/GW231020_142947__public_base8_4d.json",
+        "sha256": "6ae15e70a26f66fa01b0d24496d6ae2c30693cc4451c3ef6e8d171ef1d9e0900"
+      },
+      "validation": {
+        "path": "validation/GW231020_142947__public_base8_4d.json",
+        "sha256": "e320af7b0903540caecd0ef3cceb7485a3ab27d36d243a91902500d35f4f2d6b"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because it passes the producer declared checks on every split; no population analysis uses it. Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73) and on replication seeds 101, 202. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": [
+            {
+              "split_seed": 101,
+              "passes": true
+            },
+            {
+              "split_seed": 202,
+              "passes": true
+            }
+          ]
+        }
+      },
+      "aliases": [
+        "GW231020_142947"
+      ]
+    },
+    {
+      "event": "GW231110_040320",
+      "analysis_id": "GW231110_040320__public_base8_4d",
+      "source_id": "GW231110_040320__public_base8_4d",
+      "fit": {
+        "path": "fits/GW231110_040320__public_base8_4d.json",
+        "sha256": "bc5cd79d334b31d16428c505da07bcfecebbef5aad26a0dba6580c35eb516a67"
+      },
+      "validation": {
+        "path": "validation/GW231110_040320__public_base8_4d.json",
+        "sha256": "3d6847c8804431ca1f2d26d2fe682b6c4cee27c64554ed5eb858ef0b4459cd71"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because it passes the producer declared checks on every split; no population analysis uses it. Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73) and on replication seeds 101, 202. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": [
+            {
+              "split_seed": 101,
+              "passes": true
+            },
+            {
+              "split_seed": 202,
+              "passes": true
+            }
+          ]
+        }
+      },
+      "aliases": [
+        "GW231110_040320"
+      ]
+    },
+    {
+      "event": "GW231113_200417",
+      "analysis_id": "GW231113_200417__public_base8_4d",
+      "source_id": "GW231113_200417__public_base8_4d",
+      "fit": {
+        "path": "fits/GW231113_200417__public_base8_4d.json",
+        "sha256": "a7616d0480fe4365c4f080b68a3bff40650eaa024dccb0fecb644affdab168ca"
+      },
+      "validation": {
+        "path": "validation/GW231113_200417__public_base8_4d.json",
+        "sha256": "1aa327cc8e875bed2fc12996363f87bfe85fded0460aad34421cc240d5aaec04"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because it passes the producer declared checks on every split; no population analysis uses it. Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73) and on replication seeds 101, 202. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": [
+            {
+              "split_seed": 101,
+              "passes": true
+            },
+            {
+              "split_seed": 202,
+              "passes": true
+            }
+          ]
+        }
+      },
+      "aliases": [
+        "GW231113_200417"
+      ]
+    },
+    {
+      "event": "GW231123_135430",
+      "analysis_id": "GW231123_135430__public_base8_4d",
+      "source_id": "GW231123_135430__public_base8_4d",
+      "fit": {
+        "path": "fits/GW231123_135430__public_base8_4d.json",
+        "sha256": "87dc1b87f11523bfc6d05410c357ca46b0a2e450cc7c0d4473191141ce72415f"
+      },
+      "validation": {
+        "path": "validation/GW231123_135430__public_base8_4d.json",
+        "sha256": "469fd3916f83c34617eaa0253b851c1fec012ffdc93dfb1198f63d1bb4e33b5d"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because it passes the producer declared checks on every split; no population analysis uses it. Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73) and on replication seeds 101, 202. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": [
+            {
+              "split_seed": 101,
+              "passes": true
+            },
+            {
+              "split_seed": 202,
+              "passes": true
+            }
+          ]
+        }
+      },
+      "aliases": [
+        "GW231123_135430"
+      ]
+    }
+  ],
+  "unresolved": [],
+  "source_manifest": {
+    "path": "sources.json",
+    "sha256": "2ff3b63c172833bf1008ffb760af43995520be175256e66a2f43beac8b42d2ac"
+  },
+  "counts": {
+    "public_source_verified_candidates": 7,
+    "passing_declared_checks": 7,
+    "unresolved": 0,
+    "scientifically_accepted": 0
+  }
+}

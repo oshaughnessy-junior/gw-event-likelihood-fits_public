@@ -1,0 +1,51 @@
+{
+  "schema": "public-fit-source-proof-v1",
+  "status": "verified",
+  "event": "GW190519_153544",
+  "fit_sha256": "8f9b1d0af900029b6936c478c71611dd74ea3b2efad5c2414e7fb08c59b4bb4c",
+  "reference_sha256": "a863dcd91c872f77ea2f16fbe12c213ea1312583c016e675995df86c7da44506",
+  "posterior_group": "C01:IMRPhenomXPHM",
+  "producer_revision": "b24a0cbf492afdf3bd9c5be7b404d144699f3e339e1dc0abfb6bb7f2a33d8c3e",
+  "leaf_revision": "bea8929dc0cd1cef0947a49c15b90faa6376d9b03a1b261db9c6fb558bf496b7",
+  "source_model_sha256": "1b525cdc85a28d2b3d4bc0dcee2c549cca7aed00f18cc5d4a9699344f06be68e",
+  "source_validation_sha256": "66c7d5e85a7a8055d62ff6d6725a5d2dc7fc1f4180f00761cc0cf465c6a499bb",
+  "used_columns": [
+    "chirp_mass",
+    "mass_ratio",
+    "luminosity_distance",
+    "chi_eff",
+    "mass_1",
+    "mass_2",
+    "spin_1x",
+    "spin_1y",
+    "spin_1z",
+    "spin_2x",
+    "spin_2y",
+    "spin_2z"
+  ],
+  "source_export_proof": {
+    "path": "collections/quasicircular/20261110-public-longem-4d-v1/source_exports/GW190519_153544.json",
+    "sha256": "324d1c6a51931a70cefb3d728d3d371598008b863a6865261a46943475525763"
+  },
+  "method": "public_release_file_checksum_match",
+  "release_id": "6513631",
+  "release_version": "v2",
+  "doi": "10.5281/zenodo.6513631",
+  "public_file_url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_nocosmo.h5/content",
+  "public_file_name": "IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_nocosmo.h5",
+  "public_file_sha256": "a5b26ece547cce96f0ed8802c756af0454ed89632cc82c6875f383d714f5f908",
+  "source_file_sha256": "a5b26ece547cce96f0ed8802c756af0454ed89632cc82c6875f383d714f5f908",
+  "public_file_checksum": {
+    "algorithm": "md5",
+    "value": "ce75a83120e850bd145c9a080c4e33c3"
+  },
+  "observed_file_checksum": {
+    "algorithm": "md5",
+    "value": "ce75a83120e850bd145c9a080c4e33c3"
+  },
+  "public_metadata": {
+    "path": "collections/quasicircular/20261110-public-longem-4d-v1/public_metadata/b218eb002a7e7a44bcea44d379e379f7360671d72a9f94488dd53a26bbcf9b12.json",
+    "sha256": "b218eb002a7e7a44bcea44d379e379f7360671d72a9f94488dd53a26bbcf9b12"
+  },
+  "public_metadata_sha256": "b218eb002a7e7a44bcea44d379e379f7360671d72a9f94488dd53a26bbcf9b12"
+}

@@ -1,0 +1,3102 @@
+{
+  "schema": "o4b-public-coefficient-archive-v1",
+  "expected_events": 105,
+  "public_coefficient_candidates": 104,
+  "events": [
+    {
+      "event": "GW240825_055146",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240825_055146.json",
+        "sha256": "5074b98caf901cce556495d65342ba0e5ef35214410f2b5b792995ee4af0ec90"
+      },
+      "validation": {
+        "path": "validation/GW240825_055146.json",
+        "sha256": "a66a0eea83eee3781149ea2188c50eebb32331c9270cbd2e0cf2d8410711eb31"
+      },
+      "upstream_fit_sha256": "cb438c1de39e6115b8b00638f6015bdab1af0384435c0b15848dc2e7432dbe31",
+      "reference_sha256": "67768226a489a9bda9c95074a7b3f5ad2a346f3b4cceba008c50fad6f1a35d13",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240825_055146-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "5b0d3e76d6af4a231fba1a12d8d32ad9f48639620a7207a1857d92c6377b5152",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "67768226a489a9bda9c95074a7b3f5ad2a346f3b4cceba008c50fad6f1a35d13",
+        "source_record_sha256": "e2482b0fb1c89d5806d57e9f0944914be846720ff454a1b934d6e255b79187c7"
+      },
+      "observed_checksum": "md5:b160f4d400f852034ef8808e4981237e",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW241114_235258",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241114_235258.json",
+        "sha256": "efa5e9d17cce9530c06ca6f14df559d4f6927647229fda7484036fceff36ef76"
+      },
+      "validation": {
+        "path": "validation/GW241114_235258.json",
+        "sha256": "1a03b276a30caec1219ffff17406c2a32905f9e462061ff7797f3c18a0a226a5"
+      },
+      "upstream_fit_sha256": "7d9baedba43f56f0e09c7ee03b4dc22c6e6d6caef44e3b186236405bf286b756",
+      "reference_sha256": "3c281f4389e48c9252779cc6c650ffb403f1244ef816d89462f429bd06dd0d55",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241114_235258-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "836c11ac219ed6f43cea56f4b797dfab747cca2aae3113adc4e147098ffb9776",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "3c281f4389e48c9252779cc6c650ffb403f1244ef816d89462f429bd06dd0d55",
+        "source_record_sha256": "c0aaf2b0974bc11d5c93a30f21a7e96481397f2415d7f568295c1737226229ae"
+      },
+      "observed_checksum": "md5:5a731ffe731c42d3cf178127b7611213",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240601_231004",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240601_231004.json",
+        "sha256": "622c2ce5d435c4dde20b83004367ace3733d622df75c612e1bc3f412e0273f3a"
+      },
+      "validation": {
+        "path": "validation/GW240601_231004.json",
+        "sha256": "e69b3181f66f56eb53dd6b4c2b497f1423afe0e2af1cee7a0dba237db19a5cf2"
+      },
+      "upstream_fit_sha256": "f6dad655d877f56053ac632188a6e196a9910ccd1f77d2fde1a02b5b6a538c12",
+      "reference_sha256": "77e45ff3052abd7b5fdf6c5b1f698e7e6e544b67c3f0b4b4fa7db79138be41da",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240601_231004-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "d92c08bcd605c5c38fa78fde3f0f28a7087eacedf0fed1275447eb21fb3b7b8c",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "77e45ff3052abd7b5fdf6c5b1f698e7e6e544b67c3f0b4b4fa7db79138be41da",
+        "source_record_sha256": "d42bf494e75e0410e132a807a7cb670074dbbd1a8ddfb140ad5689323fba46bc"
+      },
+      "observed_checksum": "md5:38390e9bfc56b4de298412c5b42a48f6",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240612_081540",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240612_081540.json",
+        "sha256": "2464916a14e01bdbb077efc2237e1861edb0ea07177e2e18e0cbb09f1576b9ad"
+      },
+      "validation": {
+        "path": "validation/GW240612_081540.json",
+        "sha256": "857cc6379ed8daff8b619937ce474ab4fc381fe0a71000d52f4e9b3afeb0f615"
+      },
+      "upstream_fit_sha256": "6db2fc09a919df64467845c3dc2407547c1c897651d2c2e2ba1d16c9d7a5c29d",
+      "reference_sha256": "6bcc04126ea7ee6619bbeffd0a3fcee19444d44388a8a1381ea0ccf2e300e5dd",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240612_081540-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "0e0644de98945986a0229d41c06d86dd7f8e2d8bcb26cb96a8662307a7273621",
+        "frequency_Hz": 13.0,
+        "reference_sha256": "6bcc04126ea7ee6619bbeffd0a3fcee19444d44388a8a1381ea0ccf2e300e5dd",
+        "source_record_sha256": "0a7336441ef63629ff746103fb785ecb8949aed9b26a3e3c460c4a57662a5696"
+      },
+      "observed_checksum": "md5:6a8d3da32b3ba1fc6f393df0c95802ac",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW241109_033317",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241109_033317.json",
+        "sha256": "8680a11204d57aaaad637913989c4948afbc72d1e9d3c60d98e5c07adfd4f70b"
+      },
+      "validation": {
+        "path": "validation/GW241109_033317.json",
+        "sha256": "db4c99726659979fb8663af7d248cb2699724bae7e7f7ea0b7274e122f3ac847"
+      },
+      "upstream_fit_sha256": "ad22dd9ba034627db54ee5206f74bb452998f636bcdc03528127f7bc2664744a",
+      "reference_sha256": "4d380caf68acfc9c6734a1b86a654b5b7110af0a567000cd0edcefe53582b73f",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241109_033317-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "feb3131d5670f5f493f1fee82867b01209606ef97c80cb0f0a77a3d078dc961b",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "4d380caf68acfc9c6734a1b86a654b5b7110af0a567000cd0edcefe53582b73f",
+        "source_record_sha256": "fac2c4a24d3dfdb5a9a96284fb354b53891c9ff9795b355346025123e7db3e5b"
+      },
+      "observed_checksum": "md5:5d6a7ab116df6a2786e7c48ea9628a3f",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240525_031210",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240525_031210.json",
+        "sha256": "bfd7d230148698e9471a2807ccceccda3af5e002e33ce6ff533982842b8e5a46"
+      },
+      "validation": {
+        "path": "validation/GW240525_031210.json",
+        "sha256": "8d316e5c11fae916913023b5c35c7e2629c7f63ed4d889602ad5bc91be03b452"
+      },
+      "upstream_fit_sha256": "991e7113fabae29073557b8d20e11b0e94c8d8c98296c6f08e86e5c9c56ffabf",
+      "reference_sha256": "18c8feb5eb7b49271b5ff956c3c65df592daf7aebb5d69986f7efcedd41119c5",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240525_031210-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "5d9e24147010bd1a50ecf89daf033631ffb45840bf4bc47e21a828a4981e4695",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "18c8feb5eb7b49271b5ff956c3c65df592daf7aebb5d69986f7efcedd41119c5",
+        "source_record_sha256": "cb669940fb159838c6ee1e0319005dc7619f862d88983a2c203b86fd03f8d918"
+      },
+      "observed_checksum": "md5:ae34ebd1e9b0b267f4600821346250dd",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW241009_022835",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241009_022835.json",
+        "sha256": "be5e2ac2351e779e0a32b9cb09a651f5138383e0392406d597d2c74d2ce00e62"
+      },
+      "validation": {
+        "path": "validation/GW241009_022835.json",
+        "sha256": "f022ff940bd74f635bef45337ccb575289e25a31744c3e2e177272de48b07aea"
+      },
+      "upstream_fit_sha256": "a1f017c7a975cc1f2853c08baf1c76b976fb3f7b7b2e8d3bed61e951a9eabb26",
+      "reference_sha256": "4bd8e2000b28ca8257f6ac956d324c3d7d83c473663fc105fcf3635d7ab5ce22",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241009_022835-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "b4a1710b10fb02a7511ba1d81232ab74c974118a8354c98a300515cf28b1ad64",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "4bd8e2000b28ca8257f6ac956d324c3d7d83c473663fc105fcf3635d7ab5ce22",
+        "source_record_sha256": "0c017d215bd1689f073f01f039e2bc1e641a56bed1bb185d60bc59b82667f23e"
+      },
+      "observed_checksum": "md5:1bb20b6a317ca108b000f1e0a00fc4c1",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241225_082815",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "generic_flat_joint9d_candidate",
+      "fit": {
+        "path": "fits/GW241225_082815.json",
+        "sha256": "71cd065fd25bc4c112d0a4ec8794849d01984257c4a6ffa626f99489e8df2e80"
+      },
+      "validation": {
+        "path": "validation/GW241225_082815.json",
+        "sha256": "e76e3f6d0777411f1e7f4408810d5f6498fbb13be16ed27ed643ae3a7a774b41"
+      },
+      "upstream_fit_sha256": "c71fbf05094a77a2c84f895015cf5ba09021b88f88ef588035aa57fbbe19bd50",
+      "reference_sha256": "f9347e855ce3704e587324dd59f4d3fd2d3127c1f87763c54d741b9f3b529f5d",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241225_082815-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "2988e9973ccc5b224c9e393c8ea1883d31f04961c356e4e351e77f3b3f8c7763",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "f9347e855ce3704e587324dd59f4d3fd2d3127c1f87763c54d741b9f3b529f5d",
+        "source_record_sha256": "060dd41e64b6705af58b153a1c2c5e3931d3ffc4ae5868f027693021f3f8d82c"
+      },
+      "observed_checksum": "md5:43a3a0f36e7212131039b7e806e7b189",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240910_103535",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240910_103535.json",
+        "sha256": "be03071ebe929b8da7ea01a800ffae47caaffcc31691445b17bceaf251e46ec0"
+      },
+      "validation": {
+        "path": "validation/GW240910_103535.json",
+        "sha256": "a3dbccbc1dbf306f7f9342689a8397a680c7c14d9292442fb3cb69c9c3e41294"
+      },
+      "upstream_fit_sha256": "0f4e68181a9a5f81b8221a893dacfa1e48de27c8acf0c90e620e38f90ce7d824",
+      "reference_sha256": "9f99ebd6d2ec262c54ad3497bfcd69a94dbe35e57ecb791defd61c54c3dae739",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240910_103535-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "8e4a128f1788911abee0ca034059c829bfab06176e251a96d6d6b54069b3fd06",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "9f99ebd6d2ec262c54ad3497bfcd69a94dbe35e57ecb791defd61c54c3dae739",
+        "source_record_sha256": "4759c2dd0921ff8469e893dd5daf20a11c564007cf1c1608e18cf98881cce34b"
+      },
+      "observed_checksum": "md5:67fb8e9d52a1c0ba92ce30f9f175f439",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240622_004008",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240622_004008.json",
+        "sha256": "23b6744d53f8659df5ad8f3bb1b712a14fb6f1bcfd6265ebd7718ea4c118725a"
+      },
+      "validation": {
+        "path": "validation/GW240622_004008.json",
+        "sha256": "5bbda6fef5ef6f3be35c553efd82c965737697d4f31c100af6779cc5a4ce3301"
+      },
+      "upstream_fit_sha256": "4beb2436f01761c52a9480cf2d264de470baf417a8cf2911ad279beaa1ca3a07",
+      "reference_sha256": "ac11bf7496fce2eb82069e60f55ec4d075b47b0e8de4525917112248d51b73c6",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240622_004008-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "845e8670de0f3787227a2e2f4706c9b9332092f92092c0add8a6766eddcf379a",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "ac11bf7496fce2eb82069e60f55ec4d075b47b0e8de4525917112248d51b73c6",
+        "source_record_sha256": "83dcc35f2163e14394dc4c1b68cf07f17c318ef148ca69439fec5192766177e3"
+      },
+      "observed_checksum": "md5:b8e62f6d5986650ea57ceea1ec712278",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW250118_170523",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "generic_flat_joint9d_candidate",
+      "fit": {
+        "path": "fits/GW250118_170523.json",
+        "sha256": "6fe8c214972fbb9299d1cff0e5659966b1d07b10103c86465249ffa80631dfe8"
+      },
+      "validation": {
+        "path": "validation/GW250118_170523.json",
+        "sha256": "ec82740ab3597113a3d1f3d36261546b54df04d13881965899f14ba66170792f"
+      },
+      "upstream_fit_sha256": "9e3cc1ddb2469cb542c547610d0af0fe2fcc3f85058869ee95114a92bfb49685",
+      "reference_sha256": "446cd6fb5b01657c72ddc955025e98b05e90d04928827e337fc937bbcdcd23c7",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250118_170523-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "4368e33388881d667ba807d00f1b3e77fa6fe70b58111a985e4f7bac3451f745",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "446cd6fb5b01657c72ddc955025e98b05e90d04928827e337fc937bbcdcd23c7",
+        "source_record_sha256": "886d1cf3535e9b4129de067403f1068bce1229661c24f04d007dee54af80f799"
+      },
+      "observed_checksum": "md5:5d1f1146004e7b437ebba33ec3f5fbf2",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240930_035959",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240930_035959.json",
+        "sha256": "eb2e5c6714fd00f75fafbb2ee181e9b936aed6cfe027657d3e5821d72f92b7a1"
+      },
+      "validation": {
+        "path": "validation/GW240930_035959.json",
+        "sha256": "31797ae865009b61c0ea208f6815508b40571e5cadd5fac0b374331feae786d2"
+      },
+      "upstream_fit_sha256": "27f4ee799bf9379826969ca471e88c9e6f66e62e4c81e21b7c26b43240c16ba7",
+      "reference_sha256": "f048a3626a15d00dc4be0d4401f8a7a6cd6127e07c169c6ba7ee8e8010bca49d",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240930_035959-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "644665af6faa70e88fbc4091f4e5397854f4b4d66fce71a10f0e22814c79d708",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "f048a3626a15d00dc4be0d4401f8a7a6cd6127e07c169c6ba7ee8e8010bca49d",
+        "source_record_sha256": "4096577afbcd22763ede6fe065df157d2779a9367492a50cb34d514dbbae7ea8"
+      },
+      "observed_checksum": "md5:b1a1e09705bec7f1ae7a1a4d5206adf0",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240426_031451",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240426_031451.json",
+        "sha256": "62a41e7e3d17f9b9caa5024392b246a3c79499b989dfe7a4c634b71400d876a7"
+      },
+      "validation": {
+        "path": "validation/GW240426_031451.json",
+        "sha256": "ba78529ed309262a0b10c6e63be843f5acbb8f2addf225d7402c47aab24d486e"
+      },
+      "upstream_fit_sha256": "a1b2829c0100bdf00ffa96decf35f7acb87ec2276d7cbdb82605fec1540c3dc4",
+      "reference_sha256": "7713bb19f3a55b9bd18fecdc82caaeadc439f6c8c04b678507d6acd004605e6c",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240426_031451-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "052138e614aa3f9f2721b2428733a1685f7d14a759bcc0491775547cbde97007",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "7713bb19f3a55b9bd18fecdc82caaeadc439f6c8c04b678507d6acd004605e6c",
+        "source_record_sha256": "ed765540106ad4ffcf86d40b5d9d5b6cf47921ae0e2726cff093e7c5cc084a74"
+      },
+      "observed_checksum": "md5:48b990dd71967e4a4fee450ad3abfa8c",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240920_124024",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240920_124024.json",
+        "sha256": "3f8748a0f161456cd782d6a0b69ada280ff584bfa20ca2f5a3f7c21aa729ca71"
+      },
+      "validation": {
+        "path": "validation/GW240920_124024.json",
+        "sha256": "f6b690b531ab2714d6a7c0f1b5a6676be8722f5d607894da55a39214c8d80cff"
+      },
+      "upstream_fit_sha256": "c9ea7b40ce7522dd02c0ed7de4303fec55cec8bbc4e2557eba771d1647e5115f",
+      "reference_sha256": "c118f4d084d812c90d5f7866f727bb7a423383dced8dc3bab25144b3c04a6641",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240920_124024-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "8af3340d67c8f7015c929994f3cb6afa975498e3e5804596b45a994e5c02b7af",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "c118f4d084d812c90d5f7866f727bb7a423383dced8dc3bab25144b3c04a6641",
+        "source_record_sha256": "a8ce05751e09df6eb969eb1bc5fb761df03eb68037853c13288e8a61556310a5"
+      },
+      "observed_checksum": "md5:4322a166f918c89a4563eb657857327a",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240406_062847",
+      "status": "no_public_PE",
+      "reason": "Engineering-run event lacks released source-property PE; detailed calibration unavailable"
+    },
+    {
+      "event": "GW240915_105151",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240915_105151.json",
+        "sha256": "19e7e4981e41b7f106485a7cfab7bd387abe4d52fba2e156abf516215eb341fb"
+      },
+      "validation": {
+        "path": "validation/GW240915_105151.json",
+        "sha256": "6ec91936cf9742ca4aea4774817e39d64f4f351f1a5071071e2908f9cc5b4682"
+      },
+      "upstream_fit_sha256": "597c27393b009b334eb205c4515f8f5d32e00fa1012bef7cffcee03f778b1f0d",
+      "reference_sha256": "d57fbed1318a56634a8aa4f23fd2899cf5fd507f7fbe9abb59ca0a3798947f56",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240915_105151-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "8a555b4b0b92bf15f44d5f3f3385264012020547491997423c75f529c6995c25",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "d57fbed1318a56634a8aa4f23fd2899cf5fd507f7fbe9abb59ca0a3798947f56",
+        "source_record_sha256": "19b6efee2835a1500a189ea9e833200f886782507b58ef32806a5466a219c715"
+      },
+      "observed_checksum": "md5:27ecf83c35f33d892e85b8d9c97da7e7",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240830_211120",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240830_211120.json",
+        "sha256": "c6ced49e0dcca7693f86bdd2d96656f0d037dcb90923ba4161eaeede2d48bdac"
+      },
+      "validation": {
+        "path": "validation/GW240830_211120.json",
+        "sha256": "3a335444638491d9f117a76dd9f9c30d2b0b7b70d8192a0e3445ca192f4ba56c"
+      },
+      "upstream_fit_sha256": "04bb14568d4d5cd59b8b5af3d080bea0566ad2073be20960bff1d03a84b8f097",
+      "reference_sha256": "aaf58af601fa6eee86b0aa0ba46002cd1f85fe31d6da0b07d58a7d3108e85e68",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240830_211120-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "07d8fac38d069435d5494834f726f65cf3a0e8467118a1c746145ab1159ff177",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "aaf58af601fa6eee86b0aa0ba46002cd1f85fe31d6da0b07d58a7d3108e85e68",
+        "source_record_sha256": "9ff210d324c0b49c44b7831bdae4847f966eadb777a40ea68943a00323a0c47e"
+      },
+      "observed_checksum": "md5:8a3f012c8b38602ed59a87eb210dabc9",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240527_230910",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240527_230910.json",
+        "sha256": "e389bbbfc71aea627fb19c6dbc0be1b75621e49a631017216464963b3fc346ca"
+      },
+      "validation": {
+        "path": "validation/GW240527_230910.json",
+        "sha256": "8931e5601e227eed8ce468b7ef9925f0d57736d41a22994bc0e39dfb0589a888"
+      },
+      "upstream_fit_sha256": "90068db3e8e355f6991ac4c4ebf2ce25175a34d728d6883f43320636e8d720bd",
+      "reference_sha256": "10256a2506da61af1df3f14afa656e8c89a8e98b0f5cd93af07ca2abd5616ab9",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240527_230910-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "659e639db794a4ce311306235a3f64973b46bc32b829e7a4efbb3c43ebb8573c",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "10256a2506da61af1df3f14afa656e8c89a8e98b0f5cd93af07ca2abd5616ab9",
+        "source_record_sha256": "94ab93b36f84caf09677ed7ee80e36821c50c83e8bad8bb9b3a615ebbf452b11"
+      },
+      "observed_checksum": "md5:15dce52c7ef4752a666550655d0e69d5",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW250118_055802",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW250118_055802.json",
+        "sha256": "94ed79787e0c21b09db952082a64530f24adf8bbc5440db6a5a0a60dee42cf37"
+      },
+      "validation": {
+        "path": "validation/GW250118_055802.json",
+        "sha256": "11e31a4b7551e2884099a9db76b48a9b34563c8b046d0dc34d9c46b7ccdd6edf"
+      },
+      "upstream_fit_sha256": "6525730d077da25275feefde849527365b8a9ef5590b7865636e35f24ecc7d70",
+      "reference_sha256": "078a655d6b422397a11b9e9f6933262a83c8c59fc265ae430639892a4e9f634c",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250118_055802-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "d94d052ebfab471189dbe0808331786b3f28fe8a716cdf0831a96bf4877e70b5",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "078a655d6b422397a11b9e9f6933262a83c8c59fc265ae430639892a4e9f634c",
+        "source_record_sha256": "47a0aa7dc3d18149dd597f311b7f8e014ced14d9677dc10b6a6ee5cb96c87d8d"
+      },
+      "observed_checksum": "md5:2e092ced095294d7910b65bdf7215b7a",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW241230_084504",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241230_084504.json",
+        "sha256": "c707619cbdfda641ba3d3ff880c51310b9ae91d0f0f69cd01c09c8aa9da37efc"
+      },
+      "validation": {
+        "path": "validation/GW241230_084504.json",
+        "sha256": "43e64f467963c0c65087291b0f1785dd76a199b18bbee6728e484511950d8178"
+      },
+      "upstream_fit_sha256": "5cca9800bf6075b2b924773ffb08c2ec3b89a93c16e288685f8f0c80c803605f",
+      "reference_sha256": "c743fbe709cfa99f2cfe5d8698ebb367f1a60200fdf0a49ee3b51ba51dc73ca5",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241230_084504-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "c6c49ad715919878f548c1eb2ecee2eaa2d337b94661109f538d2dadd5ecba0b",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "c743fbe709cfa99f2cfe5d8698ebb367f1a60200fdf0a49ee3b51ba51dc73ca5",
+        "source_record_sha256": "1cc91a663f5d53d8be18355a528137acbdf36e5211c98eb2608a91557b3af78a"
+      },
+      "observed_checksum": "md5:248f6aa86c41aabe58e4a1ec3289596d",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240428_225440",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240428_225440.json",
+        "sha256": "c84da0fdb57a002266d0044b54db7b104023bec769258c046451dbbcf5de0578"
+      },
+      "validation": {
+        "path": "validation/GW240428_225440.json",
+        "sha256": "3f5b0362756197b7166e296de5deb3f776d1a39b2bcfeca0336240e1f281fcd3"
+      },
+      "upstream_fit_sha256": "65a68f24f7647128d67191a3666e566e38ca8893c5d51f605448fe6aab03e39a",
+      "reference_sha256": "52c34cae904d13018e8261dddf3d1ed4fcf298f762b5b54d0dc166ff1406abb6",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240428_225440-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "721d4d2a9fd3012d6f9f4fc09c12641949e214eefbeabeb40cdf8690916f6c24",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "52c34cae904d13018e8261dddf3d1ed4fcf298f762b5b54d0dc166ff1406abb6",
+        "source_record_sha256": "7b67303fd30304fff291f951dc553e27698ee0ceaf5f292ed9f50025b50d5915"
+      },
+      "observed_checksum": "md5:ec82483a9f5267537b6526890c3a94cc",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW241102_144729",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241102_144729.json",
+        "sha256": "f210f9b67c8e66a858b4c15090ec297a0549e4be8394210ea2289453775ab822"
+      },
+      "validation": {
+        "path": "validation/GW241102_144729.json",
+        "sha256": "a2e85100448b187eb820ab7b5eb78d69cdc5be6e73d9d5781c789710a882a2b3"
+      },
+      "upstream_fit_sha256": "b316ec07b5cd4b27c6d775f5596b6eb1995caadb78fefb722c04982f09b24cbc",
+      "reference_sha256": "4afeb73b00cac7b1ac4003de9076fba4e46613667bb486f24a31f41289ce6b08",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241102_144729-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "939403e680ca0cc9d28379c1a75568a6fa658d219c88bd6506c4f905a664dd02",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "4afeb73b00cac7b1ac4003de9076fba4e46613667bb486f24a31f41289ce6b08",
+        "source_record_sha256": "6e4debdde778e2f28dd431307b069998c10b1cc9b8d240ef8a52024a7da7b88c"
+      },
+      "observed_checksum": "md5:03e21ed6f1978d61ac5e70701125e05d",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241125_010116",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241125_010116.json",
+        "sha256": "795e3b158d2be8eacc5d5b51d945f7ae1adbe21c9f47af8ea7e22cad285e68c2"
+      },
+      "validation": {
+        "path": "validation/GW241125_010116.json",
+        "sha256": "22e915d8f4d56a60ab83748efd5dcdccf1f036d669e7c0143542a1bde3f8a527"
+      },
+      "upstream_fit_sha256": "f03287a15b6e24907bd4eef8a02ef28ac6d86477502f55a8e1dd2aa6f2e3d373",
+      "reference_sha256": "51134765a77ef0cd6988d7be5fb011efcea03c7f9c3b2783ff0fefef56ee49e5",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241125_010116-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "b6a1bbfb79aedcddac7ffa360d0bb4cbc64048c73f8ccc6620bf7c4a752111b9",
+        "frequency_Hz": 18.0,
+        "reference_sha256": "51134765a77ef0cd6988d7be5fb011efcea03c7f9c3b2783ff0fefef56ee49e5",
+        "source_record_sha256": "b32c1c2eea61ef3117c6de5b9ab49609473d18630c05749603b4de5f49248720"
+      },
+      "observed_checksum": "md5:2b27d8a5562e149c54e737d1a549eee0",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240414_054515",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240414_054515.json",
+        "sha256": "ddedc1d284a7f0289ccb9462402ae63145f209605b339e702bc6587e14485c42"
+      },
+      "validation": {
+        "path": "validation/GW240414_054515.json",
+        "sha256": "246e4efd603139d829b37d080f657736da8cf125dbaa588caeb2672996ba7f64"
+      },
+      "upstream_fit_sha256": "c00a9d9bb69bf5e930d11bfe4c7080de4f35974e5cd9a04f7f9f3e81cea80c2b",
+      "reference_sha256": "adc767629b6e66a04d7532018c4c37ae55d5fc9b8250deed91d6b5822f3b698d",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240414_054515-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "dfb4eb1a3e3b50da1a19b5ee89349e7848e788ef5ce1fa9036ff832c0f93b35a",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "adc767629b6e66a04d7532018c4c37ae55d5fc9b8250deed91d6b5822f3b698d",
+        "source_record_sha256": "6698cbe41d8a02d983b6189ff7009c91edf754df1b3f6bdb998e599d8c7b731b"
+      },
+      "observed_checksum": "md5:8e1ff0d50c3cbcd39a5921be0e863815",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240615_160735",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240615_160735.json",
+        "sha256": "1071e6de01dccabc33e9e110bcbb3d9a0a8684e73118a08bcb78d6b6e6189815"
+      },
+      "validation": {
+        "path": "validation/GW240615_160735.json",
+        "sha256": "b3df62383b73b994c352711e39851221e48f4092af8a8184fb5478279a84f181"
+      },
+      "upstream_fit_sha256": "0b8778863d3e0370626c85914c5c182a65af97c92cab12563d3e7239e02b9be7",
+      "reference_sha256": "39a8bca4c1b52e35a4872cd816182381cd792e9c6d8ed7d40d7d61848feda35f",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240615_160735-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "c2dd756a54907f39759d0411e138cf10bc3d59214181b0090c3263b6a15ebbd8",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "39a8bca4c1b52e35a4872cd816182381cd792e9c6d8ed7d40d7d61848feda35f",
+        "source_record_sha256": "9f0dd01d468bc2992c209d00f69669dca346fbe2860fd6500da68762361cf3f3"
+      },
+      "observed_checksum": "md5:6bb4af7fa38cf9ade2c6e4c5b2a8464c",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240908_125134",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240908_125134.json",
+        "sha256": "e1dd93aeef851e71db177fac6a49f5a79fb66dbd87da04d5be5fc02535730162"
+      },
+      "validation": {
+        "path": "validation/GW240908_125134.json",
+        "sha256": "c5b105f29aaa5ab4ff9132ea3159345379a96fdc6e93246ab9136fea6b656990"
+      },
+      "upstream_fit_sha256": "925734876eafa147c63d5bec42fe5865541c68a88a2ba067471a26c8f3404066",
+      "reference_sha256": "7d99e0122650cc4b393a252cdbae0e8fb70e77080be8473eb8bc38ee7c99a740",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240908_125134-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "fcdad51b905874b30da64772d65b111309323c6b3c802be01e68190025a7c509",
+        "frequency_Hz": 19.0,
+        "reference_sha256": "7d99e0122650cc4b393a252cdbae0e8fb70e77080be8473eb8bc38ee7c99a740",
+        "source_record_sha256": "e7dc50ac4c6df906a9659e0599cdd7e3b5cc98582e597a977130f0f285a0dd68"
+      },
+      "observed_checksum": "md5:07a6fd39afdc261867c137d66297845e",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW250108_152221",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW250108_152221.json",
+        "sha256": "54b836d41c775cd5111827843dcd6f8020e871cd50124aab64a270985a916a52"
+      },
+      "validation": {
+        "path": "validation/GW250108_152221.json",
+        "sha256": "83e88a13dff8efd775aca38e95642440b405cb3ab3cb3477c5d94803724f3929"
+      },
+      "upstream_fit_sha256": "a036a7a24b45dd476456ebcca4f5a69266a1c8f63b84fd1872de4b88aaac5a8d",
+      "reference_sha256": "7b66904c4a2fc9b74e39009cca138165d444a83dc4b9d966ecbed632b2956948",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250108_152221-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "644e6e79fa55b5d77459cc3da04e8676ce12fbe53e616a969fd1d88717c849dc",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "7b66904c4a2fc9b74e39009cca138165d444a83dc4b9d966ecbed632b2956948",
+        "source_record_sha256": "83096f0a028c4540fdd9b6ddda6bc6851caa4fb46263433938a378f73f338c0b"
+      },
+      "observed_checksum": "md5:42e2060a23d0694eb212f60f94c6cfa0",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241011_233834",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "generic_flat_joint9d_candidate",
+      "fit": {
+        "path": "fits/GW241011_233834.json",
+        "sha256": "a35e58ac0cb29edda989ec41cf5c1fb707b48d4d0a97a7c03fb94cb366ded742"
+      },
+      "validation": {
+        "path": "validation/GW241011_233834.json",
+        "sha256": "f1b1224632f46b32bcbff0b1473bec538e0ec210be4f0d93e566423ba37c887a"
+      },
+      "upstream_fit_sha256": "fe75d06633b923c8767bbbd5caacf20976ec7794da2e6bb77d2ac73b992b490c",
+      "reference_sha256": "af09316584fdb0be3361573ada249734cb49ecf3bb7469675125682fd794ff4f",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241011_233834-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "6361698cc09f408c60113e971cfcf6f007441082076e5227e537adb30daab53d",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "af09316584fdb0be3361573ada249734cb49ecf3bb7469675125682fd794ff4f",
+        "source_record_sha256": "9a8b5e09ace3c0436741a6e7689d46744c1ee34f76d2b477d473d14fd47dad48"
+      },
+      "observed_checksum": "md5:f432e03faba579a04697ae463391b180",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241210_120900",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241210_120900.json",
+        "sha256": "69f75e58317eca44b6069877e1848904b17aa11b2a25a2c9cd0405e1f6039b6d"
+      },
+      "validation": {
+        "path": "validation/GW241210_120900.json",
+        "sha256": "91dddb9bfe164f3b4dbe2884244942238ffed694af2cdd2a8865b2bfaa104557"
+      },
+      "upstream_fit_sha256": "53b75f461214d1aa636b45e227b22e0c42bda4677951bffa48e1736718038e6a",
+      "reference_sha256": "9b17d5b93c659bd610ca97405db490cb1eb5d6e8b919c312dde41693dbdda9ea",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241210_120900-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "a376458b4d953268ae1e758e185ae87985a79c5885eb0b3a5161d7851e547ee1",
+        "frequency_Hz": 19.0,
+        "reference_sha256": "9b17d5b93c659bd610ca97405db490cb1eb5d6e8b919c312dde41693dbdda9ea",
+        "source_record_sha256": "931c6e5d463a7fa6d1c5b9e58fef893b9402f9be1555ce54da16f9b02360c5e9"
+      },
+      "observed_checksum": "md5:99a5392695550824561cacf89094c0d4",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240520_213616",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240520_213616.json",
+        "sha256": "23c282e7ed1e3a59ebe1fa9e0523c0d2587aa4429a4e09be98c584d87bd12db1"
+      },
+      "validation": {
+        "path": "validation/GW240520_213616.json",
+        "sha256": "0faeaf755709ed28c3be9f3419a1551973373c5b94edd0acc002adc686feadd1"
+      },
+      "upstream_fit_sha256": "09f490b32a7455787c5924cf19b118c8942c1b7b90dac4afb5800c04ab799610",
+      "reference_sha256": "c686168f9acadc0e9abd4493147908913a4bcbac4892db96e931432907cf4a80",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240520_213616-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "ef5ed83c80dc2f1874ed47c075f9ae4419e40e606b1f2a16d6f4babd16d897ca",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "c686168f9acadc0e9abd4493147908913a4bcbac4892db96e931432907cf4a80",
+        "source_record_sha256": "f28b5b704f88200f45cba637c1eeb7c13ab281e6715a2b231a2a1d0cb86b4d7d"
+      },
+      "observed_checksum": "md5:7894c7e661b26964c00c080403065b72",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240515_005301",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240515_005301.json",
+        "sha256": "1f17dda71d0eead873d714e592e48f16a4926f1585592c0605bd11aae5836695"
+      },
+      "validation": {
+        "path": "validation/GW240515_005301.json",
+        "sha256": "811b446ea7b15cb1f3a5548cf83535e45e307f5085915ad578be2d9d0aba2253"
+      },
+      "upstream_fit_sha256": "616418569a4b5c2f8ca9a47cc05c65643f753f056e8ee42287ad15572e77b4b6",
+      "reference_sha256": "3347fb474d6fdabd35f58d0381d7ad0f4770e0c5f8ea047f4894d86245cc07a7",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240515_005301-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "53fd199f547e19a4870b027c0ea338d2aa8c61056e53280feffc8ab79b78e823",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "3347fb474d6fdabd35f58d0381d7ad0f4770e0c5f8ea047f4894d86245cc07a7",
+        "source_record_sha256": "b819a7dd7dd961a6947fe9526bee508aeb4c765f1e0341cc07fd979d189ba86b"
+      },
+      "observed_checksum": "md5:61b15abe35ad71a0e2b1d30341401c68",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241231_054133",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241231_054133.json",
+        "sha256": "d715fff0569f65c1a76cdb16a97c45d1870ed4ad17d6a1010cbb64fc58bb02ed"
+      },
+      "validation": {
+        "path": "validation/GW241231_054133.json",
+        "sha256": "6101328f6adef22cb3dc0320369bb5cc2020761065fccb41de55571447c162f5"
+      },
+      "upstream_fit_sha256": "eae4a1a52e0b734b832aa2a261f80aaf48a8daca2fc09c7371ff2faa60228874",
+      "reference_sha256": "29fc9c3b09fcf7876164fb88bd9881d8d7e16a8fd0c4b4828adbc77e82867b01",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241231_054133-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "bdfaf33c681e131eef7c4746245d37be5c58742dd5f2fb103c282409708ac303",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "29fc9c3b09fcf7876164fb88bd9881d8d7e16a8fd0c4b4828adbc77e82867b01",
+        "source_record_sha256": "bf97ec4846d4b09f128acb0b683672de9bd32251a519b22536235eaa1206ec6e"
+      },
+      "observed_checksum": "md5:0378341e35688c394ee0f8f0b9749e0c",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW250114_082203",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW250114_082203.json",
+        "sha256": "4236ef88d0201f5f9645df1b8ef1e4522b1fc120e208a8d77be703b0e3515143"
+      },
+      "validation": {
+        "path": "validation/GW250114_082203.json",
+        "sha256": "3792bce52033fa58860bbd165828be5390ae737ad1ff913ef557d2df3b24c8b4"
+      },
+      "upstream_fit_sha256": "ffaafce59cb65c2ec220bffe08ae1b83358e7f129ba94da331760d3f14171957",
+      "reference_sha256": "8a49681a18176cae0221de544037538201b0e5447a9fe4b97343b301b831aea9",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250114_082203-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "006b2a36c22d45ce41fe038072d6eb286747e3bf5ffb8f76c2865394850e3453",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "8a49681a18176cae0221de544037538201b0e5447a9fe4b97343b301b831aea9",
+        "source_record_sha256": "1d70ad080800382a3a5aa72b8f64744af833e76bd5add8fa7f630548969d6a0a"
+      },
+      "observed_checksum": "md5:c19521744221e3117e799739b672f9b0",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW250109_010541",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW250109_010541.json",
+        "sha256": "cb553bb9dc4c106b8003805b589adadaa1b72aebd49671832050c5facd397d1f"
+      },
+      "validation": {
+        "path": "validation/GW250109_010541.json",
+        "sha256": "a1f212789f8c212a2254e1e5f26ed15aa74db1d9601306817fae1ffdf95de9d6"
+      },
+      "upstream_fit_sha256": "9ffb9e9452df126e4d4b83713d167d72de00c30b13fdc2a664a5f4135d82a9f6",
+      "reference_sha256": "c002efe5befd21166c51b46e7f0bf0fcaa35944ee7663f5ef3f4efa0e480858f",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250109_010541-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "f004968d29fd4f559ff785988238f9fb83e3c33994b5305878000f8c7cf88029",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "c002efe5befd21166c51b46e7f0bf0fcaa35944ee7663f5ef3f4efa0e480858f",
+        "source_record_sha256": "af00a4d3571e2c0d3d3d2a9dc90ff8e34a26cb02a0c53f24d7e36ce4ee18e399"
+      },
+      "observed_checksum": "md5:e3c6d6644de5a8ab1770a7f2d4e1d11f",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240505_133552",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240505_133552.json",
+        "sha256": "489ccb7139dc0407aac0143b337427304d51a10905a9b012bc8a2c113822119b"
+      },
+      "validation": {
+        "path": "validation/GW240505_133552.json",
+        "sha256": "b245be88d28880eace7d4b0399d950fe33ebd6525755535d21fefb64cea2a118"
+      },
+      "upstream_fit_sha256": "2ed570fce6e7205e9fe468a14cb8af0bed8b62476b621449ebb8f96ebac29fad",
+      "reference_sha256": "b498b6d97d0ab97bf0b36060fa4a3e31853987d6e17a70eb16737cb1226e39b8",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240505_133552-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "49d189b30070419498c46b282e23f5d55841184d3f999577590c7c4c4ad82197",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "b498b6d97d0ab97bf0b36060fa4a3e31853987d6e17a70eb16737cb1226e39b8",
+        "source_record_sha256": "449b160a3f88d2c1169e6b64cf5b62ab595ba9d449c1b2fe6ceb93479e6c6db8"
+      },
+      "observed_checksum": "md5:0330d1aa57f9bde9dbea622da5b8e0ab",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240618_071627",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240618_071627.json",
+        "sha256": "fce511a645a10840b9503cf0db3465f62d8138aaf79dd6c6578f4e8a687fbc53"
+      },
+      "validation": {
+        "path": "validation/GW240618_071627.json",
+        "sha256": "47f585ced80ffd8b07a5ca14fc2150dfb07ecd559aa123f5ce864615c1212b8e"
+      },
+      "upstream_fit_sha256": "4c71f28267bd0669f3053a3416741d11febaf428ed708e95ced0f88c00510ea5",
+      "reference_sha256": "e459015cd42955ac9e2e0238e484d71d5c48825df9d1ef1aafa77feefb6576ba",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240618_071627-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "63478af2a1f6313e223514bed7d9924113abfe76edb075a6acdf16544c607953",
+        "frequency_Hz": 9.0,
+        "reference_sha256": "e459015cd42955ac9e2e0238e484d71d5c48825df9d1ef1aafa77feefb6576ba",
+        "source_record_sha256": "a869ad657c9a52ce0aaad82ae99b9fa34739de7b9108f5c21194f3f916d717b9"
+      },
+      "observed_checksum": "md5:2ef71b169a6d2481942816360366c734",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240527_183429",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240527_183429.json",
+        "sha256": "e050805c126478f459b7651ba60f28bf9b4c7243cd3274801388eae6b6c9312f"
+      },
+      "validation": {
+        "path": "validation/GW240527_183429.json",
+        "sha256": "bcdcc365f4cdd0fdbeb9ff04ca3149219f0e22378c348909f28c71a340b524c5"
+      },
+      "upstream_fit_sha256": "ee55ca6e2cdfb88e1992199d728f59d35b599423931eedd464ce61bb6b774c2b",
+      "reference_sha256": "20879ce6a24ac9b824f6c56c5cb9ae822b6978d7b73d88b8c3624f5593d3d524",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240527_183429-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "587efa12e64e7adbf0181033a2af1df2a781b20feb3ec521eaacc3006369448e",
+        "frequency_Hz": 17.0,
+        "reference_sha256": "20879ce6a24ac9b824f6c56c5cb9ae822b6978d7b73d88b8c3624f5593d3d524",
+        "source_record_sha256": "054558399d7b7acafe0a6745919a3bbae3ea4fb63030ded71afbea79ce2e8b57"
+      },
+      "observed_checksum": "md5:717d298fa11f5e19301e61b154c4f41c",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241124_024914",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241124_024914.json",
+        "sha256": "13e1c7de835f5f6326d82e0c6330f5f1a24386e7043624d6746cf6ae77be9dd7"
+      },
+      "validation": {
+        "path": "validation/GW241124_024914.json",
+        "sha256": "6ff15943560e75be35fe7693fd91d90df8475dcfc48a78f2e1f9950374e33213"
+      },
+      "upstream_fit_sha256": "aa914edff385b08a425d6aa56af44f2d40dbe096274b5ee4b48155b46de306f8",
+      "reference_sha256": "833acc0666d292998d2ccbd5bce9d2fee5ecb7f0cf357c2018eae41ce834759f",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241124_024914-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "091f64369f788a626a900aa33f0576aa8ea1f7a1481d3788860b3604690e371b",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "833acc0666d292998d2ccbd5bce9d2fee5ecb7f0cf357c2018eae41ce834759f",
+        "source_record_sha256": "805b231c51462263a01322b69a742a8962573ddafe417f6cab014eeef4f1c269"
+      },
+      "observed_checksum": "md5:3d4a44d4276583a6e56c788bb05951b9",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241113_163507",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "generic_source8_common_z_candidate",
+      "fit": {
+        "path": "fits/GW241113_163507.json",
+        "sha256": "445b590040527f259eb73047303b2e6a1fcbf668a720642212275a8c5010670c"
+      },
+      "validation": {
+        "path": "validation/GW241113_163507.json",
+        "sha256": "35b0afbb080c0f9ce1ab1a688c9dedd29866452131cc21a6ed285735c25e080c"
+      },
+      "upstream_fit_sha256": "e94a9ca560ecdefe2b10bc1b5ccb3c2cca3f890db996665d35ba0e5b2e657d45",
+      "reference_sha256": "3879ec8de677f602b50e7c00553f6b36e6bc6c9319586efc3df93fff5b8b73e8",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241113_163507-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "39354cda76fc68e48a3b5f8846a28aeadd4f76fdd7188a3bc263dfd5f1ca3b27",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "3879ec8de677f602b50e7c00553f6b36e6bc6c9319586efc3df93fff5b8b73e8",
+        "source_record_sha256": "4f1d71a0f52c1f6e4b6fc6d48020dbe95be396b820e411c631b017f4d14676f8"
+      },
+      "observed_checksum": "md5:3c2ea3fa1079e129244f7bd3ead416cd",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240621_200935",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240621_200935.json",
+        "sha256": "9d61fee1e7f8d488c32d3d7f199cda37ae2da9e823366bc3e36b3556b7e110b8"
+      },
+      "validation": {
+        "path": "validation/GW240621_200935.json",
+        "sha256": "91c60500e5fb6d19d63501ea3f21e37f1c4cf700c3a9fd485d1291540b7f4f5a"
+      },
+      "upstream_fit_sha256": "dc8d81c93c427abc0c0be93bd9375ff90de8539775aea3f7c18bbff646d03cff",
+      "reference_sha256": "63531c400a3c9581d42650a54a256fcc26da6cf2b70c6ed395c50750a7b9371c",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240621_200935-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "c3b87c5a94843e0c21fd997b54ac043ae46e7160405da09b11d213e7b08c23cd",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "63531c400a3c9581d42650a54a256fcc26da6cf2b70c6ed395c50750a7b9371c",
+        "source_record_sha256": "520a0628f3cfb60bed9ac36bdbb5cfa13ee54160c052e8c21a3ca19122e1336b"
+      },
+      "observed_checksum": "md5:99e84a1b866f60ab0113cdde6cd7c569",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240531_075248",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240531_075248.json",
+        "sha256": "cdad4b2a4da35feaa585f6d3a5faef81c2756f0b59f225d199fe4343f7dfb04e"
+      },
+      "validation": {
+        "path": "validation/GW240531_075248.json",
+        "sha256": "7155c87776b074900455eb844eed82cd5d2975d55308d11f4fd467564bad02d5"
+      },
+      "upstream_fit_sha256": "336b3d5824ec5ec11888a4fd04a35e60ca9abc70a820f289ff2972f92d5b5794",
+      "reference_sha256": "1e0d8c66e7d482e19ae9795232170ceee6561f16def6e10af74ca4a5a6384e73",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240531_075248-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "105d8b98bdaea2056babf30200c344178b0df67da3457bfac405c329e3828e8d",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "1e0d8c66e7d482e19ae9795232170ceee6561f16def6e10af74ca4a5a6384e73",
+        "source_record_sha256": "10fc0575ff3a30af24bd01c2368d8de575bb89b188d40f0117535f2c2f8aab72"
+      },
+      "observed_checksum": "md5:7344950a0816aaf2071333867f41cf6f",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240705_053215",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240705_053215.json",
+        "sha256": "cc3ce1094be49d70a603d1edc5e7229763cd2355a0eb1babb14a325d416a3462"
+      },
+      "validation": {
+        "path": "validation/GW240705_053215.json",
+        "sha256": "2302442a75323fc543389374cc646fad62266932f1a467c7a55176054caea2d8"
+      },
+      "upstream_fit_sha256": "dd47d22a6afc139fd7a1604ddc90404b67a0ca327379a5957a0b12cc9e3d2f27",
+      "reference_sha256": "ae829ad42694e5f36d2f9a2143111e2b9556113943e3ac1b1db79ff621a9cc6d",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240705_053215-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "16d15cc57da8c4dd8b759427a4df27b4e84f522a5a701e84d38fa9735a5245ad",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "ae829ad42694e5f36d2f9a2143111e2b9556113943e3ac1b1db79ff621a9cc6d",
+        "source_record_sha256": "42e243b2976d0027a76f46c2579610625e80661edff86ebe20d7574009080db6"
+      },
+      "observed_checksum": "md5:52a1c7ad158863f0dcacc34713bdd795",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241110_124123",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "generic_source8_common_z_candidate",
+      "fit": {
+        "path": "fits/GW241110_124123.json",
+        "sha256": "7761b83fbfd547b653ad63a4cdb3f1af303bbd3c80ba78e17d6f488a0168af3e"
+      },
+      "validation": {
+        "path": "validation/GW241110_124123.json",
+        "sha256": "f3654143efb1d2763c69abaa4f6670ccafa9197843d35f8e02e3129ec9749248"
+      },
+      "upstream_fit_sha256": "a4e5bed94bf7dadf6fac77fb2a03942edff67e5cf266ef7e1035427f975fddfb",
+      "reference_sha256": "f5fe9df1dd911a687309bcd68beddc14a2e913c11d96976ce22a2773514b5a12",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241110_124123-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "3b59e79f1700806b87abee43608c9d8076415b99a1760700d922fd6c0171edd5",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "f5fe9df1dd911a687309bcd68beddc14a2e913c11d96976ce22a2773514b5a12",
+        "source_record_sha256": "121c606540b7531209beec02cbc375f75840e3b5b0b3d2a61e2dc9785b9ef0c8"
+      },
+      "observed_checksum": "md5:324d29eb6e7ca1c1ae4d649b89c7e0e8",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240908_082628",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240908_082628.json",
+        "sha256": "7741cf49c8617afa80d9c17ae18230858a3e81fdf3a0032c9f07ec55a2f9cf97"
+      },
+      "validation": {
+        "path": "validation/GW240908_082628.json",
+        "sha256": "8d9cbb92e7914049588ea8758e3205b3d47b0b5bddc87fbf0c75e4171b37834b"
+      },
+      "upstream_fit_sha256": "24ccdf9dda875380fce087c41b4f616de9cf30768c599949d4bc1a225d2a5559",
+      "reference_sha256": "e9f78150d49d9c77f3f581a3d16fe344d72481ff51f9a3e282f5de429849ac60",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240908_082628-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "78dbff813210208e587b4a250b6f27cca074dcc6965e10e4fab13ee281aa710e",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "e9f78150d49d9c77f3f581a3d16fe344d72481ff51f9a3e282f5de429849ac60",
+        "source_record_sha256": "2f1e36eaa7d42ab8f089d96e630d7aa9472b2984ec5afdde792cf3c5bdaf579e"
+      },
+      "observed_checksum": "md5:52a73ccd2e04356d090d8aee5ab30228",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240511_031507",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240511_031507.json",
+        "sha256": "71929f4aebb08efdbac14cb1ed09e64d1022bdbc74eb7f252c6620f24107b69a"
+      },
+      "validation": {
+        "path": "validation/GW240511_031507.json",
+        "sha256": "b79d6fadd1ea06c836317e596f04c8af707e7992f5fafdf98f8f68e73421e8a0"
+      },
+      "upstream_fit_sha256": "72928bbf20eb029404ffbc2a919b1955356539ab6c47b5ee6cdad9a62eba260d",
+      "reference_sha256": "7f40f3686ae002a207a38894bbced6fae2f7106b9fde15791b7f68941fb5e7a6",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240511_031507-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "e11e73b1cb19feacf3637e44a134f1c0b53aa41d6ccfa3251ada898de89ef5c3",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "7f40f3686ae002a207a38894bbced6fae2f7106b9fde15791b7f68941fb5e7a6",
+        "source_record_sha256": "2958e8e94dcddfd71714f02a4709b71e7e1d95b05a936d8f9c0319846830079b"
+      },
+      "observed_checksum": "md5:f002aa1843c86d1986f5c5a907592995",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241109_115924",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241109_115924.json",
+        "sha256": "34009551a0517d48bbb2b71c6fb76b920dee51fd805e76250276b5c87247064b"
+      },
+      "validation": {
+        "path": "validation/GW241109_115924.json",
+        "sha256": "fb95bdcc1ce3b67b421bc30a2dbda6cc651e7756d04dc250656152e48f031b68"
+      },
+      "upstream_fit_sha256": "d9dd88be98541baaa673779d0d567164b7ff1eb94728876bc06b6b404eff1ae3",
+      "reference_sha256": "d5c96f67a634fd068901c7f161d8e4180fb6ce8813a2fb4d76a48b2c8b8bb398",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241109_115924-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "48adb34d5382cb49311fd13a22c2792946d9a689cc55f79a2681722ba876c70b",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "d5c96f67a634fd068901c7f161d8e4180fb6ce8813a2fb4d76a48b2c8b8bb398",
+        "source_record_sha256": "7f3153bd0c19720b6870f206833f401b6000e0279ae7ccba72d92c115ea1015d"
+      },
+      "observed_checksum": "md5:2c4f3a139ce828df62e7b3f2c13e3167",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240514_121713",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240514_121713.json",
+        "sha256": "c85ae3935f283db8ce1ead50f1ab73e1a1ecac8103187407fcbee52fcaa67080"
+      },
+      "validation": {
+        "path": "validation/GW240514_121713.json",
+        "sha256": "d39f45c2cca6466cf0717e52947436bee5d0587519a6855828fa41b18f4713bd"
+      },
+      "upstream_fit_sha256": "e54ed2435598e6c7a36be6a0fe370947903a9935c5e62aac3b67a0d55a541cbd",
+      "reference_sha256": "2d6e3645b6eb4a23e872bf809bd6bbf4c91ea973873020ed1a616eac8b434d61",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240514_121713-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "0f20f6e95591ebb6234e1c89a7842001574629d96d931d464e2a948e2cd60a25",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "2d6e3645b6eb4a23e872bf809bd6bbf4c91ea973873020ed1a616eac8b434d61",
+        "source_record_sha256": "37fb0fc397c39d16fb9ce142ba7261c94a0123335ccaeab6fd3cd2ba3d682363"
+      },
+      "observed_checksum": "md5:3fc14fafe9fb2d7a8a4f558cfc4c26bf",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241201_055758",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241201_055758.json",
+        "sha256": "9f614bce06d01059c0e5de7885bf7b86464e6275734b9969e3566c21761c421f"
+      },
+      "validation": {
+        "path": "validation/GW241201_055758.json",
+        "sha256": "9aa297013637904b3db78cc64d19656721bada80bdd230d7e004a6f0c40c1577"
+      },
+      "upstream_fit_sha256": "a6e41b9951f348e96e03f5fcd6cb16a30bda1b36492e1835300ef0c07b58437d",
+      "reference_sha256": "4303b9060215c0331f09f58998805372753e5010a3b02d76ea72d30dbe258bde",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241201_055758-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "fea3bf6fbb8530ae2bca96ffe1721a4cbc067aa8bc4184589bb7fee932b84caf",
+        "frequency_Hz": 18.0,
+        "reference_sha256": "4303b9060215c0331f09f58998805372753e5010a3b02d76ea72d30dbe258bde",
+        "source_record_sha256": "3d71568621423ed6ffb1dbab05f873576d1376aad5c360e0569908df6ee55d74"
+      },
+      "observed_checksum": "md5:21eccd07e07ad55f15a59bea92fc5d0c",
+      "producer_revision": "752f20827fd61f38e7b1d08f4ac95f7d9b47e1d96e25cb6e00657cf9fa3dfabb",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW250118_023225",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW250118_023225.json",
+        "sha256": "d54e2070df3917f2d09b84fbbdc54c11e9e3bef4242b676adc84a2f8b49ced81"
+      },
+      "validation": {
+        "path": "validation/GW250118_023225.json",
+        "sha256": "303f5783053946ace4552fd0d7468611d3ddedae5d8104d2024bef08d373b568"
+      },
+      "upstream_fit_sha256": "20eeda3493a51e7c49b1e3666e8e46b97f35b0ee30c0caab8c4d343423790274",
+      "reference_sha256": "17000f2ebcf3bd7a770f9b6b165c9a7cad0b3708514afd5d4be12eca109f1693",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250118_023225-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "87b3056a9311600e85635404ad372c03795c643d2b049378bf3e2d773c0abccf",
+        "frequency_Hz": 19.0,
+        "reference_sha256": "17000f2ebcf3bd7a770f9b6b165c9a7cad0b3708514afd5d4be12eca109f1693",
+        "source_record_sha256": "70c6fef6e288c67b3db2e4c5fe1ca29cb5fed2f5a376833c473b8e4987cf4bf0"
+      },
+      "observed_checksum": "md5:6f7247404942702c1db5e0af80a6f67c",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240915_001357",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240915_001357.json",
+        "sha256": "1d053d7627b0a0e40632fe7c61ff12862adfc73c2cae911304bc73a2d3dbee4f"
+      },
+      "validation": {
+        "path": "validation/GW240915_001357.json",
+        "sha256": "5db79c77b51107d130c69a442860abf9c0226df2575346c03fa9d8476e05831d"
+      },
+      "upstream_fit_sha256": "26f8f3c8bc3a8076265119d42793d5de20cb71ced6092eb0631c6ecea33485ac",
+      "reference_sha256": "19db1d47689240e2b6621e1595f70cbf03a30063ddb8b1a7ec487279336abdeb",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240915_001357-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "18d92604c14c599210cd8ad7c32a9f500bd3b3d359c06cacefe85195e7824ed5",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "19db1d47689240e2b6621e1595f70cbf03a30063ddb8b1a7ec487279336abdeb",
+        "source_record_sha256": "38e492345e236bd9f147abeb99596ba54560772d3abe4ce86f6f7a5bff324fed"
+      },
+      "observed_checksum": "md5:e54717cf845774bf74071c9367f2bfce",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240923_204006",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240923_204006.json",
+        "sha256": "1229d1e2c4dd55d11ad45b5d31065faf72514f360f1c618af509fbb037fbc8e1"
+      },
+      "validation": {
+        "path": "validation/GW240923_204006.json",
+        "sha256": "5f2a9b370e989423e5fbc01f3e1b7cbe5a3814cffc43d1afab337df239568054"
+      },
+      "upstream_fit_sha256": "d2524c7deba93896b97a25d058e9d1e4c424c3480e7b5054c8f82ac6ab377d78",
+      "reference_sha256": "c60c30b6d65217e32f47edf9e85f842416b32a0969901bcd61628d3a702c0eb7",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240923_204006-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "fa57bfbdd8898572666fd9e3c2153942ef0a112badefc058b969b2b689bdd702",
+        "frequency_Hz": 21.28,
+        "reference_sha256": "c60c30b6d65217e32f47edf9e85f842416b32a0969901bcd61628d3a702c0eb7",
+        "source_record_sha256": "ce29799787953ca38ff9fff0c5d18ea3e1374d5be5a9f32faaedbf98c345c002"
+      },
+      "observed_checksum": "md5:a110f42fc7c33fe5125c83706561a299",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW250119_025138",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW250119_025138.json",
+        "sha256": "9214f5ce2a50676d07c36fab35c5c78505fb170dc49fe22c33ec2c5e36e3ed1a"
+      },
+      "validation": {
+        "path": "validation/GW250119_025138.json",
+        "sha256": "5fbd24a525891a166f3ffc18a5e664cceda20fb52e0c0c8c3a0d052d76386828"
+      },
+      "upstream_fit_sha256": "57e7004ecf300522c6c98b862d9199048691f3317114a8167725e6a2d75a8666",
+      "reference_sha256": "47d510a3ebc53382472d33ce8b07b02fe03797634d12d5be1a25117eb5c4f026",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250119_025138-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "fa9cb0d8ffbc147130b7bdc943fa28047a7e1ae171eae0821fa25a2a86e7f5cf",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "47d510a3ebc53382472d33ce8b07b02fe03797634d12d5be1a25117eb5c4f026",
+        "source_record_sha256": "9dc1f40b011395eddb58e262297e7edbd6a7e49adc3ce1fd2ec42be3cc6d030c"
+      },
+      "observed_checksum": "md5:3ba41a66fd5bce528b7fc982f9374651",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW250109_074552",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW250109_074552.json",
+        "sha256": "9ce32214dd8688b485ac980bf25993283ea2b58edcfdbeba6d00d4a7262ae692"
+      },
+      "validation": {
+        "path": "validation/GW250109_074552.json",
+        "sha256": "51760537fbc6e32665c62fd72fd5b62af4e42b8d9992eb481f3a1d2ca3de4b9a"
+      },
+      "upstream_fit_sha256": "40cf6a146383788c0c2edd242a1a336ff82bf4e8a4d397fb5e09e0fbbfab662a",
+      "reference_sha256": "e5046dde8fdba8891ca833b0c9f52dec83318442ec9a0e66061919b8a6e6358d",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250109_074552-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "27092a7a03629e31307292f524fbbce404a4289b3eb2ad03576d2d28af2a662a",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "e5046dde8fdba8891ca833b0c9f52dec83318442ec9a0e66061919b8a6e6358d",
+        "source_record_sha256": "aa26b41b0c5a7a37b040fa073c021ca2d6b55cd3c0aead80eff10153b841106c"
+      },
+      "observed_checksum": "md5:1a07a34fd480bf6ccc3b852ab0857d8c",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241009_084816",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241009_084816.json",
+        "sha256": "eaba4553e6d10b0a1301e5977306890ed4936666149958e5ca322e10c744bf98"
+      },
+      "validation": {
+        "path": "validation/GW241009_084816.json",
+        "sha256": "aedc08bd9c44296e82c04167aec14eb3c980861f22b064feb332d55612fbc3e6"
+      },
+      "upstream_fit_sha256": "437a6695c9e89c151ea4be0b21fe629ab497cacdf83b2d4dec3529e1d6809a4c",
+      "reference_sha256": "b1097c3ad0f6a05f854b62776e3d1bfbbef15544d4647dbcb9b12bdf25863ecf",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241009_084816-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "deb2290eca4ccdd9171be5244a2810bed08bff1b6a14461c0f601a949a39aee8",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "b1097c3ad0f6a05f854b62776e3d1bfbbef15544d4647dbcb9b12bdf25863ecf",
+        "source_record_sha256": "505d0a7d3c895cbe5c79fe0ec5193b870c7a6c278243e797fa3231aaf3af3dbf"
+      },
+      "observed_checksum": "md5:be3aa7269ceef22371fa331d21efdb83",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240919_061559",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240919_061559.json",
+        "sha256": "7bd0adc08d479065663238f7e3c10a8ef5b295a7cc9b7f48557e04354781e096"
+      },
+      "validation": {
+        "path": "validation/GW240919_061559.json",
+        "sha256": "eb216bb7a8f2d2811dc4f268574d4fc3ba43d2588fa19dea800a514599264fda"
+      },
+      "upstream_fit_sha256": "94f3683c7e29dfcfcb5c469b92fdaaad324b63bb937ca3c20ccd0665c5dac9fe",
+      "reference_sha256": "8f83b160f53e149f065d8d85da0c18b043506c2c762eb45e9a5357a1334ca9ab",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240919_061559-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "2e207c9fc5296988e7545bdbbf22490fbaf10f297d85b113da4b3c17588396bb",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "8f83b160f53e149f065d8d85da0c18b043506c2c762eb45e9a5357a1334ca9ab",
+        "source_record_sha256": "52eecfb77b6a07e2034683bb825918a09f27608e15560aeb3ebc463a34d85922"
+      },
+      "observed_checksum": "md5:41c936639c8a379c27691e4e903d3fd3",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241111_111552",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241111_111552.json",
+        "sha256": "f772c846d76476dc0aa85b4bd50fdbd9b54f0ddac32c38483a333dbebaa725bd"
+      },
+      "validation": {
+        "path": "validation/GW241111_111552.json",
+        "sha256": "a6254f9699c2b50dcafd35fe772a59c07f4808755d2861e1bd0b36b25e8ffb8e"
+      },
+      "upstream_fit_sha256": "fa0076a6a4ad6ed7e42c3ea1d5abe9657e67eceb47d251e9466fbc6f785f58b7",
+      "reference_sha256": "1db41b36fd2a7c184dafe621c6582c952909f64cf30b6442fa0839c54db36d69",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241111_111552-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "62caa9a301d7a3874b211655ab2f8bd2e73162095096efc61c5779d863dddfd1",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "1db41b36fd2a7c184dafe621c6582c952909f64cf30b6442fa0839c54db36d69",
+        "source_record_sha256": "016aa0eee31e14151997333b6f6c76f2b87e0c8a8421704d31d4970b1d847de8"
+      },
+      "observed_checksum": "md5:0a12290d75258f476a99e5e060f950b4",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW241007_082943",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241007_082943.json",
+        "sha256": "30de48174ade568f9945857d2dd74ec2b7f3e8cc3a7c696b89380c8c545d12db"
+      },
+      "validation": {
+        "path": "validation/GW241007_082943.json",
+        "sha256": "4b5ae075b7724aa4d4e19fd5f0dddf93b147ee558662d4161e4f4751017f60c8"
+      },
+      "upstream_fit_sha256": "1463e476c7e2b84ff0792b9b6639e59acd57a431bd0c0b3c5f58dc1d64b62cc5",
+      "reference_sha256": "58da18235c6f3889095ca1c6a3c507c96da05424a3156456c757d0aef8a60e3c",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241007_082943-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "80a6719bbd16926aea343cfd7cb07a76140a619cdd28d70b89e10e2855427525",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "58da18235c6f3889095ca1c6a3c507c96da05424a3156456c757d0aef8a60e3c",
+        "source_record_sha256": "cc39674fa253825aa2a5cabef5a9a65438b244f00d13d031d689290637df3426"
+      },
+      "observed_checksum": "md5:26f71f947b7a5a27d0eb060b7a56f6f5",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240513_183302",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240513_183302.json",
+        "sha256": "bb1b467d28c1a4bbe9d2f2e7532e2cc79dcd1cc8fba3e9b376ff996289c757d0"
+      },
+      "validation": {
+        "path": "validation/GW240513_183302.json",
+        "sha256": "1a9b9249c0ef5e0939b9458ece9feb52fd9a2e55db4b0267c05b6edf16fcbea3"
+      },
+      "upstream_fit_sha256": "db3f29da2b4317f2b233e6b995b2679b839a692edd6b569d47c02883598a5588",
+      "reference_sha256": "a08e3f034e879c43984e1fc2e4326f97ad88a812b9a1bd4461845b58d677d5cc",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240513_183302-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "8e34a2fa93fd75edf2ea98505dd9b10ad928408bb3a0f64dc19a9ff474205166",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "a08e3f034e879c43984e1fc2e4326f97ad88a812b9a1bd4461845b58d677d5cc",
+        "source_record_sha256": "e72586097d1a1c79d9542282902a3234bf519130d2b76ea02a96d8973b8adc90"
+      },
+      "observed_checksum": "md5:bd858d8ad72f1fee9d0880d456c747f6",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240530_012417",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240530_012417.json",
+        "sha256": "fe8e5a779712d21ca37ff717d85a20572245f683a24bed1219f64da9f1e7415d"
+      },
+      "validation": {
+        "path": "validation/GW240530_012417.json",
+        "sha256": "00d22c9af7e8de4c9b07b9d79622d517743f2fcf8e030c70203bda1275510ad8"
+      },
+      "upstream_fit_sha256": "5d39c869fa51f6c5c0360fd03b4a7ad91ec24f99d5d6354c0ce5c271eb4a4e6f",
+      "reference_sha256": "ae551c73cd79ecd3d96f6a4fb99bae95f679d3c3203e4a33e9f872ffd2438c65",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240530_012417-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "d21d130403aca7d357ee7b3b23cc0ce8fbbba1594b81d90442b7a3dbd10aa80d",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "ae551c73cd79ecd3d96f6a4fb99bae95f679d3c3203e4a33e9f872ffd2438c65",
+        "source_record_sha256": "4c75d980723c8ca959602af5f9e617cca11e83c3a383b6e2d19d75a4454c5506"
+      },
+      "observed_checksum": "md5:96b2ce11033f0625c92290ab69c4cd87",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240925_005809",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240925_005809.json",
+        "sha256": "0ca652255d3466bfcd78037ec54d6ebd532f490c6eebd2d81f940689c5d9dcd5"
+      },
+      "validation": {
+        "path": "validation/GW240925_005809.json",
+        "sha256": "ce2d183c37a0213339efb6cd78275b75e4446b46b6a8c5e02bd9303522840c7b"
+      },
+      "upstream_fit_sha256": "e8eb8140d846fc3a778e363d54b1e7785b453ad07d4ca347df2a03ab07e21617",
+      "reference_sha256": "8973872d6f7f51903ae564bbfdae262134843df4d92695f49f37548f4a97c1b8",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240925_005809-combined_PEDataRelease.hdf5/content",
+        "source_group": "C01:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "764efc942482661a81f99e5988f4fee7891d43699891e36b191180c19f96ce30",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "8973872d6f7f51903ae564bbfdae262134843df4d92695f49f37548f4a97c1b8",
+        "source_record_sha256": "bdd140bc96c1af97cc1fb4a795aff0e417a4ef765aac3ef09c0567dc0523de4a"
+      },
+      "observed_checksum": "md5:e77526610aaf28f3a45377fc69942e69",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240621_195059",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240621_195059.json",
+        "sha256": "330055e01f932c2270478d38143e5c23e03d2d288d89df3b31e6c5281d5194ba"
+      },
+      "validation": {
+        "path": "validation/GW240621_195059.json",
+        "sha256": "7400e859ff3bf8a9dc4ee18ae09118090c002ff0e111673a007b0123d6cabcc5"
+      },
+      "upstream_fit_sha256": "2ac604647ba46de74584c35aa691cb6dd4932a8b211ec35c88ecd6de5b4162f5",
+      "reference_sha256": "d3c2693dcc7f215063ab1bc15455279c93afe1600f5a5c73a2a25d3752953761",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240621_195059-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "7f3921bf6598d47ad5d07e9c1d0e9d8d7336bb011b3ec0ef872e3abf33bdacbc",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "d3c2693dcc7f215063ab1bc15455279c93afe1600f5a5c73a2a25d3752953761",
+        "source_record_sha256": "52bf4dddde8af1275dc5b52ca76a840571b8efc470b2c1b66abc2415e54ca61f"
+      },
+      "observed_checksum": "md5:13e95de0c98035876d68ee9cb65a87c5",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240902_143306",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240902_143306.json",
+        "sha256": "6bc19aa25f86529e3974e755f19ce8489fb68ebd9678f720c01e3a90bdcef92c"
+      },
+      "validation": {
+        "path": "validation/GW240902_143306.json",
+        "sha256": "3516d218adc7d0c615aad273945f68b34caae02e4bde5b0376a8f80e5192caf5"
+      },
+      "upstream_fit_sha256": "71e037aefaa206fa3d86837ed7c12118c8b6181fd4272bb8ff834613ee75fab9",
+      "reference_sha256": "165792f4c6d6bfc00652cba7e4c9852a8981732fe8e3531259569814fc90cd33",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240902_143306-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "3dbf10cd5a0c679ce7ddc02a10c7f14d026d919da742353c5f82e3ae56056abf",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "165792f4c6d6bfc00652cba7e4c9852a8981732fe8e3531259569814fc90cd33",
+        "source_record_sha256": "c1fea4c596ed250467e60c306688b62e880cc5aae93eb06f8e216e5bc531fe97"
+      },
+      "observed_checksum": "md5:27988e20b1ce257152e43b67e07bf7c8",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW241230_233618",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241230_233618.json",
+        "sha256": "eeb3c9510a6b8fc2a7dd8e20f0909918dd9126d4722ba11a6aaa8ee4c92c4a54"
+      },
+      "validation": {
+        "path": "validation/GW241230_233618.json",
+        "sha256": "6ad87e1253d2a0132673ca17fe8a2b31dd26aa8269d84146abf3977c019f04f8"
+      },
+      "upstream_fit_sha256": "da99ee16f6bde3695884a8fea164a65e42d39c4da78819f801a7dab4529d7171",
+      "reference_sha256": "a38a1bd873b698dbb4c6df0e47eb6b2a8dd942b520b8e6c5e1e80392879c3e9a",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241230_233618-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "9f9e55c3ebd036020f77601a6b17f63a00be2ded191859f11726bee6f08713b8",
+        "frequency_Hz": 16.0,
+        "reference_sha256": "a38a1bd873b698dbb4c6df0e47eb6b2a8dd942b520b8e6c5e1e80392879c3e9a",
+        "source_record_sha256": "7c1a579a5cc5c2250d193b44f1ff770f8a8652a37a392aad216f45fea9e24ff5"
+      },
+      "observed_checksum": "md5:93ddf0bc482d9ab7f1fb857cc5969005",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240922_142106",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240922_142106.json",
+        "sha256": "9f16a8d0d44709d31ebacc416de197f004f9e04321f26a741041e5ecebd6c253"
+      },
+      "validation": {
+        "path": "validation/GW240922_142106.json",
+        "sha256": "8df3d1805cab4e29fecc259283a8d162e19ca702ee5edd0c028fd728ff6029fa"
+      },
+      "upstream_fit_sha256": "6a6058fd7e8176af1e659e51306c56f230f9a903ac8834c643cc6d3e0fc03476",
+      "reference_sha256": "87d16cea73b8919ebac08452807b172a0441b27d164b75d3100c15230867458a",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240922_142106-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "d6b3feadfc1dc247a79c09b5491f01b00ae5b4b34a150b408081811ffb26282e",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "87d16cea73b8919ebac08452807b172a0441b27d164b75d3100c15230867458a",
+        "source_record_sha256": "54d42f0ea9cb13ab338073a119e5b90b6a9d44cb40ac0fbea828af2ab9ab2204"
+      },
+      "observed_checksum": "md5:a50380256a3025eea7eed0b441ca6b3b",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240601_061200",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240601_061200.json",
+        "sha256": "138cfb1ef3a688b26400a4c436174c73f60e66b12da5429e927a86c1e9d7b1da"
+      },
+      "validation": {
+        "path": "validation/GW240601_061200.json",
+        "sha256": "59130f169b07e24fd0d2d504bfc98661e02f23b4138ce0ee6cd48782a868cf73"
+      },
+      "upstream_fit_sha256": "85127294d9f14b70a7013c4ab54c04b8023fa42e0a8955e07ab0187d9365dfd6",
+      "reference_sha256": "d2f08e06cde50221b1e75340305b8aa09289bdceba9f2b568fb23df3961b87e7",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240601_061200-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "02bc9b42be221aab6dd3150018cb86363333455ce8434c73bd5c0071c905c111",
+        "frequency_Hz": 11.0,
+        "reference_sha256": "d2f08e06cde50221b1e75340305b8aa09289bdceba9f2b568fb23df3961b87e7",
+        "source_record_sha256": "e8fd992728cd72694a04acf742edd44cea12fa91e899404608c4817044b37e37"
+      },
+      "observed_checksum": "md5:013daa19a3c701ebfed9b99122b11f01",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241002_030559",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241002_030559.json",
+        "sha256": "8c5b09547d4fad59fcd7d1067e4e40a28ac5d638a90b2a52a5b4255b1a1d0912"
+      },
+      "validation": {
+        "path": "validation/GW241002_030559.json",
+        "sha256": "339653aed6eae88cdf4765437bcc8f820f8a3d38a91403468bb6fae0f9be9391"
+      },
+      "upstream_fit_sha256": "d5a17fb1d96ea5bc28d269d6cff2efdf58cbaebe87e26df48184cdc7a6ba48ad",
+      "reference_sha256": "d558f7cd7f3df04d6b92aa7f2c7375565e5314b0aa9089a978eab7ba01d87415",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241002_030559-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "5b0a1899bcff48666c3e19657f2a7fc60198607fd3d20c4d1f255dd706251c6a",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "d558f7cd7f3df04d6b92aa7f2c7375565e5314b0aa9089a978eab7ba01d87415",
+        "source_record_sha256": "b899693338fab8a8ea2d8b8eae294a628f20d8106bbcf61351a611bd639df393"
+      },
+      "observed_checksum": "md5:2eb447584d46d8fbe408232586d88010",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240507_041632",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "generic_flat_joint9d_candidate",
+      "fit": {
+        "path": "fits/GW240507_041632.json",
+        "sha256": "5addd179f681c0b13f64c9b045b0df18a5d1d8ade5d2688dafbbe4e646089f67"
+      },
+      "validation": {
+        "path": "validation/GW240507_041632.json",
+        "sha256": "025777540b6fa364a1a003d8c03731d7903cc4d694c192c597cfcd5165d4e099"
+      },
+      "upstream_fit_sha256": "4b647fc218a685b0213b9c066aeebf5a254a60ae9bf73f2613765d092a7212e4",
+      "reference_sha256": "52f5b1adfaf08c8a605426146babd111eb87e57d1ae39b85e5865359269a079f",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240507_041632-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "3e478cc6b85fbf9323c75152fcd987ff48fe0a192ad86f46a7dda12bd12c1e7c",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "52f5b1adfaf08c8a605426146babd111eb87e57d1ae39b85e5865359269a079f",
+        "source_record_sha256": "0bc49edc89a96f16f8c51b1ff1b233918c9248d0c07524d30726e2846e592a73"
+      },
+      "observed_checksum": "md5:767598f6fef4296589e86cccddba6a54",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW250119_190238",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW250119_190238.json",
+        "sha256": "5e67525b4aac612ee619f4d0f3abc1344c267223261e59106a0414bf462f23a1"
+      },
+      "validation": {
+        "path": "validation/GW250119_190238.json",
+        "sha256": "3c5ceb448a395208fa9ec22df80d57bd9c375b10541436a90746aab5788a6ab1"
+      },
+      "upstream_fit_sha256": "b79098f615de0075897cd9e1bff8f2b613999edcbb3b4f82678ee673ef920a21",
+      "reference_sha256": "6f6e0fe01e8ae701847de86673d48ca95a2b82677d3308369ff288ff0c20b2e0",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250119_190238-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "1e9214ee5d362485d417f4e599d06263c50af9537e5ee507c90eae642b178ac8",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "6f6e0fe01e8ae701847de86673d48ca95a2b82677d3308369ff288ff0c20b2e0",
+        "source_record_sha256": "ef43699422e3e211d75b76362e557610fd1fbee2a7ab0f8eeeca6f1491f9fa7f"
+      },
+      "observed_checksum": "md5:33638594bcbb8ecf30588fa627804f1e",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW241130_110422",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241130_110422.json",
+        "sha256": "1f49ac0c3c3f37191ef84f666175c5f0caaa311d6e83deca13395f69344b5d4e"
+      },
+      "validation": {
+        "path": "validation/GW241130_110422.json",
+        "sha256": "8ccdce70716a25d2c5c95295ae389f91b1765a3e2fba90bfd861236eab01e796"
+      },
+      "upstream_fit_sha256": "1c96bc73cda636ed1c5b02209fa588374e85ac05c5209cecb01d7a7a971e5cb2",
+      "reference_sha256": "3f112ae5e43f4bd0e3ba9a7c371e4340bb7526da42f7f9f6c6b56bc0b89a9428",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241130_110422-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "6be4fbd558645b177e6decd1b803b950d1c6d4d70bf5fdfcd1cb4c61c32a50c4",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "3f112ae5e43f4bd0e3ba9a7c371e4340bb7526da42f7f9f6c6b56bc0b89a9428",
+        "source_record_sha256": "b5098e8d4fcc90980d2c752968e337103fd439ab2c029f20612f2561d1aefdc9"
+      },
+      "observed_checksum": "md5:05a4e96a5e1078949427822d163b0a2f",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW250116_015318",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW250116_015318.json",
+        "sha256": "71ed121d2fcd79cbedad5e393feb4108c629910624376c4ca873cefd4107858f"
+      },
+      "validation": {
+        "path": "validation/GW250116_015318.json",
+        "sha256": "7e6bf45f1faf7770d515a4e28ab4936b01c3df15ddd1f938532a85efed826174"
+      },
+      "upstream_fit_sha256": "397e776be4c4673075019bab49352d49e67bc3b66ddb9a43d4ad8b12cf7f107a",
+      "reference_sha256": "8673cbeb70a8ee41cc0cbb1c32b1d7b3ad9fda6fb0e6d49bb72fa475bd7e0c9d",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250116_015318-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "034ef3260e0e77c4bea7ac701040a498ba674a484a3fd6c0fa6e26005146604f",
+        "frequency_Hz": 6.0,
+        "reference_sha256": "8673cbeb70a8ee41cc0cbb1c32b1d7b3ad9fda6fb0e6d49bb72fa475bd7e0c9d",
+        "source_record_sha256": "3662c94af718dba201b104d77e041177ef98296e4065f9a56635c9d9da2cf904"
+      },
+      "observed_checksum": "md5:47f6e737709b4cf88548dd885ddf3026",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240630_101703",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240630_101703.json",
+        "sha256": "484fd45076cb2ee3eca36906584091c094a37b0d479b351fa0f443db8bb2a0e1"
+      },
+      "validation": {
+        "path": "validation/GW240630_101703.json",
+        "sha256": "beab447ebc747e007e53dc9207d273dd23062622ea131f122de3e5ae24a3d792"
+      },
+      "upstream_fit_sha256": "3cc9d6a6f5c7bbc9cb731e5fe44f66e70baab2bd19312cccbc77206067826b63",
+      "reference_sha256": "0caa3f1de36e6c45fc5c669ed026b34c1e358e81de788e34fa1ab7a842464430",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240630_101703-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "6d79880eb6a7101b17be2852f0705bece387fcb31cdae569aebc944efe646cd4",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "0caa3f1de36e6c45fc5c669ed026b34c1e358e81de788e34fa1ab7a842464430",
+        "source_record_sha256": "b3b3622c6670c87e01b49356f4189c7e40721b5d6659955f9d007732b5baf69c"
+      },
+      "observed_checksum": "md5:f846c78f601d2bebfaa8b39a39bcaa4d",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240824_205609",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240824_205609.json",
+        "sha256": "691061f969e142a80d79630b8d3f977eb554d4b8dc5246f6ae9a189a70f8ddc5"
+      },
+      "validation": {
+        "path": "validation/GW240824_205609.json",
+        "sha256": "b3bc39e3f1d84aa1e9c5663227173d961fab9979ba0a364272ea4aae197694ff"
+      },
+      "upstream_fit_sha256": "02d2103ac536843edf0803de7416df87c67469f08d31f467c50644324ce014d7",
+      "reference_sha256": "2212dcb53722668cca565853ba6dbe5df85d5ede60eb67f9d6ae4b8f61b048b4",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240824_205609-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "28a5f7145763c61dbf1c334d14e801f3abd1cbae57f43f55f16fe14970669630",
+        "frequency_Hz": 10.0,
+        "reference_sha256": "2212dcb53722668cca565853ba6dbe5df85d5ede60eb67f9d6ae4b8f61b048b4",
+        "source_record_sha256": "a5604ecd1a9edbf7f8645512ff035c8dba9c29862dec3921b9aa0f945783fa89"
+      },
+      "observed_checksum": "md5:727d68345d9c9454325877def74eb218",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241210_060606",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241210_060606.json",
+        "sha256": "7936a927fc4716a0d03cb47e5ed34988d5ec5b652553798bac7d4bb7c07436fb"
+      },
+      "validation": {
+        "path": "validation/GW241210_060606.json",
+        "sha256": "c0fe55d01c13780dbd147e0ff677ceb4571aa1ca4ad98fa56e92da1088924cf7"
+      },
+      "upstream_fit_sha256": "ff9b1e0b211f952f7c0b189124c8657f2ad2a538f78288a84e51545ce157b99b",
+      "reference_sha256": "3183c2d3be8412bb742a44e155924fcf48a46eeb4f5289ba4bbe0ac80cc89421",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241210_060606-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "f8c880ee558f3c28ee259f9357b0c156dd0b455b2205f7ec898879b8f29232b9",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "3183c2d3be8412bb742a44e155924fcf48a46eeb4f5289ba4bbe0ac80cc89421",
+        "source_record_sha256": "6ff66177eb8fc249ae5f1ce119dcfc3cf3db210a7eb86d7bf1b3b7a39949fec1"
+      },
+      "observed_checksum": "md5:14ba29f53301486bece3a297cf062e94",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW250104_015122",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW250104_015122.json",
+        "sha256": "37f21b7f2525f2001c58ec2ff5d6ef1fd30e574ac4dad964939442776448eeb5"
+      },
+      "validation": {
+        "path": "validation/GW250104_015122.json",
+        "sha256": "9d81f64565f149f076a1e85b6ba0466a3791e5f7436a6a55662b90e3dca90cf3"
+      },
+      "upstream_fit_sha256": "9c63e62b9c470c41641a9dc2c9dfacd6a611f5e720f3584b1b0a3deab91eed65",
+      "reference_sha256": "c56944fd424d13c935fd19711459cfc46c06d87fbfd7b08db10ef1f55d082c8d",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250104_015122-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "6c581b5a3ec71771ce8b3197e6ec3172810d621a7c3a2bbef4801993ccd4ad6b",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "c56944fd424d13c935fd19711459cfc46c06d87fbfd7b08db10ef1f55d082c8d",
+        "source_record_sha256": "09ead18876cc6007a19c7a71820e63809d9b543f4dee013ce938553c5ade58f2"
+      },
+      "observed_checksum": "md5:b112f279a582a0c7a3587ff9fc3e5afc",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240531_040326",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240531_040326.json",
+        "sha256": "dea838dfd185094a16b672a6f88605614e857672f806e3fa43b72e6f88f06dde"
+      },
+      "validation": {
+        "path": "validation/GW240531_040326.json",
+        "sha256": "4a4e8788d31955e589ff0a57b0223b62e6a71169d536e580a05c6273357d8514"
+      },
+      "upstream_fit_sha256": "8556564253b3a1aace387e6213fb428f7cb59b6b2d21fcb27fc2e253af4d65eb",
+      "reference_sha256": "1dcbbace13d7100d34e0648d0acf09f77cb3fbe0b3e1237fb8d82c2dad399d01",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240531_040326-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "462db8e7264fba53b1927ce50069ece891d017106fc78bbcbdfa22eb0d0b7f6c",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "1dcbbace13d7100d34e0648d0acf09f77cb3fbe0b3e1237fb8d82c2dad399d01",
+        "source_record_sha256": "ee571b815caed51915d557efac7b30e6a653d3db6a2b98e06fc17b9d1d4631d9"
+      },
+      "observed_checksum": "md5:fc8f9f7212487b9fcdc4eeb3cd9d9704",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240526_093944",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "generic_flat_joint9d_candidate",
+      "fit": {
+        "path": "fits/GW240526_093944.json",
+        "sha256": "74e49450362b414552ff8d317cef4869bce9024c617abc0922833095b877dac5"
+      },
+      "validation": {
+        "path": "validation/GW240526_093944.json",
+        "sha256": "55c1870ac05388038227ca79c1a14f9b0ea002f90b7bf4c219197c011858532b"
+      },
+      "upstream_fit_sha256": "6277a569d11f7ec1c52856c7af3c9494235ddcd9537f0021b7828217b65727e7",
+      "reference_sha256": "85d3f9b9a33a93e6d6de46e24d43c657e6fcd4dede98d1a0ac22952481019b1a",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240526_093944-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "6d1563e9e5e009727663bff0aa1a2b47b9c4be1e95e3df3a66961c4d73f77ec5",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "85d3f9b9a33a93e6d6de46e24d43c657e6fcd4dede98d1a0ac22952481019b1a",
+        "source_record_sha256": "3f03f7caffeed63fae774241345411516d22d0272267ef7dca123bf67c807310"
+      },
+      "observed_checksum": "md5:a0fb115624aeabb9a3cc61153cb437fc",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240907_153833",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240907_153833.json",
+        "sha256": "05bfc96b221223bc9e9267e9f79b3a169fc8ba55a65aeab1eb5b7ed88f7dc21a"
+      },
+      "validation": {
+        "path": "validation/GW240907_153833.json",
+        "sha256": "e4b9c47dd77223c10ec167057415548d1d9c667b3af1986b71ff83febf906d0b"
+      },
+      "upstream_fit_sha256": "3f31e7cc18fde6ade4ec0691d2a375efdd951f68a37efe91a58288f5b03b6fa2",
+      "reference_sha256": "170a027b0f35b08ca4ad61a32793361ed38358f12b035e0ed888d82ab34bb4dc",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240907_153833-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "30eba66ed1f8cf883422a1e77a151bc37fb16651c366e9a426a87d7e11b9603b",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "170a027b0f35b08ca4ad61a32793361ed38358f12b035e0ed888d82ab34bb4dc",
+        "source_record_sha256": "0f8cebde470d28d89d916612c0f8bb2aae8c9aff9a585870a68459d05c881455"
+      },
+      "observed_checksum": "md5:385c9c3ffd00ed818cf45f497652212f",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240921_201835",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240921_201835.json",
+        "sha256": "446813a66076bddd0620ab99d077467bf7685b84187c7ab94e795d4f44f03197"
+      },
+      "validation": {
+        "path": "validation/GW240921_201835.json",
+        "sha256": "653122ec9fce4a619568962f0a4d2d3b63d4d2ffb56dfe94201ae6b695209cae"
+      },
+      "upstream_fit_sha256": "3940cf0a66c00fb1712866c3ee397df09122a1bc97e8faed511acc0276ea7019",
+      "reference_sha256": "b6fed7df6649f0681bdd93f564cad65f1f4594cbcce7af50ec3f5803059d7645",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240921_201835-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "fe387f27d326e60e77bc663182359f7a9c02efec963477eeb37983443378ae89",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "b6fed7df6649f0681bdd93f564cad65f1f4594cbcce7af50ec3f5803059d7645",
+        "source_record_sha256": "01c4934604c8c38b3c6d4903e281ad2343c08d10c50e376f5ae4288a0fc93576"
+      },
+      "observed_checksum": "md5:6e7d4c067430f277a368ed05350811d8",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240413_022019",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240413_022019.json",
+        "sha256": "ce1895451f771d1324f67b6d36eab1b690483d2bcdc092eb0adda896c9377456"
+      },
+      "validation": {
+        "path": "validation/GW240413_022019.json",
+        "sha256": "db2643f1c1f4976627fbc21f854404750891166ba46350aee91311f84fb9d14d"
+      },
+      "upstream_fit_sha256": "2d1c021381c99f0bbb647dcc8314c84117de42cbb97ea903c188d74c45e9fb1a",
+      "reference_sha256": "cc87e0863fe66c854b6c1bd738db014cbe81ef51e4121ab7bf14d0fd70e0b590",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240413_022019-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "67da983b6cef0bf86e7d59228c21852142fbeff6054782c7ac5ba2a88e4b7277",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "cc87e0863fe66c854b6c1bd738db014cbe81ef51e4121ab7bf14d0fd70e0b590",
+        "source_record_sha256": "18ce263ed6c4ea64936f28a5e4b40ed09824e397e5e9e00983b947008de8ceb3"
+      },
+      "observed_checksum": "md5:132c7716bff1cbe52de1f6618981aa33",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240621_214041",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240621_214041.json",
+        "sha256": "3c9de365943373dee6583ca3fcd908c1d80dd89cb5b75cc925bbf44b207e4a7f"
+      },
+      "validation": {
+        "path": "validation/GW240621_214041.json",
+        "sha256": "91f8e7b86ffc23017fbc0d6a33f69a92db237562138a6113151b3d4974875c3d"
+      },
+      "upstream_fit_sha256": "03cfa035b88fb1bdd2ad6ebde8170300f1905075a2556413d23fc9159c430d57",
+      "reference_sha256": "a35d35e842b1cec5ca4b6a2948df4f3e1ba3f06f9c449451573b7b651a7db713",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240621_214041-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "7ceb8d1d7e9a50d373d4d638b894b5ae9207ec180d6fdb83df6371d6b2348241",
+        "frequency_Hz": 16.0,
+        "reference_sha256": "a35d35e842b1cec5ca4b6a2948df4f3e1ba3f06f9c449451573b7b651a7db713",
+        "source_record_sha256": "32e6b20438c55cb58c1753eb68a0ae3d5095fd41539394030dfc5d3de40c0abc"
+      },
+      "observed_checksum": "md5:a1d76263f4994e9ebfd5d9b23ca97613",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240629_145256",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240629_145256.json",
+        "sha256": "f0d02758dbe2317680b92e5ff2089dfeec40abfc7517b15446e2837b2ed48c6d"
+      },
+      "validation": {
+        "path": "validation/GW240629_145256.json",
+        "sha256": "c3d88eada65203109810f1e444edbb357c3d689d8d9ef5fd885a5ccb2b9d42b6"
+      },
+      "upstream_fit_sha256": "69eac956dd0a9a518017e117067601f51a5fda6a1c8def6b0f4d7b8ff738ba79",
+      "reference_sha256": "b64d9c64b10ff9234ee49619017db523ddd061875b4fa06ebcfcf3797ede5dec",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240629_145256-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "d5ee7811e67891f83ef21269ea8641842e40c02c1abe01d683aae297fe2929e9",
+        "frequency_Hz": 20.87,
+        "reference_sha256": "b64d9c64b10ff9234ee49619017db523ddd061875b4fa06ebcfcf3797ede5dec",
+        "source_record_sha256": "56c3adabda9359517ab8915baca8a9c7f299746f337e8edaa3c05f8abb52541c"
+      },
+      "observed_checksum": "md5:463f60d570dafecbfe458afd414555f0",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240501_033534",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240501_033534.json",
+        "sha256": "a3ed7054fb9feb3f8fe180e3deac7d6baf6d2b1ba27dc65c445687f0097759b5"
+      },
+      "validation": {
+        "path": "validation/GW240501_033534.json",
+        "sha256": "560226b3c57f9223779fda5821c0db57c012f0b43de342177f3f2fb31484191d"
+      },
+      "upstream_fit_sha256": "9ad3d0ef1c741630ea11e8de6a746e298d27c352490f803205b692e3f00b3fd4",
+      "reference_sha256": "bbc9dde7cf924fb3c4a1ee52a90bc69db93ce6d6950e7f8cba0029b7acb5b460",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240501_033534-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "5c920dc722760a989ef8dde11ebe77b484f10f312ecd011137fc61c8e7113f5b",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "bbc9dde7cf924fb3c4a1ee52a90bc69db93ce6d6950e7f8cba0029b7acb5b460",
+        "source_record_sha256": "09fd0ab4b71940e5ca9561d20532d136ef02f1b334caf5627f295ad5056e09e1"
+      },
+      "observed_checksum": "md5:8942224fb3ec8e4b1030e59436559b5c",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240716_034900",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240716_034900.json",
+        "sha256": "5043b636f4e0d2489f6b45fa0cfef68da286715de91481a4947700f4b0d1c120"
+      },
+      "validation": {
+        "path": "validation/GW240716_034900.json",
+        "sha256": "9d74686fc19b35a3dad408ff8c8600f7ce6a88ff953c33a11c4fdc644bae81bb"
+      },
+      "upstream_fit_sha256": "a7e197cb73025e29de8a5770186a2fd87d45c195c894b70ee9d81d30f2599806",
+      "reference_sha256": "b4e13925f8e99a92eb48875b7d8c1d84014a4c9f63cf2a9864a2240692361c51",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240716_034900-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "b2c96eddf991890098dd2196f7572ae7a60bc39ee3fe0ef6e4e498493c0b40c3",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "b4e13925f8e99a92eb48875b7d8c1d84014a4c9f63cf2a9864a2240692361c51",
+        "source_record_sha256": "bfe56439b1eca35f375673aa6da871674fe0ad0c4fdea1dc14541fe8c23491b6"
+      },
+      "observed_checksum": "md5:ba62bbb2da44a6abfd0219176d513495",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW250101_011205",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW250101_011205.json",
+        "sha256": "229a5d68cfed5b0d83705426147f3e65d138831b6bfbab6be6e27d566f08f6f4"
+      },
+      "validation": {
+        "path": "validation/GW250101_011205.json",
+        "sha256": "7fe4fca6b0d4e0bb49ee0349a6353eeb83fbe6a6a2613824b87892afbb270824"
+      },
+      "upstream_fit_sha256": "afe6342cf05e529002a242f6612dbe06b18a6dcb57bc3246e6d3f5d14ea8d74b",
+      "reference_sha256": "d215c03d073035e9f4150ca9253d40b2437f0ce9aecb4b9310bddcfac839111f",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW250101_011205-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "1599d5e15f69807e79dd4c378d8c0dfc8cecf7f4b07f47b7e9c471e934ac90b5",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "d215c03d073035e9f4150ca9253d40b2437f0ce9aecb4b9310bddcfac839111f",
+        "source_record_sha256": "41e344ad1466ac92095583066e1c882cda348741e31bb32ba67a1b0303751453"
+      },
+      "observed_checksum": "md5:8d130c93b813682cff19f083b660000d",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241009_220455",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "generic_source8_common_z_candidate",
+      "fit": {
+        "path": "fits/GW241009_220455.json",
+        "sha256": "52cf740d3ef743b84d091bcfff296a60f2108554c0d035d5601bb7f8d6a63503"
+      },
+      "validation": {
+        "path": "validation/GW241009_220455.json",
+        "sha256": "44250cddf68d60516dbd791e62f408e179f5e04824ef03e68b9f51437e5b9446"
+      },
+      "upstream_fit_sha256": "b975f0df8a7df78095acead7e9e444bb7d0d2c7ad009f32a15e2284ead6ad493",
+      "reference_sha256": "6e55d4c0a1defe236d5d8dc917cf906cbab700358ef2f6649b5f1284eb44eeee",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241009_220455-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "d7e8ee6b5397d9fb9c0d90c4f6bbbcbaaa63180d41d500768385a01ed62ecc38",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "6e55d4c0a1defe236d5d8dc917cf906cbab700358ef2f6649b5f1284eb44eeee",
+        "source_record_sha256": "340a05ba44a3f92ab988a90183377f2ab94165f64858395f5f3963716656d60f"
+      },
+      "observed_checksum": "md5:09123fdecf85851ff86258a4ea7db8fa",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240916_184352",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240916_184352.json",
+        "sha256": "355efc743388438d4fa61cefbd0a0a8aae410b8d16f8af8e822d4787d04fa251"
+      },
+      "validation": {
+        "path": "validation/GW240916_184352.json",
+        "sha256": "aa4a910fabb2444de17669cee814880658cdcfd2814b8537f6fdd7aec1f9d01a"
+      },
+      "upstream_fit_sha256": "80c67b068c333634e549b9df9640361210e02271b50446deb50b73f4f6f9228e",
+      "reference_sha256": "b9780bac0e0e7afa008ee791bfc670fa6425078e46f669d6b70bdfbb4cfe3f54",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240916_184352-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:IMRPhenomXPHM-SpinTaylor",
+        "waveform": "IMRPhenomXPHM-SpinTaylor",
+        "source_sha256": "20b8c51a2adae09c25bf0452325d9d0700551907ee23577ba6211d19ed288461",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "b9780bac0e0e7afa008ee791bfc670fa6425078e46f669d6b70bdfbb4cfe3f54",
+        "source_record_sha256": "1fc9a5dc106bfcd8d492927d0adabe5fe60e5aa947c1f1763091f108f936bc94"
+      },
+      "observed_checksum": "md5:ccd08e36cbb805dfd79b7841b6de40a1",
+      "producer_revision": "f7e2834b82c32fe23911bbd7d41f4de681952ba60f499a2ac33d22fe8c7f7211",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240627_131622",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240627_131622.json",
+        "sha256": "bb49a8b75094df20b298b5bec555e01b8988ce37c35e0c2121d0bc26909821b5"
+      },
+      "validation": {
+        "path": "validation/GW240627_131622.json",
+        "sha256": "b75c5ce21dbf8611a003898ac36ef55c3fd9d399e2acc1f446def58bb6376c75"
+      },
+      "upstream_fit_sha256": "159a6a79f980e6a2121bd47100f6d05b7604cd5340511596746fbf4c0f2bb569",
+      "reference_sha256": "2d32c91af69e22d2b658826cb4430bd2d7f1a8075244e5dc956104e5e914cf48",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240627_131622-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "1976239ce054427a333f70580fc3964a15dd17423ac6b7c006a275baac2e6e89",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "2d32c91af69e22d2b658826cb4430bd2d7f1a8075244e5dc956104e5e914cf48",
+        "source_record_sha256": "ff1085837c60e5c0206fab461ae269c60fe2ec8583a7b6d928cd735da0da9e0c"
+      },
+      "observed_checksum": "md5:603e1f5c6b6198bdd9e6a18499f5e244",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW241114_024711",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "generic_source8_common_z_candidate",
+      "fit": {
+        "path": "fits/GW241114_024711.json",
+        "sha256": "68393e86ed6fcd93a26175f2c90257387fcb80b25cd53ce6d5b1db879266319c"
+      },
+      "validation": {
+        "path": "validation/GW241114_024711.json",
+        "sha256": "9bafe7be52ce8ca450946984f8b41cc733eda137db031f4fc69e948a642ac616"
+      },
+      "upstream_fit_sha256": "8e6ca9e27d39d166b3c004063e794d77eda84cc068abaf37a015a4dab11105d8",
+      "reference_sha256": "3e82ffcd01a4226690c9536ea377bd5c910c50c1360cd72b28f340e6f66099a3",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241114_024711-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "716c9fb80a05f973e5d6e4ef290b38eff57ef8124ad6986ba762736cc3a75353",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "3e82ffcd01a4226690c9536ea377bd5c910c50c1360cd72b28f340e6f66099a3",
+        "source_record_sha256": "b1f77ed203be4746ddc5a799300c2ef7ab9e37e2d6b2b8106f55f0de8962ec07"
+      },
+      "observed_checksum": "md5:1e90928b7ce53142bd3e1dc2d1583357",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241006_015333",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241006_015333.json",
+        "sha256": "69b993d49196e783068151efd1416836e8b1b3e9f23613fc310d325df78874ac"
+      },
+      "validation": {
+        "path": "validation/GW241006_015333.json",
+        "sha256": "f691faf70d29b254d2267ec9303cb1e05f1a09b562b8373a9272bb6950b50bcb"
+      },
+      "upstream_fit_sha256": "4bd3502370c523d438981c1e6708d451ac95bdc3a6013738a2bcdaf7e380efdb",
+      "reference_sha256": "5a8cb3923f8c59234d3a6ed1b8ea92cb26ca80f92bacd3e6120432018d169201",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241006_015333-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "d27f6d036ecffcff564bd00afc769708d932192e250cbae2eea00b4738ab532d",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "5a8cb3923f8c59234d3a6ed1b8ea92cb26ca80f92bacd3e6120432018d169201",
+        "source_record_sha256": "f139a3e99f19f424ba48c311ea28ce55b4e30c8583dcdc6229d5eaccf2d076e0"
+      },
+      "observed_checksum": "md5:f988daf7c29ef6d4cc5dad3910823c80",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240920_073424",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240920_073424.json",
+        "sha256": "7299b67928374fd9493854e998c285d0c56c65fb95dc84c59c642b0ec6d69cab"
+      },
+      "validation": {
+        "path": "validation/GW240920_073424.json",
+        "sha256": "f7c39cf96dd027dd9c479efeb53f949bf050ee7eacc738bde5037c79f5a23de4"
+      },
+      "upstream_fit_sha256": "fe0902e0511ddb48c0154fd02268f55654cf264fa04cf97757a273c4ce6cc614",
+      "reference_sha256": "ae810452cc8ccf541916819dd982593ce53230ebc1160f64f47050e00d073e6a",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240920_073424-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "6a0675d7b85ad70558f7ce5594bfb47b1c51c00a8b2bc4ee9aceb4e75f4864a0",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "ae810452cc8ccf541916819dd982593ce53230ebc1160f64f47050e00d073e6a",
+        "source_record_sha256": "b3cd27410ca949c5c6375148d23853702922af015bd23c5878b1f38306c34ce9"
+      },
+      "observed_checksum": "md5:f4c6cfdfa94ad37d3d2f4e63d0ec57df",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW241102_124058",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241102_124058.json",
+        "sha256": "687a3b7f5e50e95ae192503c5e318ed0204d2c59a0237a254a919f3dea8d0b64"
+      },
+      "validation": {
+        "path": "validation/GW241102_124058.json",
+        "sha256": "02c8e141c60d835e4bb4874e659c4ec07311e20a8937c3b706a5fff9933cf6cc"
+      },
+      "upstream_fit_sha256": "8091861f105c710d68d866d5f451020e47c2e22fbf4d7743704d2c1bb44b756d",
+      "reference_sha256": "c89722dfb3544d44ff7f3da5467f9b214879b2c7f07453fcb88afd248f49c326",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241102_124058-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "a154edbf870570a70d90b4d6fa47bbc24b77f8e81dbcbe528b20444c4e5dbf5e",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "c89722dfb3544d44ff7f3da5467f9b214879b2c7f07453fcb88afd248f49c326",
+        "source_record_sha256": "c6d160bb97112563aafbaf2ce86d4feb0cbf6bc4f662a28692d40f2080601f53"
+      },
+      "observed_checksum": "md5:c9f3095e74e25c709364941056dabfb7",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW241225_042553",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241225_042553.json",
+        "sha256": "4ea00ea1a636bdad827c89ad41efb310b0ffb195eba2e083ae3bd61b04370cd7"
+      },
+      "validation": {
+        "path": "validation/GW241225_042553.json",
+        "sha256": "83964c142601da1ae7c5d89ed45e104711b1f9ff5f7741465f31a71b1b800e87"
+      },
+      "upstream_fit_sha256": "1de629b70560fc9ba14c3b532bc3965b597c780308a65048e9fedc5ca7ba3770",
+      "reference_sha256": "3bd825845f5233d6103d805021f531832f1f9ac009010688a369ba9e2ff84b06",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241225_042553-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "cccab8ddd103403880e9507d2e579dfc76c79c2662948092bb1dd89b7eeadbb6",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "3bd825845f5233d6103d805021f531832f1f9ac009010688a369ba9e2ff84b06",
+        "source_record_sha256": "f74e1faeff809a2c9085e3dce04717782f87933826bba7b7e4971dec9127c8ee"
+      },
+      "observed_checksum": "md5:96d3c5d49d3876babce40fdc3a06c565",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    },
+    {
+      "event": "GW240519_012815",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240519_012815.json",
+        "sha256": "72ff218d2dc4f7596c39d6d249be093bb11227cf9f6aa292843ebcd2230be08c"
+      },
+      "validation": {
+        "path": "validation/GW240519_012815.json",
+        "sha256": "ee6202a33686ad073f2504934efd632378417f603a016858d4d5734bda030734"
+      },
+      "upstream_fit_sha256": "58352d0124ac3a3325cd4caf6a13122383e96c89aa5230145571d1be10050921",
+      "reference_sha256": "0c255e34d07fe7fea9ec553edd267dcb28b1c83ea4d2594b0c8eff78042c678b",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240519_012815-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "332b255e87af9337747c869204e519a0b722154c08546f8c15a3f812598b56ea",
+        "frequency_Hz": 13.0,
+        "reference_sha256": "0c255e34d07fe7fea9ec553edd267dcb28b1c83ea4d2594b0c8eff78042c678b",
+        "source_record_sha256": "eca98d11be1d89a8d31ebbd7fa689f50a589681e379736520f862e989fa08da3"
+      },
+      "observed_checksum": "md5:b5d0a3e7ac87fb7c95c44330c6299046",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240924_000316",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240924_000316.json",
+        "sha256": "009898f767e6d51f287234f36b9c912a843ec15860a29f41d0f3c57c068dde4a"
+      },
+      "validation": {
+        "path": "validation/GW240924_000316.json",
+        "sha256": "abaf5d4c66122220e730949124d88281430a9a25865f0d81205f76600baaa70b"
+      },
+      "upstream_fit_sha256": "1bf5ec9776d74e0dce22979aa3bd5fe5a8cb2541191e153ea8761bebc8a02a86",
+      "reference_sha256": "37c8d87ecbffdca8707296e3c7ac9a9d03d508280e6867db7f6917e621b21fc8",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240924_000316-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "8c2c05b4fdd3d8c533bd11ac9f4e49c5416d699af0ec2ca474925d7df31a0e4e",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "37c8d87ecbffdca8707296e3c7ac9a9d03d508280e6867db7f6917e621b21fc8",
+        "source_record_sha256": "d3cf9a0b681e9831f82b5443d02fae0afbf00c0e43780685daf4b7a217b03b50"
+      },
+      "observed_checksum": "md5:8fd87df7db991dd31fcac218eef03afe",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240615_113620",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240615_113620.json",
+        "sha256": "d33e1904a488f47ac97620a7c697e2eb0ecd20a5af7aaf2fdd843e32cc0c1c26"
+      },
+      "validation": {
+        "path": "validation/GW240615_113620.json",
+        "sha256": "8424fda1ce40e8d878de890ab256adb5904a463448e5ed18d86feeb3c15385da"
+      },
+      "upstream_fit_sha256": "76dcb53cc0cdd838f62a0462ab2591ec55855eeb7d84aba9b31ea76a311f8c0d",
+      "reference_sha256": "825b155cc4e15d5c887997d392430bdac7a8c3aba197963ae5803f085157c169",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240615_113620-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "ec12d7048b9f5cffdc37ffb236336d91e5ead8fc33cbcace1934bf4ec4e659ce",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "825b155cc4e15d5c887997d392430bdac7a8c3aba197963ae5803f085157c169",
+        "source_record_sha256": "c78582c2f41da11aa48931ebc8544c758eb2c5c77c6487184a51681fe163396b"
+      },
+      "observed_checksum": "md5:f1820fe91ccd615a0ef089b051504605",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240703_191355",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240703_191355.json",
+        "sha256": "82e3f25c221a81bff86c7f3bbb09b993d5dc42d2b488a192a6b3c596366e8429"
+      },
+      "validation": {
+        "path": "validation/GW240703_191355.json",
+        "sha256": "385bf3955208384bd750ec0397b080711fc77e7df089388454b0d397b26b8f56"
+      },
+      "upstream_fit_sha256": "39b575aeea6b08369ae31950c2e56cc9c9365bd2e0ffd89d2c5a69be5b557a15",
+      "reference_sha256": "97cfe192d48549f03559f3b73385fb71180fff8e4acd720940d500c13d7978aa",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240703_191355-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "5f6c052e64c25c1b50ead17c3ec498be29887a1e0dad2f1b75bb818a05c75540",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "97cfe192d48549f03559f3b73385fb71180fff8e4acd720940d500c13d7978aa",
+        "source_record_sha256": "1696162bdd865bd25514628cd46ce3c3c02089c6276d99c62e94d78a0967d2ad"
+      },
+      "observed_checksum": "md5:b3c2c89e70d7be9975a775a86920d3f8",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241129_021832",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241129_021832.json",
+        "sha256": "16ef3e2024bc37c7505e3a0c413ebbd4ac1c7f81b69f25b64ace25acd9d5c338"
+      },
+      "validation": {
+        "path": "validation/GW241129_021832.json",
+        "sha256": "589c49e44c7fcf796e5ffa20b38e6dfcd975754522a11f2b8bfbaa00ca2aa012"
+      },
+      "upstream_fit_sha256": "b8edf0ad2b2db3529a316f8509d9fcd64e041c749340ae957d7197c8a8e5d1f4",
+      "reference_sha256": "2587dcc0d18c5433002c9a9ff094bda94aa4fb4351e17826b77eb8ac75cb48f2",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241129_021832-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "2db0a4f44dcf81044d4d97e6825f06c7db7eef8a0753c2bab841332c0aa08809",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "2587dcc0d18c5433002c9a9ff094bda94aa4fb4351e17826b77eb8ac75cb48f2",
+        "source_record_sha256": "7a5c5c4c5c629865aeaafd1c82953048c1879d2bc3c5353418aed9098ab7e713"
+      },
+      "observed_checksum": "md5:53f49c925e8abe1890307cfca5400a97",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241130_034908",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241130_034908.json",
+        "sha256": "140337d5c17a4b5af3226559d73970a8284e26865bc601b138f1d53d0c06c789"
+      },
+      "validation": {
+        "path": "validation/GW241130_034908.json",
+        "sha256": "5720fe2f3993ffa6cde2418ac7292165239f50dac881051ac2a8d77a14b6216e"
+      },
+      "upstream_fit_sha256": "900700c411af4d0e305bdeb1f93c9254e139cd7a68c7ddbfd998a56852c74c98",
+      "reference_sha256": "9d41326511c740a5d5d86cc75e6c41d736a48624a286a8db43851d953abe2f4e",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241130_034908-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "e31771a4db7b15d2de0e0b0f7441717182cd6cf85746f462f26d42ae2f46c0b2",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "9d41326511c740a5d5d86cc75e6c41d736a48624a286a8db43851d953abe2f4e",
+        "source_record_sha256": "f187ea13478aeac0b5058bd2710e85c890a86192c08c5bda4de5cfbbf435da7a"
+      },
+      "observed_checksum": "md5:6d5305eb9bb25dce869c437cd6800a51",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241127_061008",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "generic_flat_joint9d_candidate",
+      "fit": {
+        "path": "fits/GW241127_061008.json",
+        "sha256": "6317d25f804f6ae8f057eebcb075351dfec829bd9b986e823cd6c599888ccf7f"
+      },
+      "validation": {
+        "path": "validation/GW241127_061008.json",
+        "sha256": "845d78b178a6b32fe1de71c4ba56ddd86dc8657f8450d33d7dcb407397a455c3"
+      },
+      "upstream_fit_sha256": "c0a4e36312a3434f59ab189f7a4746df0603d980e80b3d20b086ac85261c3b08",
+      "reference_sha256": "e9ba2209adc4701e9179bce36a2460a5772111f80cf86bd11afa342299847e05",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241127_061008-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "64e69b87bc2e697b44aba0ad3e89e1624724e992eb3d0c5821d92e8073a5a5c0",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "e9ba2209adc4701e9179bce36a2460a5772111f80cf86bd11afa342299847e05",
+        "source_record_sha256": "cbdd010a4e5e16602185a9bd4d68c67bf9c5b25a5623bbe650f3d1c6515f779b"
+      },
+      "observed_checksum": "md5:ecacc96dd7cd47399dc3fbc2ba9c17d8",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241229_155844",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241229_155844.json",
+        "sha256": "abd9d8857ddf1e69f132e6d0d6a8ee88370d2f6ab188252334a0c5b121973663"
+      },
+      "validation": {
+        "path": "validation/GW241229_155844.json",
+        "sha256": "ccee3d1a4a4aa27ba5a30b4d6d83cf19b6dae341fbe945e20b5c68bfc4496502"
+      },
+      "upstream_fit_sha256": "a9d462ce69884e9e2ebec8db2507203f6477e98d5276035978e177204f54bcee",
+      "reference_sha256": "46b0e246c1b4f7e9153b24035f39ffefcd60f807e5d0462ddfef8a189413491e",
+      "source": {
+        "public_record": 20348006,
+        "public_url": "https://zenodo.org/api/records/20348006/files/IGWN-GWTC5p0-29ebe06b7_25-GW241229_155844-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "ec4324e7ac744fa9a378d76df771a3bfdb3e32a956c8c8ec75dcf6f597ed6d3c",
+        "frequency_Hz": 13.0,
+        "reference_sha256": "46b0e246c1b4f7e9153b24035f39ffefcd60f807e5d0462ddfef8a189413491e",
+        "source_record_sha256": "642a222dd224062233abc15b8f9f4b757439d23fbc206ea710732c343d8eca55"
+      },
+      "observed_checksum": "md5:254d9593898315151d2dd99c5310e40f",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241101_220523",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241101_220523.json",
+        "sha256": "c1c1fe34f0d16ea801150d5e073d5bb65362aabb25812b465f2b6079cc4e7760"
+      },
+      "validation": {
+        "path": "validation/GW241101_220523.json",
+        "sha256": "4a214b145cda4ee8664e1e62741e6b5bb72a1961656eef2caa1ad0338e5703e3"
+      },
+      "upstream_fit_sha256": "d98320132dedf42dd03799de777ee6d2fecab345a8fc48b62e06a1697926e83d",
+      "reference_sha256": "29d2f97ab03518fe74050185220ec8cf7c0bcedd053a3694061535c5530d537c",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241101_220523-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "0fb14a047bded6483535087837dfeab46078b0ec40b4c96c5fc65e6e924f7e7d",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "29d2f97ab03518fe74050185220ec8cf7c0bcedd053a3694061535c5530d537c",
+        "source_record_sha256": "19aacd7d654b0eca395585f826ee169687e937239476385e7a634a8ec3933eda"
+      },
+      "observed_checksum": "md5:01e62d1344279846553b17dc49677a7b",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240420_175625",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240420_175625.json",
+        "sha256": "470d86006974d0d8f6666f092d4dcf258b939bdbc2491109b46845b7f93df982"
+      },
+      "validation": {
+        "path": "validation/GW240420_175625.json",
+        "sha256": "911fa99c8f8388fd7dd2ce36783d41e505b82bba06e7ca3df45722e109ca4bd2"
+      },
+      "upstream_fit_sha256": "6e4dab75f147723016295b1645344c5881e5f50e9598da255094010e246e65cf",
+      "reference_sha256": "53d948a896278d6c902739a29b69e3bf5f4455127e3c71ceb18f018a70e5b962",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240420_175625-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "7cbd8f605f7eaeb40006f4e63acfd387854c49799c46719290aad6dd9dbfcdd7",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "53d948a896278d6c902739a29b69e3bf5f4455127e3c71ceb18f018a70e5b962",
+        "source_record_sha256": "6d506ddc25536524212b4ef9c9940e4fa4b6c7e801989ad640bc3785f1640bfc"
+      },
+      "observed_checksum": "md5:7be786533108704196e1ee7026dc2609",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW241116_151753",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW241116_151753.json",
+        "sha256": "241c3f05a697798cae8b4ada6ff6e00d090dd58ce48c3de5d2c37c4a4adb546a"
+      },
+      "validation": {
+        "path": "validation/GW241116_151753.json",
+        "sha256": "726f40f7cd0bb36daecd26ca0d88a95bd0ccbb63eb7cd69e7d09b4f316d974cf"
+      },
+      "upstream_fit_sha256": "66c8e53458841b1bc79f6c8f86170d4a54f21cdc1f36e366a698a62471269abc",
+      "reference_sha256": "f3d000976cb30069f3bac4b4554c03d032ab610f2ce91ec2096683867f1de0d8",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW241116_151753-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:IMRPhenomXPHM-SpinTaylor",
+        "waveform": "IMRPhenomXPHM-SpinTaylor",
+        "source_sha256": "9440d28b609d955d421b6ae9cfecd5710494949849724bf414046bf0c5fe7bd2",
+        "frequency_Hz": 11.0,
+        "reference_sha256": "f3d000976cb30069f3bac4b4554c03d032ab610f2ce91ec2096683867f1de0d8",
+        "source_record_sha256": "a0b0377d03a15e8c85fbab18b11cddfed8826296704bcff6ded4b812ac1f315a"
+      },
+      "observed_checksum": "md5:accd75b43fc6758f09c4188a48faac40",
+      "producer_revision": "752f20827fd61f38e7b1d08f4ac95f7d9b47e1d96e25cb6e00657cf9fa3dfabb",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240930_234614",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "generic_source8_common_z_candidate",
+      "fit": {
+        "path": "fits/GW240930_234614.json",
+        "sha256": "d7513efb729124fddbdec2a5cbfd117d792e8511cbaa29e8b5ce0d1dfdd3e364"
+      },
+      "validation": {
+        "path": "validation/GW240930_234614.json",
+        "sha256": "67d50deb1991929c1386296933c3a6e30b912798c07fc0c36f7d6b059c083cdf"
+      },
+      "upstream_fit_sha256": "2ffaacaa8739f406ac5a68c8af8d0cf1239199bb4ece495c474eb4e379d80e84",
+      "reference_sha256": "8caf237086b5959130cf7d940712cdf158fe2e8babbafb279aa2352083c4fd68",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240930_234614-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:NRSur7dq4",
+        "waveform": "NRSur7dq4",
+        "source_sha256": "164191b68ba6ae914401c6fe673947bbf94c3ac465dd4b8cd4652252ebdb5a8d",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "8caf237086b5959130cf7d940712cdf158fe2e8babbafb279aa2352083c4fd68",
+        "source_record_sha256": "4c8d2b5081584f10fd5985f5f6a87dd4653226ad33861f17a95c0ed137651ad0"
+      },
+      "observed_checksum": "md5:8bddc99fe12de90407413bf7fa6be1f7",
+      "producer_revision": "c3d93b9bd8c0be20a20b39e46b8ec28c9c876d10dd45527929ba346fa15102b9",
+      "reference_PE_robustness": "Not certified by compression validation",
+      "availability": "candidate"
+    },
+    {
+      "event": "GW240512_024139",
+      "status": "reviewed_sample_recovery_candidate",
+      "scope": "native_forward_only_candidate",
+      "fit": {
+        "path": "fits/GW240512_024139.json",
+        "sha256": "89c32fdfef47ee9d7e7d29a6b1f92004213dbcb3a010c1486729a1b4d5ae999b"
+      },
+      "validation": {
+        "path": "validation/GW240512_024139.json",
+        "sha256": "5e15111fa476043523b859e45528b09a72c4f55ed117e0fbbab2df9a26676582"
+      },
+      "upstream_fit_sha256": "90e8cc88481d80c80eddb6841834ee0eb17eea1dd709d21bf97c617008c3efb1",
+      "reference_sha256": "a686e09f1614c844b291b2e240557dec76140a540fb9ce1f0ed6b8bca468bf9d",
+      "source": {
+        "public_record": 20348005,
+        "public_url": "https://zenodo.org/api/records/20348005/files/IGWN-GWTC5p0-29ebe06b7_25-GW240512_024139-combined_PEDataRelease.hdf5/content",
+        "source_group": "C00:SEOBNRv5PHM",
+        "waveform": "SEOBNRv5PHM",
+        "source_sha256": "a3dcc4b632c6f4309a154d60f4874801d877c5cb48725939287ea2bb77e068d8",
+        "frequency_Hz": 20.0,
+        "reference_sha256": "a686e09f1614c844b291b2e240557dec76140a540fb9ce1f0ed6b8bca468bf9d",
+        "source_record_sha256": "e717d6b1e290abfc05cda5ac227bad8a8da113864a4ee6b69cfa570fbf9f6d43"
+      },
+      "observed_checksum": "md5:10b71e47f7a48b2126530cdc045b7c5d",
+      "producer_revision": "8b19f6523f3049a1e3008f0f7c80f81589aee2a55afc61177c39f61433fadd8c",
+      "reference_PE_robustness": "RIFT-SEOB reference coordinate concern: sample-recovery qualification only; no geometric4 PE robustness certificate",
+      "availability": "candidate",
+      "prior_correction_edition": "population-o4b-cosmo-prior-repair-20261102-v2"
+    }
+  ],
+  "counts": {
+    "selected": 105,
+    "public_PE": 104,
+    "paired_native_passes": 104,
+    "waveforms": {
+      "SEOBNRv5PHM": 42,
+      "NRSur7dq4": 60,
+      "IMRPhenomXPHM-SpinTaylor": 2
+    },
+    "recorded_recovery_scopes": {
+      "native_forward_only_candidate": 94,
+      "generic_flat_joint9d_candidate": 5,
+      "generic_source8_common_z_candidate": 5
+    },
+    "restorable_prior_consistent_scopes": {
+      "native_forward_only_candidate": 93,
+      "generic_flat_joint9d_candidate": 6,
+      "generic_source8_common_z_candidate": 5
+    },
+    "prior_consistent_candidates": 104,
+    "diagnostic_only_prior_conflicts": 0
+  },
+  "CIT_handoff": "<host-path>/20261102-o4b-cosmo-prior-corrected-v3",
+  "CIT_grids": "<host-path>/repository-grid-assets-v1",
+  "acceptance": "Explicit conditional sample-recovery candidates only; no new generic Collection backend or reference-PE certification",
+  "native_prior_audit": {
+    "path": "native-prior-audit.json",
+    "sha256": "ff013fc71c817e18f7f150eb2f7c8cdd77b386d63941639667414f3f049cd531"
+  },
+  "public_coefficient_products": 104,
+  "diagnostic_only_prior_conflicts": 0,
+  "prior_correction": {
+    "events": 37,
+    "unchanged_earlier_products": 67,
+    "review_sha256": "65f23127979201e5ade395847d85320ecf0e1b8f665e1bf0ff3361596b8affd2",
+    "original_edition": "collections/precessing/20261102-o4b-public-recovery-v1"
+  }
+}

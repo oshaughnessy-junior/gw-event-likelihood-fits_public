@@ -1,0 +1,72 @@
+{
+  "status": "public_source_verified_candidates",
+  "n_events": 2,
+  "n_unresolved": 3,
+  "scientifically_accepted": 0,
+  "metrics": [
+    {
+      "event": "GW190719_215514",
+      "components": 16,
+      "em_iterations": 144,
+      "em_tolerance_selection": {
+        "variant": "k16_t2e-5",
+        "components": 16,
+        "em_tolerance": 2e-05,
+        "em_max_iterations": 2000,
+        "split_seed": 73,
+        "archive": "<host-path>/public5_20261109",
+        "archive_SHA256SUMS_sha256": "c03e4a095bd5b4a2866a6f22274a97aba623867f4e6a95ae7e650ac3d7c6f000",
+        "rule": "One configuration for every published event: the fewest components whose fits pass the declared checks on split seeds 73, 101 and 202. k12 configurations failed a replication split; k16, tol 2e-5 passed all three for both events."
+      },
+      "original_validation_status": "passed_declared_recovery_checks",
+      "all_declared_stress_checks": true,
+      "max_marginal_JS_bits": 0.012370423670135914,
+      "max_axis_KS": 0.0413911918757055,
+      "max_projection_JS_bits": 0.008082436773197083,
+      "max_conditional_q_given_z_JS_bits": 0.026232855573202388,
+      "min_reference_information_ess": 1848.8459285576878,
+      "min_proposal_ess": 2115.4312451491396,
+      "replication_splits_passed": 2
+    },
+    {
+      "event": "GW190805_211137",
+      "components": 16,
+      "em_iterations": 65,
+      "em_tolerance_selection": {
+        "variant": "k16_t2e-5",
+        "components": 16,
+        "em_tolerance": 2e-05,
+        "em_max_iterations": 2000,
+        "split_seed": 73,
+        "archive": "<host-path>/public5_20261109",
+        "archive_SHA256SUMS_sha256": "c03e4a095bd5b4a2866a6f22274a97aba623867f4e6a95ae7e650ac3d7c6f000",
+        "rule": "One configuration for every published event: the fewest components whose fits pass the declared checks on split seeds 73, 101 and 202. k12 configurations failed a replication split; k16, tol 2e-5 passed all three for both events."
+      },
+      "original_validation_status": "passed_declared_recovery_checks",
+      "all_declared_stress_checks": true,
+      "max_marginal_JS_bits": 0.014349268431366639,
+      "max_axis_KS": 0.05237761860636758,
+      "max_projection_JS_bits": 0.013614583527889657,
+      "max_conditional_q_given_z_JS_bits": 0.03657434681966906,
+      "min_reference_information_ess": 1253.8683400533362,
+      "min_proposal_ess": 928.2801344876574,
+      "replication_splits_passed": 2
+    }
+  ],
+  "unresolved": [
+    {
+      "event": "GW190929_012149",
+      "reason": "No base-measure fit passes the declared checks: 6 variants (k 8-16, two EM tolerances) give conditional q|z JS 0.071-0.089 bits (threshold 0.06; PE train-versus-heldout floor 0.037-0.052), and four of them also exceed axis KS 0.1. The native-CDF candidate remains in quasicircular/20261031-public-nativecdf-4d-v1."
+    },
+    {
+      "event": "GW230820_212515",
+      "reason": "Reference-limited: the held-out reference information ESS is 59 under the declared population targets (threshold 80), independent of the fit, and the PE train-versus-heldout q|z JS floor exceeds 0.3 bits. All 6 variants fail. The native-CDF candidate remains in quasicircular/20261031-public-nativecdf-4d-v1."
+    },
+    {
+      "event": "GW230928_215827",
+      "reason": "Reference-limited: the held-out reference information ESS is 53 under the declared population targets (threshold 80), independent of the fit, and the PE train-versus-heldout q|z JS floor exceeds 0.3 bits. All 6 variants fail. The native-CDF candidate remains in quasicircular/20261031-public-nativecdf-4d-v1."
+    }
+  ],
+  "builder_sha256": "f648b63c3416902120f32b98606b38afa6d2f9aa8408460cd67275ac925dd0a1",
+  "scope": "No PE rows, banks or private samples published. Source eligibility and numerical acceptance are separate."
+}

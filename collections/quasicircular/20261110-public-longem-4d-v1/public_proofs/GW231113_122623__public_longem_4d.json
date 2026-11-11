@@ -1,0 +1,52 @@
+{
+  "schema": "public-fit-source-proof-v1",
+  "status": "verified",
+  "event": "GW231113_122623",
+  "fit_sha256": "b162d06a525b341b582831c57575b7f94b645485b8c9d8a8e6ff14a64f02a045",
+  "reference_sha256": "99a6d188263b9f058755b77a2d8212d306e83020db08dd310d5bff990ff47237",
+  "posterior_group": "C00:IMRPhenomXPHM-SpinTaylor",
+  "producer_revision": "b24a0cbf492afdf3bd9c5be7b404d144699f3e339e1dc0abfb6bb7f2a33d8c3e",
+  "leaf_revision": "bea8929dc0cd1cef0947a49c15b90faa6376d9b03a1b261db9c6fb558bf496b7",
+  "source_model_sha256": "1a570e77747ec8b82e41ffb1de5e3e1e175910d2fce999da9d1e4161b1dae54a",
+  "source_validation_sha256": "3ea5740f48f3d96b1044a92f152836bd21fa4ddb8aadfd50b472068a1a408e01",
+  "used_columns": [
+    "chirp_mass",
+    "mass_ratio",
+    "luminosity_distance",
+    "chi_eff",
+    "mass_1",
+    "mass_2",
+    "spin_1x",
+    "spin_1y",
+    "spin_1z",
+    "spin_2x",
+    "spin_2y",
+    "spin_2z"
+  ],
+  "source_export_proof": {
+    "path": "collections/quasicircular/20261110-public-longem-4d-v1/source_exports/GW231113_122623.json",
+    "sha256": "0b17550bc78c6684ad7df9577e5446f2824b1f0fb9d3e3fcd2cd70a5585fa617"
+  },
+  "method": "public_release_file_checksum_match",
+  "release_id": "20275769",
+  "release_version": "record:20275769",
+  "doi": "10.5281/zenodo.20275769",
+  "public_file_url": "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW231113_122623-combined_PEDataRelease.hdf5/content",
+  "public_file_name": "IGWN-GWTC4p1-18965dda8_5-GW231113_122623-combined_PEDataRelease.hdf5",
+  "public_file_sha256": "c7a17c6c0ae47a9a6737512f449a95a09bb9b1176875fd9bd1306ff577a3e55f",
+  "source_file_sha256": "c7a17c6c0ae47a9a6737512f449a95a09bb9b1176875fd9bd1306ff577a3e55f",
+  "public_file_checksum": {
+    "algorithm": "md5",
+    "value": "08e172341396d0a4b918688f549e8215"
+  },
+  "observed_file_checksum": {
+    "algorithm": "md5",
+    "value": "08e172341396d0a4b918688f549e8215"
+  },
+  "public_metadata": {
+    "path": "collections/quasicircular/20261110-public-longem-4d-v1/public_metadata/50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00.json",
+    "sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00"
+  },
+  "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00",
+  "release_version_source": "zenodo_record_id"
+}

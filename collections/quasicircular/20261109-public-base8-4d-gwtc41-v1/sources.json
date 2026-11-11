@@ -1,0 +1,1097 @@
+{
+  "schema": "nal-sources-v1",
+  "analyses": [
+    {
+      "analysis_id": "GW230726_002940__public_base8_4d",
+      "event": "GW230726_002940",
+      "authority": "LVK",
+      "release": {
+        "id": "20275769",
+        "version": "record:20275769",
+        "review_status": "public_release_checksum_verified",
+        "evidence": [
+          "10.5281/zenodo.20275769",
+          "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW230726_002940-combined_PEDataRelease.hdf5/content"
+        ]
+      },
+      "analysis_label": "C00:IMRPhenomXPHM-SpinTaylor",
+      "waveform": {
+        "name": "C00:IMRPhenomXPHM-SpinTaylor",
+        "version": null
+      },
+      "files": [
+        {
+          "host": "public-release",
+          "path": "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW230726_002940-combined_PEDataRelease.hdf5/content",
+          "sha256": "53bae436997f54d6d992e6da16cf4bfac42db337f25b8b1acec0d30c3a404966",
+          "role": "native_joint_posterior"
+        }
+      ],
+      "priors": {
+        "description": "Original native retained and conditional nuisance priors of the proven public file; the effective-spin prior is the fit base measure and cancels in the scalar likelihood; mass and distance priors are divided out",
+        "measure": "Detector component-mass and native luminosity-distance/spin priors; see exact native contract",
+        "metadata_source": "source_metadata/GW230726_002940__public_base8_4d.json"
+      },
+      "settings": {
+        "coordinate_cosmology": {
+          "H0": 67.9,
+          "Om0": 0.3065,
+          "Tcmb0": 0
+        },
+        "native_prior_contract": {
+          "schema": "aligned-redshift-native-prior-v1",
+          "event": "GW230726_002940",
+          "coordinate_order": [
+            "mc_source",
+            "eta",
+            "chi_eff",
+            "z"
+          ],
+          "analysis_support": {
+            "mc_det_min": 21.239440615622584,
+            "mc_det_max": 48.966034051237386,
+            "q_min": 0.05,
+            "q_max": 1.0,
+            "m1_det_min": 1.0,
+            "m1_det_max": 1000.0,
+            "m2_det_min": 1.0,
+            "m2_det_max": 1000.0,
+            "amax": 0.99,
+            "a1max": 0.99,
+            "a2max": 0.99,
+            "dL_min": 100.0,
+            "dL_max": 10000.0,
+            "z_min": 0.02227011353015629,
+            "z_max": 1.3689933730128054,
+            "mc_min": 8.965597311321723,
+            "mc_max": 47.8993109581824
+          },
+          "spin_caps": [
+            0.99,
+            0.99
+          ],
+          "spin_quadrature_order": 128,
+          "distance_prior": {
+            "kind": "UniformSourceFrame",
+            "analytic": "bilby.gw.prior.UniformSourceFrame(minimum=100.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+            "status": "public_serialized_analytic_prior"
+          },
+          "common_cosmology": {
+            "H0": 67.9,
+            "Om0": 0.3065,
+            "Tcmb0": 0.0
+          },
+          "conditional_nuisance": "Original public waveform-specific conditional nuisance prior; no nuisance population change",
+          "metadata_provenance": {
+            "kind": "official_public_release_file_checksum_match",
+            "doi": "10.5281/zenodo.20275769",
+            "release_version": null,
+            "file": "IGWN-GWTC4p1-18965dda8_5-GW230726_002940-combined_PEDataRelease.hdf5",
+            "group": "C00:IMRPhenomXPHM-SpinTaylor",
+            "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00"
+          },
+          "native_settings": {
+            "priors/analytic/L1_time": [
+              "Uniform(minimum=1374366597.9600651, maximum=1374366598.160065, name='L1_time', latex_label='$t_L$', unit='$s$', boundary=None)"
+            ],
+            "priors/analytic/a_1": [
+              "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/a_2": [
+              "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/chirp_mass": [
+              "bilby.gw.prior.UniformInComponentsChirpMass(minimum=21.239440615622584, maximum=48.966034051237386, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_\\\\{\\\\{\\\\odot\\\\}\\\\}$', boundary=None)"
+            ],
+            "priors/analytic/dec": [
+              "Cosine(minimum=-1.5707963267948966, maximum=1.5707963267948966, name='dec', latex_label='$\\\\mathrm{DEC}$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/luminosity_distance": [
+              "bilby.gw.prior.UniformSourceFrame(minimum=100.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+            ],
+            "priors/analytic/mass_1": [
+              "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+            ],
+            "priors/analytic/mass_2": [
+              "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+            ],
+            "priors/analytic/mass_ratio": [
+              "bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)"
+            ],
+            "priors/analytic/phase": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_12": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_jl": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/psi": [
+              "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/ra": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='ra', latex_label='$\\\\mathrm{RA}$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/theta_jn": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_1": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_2": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+            ]
+          }
+        }
+      },
+      "known_issues": [
+        {
+          "issue_id": "source_analysis_provenance",
+          "status": "review_required",
+          "evidence": "Public availability does not certify waveform/calibration/window systematics or arbitrary prior changes."
+        }
+      ],
+      "provenance_gaps": [
+        "Public source eligibility is independent of scientific recovery and historical source-quality issues.",
+        "Source metadata records the internal path of the byte-identical file read on CIT; the public proof binds it to the release file."
+      ]
+    },
+    {
+      "analysis_id": "GW230729_082317__public_base8_4d",
+      "event": "GW230729_082317",
+      "authority": "LVK",
+      "release": {
+        "id": "20275769",
+        "version": "record:20275769",
+        "review_status": "public_release_checksum_verified",
+        "evidence": [
+          "10.5281/zenodo.20275769",
+          "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW230729_082317-combined_PEDataRelease.hdf5/content"
+        ]
+      },
+      "analysis_label": "C00:IMRPhenomXPHM-SpinTaylor",
+      "waveform": {
+        "name": "C00:IMRPhenomXPHM-SpinTaylor",
+        "version": null
+      },
+      "files": [
+        {
+          "host": "public-release",
+          "path": "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW230729_082317-combined_PEDataRelease.hdf5/content",
+          "sha256": "043d30cea1b15ce5aa2111bd9443bddf969477a82c68e8639bcf8af4802bb457",
+          "role": "native_joint_posterior"
+        }
+      ],
+      "priors": {
+        "description": "Original native retained and conditional nuisance priors of the proven public file; the effective-spin prior is the fit base measure and cancels in the scalar likelihood; mass and distance priors are divided out",
+        "measure": "Detector component-mass and native luminosity-distance/spin priors; see exact native contract",
+        "metadata_source": "source_metadata/GW230729_082317__public_base8_4d.json"
+      },
+      "settings": {
+        "coordinate_cosmology": {
+          "H0": 67.9,
+          "Om0": 0.3065,
+          "Tcmb0": 0
+        },
+        "native_prior_contract": {
+          "schema": "aligned-redshift-native-prior-v1",
+          "event": "GW230729_082317",
+          "coordinate_order": [
+            "mc_source",
+            "eta",
+            "chi_eff",
+            "z"
+          ],
+          "analysis_support": {
+            "mc_det_min": 7.0,
+            "mc_det_max": 14.0,
+            "q_min": 0.0934,
+            "q_max": 1.0,
+            "m1_det_min": 1.0,
+            "m1_det_max": 1000.0,
+            "m2_det_min": 1.0,
+            "m2_det_max": 1000.0,
+            "amax": 0.99,
+            "a1max": 0.99,
+            "a2max": 0.99,
+            "dL_min": 100.0,
+            "dL_max": 5000.0,
+            "z_min": 0.022270113530159213,
+            "z_max": 0.7802066652100123,
+            "mc_min": 3.932127733705685,
+            "mc_max": 13.69501056003137
+          },
+          "spin_caps": [
+            0.99,
+            0.99
+          ],
+          "spin_quadrature_order": 128,
+          "distance_prior": {
+            "kind": "UniformSourceFrame",
+            "analytic": "bilby.gw.prior.UniformSourceFrame(minimum=100.0, maximum=5000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+            "status": "public_serialized_analytic_prior"
+          },
+          "common_cosmology": {
+            "H0": 67.9,
+            "Om0": 0.3065,
+            "Tcmb0": 0.0
+          },
+          "conditional_nuisance": "Original public waveform-specific conditional nuisance prior; no nuisance population change",
+          "metadata_provenance": {
+            "kind": "official_public_release_file_checksum_match",
+            "doi": "10.5281/zenodo.20275769",
+            "release_version": null,
+            "file": "IGWN-GWTC4p1-18965dda8_5-GW230729_082317-combined_PEDataRelease.hdf5",
+            "group": "C00:IMRPhenomXPHM-SpinTaylor",
+            "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00"
+          },
+          "native_settings": {
+            "priors/analytic/L1_time": [
+              "Uniform(minimum=1374654215.101205, maximum=1374654215.301205, name='L1_time', latex_label='$t_L$', unit='$s$', boundary=None)"
+            ],
+            "priors/analytic/a_1": [
+              "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/a_2": [
+              "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/azimuth": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name=None, latex_label='$\\\\epsilon$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/chirp_mass": [
+              "bilby.gw.prior.UniformInComponentsChirpMass(minimum=7, maximum=14, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_\\\\{\\\\{\\\\odot\\\\}\\\\}$', boundary=None)"
+            ],
+            "priors/analytic/luminosity_distance": [
+              "bilby.gw.prior.UniformSourceFrame(minimum=100.0, maximum=5000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+            ],
+            "priors/analytic/mass_1": [
+              "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+            ],
+            "priors/analytic/mass_2": [
+              "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+            ],
+            "priors/analytic/mass_ratio": [
+              "bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.0934, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)"
+            ],
+            "priors/analytic/phase": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_12": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_jl": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/psi": [
+              "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/theta_jn": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_1": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_2": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/zenith": [
+              "Sine(minimum=0, maximum=3.141592653589793, name=None, latex_label='$\\\\kappa$', unit=None, boundary=None)"
+            ]
+          }
+        }
+      },
+      "known_issues": [
+        {
+          "issue_id": "source_analysis_provenance",
+          "status": "review_required",
+          "evidence": "Public availability does not certify waveform/calibration/window systematics or arbitrary prior changes."
+        }
+      ],
+      "provenance_gaps": [
+        "Public source eligibility is independent of scientific recovery and historical source-quality issues.",
+        "Source metadata records the internal path of the byte-identical file read on CIT; the public proof binds it to the release file."
+      ]
+    },
+    {
+      "analysis_id": "GW230731_215307__public_base8_4d",
+      "event": "GW230731_215307",
+      "authority": "LVK",
+      "release": {
+        "id": "20275769",
+        "version": "record:20275769",
+        "review_status": "public_release_checksum_verified",
+        "evidence": [
+          "10.5281/zenodo.20275769",
+          "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW230731_215307-combined_PEDataRelease.hdf5/content"
+        ]
+      },
+      "analysis_label": "C00:IMRPhenomXPHM-SpinTaylor",
+      "waveform": {
+        "name": "C00:IMRPhenomXPHM-SpinTaylor",
+        "version": null
+      },
+      "files": [
+        {
+          "host": "public-release",
+          "path": "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW230731_215307-combined_PEDataRelease.hdf5/content",
+          "sha256": "d35fcb27ecd43e3fbffba7b1ac41d92783c70279ca36ff9d4fb8dcd37486eedd",
+          "role": "native_joint_posterior"
+        }
+      ],
+      "priors": {
+        "description": "Original native retained and conditional nuisance priors of the proven public file; the effective-spin prior is the fit base measure and cancels in the scalar likelihood; mass and distance priors are divided out",
+        "measure": "Detector component-mass and native luminosity-distance/spin priors; see exact native contract",
+        "metadata_source": "source_metadata/GW230731_215307__public_base8_4d.json"
+      },
+      "settings": {
+        "coordinate_cosmology": {
+          "H0": 67.9,
+          "Om0": 0.3065,
+          "Tcmb0": 0
+        },
+        "native_prior_contract": {
+          "schema": "aligned-redshift-native-prior-v1",
+          "event": "GW230731_215307",
+          "coordinate_order": [
+            "mc_source",
+            "eta",
+            "chi_eff",
+            "z"
+          ],
+          "analysis_support": {
+            "mc_det_min": 9.298701478804867,
+            "mc_det_max": 10.0,
+            "q_min": 0.05,
+            "q_max": 1.0,
+            "m1_det_min": 1.0,
+            "m1_det_max": 1000.0,
+            "m2_det_min": 1.0,
+            "m2_det_max": 1000.0,
+            "amax": 0.99,
+            "a1max": 0.99,
+            "a2max": 0.99,
+            "dL_min": 100.0,
+            "dL_max": 5000.0,
+            "z_min": 0.022270113530159213,
+            "z_max": 0.7802066652100123,
+            "mc_min": 5.223383138894097,
+            "mc_max": 9.782150400022408
+          },
+          "spin_caps": [
+            0.99,
+            0.99
+          ],
+          "spin_quadrature_order": 128,
+          "distance_prior": {
+            "kind": "UniformSourceFrame",
+            "analytic": "bilby.gw.prior.UniformSourceFrame(minimum=100.0, maximum=5000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+            "status": "public_serialized_analytic_prior"
+          },
+          "common_cosmology": {
+            "H0": 67.9,
+            "Om0": 0.3065,
+            "Tcmb0": 0.0
+          },
+          "conditional_nuisance": "Original public waveform-specific conditional nuisance prior; no nuisance population change",
+          "metadata_provenance": {
+            "kind": "official_public_release_file_checksum_match",
+            "doi": "10.5281/zenodo.20275769",
+            "release_version": null,
+            "file": "IGWN-GWTC4p1-18965dda8_5-GW230731_215307-combined_PEDataRelease.hdf5",
+            "group": "C00:IMRPhenomXPHM-SpinTaylor",
+            "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00"
+          },
+          "native_settings": {
+            "priors/analytic/L1_time": [
+              "Uniform(minimum=1374875605.7886722, maximum=1374875605.988672, name='L1_time', latex_label='$t_L$', unit='$s$', boundary=None)"
+            ],
+            "priors/analytic/a_1": [
+              "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/a_2": [
+              "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/azimuth": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name=None, latex_label='$\\\\epsilon$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/chirp_mass": [
+              "bilby.gw.prior.UniformInComponentsChirpMass(minimum=9.298701478804867, maximum=10, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_\\\\{\\\\{\\\\odot\\\\}\\\\}$', boundary=None)"
+            ],
+            "priors/analytic/luminosity_distance": [
+              "bilby.gw.prior.UniformSourceFrame(minimum=100.0, maximum=5000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+            ],
+            "priors/analytic/mass_1": [
+              "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+            ],
+            "priors/analytic/mass_2": [
+              "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+            ],
+            "priors/analytic/mass_ratio": [
+              "bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)"
+            ],
+            "priors/analytic/phase": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_12": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_jl": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/psi": [
+              "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/theta_jn": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_1": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_2": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/zenith": [
+              "Sine(minimum=0, maximum=3.141592653589793, name=None, latex_label='$\\\\kappa$', unit=None, boundary=None)"
+            ]
+          }
+        }
+      },
+      "known_issues": [
+        {
+          "issue_id": "source_analysis_provenance",
+          "status": "review_required",
+          "evidence": "Public availability does not certify waveform/calibration/window systematics or arbitrary prior changes."
+        }
+      ],
+      "provenance_gaps": [
+        "Public source eligibility is independent of scientific recovery and historical source-quality issues.",
+        "Source metadata records the internal path of the byte-identical file read on CIT; the public proof binds it to the release file."
+      ]
+    },
+    {
+      "analysis_id": "GW231020_142947__public_base8_4d",
+      "event": "GW231020_142947",
+      "authority": "LVK",
+      "release": {
+        "id": "20275769",
+        "version": "record:20275769",
+        "review_status": "public_release_checksum_verified",
+        "evidence": [
+          "10.5281/zenodo.20275769",
+          "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW231020_142947-combined_PEDataRelease.hdf5/content"
+        ]
+      },
+      "analysis_label": "C00:IMRPhenomXPHM-SpinTaylor",
+      "waveform": {
+        "name": "C00:IMRPhenomXPHM-SpinTaylor",
+        "version": null
+      },
+      "files": [
+        {
+          "host": "public-release",
+          "path": "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW231020_142947-combined_PEDataRelease.hdf5/content",
+          "sha256": "9112dbfb5cbcbfd7b59705cec4c4f413282c21de93366c575748612a723f987a",
+          "role": "native_joint_posterior"
+        }
+      ],
+      "priors": {
+        "description": "Original native retained and conditional nuisance priors of the proven public file; the effective-spin prior is the fit base measure and cancels in the scalar likelihood; mass and distance priors are divided out",
+        "measure": "Detector component-mass and native luminosity-distance/spin priors; see exact native contract",
+        "metadata_source": "source_metadata/GW231020_142947__public_base8_4d.json"
+      },
+      "settings": {
+        "coordinate_cosmology": {
+          "H0": 67.9,
+          "Om0": 0.3065,
+          "Tcmb0": 0
+        },
+        "native_prior_contract": {
+          "schema": "aligned-redshift-native-prior-v1",
+          "event": "GW231020_142947",
+          "coordinate_order": [
+            "mc_source",
+            "eta",
+            "chi_eff",
+            "z"
+          ],
+          "analysis_support": {
+            "mc_det_min": 9.704104239275216,
+            "mc_det_max": 10.248061528246799,
+            "q_min": 0.06,
+            "q_max": 1.0,
+            "m1_det_min": 1.0,
+            "m1_det_max": 1000.0,
+            "m2_det_min": 1.0,
+            "m2_det_max": 1000.0,
+            "amax": 0.99,
+            "a1max": 0.99,
+            "a2max": 0.99,
+            "dL_min": 10.0,
+            "dL_max": 5000.0,
+            "z_min": 0.002260966557009089,
+            "z_max": 0.7802066652100123,
+            "mc_min": 5.451111058574997,
+            "mc_max": 10.224943273458196
+          },
+          "spin_caps": [
+            0.99,
+            0.99
+          ],
+          "spin_quadrature_order": 128,
+          "distance_prior": {
+            "kind": "UniformSourceFrame",
+            "analytic": "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=5000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+            "status": "public_serialized_analytic_prior"
+          },
+          "common_cosmology": {
+            "H0": 67.9,
+            "Om0": 0.3065,
+            "Tcmb0": 0.0
+          },
+          "conditional_nuisance": "Original public waveform-specific conditional nuisance prior; no nuisance population change",
+          "metadata_provenance": {
+            "kind": "official_public_release_file_checksum_match",
+            "doi": "10.5281/zenodo.20275769",
+            "release_version": null,
+            "file": "IGWN-GWTC4p1-18965dda8_5-GW231020_142947-combined_PEDataRelease.hdf5",
+            "group": "C00:IMRPhenomXPHM-SpinTaylor",
+            "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00"
+          },
+          "native_settings": {
+            "priors/analytic/H1_time": [
+              "Uniform(minimum=1381847405.4834962, maximum=1381847405.683496, name='H1_time', latex_label='$t_H$', unit='$s$', boundary=None)"
+            ],
+            "priors/analytic/a_1": [
+              "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/a_2": [
+              "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/azimuth": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name=None, latex_label='$\\\\epsilon$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/chirp_mass": [
+              "bilby.gw.prior.UniformInComponentsChirpMass(minimum=9.704104239275216, maximum=10.248061528246799, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_\\\\{\\\\{\\\\odot\\\\}\\\\}$', boundary=None)"
+            ],
+            "priors/analytic/luminosity_distance": [
+              "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=5000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+            ],
+            "priors/analytic/mass_1": [
+              "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+            ],
+            "priors/analytic/mass_2": [
+              "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+            ],
+            "priors/analytic/mass_ratio": [
+              "bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.06, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)"
+            ],
+            "priors/analytic/phase": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_12": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_jl": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/psi": [
+              "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/theta_jn": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_1": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_2": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/zenith": [
+              "Sine(minimum=0, maximum=3.141592653589793, name=None, latex_label='$\\\\kappa$', unit=None, boundary=None)"
+            ]
+          }
+        }
+      },
+      "known_issues": [
+        {
+          "issue_id": "source_analysis_provenance",
+          "status": "review_required",
+          "evidence": "Public availability does not certify waveform/calibration/window systematics or arbitrary prior changes."
+        }
+      ],
+      "provenance_gaps": [
+        "Public source eligibility is independent of scientific recovery and historical source-quality issues.",
+        "Source metadata records the internal path of the byte-identical file read on CIT; the public proof binds it to the release file."
+      ]
+    },
+    {
+      "analysis_id": "GW231110_040320__public_base8_4d",
+      "event": "GW231110_040320",
+      "authority": "LVK",
+      "release": {
+        "id": "20275769",
+        "version": "record:20275769",
+        "review_status": "public_release_checksum_verified",
+        "evidence": [
+          "10.5281/zenodo.20275769",
+          "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW231110_040320-combined_PEDataRelease.hdf5/content"
+        ]
+      },
+      "analysis_label": "C00:IMRPhenomXPHM-SpinTaylor",
+      "waveform": {
+        "name": "C00:IMRPhenomXPHM-SpinTaylor",
+        "version": null
+      },
+      "files": [
+        {
+          "host": "public-release",
+          "path": "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW231110_040320-combined_PEDataRelease.hdf5/content",
+          "sha256": "1c5e014aaa8a155ef42e16cf4bee64af31cd0f92afe5532b80584a65d609b324",
+          "role": "native_joint_posterior"
+        }
+      ],
+      "priors": {
+        "description": "Original native retained and conditional nuisance priors of the proven public file; the effective-spin prior is the fit base measure and cancels in the scalar likelihood; mass and distance priors are divided out",
+        "measure": "Detector component-mass and native luminosity-distance/spin priors; see exact native contract",
+        "metadata_source": "source_metadata/GW231110_040320__public_base8_4d.json"
+      },
+      "settings": {
+        "coordinate_cosmology": {
+          "H0": 67.9,
+          "Om0": 0.3065,
+          "Tcmb0": 0
+        },
+        "native_prior_contract": {
+          "schema": "aligned-redshift-native-prior-v1",
+          "event": "GW231110_040320",
+          "coordinate_order": [
+            "mc_source",
+            "eta",
+            "chi_eff",
+            "z"
+          ],
+          "analysis_support": {
+            "mc_det_min": 16.758467117605857,
+            "mc_det_max": 19.824682534334148,
+            "q_min": 0.05,
+            "q_max": 1.0,
+            "m1_det_min": 1.0,
+            "m1_det_max": 1000.0,
+            "m2_det_min": 1.0,
+            "m2_det_max": 1000.0,
+            "amax": 0.99,
+            "a1max": 0.99,
+            "a2max": 0.99,
+            "dL_min": 10.0,
+            "dL_max": 10000.0,
+            "z_min": 0.0022609665570082187,
+            "z_max": 1.3689933730128054,
+            "mc_min": 7.074087799702457,
+            "mc_max": 19.779960704681926
+          },
+          "spin_caps": [
+            0.99,
+            0.99
+          ],
+          "spin_quadrature_order": 128,
+          "distance_prior": {
+            "kind": "UniformSourceFrame",
+            "analytic": "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+            "status": "public_serialized_analytic_prior"
+          },
+          "common_cosmology": {
+            "H0": 67.9,
+            "Om0": 0.3065,
+            "Tcmb0": 0.0
+          },
+          "conditional_nuisance": "Original public waveform-specific conditional nuisance prior; no nuisance population change",
+          "metadata_provenance": {
+            "kind": "official_public_release_file_checksum_match",
+            "doi": "10.5281/zenodo.20275769",
+            "release_version": null,
+            "file": "IGWN-GWTC4p1-18965dda8_5-GW231110_040320-combined_PEDataRelease.hdf5",
+            "group": "C00:IMRPhenomXPHM-SpinTaylor",
+            "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00"
+          },
+          "native_settings": {
+            "priors/analytic/L1_time": [
+              "Uniform(minimum=1383624218.121191, maximum=1383624218.3211908, name='L1_time', latex_label='$t_L$', unit='$s$', boundary=None)"
+            ],
+            "priors/analytic/a_1": [
+              "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/a_2": [
+              "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/azimuth": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name=None, latex_label='$\\\\epsilon$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/chirp_mass": [
+              "bilby.gw.prior.UniformInComponentsChirpMass(minimum=16.758467117605857, maximum=19.824682534334148, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_\\\\{\\\\{\\\\odot\\\\}\\\\}$', boundary=None)"
+            ],
+            "priors/analytic/luminosity_distance": [
+              "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+            ],
+            "priors/analytic/mass_1": [
+              "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+            ],
+            "priors/analytic/mass_2": [
+              "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+            ],
+            "priors/analytic/mass_ratio": [
+              "bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)"
+            ],
+            "priors/analytic/phase": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_12": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_jl": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/psi": [
+              "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/theta_jn": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_1": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_2": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/zenith": [
+              "Sine(minimum=0, maximum=3.141592653589793, name=None, latex_label='$\\\\kappa$', unit=None, boundary=None)"
+            ]
+          }
+        }
+      },
+      "known_issues": [
+        {
+          "issue_id": "source_analysis_provenance",
+          "status": "review_required",
+          "evidence": "Public availability does not certify waveform/calibration/window systematics or arbitrary prior changes."
+        }
+      ],
+      "provenance_gaps": [
+        "Public source eligibility is independent of scientific recovery and historical source-quality issues.",
+        "Source metadata records the internal path of the byte-identical file read on CIT; the public proof binds it to the release file."
+      ]
+    },
+    {
+      "analysis_id": "GW231113_200417__public_base8_4d",
+      "event": "GW231113_200417",
+      "authority": "LVK",
+      "release": {
+        "id": "20275769",
+        "version": "record:20275769",
+        "review_status": "public_release_checksum_verified",
+        "evidence": [
+          "10.5281/zenodo.20275769",
+          "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW231113_200417-combined_PEDataRelease.hdf5/content"
+        ]
+      },
+      "analysis_label": "C00:IMRPhenomXPHM-SpinTaylor",
+      "waveform": {
+        "name": "C00:IMRPhenomXPHM-SpinTaylor",
+        "version": null
+      },
+      "files": [
+        {
+          "host": "public-release",
+          "path": "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW231113_200417-combined_PEDataRelease.hdf5/content",
+          "sha256": "e4d7e826073ec4df6c9e5c8ab0ff6f4bb29c048c624010fc9022809c6946c349",
+          "role": "native_joint_posterior"
+        }
+      ],
+      "priors": {
+        "description": "Original native retained and conditional nuisance priors of the proven public file; the effective-spin prior is the fit base measure and cancels in the scalar likelihood; mass and distance priors are divided out",
+        "measure": "Detector component-mass and native luminosity-distance/spin priors; see exact native contract",
+        "metadata_source": "source_metadata/GW231113_200417__public_base8_4d.json"
+      },
+      "settings": {
+        "coordinate_cosmology": {
+          "H0": 67.9,
+          "Om0": 0.3065,
+          "Tcmb0": 0
+        },
+        "native_prior_contract": {
+          "schema": "aligned-redshift-native-prior-v1",
+          "event": "GW231113_200417",
+          "coordinate_order": [
+            "mc_source",
+            "eta",
+            "chi_eff",
+            "z"
+          ],
+          "analysis_support": {
+            "mc_det_min": 9.533946971651051,
+            "mc_det_max": 10.0886248622545,
+            "q_min": 0.06,
+            "q_max": 1.0,
+            "m1_det_min": 1.0,
+            "m1_det_max": 1000.0,
+            "m2_det_min": 1.0,
+            "m2_det_max": 1000.0,
+            "amax": 0.99,
+            "a1max": 0.99,
+            "a2max": 0.99,
+            "dL_min": 10.0,
+            "dL_max": 5000.0,
+            "z_min": 0.002260966557009089,
+            "z_max": 0.7802066652100123,
+            "mc_min": 5.355528185558347,
+            "mc_max": 10.06586627523886
+          },
+          "spin_caps": [
+            0.99,
+            0.99
+          ],
+          "spin_quadrature_order": 128,
+          "distance_prior": {
+            "kind": "UniformSourceFrame",
+            "analytic": "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=5000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+            "status": "public_serialized_analytic_prior"
+          },
+          "common_cosmology": {
+            "H0": 67.9,
+            "Om0": 0.3065,
+            "Tcmb0": 0.0
+          },
+          "conditional_nuisance": "Original public waveform-specific conditional nuisance prior; no nuisance population change",
+          "metadata_provenance": {
+            "kind": "official_public_release_file_checksum_match",
+            "doi": "10.5281/zenodo.20275769",
+            "release_version": null,
+            "file": "IGWN-GWTC4p1-18965dda8_5-GW231113_200417-combined_PEDataRelease.hdf5",
+            "group": "C00:IMRPhenomXPHM-SpinTaylor",
+            "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00"
+          },
+          "native_settings": {
+            "priors/analytic/H1_time": [
+              "Uniform(minimum=1383941075.810645, maximum=1383941076.010645, name='H1_time', latex_label='$t_H$', unit='$s$', boundary=None)"
+            ],
+            "priors/analytic/a_1": [
+              "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/a_2": [
+              "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/azimuth": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name=None, latex_label='$\\\\epsilon$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/chirp_mass": [
+              "bilby.gw.prior.UniformInComponentsChirpMass(minimum=9.533946971651051, maximum=10.0886248622545, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_\\\\{\\\\{\\\\odot\\\\}\\\\}$', boundary=None)"
+            ],
+            "priors/analytic/luminosity_distance": [
+              "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=5000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+            ],
+            "priors/analytic/mass_1": [
+              "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+            ],
+            "priors/analytic/mass_2": [
+              "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+            ],
+            "priors/analytic/mass_ratio": [
+              "bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.06, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)"
+            ],
+            "priors/analytic/phase": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_12": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_jl": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/psi": [
+              "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/theta_jn": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_1": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_2": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/zenith": [
+              "Sine(minimum=0, maximum=3.141592653589793, name=None, latex_label='$\\\\kappa$', unit=None, boundary=None)"
+            ]
+          }
+        }
+      },
+      "known_issues": [
+        {
+          "issue_id": "source_analysis_provenance",
+          "status": "review_required",
+          "evidence": "Public availability does not certify waveform/calibration/window systematics or arbitrary prior changes."
+        }
+      ],
+      "provenance_gaps": [
+        "Public source eligibility is independent of scientific recovery and historical source-quality issues.",
+        "Source metadata records the internal path of the byte-identical file read on CIT; the public proof binds it to the release file."
+      ]
+    },
+    {
+      "analysis_id": "GW231123_135430__public_base8_4d",
+      "event": "GW231123_135430",
+      "authority": "LVK",
+      "release": {
+        "id": "20275769",
+        "version": "record:20275769",
+        "review_status": "public_release_checksum_verified",
+        "evidence": [
+          "10.5281/zenodo.20275769",
+          "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW231123_135430-combined_PEDataRelease.hdf5/content"
+        ]
+      },
+      "analysis_label": "C00:IMRPhenomXPHM-SpinTaylor",
+      "waveform": {
+        "name": "C00:IMRPhenomXPHM-SpinTaylor",
+        "version": null
+      },
+      "files": [
+        {
+          "host": "public-release",
+          "path": "https://zenodo.org/api/records/20275769/files/IGWN-GWTC4p1-18965dda8_5-GW231123_135430-combined_PEDataRelease.hdf5/content",
+          "sha256": "ac0ead2a8bafeb6152a00d852ce08968b332a2bed5002553be8cb46f4265eb47",
+          "role": "native_joint_posterior"
+        }
+      ],
+      "priors": {
+        "description": "Original native retained and conditional nuisance priors of the proven public file; the effective-spin prior is the fit base measure and cancels in the scalar likelihood; mass and distance priors are divided out",
+        "measure": "Detector component-mass and native luminosity-distance/spin priors; see exact native contract",
+        "metadata_source": "source_metadata/GW231123_135430__public_base8_4d.json"
+      },
+      "settings": {
+        "coordinate_cosmology": {
+          "H0": 67.9,
+          "Om0": 0.3065,
+          "Tcmb0": 0
+        },
+        "native_prior_contract": {
+          "schema": "aligned-redshift-native-prior-v1",
+          "event": "GW231123_135430",
+          "coordinate_order": [
+            "mc_source",
+            "eta",
+            "chi_eff",
+            "z"
+          ],
+          "analysis_support": {
+            "mc_det_min": 68.25578738484073,
+            "mc_det_max": 194.62307527305077,
+            "q_min": 0.1087,
+            "q_max": 1.0,
+            "m1_det_min": 1.0,
+            "m1_det_max": 1000.0,
+            "m2_det_min": 1.0,
+            "m2_det_max": 1000.0,
+            "amax": 0.99,
+            "a1max": 0.99,
+            "a2max": 0.99,
+            "dL_min": 10.0,
+            "dL_max": 10000.0,
+            "z_min": 0.0022609665570082187,
+            "z_max": 1.3689933730128054,
+            "mc_min": 28.812147877828522,
+            "mc_max": 194.18403167153642
+          },
+          "spin_caps": [
+            0.99,
+            0.99
+          ],
+          "spin_quadrature_order": 128,
+          "distance_prior": {
+            "kind": "UniformSourceFrame",
+            "analytic": "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+            "status": "public_serialized_analytic_prior"
+          },
+          "common_cosmology": {
+            "H0": 67.9,
+            "Om0": 0.3065,
+            "Tcmb0": 0.0
+          },
+          "conditional_nuisance": "Original public waveform-specific conditional nuisance prior; no nuisance population change",
+          "metadata_provenance": {
+            "kind": "official_public_release_file_checksum_match",
+            "doi": "10.5281/zenodo.20275769",
+            "release_version": null,
+            "file": "IGWN-GWTC4p1-18965dda8_5-GW231123_135430-combined_PEDataRelease.hdf5",
+            "group": "C00:IMRPhenomXPHM-SpinTaylor",
+            "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00"
+          },
+          "native_settings": {
+            "priors/analytic/L1_time": [
+              "Uniform(minimum=1384782888.5342772, maximum=1384782888.734277, name='L1_time', latex_label='$t_L$', unit='$s$', boundary=None)"
+            ],
+            "priors/analytic/a_1": [
+              "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/a_2": [
+              "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/azimuth": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name=None, latex_label='$\\\\epsilon$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/chirp_mass": [
+              "bilby.gw.prior.UniformInComponentsChirpMass(minimum=68.25578738484073, maximum=194.62307527305077, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_\\\\{\\\\{\\\\odot\\\\}\\\\}$', boundary=None)"
+            ],
+            "priors/analytic/luminosity_distance": [
+              "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+            ],
+            "priors/analytic/mass_1": [
+              "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+            ],
+            "priors/analytic/mass_2": [
+              "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+            ],
+            "priors/analytic/mass_ratio": [
+              "bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.1087, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)"
+            ],
+            "priors/analytic/phase": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_12": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/phi_jl": [
+              "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/psi": [
+              "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+            ],
+            "priors/analytic/theta_jn": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_1": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/tilt_2": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+            ],
+            "priors/analytic/zenith": [
+              "Sine(minimum=0, maximum=3.141592653589793, name=None, latex_label='$\\\\kappa$', unit=None, boundary=None)"
+            ]
+          }
+        }
+      },
+      "known_issues": [
+        {
+          "issue_id": "source_analysis_provenance",
+          "status": "review_required",
+          "evidence": "Public availability does not certify waveform/calibration/window systematics or arbitrary prior changes."
+        }
+      ],
+      "provenance_gaps": [
+        "Public source eligibility is independent of scientific recovery and historical source-quality issues.",
+        "Source metadata records the internal path of the byte-identical file read on CIT; the public proof binds it to the release file."
+      ]
+    }
+  ]
+}

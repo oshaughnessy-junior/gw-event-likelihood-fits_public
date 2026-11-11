@@ -1,0 +1,1575 @@
+{
+  "schema": "o4b-native-prior-contract-audit-v1",
+  "events": [
+    {
+      "event": "GW240825_055146",
+      "source_record_sha256": "e2482b0fb1c89d5806d57e9f0944914be846720ff454a1b934d6e255b79187c7",
+      "source_file_sha256": "5b0d3e76d6af4a231fba1a12d8d32ad9f48639620a7207a1857d92c6377b5152",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "cb438c1de39e6115b8b00638f6015bdab1af0384435c0b15848dc2e7432dbe31"
+    },
+    {
+      "event": "GW241114_235258",
+      "source_record_sha256": "c0aaf2b0974bc11d5c93a30f21a7e96481397f2415d7f568295c1737226229ae",
+      "source_file_sha256": "836c11ac219ed6f43cea56f4b797dfab747cca2aae3113adc4e147098ffb9776",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "7d9baedba43f56f0e09c7ee03b4dc22c6e6d6caef44e3b186236405bf286b756"
+    },
+    {
+      "event": "GW240601_231004",
+      "source_record_sha256": "d42bf494e75e0410e132a807a7cb670074dbbd1a8ddfb140ad5689323fba46bc",
+      "source_file_sha256": "d92c08bcd605c5c38fa78fde3f0f28a7087eacedf0fed1275447eb21fb3b7b8c",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "f6dad655d877f56053ac632188a6e196a9910ccd1f77d2fde1a02b5b6a538c12"
+    },
+    {
+      "event": "GW240612_081540",
+      "source_record_sha256": "0a7336441ef63629ff746103fb785ecb8949aed9b26a3e3c460c4a57662a5696",
+      "source_file_sha256": "0e0644de98945986a0229d41c06d86dd7f8e2d8bcb26cb96a8662307a7273621",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "6db2fc09a919df64467845c3dc2407547c1c897651d2c2e2ba1d16c9d7a5c29d"
+    },
+    {
+      "event": "GW241109_033317",
+      "source_record_sha256": "fac2c4a24d3dfdb5a9a96284fb354b53891c9ff9795b355346025123e7db3e5b",
+      "source_file_sha256": "feb3131d5670f5f493f1fee82867b01209606ef97c80cb0f0a77a3d078dc961b",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240525_031210",
+      "source_record_sha256": "cb669940fb159838c6ee1e0319005dc7619f862d88983a2c203b86fd03f8d918",
+      "source_file_sha256": "5d9e24147010bd1a50ecf89daf033631ffb45840bf4bc47e21a828a4981e4695",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "991e7113fabae29073557b8d20e11b0e94c8d8c98296c6f08e86e5c9c56ffabf"
+    },
+    {
+      "event": "GW241009_022835",
+      "source_record_sha256": "0c017d215bd1689f073f01f039e2bc1e641a56bed1bb185d60bc59b82667f23e",
+      "source_file_sha256": "b4a1710b10fb02a7511ba1d81232ab74c974118a8354c98a300515cf28b1ad64",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=30000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241225_082815",
+      "source_record_sha256": "060dd41e64b6705af58b153a1c2c5e3931d3ffc4ae5868f027693021f3f8d82c",
+      "source_file_sha256": "2988e9973ccc5b224c9e393c8ea1883d31f04961c356e4e351e77f3b3f8c7763",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240910_103535",
+      "source_record_sha256": "4759c2dd0921ff8469e893dd5daf20a11c564007cf1c1608e18cf98881cce34b",
+      "source_file_sha256": "8e4a128f1788911abee0ca034059c829bfab06176e251a96d6d6b54069b3fd06",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "0f4e68181a9a5f81b8221a893dacfa1e48de27c8acf0c90e620e38f90ce7d824"
+    },
+    {
+      "event": "GW240622_004008",
+      "source_record_sha256": "83dcc35f2163e14394dc4c1b68cf07f17c318ef148ca69439fec5192766177e3",
+      "source_file_sha256": "845e8670de0f3787227a2e2f4706c9b9332092f92092c0add8a6766eddcf379a",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "4beb2436f01761c52a9480cf2d264de470baf417a8cf2911ad279beaa1ca3a07"
+    },
+    {
+      "event": "GW250118_170523",
+      "source_record_sha256": "886d1cf3535e9b4129de067403f1068bce1229661c24f04d007dee54af80f799",
+      "source_file_sha256": "4368e33388881d667ba807d00f1b3e77fa6fe70b58111a985e4f7bac3451f745",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240930_035959",
+      "source_record_sha256": "4096577afbcd22763ede6fe065df157d2779a9367492a50cb34d514dbbae7ea8",
+      "source_file_sha256": "644665af6faa70e88fbc4091f4e5397854f4b4d66fce71a10f0e22814c79d708",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "27f4ee799bf9379826969ca471e88c9e6f66e62e4c81e21b7c26b43240c16ba7"
+    },
+    {
+      "event": "GW240426_031451",
+      "source_record_sha256": "ed765540106ad4ffcf86d40b5d9d5b6cf47921ae0e2726cff093e7c5cc084a74",
+      "source_file_sha256": "052138e614aa3f9f2721b2428733a1685f7d14a759bcc0491775547cbde97007",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240920_124024",
+      "source_record_sha256": "a8ce05751e09df6eb969eb1bc5fb761df03eb68037853c13288e8a61556310a5",
+      "source_file_sha256": "8af3340d67c8f7015c929994f3cb6afa975498e3e5804596b45a994e5c02b7af",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240915_105151",
+      "source_record_sha256": "19b6efee2835a1500a189ea9e833200f886782507b58ef32806a5466a219c715",
+      "source_file_sha256": "8a555b4b0b92bf15f44d5f3f3385264012020547491997423c75f529c6995c25",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "597c27393b009b334eb205c4515f8f5d32e00fa1012bef7cffcee03f778b1f0d"
+    },
+    {
+      "event": "GW240830_211120",
+      "source_record_sha256": "9ff210d324c0b49c44b7831bdae4847f966eadb777a40ea68943a00323a0c47e",
+      "source_file_sha256": "07d8fac38d069435d5494834f726f65cf3a0e8467118a1c746145ab1159ff177",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "04bb14568d4d5cd59b8b5af3d080bea0566ad2073be20960bff1d03a84b8f097"
+    },
+    {
+      "event": "GW240527_230910",
+      "source_record_sha256": "94ab93b36f84caf09677ed7ee80e36821c50c83e8bad8bb9b3a615ebbf452b11",
+      "source_file_sha256": "659e639db794a4ce311306235a3f64973b46bc32b829e7a4efbb3c43ebb8573c",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "90068db3e8e355f6991ac4c4ebf2ce25175a34d728d6883f43320636e8d720bd"
+    },
+    {
+      "event": "GW250118_055802",
+      "source_record_sha256": "47a0aa7dc3d18149dd597f311b7f8e014ced14d9677dc10b6a6ee5cb96c87d8d",
+      "source_file_sha256": "d94d052ebfab471189dbe0808331786b3f28fe8a716cdf0831a96bf4877e70b5",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "6525730d077da25275feefde849527365b8a9ef5590b7865636e35f24ecc7d70"
+    },
+    {
+      "event": "GW241230_084504",
+      "source_record_sha256": "1cc91a663f5d53d8be18355a528137acbdf36e5211c98eb2608a91557b3af78a",
+      "source_file_sha256": "c6c49ad715919878f548c1eb2ecee2eaa2d337b94661109f538d2dadd5ecba0b",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240428_225440",
+      "source_record_sha256": "7b67303fd30304fff291f951dc553e27698ee0ceaf5f292ed9f50025b50d5915",
+      "source_file_sha256": "721d4d2a9fd3012d6f9f4fc09c12641949e214eefbeabeb40cdf8690916f6c24",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "65a68f24f7647128d67191a3666e566e38ca8893c5d51f605448fe6aab03e39a"
+    },
+    {
+      "event": "GW241102_144729",
+      "source_record_sha256": "6e4debdde778e2f28dd431307b069998c10b1cc9b8d240ef8a52024a7da7b88c",
+      "source_file_sha256": "939403e680ca0cc9d28379c1a75568a6fa658d219c88bd6506c4f905a664dd02",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241125_010116",
+      "source_record_sha256": "b32c1c2eea61ef3117c6de5b9ab49609473d18630c05749603b4de5f49248720",
+      "source_file_sha256": "b6a1bbfb79aedcddac7ffa360d0bb4cbc64048c73f8ccc6620bf7c4a752111b9",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240414_054515",
+      "source_record_sha256": "6698cbe41d8a02d983b6189ff7009c91edf754df1b3f6bdb998e599d8c7b731b",
+      "source_file_sha256": "dfb4eb1a3e3b50da1a19b5ee89349e7848e788ef5ce1fa9036ff832c0f93b35a",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240615_160735",
+      "source_record_sha256": "9f0dd01d468bc2992c209d00f69669dca346fbe2860fd6500da68762361cf3f3",
+      "source_file_sha256": "c2dd756a54907f39759d0411e138cf10bc3d59214181b0090c3263b6a15ebbd8",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240908_125134",
+      "source_record_sha256": "e7dc50ac4c6df906a9659e0599cdd7e3b5cc98582e597a977130f0f285a0dd68",
+      "source_file_sha256": "fcdad51b905874b30da64772d65b111309323c6b3c802be01e68190025a7c509",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW250108_152221",
+      "source_record_sha256": "83096f0a028c4540fdd9b6ddda6bc6851caa4fb46263433938a378f73f338c0b",
+      "source_file_sha256": "644e6e79fa55b5d77459cc3da04e8676ce12fbe53e616a969fd1d88717c849dc",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241011_233834",
+      "source_record_sha256": "9a8b5e09ace3c0436741a6e7689d46744c1ee34f76d2b477d473d14fd47dad48",
+      "source_file_sha256": "6361698cc09f408c60113e971cfcf6f007441082076e5227e537adb30daab53d",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=500.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241210_120900",
+      "source_record_sha256": "931c6e5d463a7fa6d1c5b9e58fef893b9402f9be1555ce54da16f9b02360c5e9",
+      "source_file_sha256": "a376458b4d953268ae1e758e185ae87985a79c5885eb0b3a5161d7851e547ee1",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240520_213616",
+      "source_record_sha256": "f28b5b704f88200f45cba637c1eeb7c13ab281e6715a2b231a2a1d0cb86b4d7d",
+      "source_file_sha256": "ef5ed83c80dc2f1874ed47c075f9ae4419e40e606b1f2a16d6f4babd16d897ca",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "09f490b32a7455787c5924cf19b118c8942c1b7b90dac4afb5800c04ab799610"
+    },
+    {
+      "event": "GW240515_005301",
+      "source_record_sha256": "b819a7dd7dd961a6947fe9526bee508aeb4c765f1e0341cc07fd979d189ba86b",
+      "source_file_sha256": "53fd199f547e19a4870b027c0ea338d2aa8c61056e53280feffc8ab79b78e823",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241231_054133",
+      "source_record_sha256": "bf97ec4846d4b09f128acb0b683672de9bd32251a519b22536235eaa1206ec6e",
+      "source_file_sha256": "bdfaf33c681e131eef7c4746245d37be5c58742dd5f2fb103c282409708ac303",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "eae4a1a52e0b734b832aa2a261f80aaf48a8daca2fc09c7371ff2faa60228874"
+    },
+    {
+      "event": "GW250114_082203",
+      "source_record_sha256": "1d70ad080800382a3a5aa72b8f64744af833e76bd5add8fa7f630548969d6a0a",
+      "source_file_sha256": "006b2a36c22d45ce41fe038072d6eb286747e3bf5ffb8f76c2865394850e3453",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW250109_010541",
+      "source_record_sha256": "af00a4d3571e2c0d3d3d2a9dc90ff8e34a26cb02a0c53f24d7e36ce4ee18e399",
+      "source_file_sha256": "f004968d29fd4f559ff785988238f9fb83e3c33994b5305878000f8c7cf88029",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240505_133552",
+      "source_record_sha256": "449b160a3f88d2c1169e6b64cf5b62ab595ba9d449c1b2fe6ceb93479e6c6db8",
+      "source_file_sha256": "49d189b30070419498c46b282e23f5d55841184d3f999577590c7c4c4ad82197",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240618_071627",
+      "source_record_sha256": "a869ad657c9a52ce0aaad82ae99b9fa34739de7b9108f5c21194f3f916d717b9",
+      "source_file_sha256": "63478af2a1f6313e223514bed7d9924113abfe76edb075a6acdf16544c607953",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240527_183429",
+      "source_record_sha256": "054558399d7b7acafe0a6745919a3bbae3ea4fb63030ded71afbea79ce2e8b57",
+      "source_file_sha256": "587efa12e64e7adbf0181033a2af1df2a781b20feb3ec521eaacc3006369448e",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=5.0, maximum=15000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241124_024914",
+      "source_record_sha256": "805b231c51462263a01322b69a742a8962573ddafe417f6cab014eeef4f1c269",
+      "source_file_sha256": "091f64369f788a626a900aa33f0576aa8ea1f7a1481d3788860b3604690e371b",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241113_163507",
+      "source_record_sha256": "4f1d71a0f52c1f6e4b6fc6d48020dbe95be396b820e411c631b017f4d14676f8",
+      "source_file_sha256": "39354cda76fc68e48a3b5f8846a28aeadd4f76fdd7188a3bc263dfd5f1ca3b27",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "e94a9ca560ecdefe2b10bc1b5ccb3c2cca3f890db996665d35ba0e5b2e657d45"
+    },
+    {
+      "event": "GW240621_200935",
+      "source_record_sha256": "520a0628f3cfb60bed9ac36bdbb5cfa13ee54160c052e8c21a3ca19122e1336b",
+      "source_file_sha256": "c3b87c5a94843e0c21fd997b54ac043ae46e7160405da09b11d213e7b08c23cd",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240531_075248",
+      "source_record_sha256": "10fc0575ff3a30af24bd01c2368d8de575bb89b188d40f0117535f2c2f8aab72",
+      "source_file_sha256": "105d8b98bdaea2056babf30200c344178b0df67da3457bfac405c329e3828e8d",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240705_053215",
+      "source_record_sha256": "42e243b2976d0027a76f46c2579610625e80661edff86ebe20d7574009080db6",
+      "source_file_sha256": "16d15cc57da8c4dd8b759427a4df27b4e84f522a5a701e84d38fa9735a5245ad",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241110_124123",
+      "source_record_sha256": "121c606540b7531209beec02cbc375f75840e3b5b0b3d2a61e2dc9785b9ef0c8",
+      "source_file_sha256": "3b59e79f1700806b87abee43608c9d8076415b99a1760700d922fd6c0171edd5",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "a4e5bed94bf7dadf6fac77fb2a03942edff67e5cf266ef7e1035427f975fddfb"
+    },
+    {
+      "event": "GW240908_082628",
+      "source_record_sha256": "2f1e36eaa7d42ab8f089d96e630d7aa9472b2984ec5afdde792cf3c5bdaf579e",
+      "source_file_sha256": "78dbff813210208e587b4a250b6f27cca074dcc6965e10e4fab13ee281aa710e",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240511_031507",
+      "source_record_sha256": "2958e8e94dcddfd71714f02a4709b71e7e1d95b05a936d8f9c0319846830079b",
+      "source_file_sha256": "e11e73b1cb19feacf3637e44a134f1c0b53aa41d6ccfa3251ada898de89ef5c3",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241109_115924",
+      "source_record_sha256": "7f3153bd0c19720b6870f206833f401b6000e0279ae7ccba72d92c115ea1015d",
+      "source_file_sha256": "48adb34d5382cb49311fd13a22c2792946d9a689cc55f79a2681722ba876c70b",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=4000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240514_121713",
+      "source_record_sha256": "37fb0fc397c39d16fb9ce142ba7261c94a0123335ccaeab6fd3cd2ba3d682363",
+      "source_file_sha256": "0f20f6e95591ebb6234e1c89a7842001574629d96d931d464e2a948e2cd60a25",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241201_055758",
+      "source_record_sha256": "3d71568621423ed6ffb1dbab05f873576d1376aad5c360e0569908df6ee55d74",
+      "source_file_sha256": "fea3bf6fbb8530ae2bca96ffe1721a4cbc067aa8bc4184589bb7fee932b84caf",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=30000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW250118_023225",
+      "source_record_sha256": "70c6fef6e288c67b3db2e4c5fe1ca29cb5fed2f5a376833c473b8e4987cf4bf0",
+      "source_file_sha256": "87b3056a9311600e85635404ad372c03795c643d2b049378bf3e2d773c0abccf",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=30000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240915_001357",
+      "source_record_sha256": "38e492345e236bd9f147abeb99596ba54560772d3abe4ce86f6f7a5bff324fed",
+      "source_file_sha256": "18d92604c14c599210cd8ad7c32a9f500bd3b3d359c06cacefe85195e7824ed5",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "26f8f3c8bc3a8076265119d42793d5de20cb71ced6092eb0631c6ecea33485ac"
+    },
+    {
+      "event": "GW240923_204006",
+      "source_record_sha256": "ce29799787953ca38ff9fff0c5d18ea3e1374d5be5a9f32faaedbf98c345c002",
+      "source_file_sha256": "fa57bfbdd8898572666fd9e3c2153942ef0a112badefc058b969b2b689bdd702",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW250119_025138",
+      "source_record_sha256": "9dc1f40b011395eddb58e262297e7edbd6a7e49adc3ce1fd2ec42be3cc6d030c",
+      "source_file_sha256": "fa9cb0d8ffbc147130b7bdc943fa28047a7e1ae171eae0821fa25a2a86e7f5cf",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW250109_074552",
+      "source_record_sha256": "aa26b41b0c5a7a37b040fa073c021ca2d6b55cd3c0aead80eff10153b841106c",
+      "source_file_sha256": "27092a7a03629e31307292f524fbbce404a4289b3eb2ad03576d2d28af2a662a",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241009_084816",
+      "source_record_sha256": "505d0a7d3c895cbe5c79fe0ec5193b870c7a6c278243e797fa3231aaf3af3dbf",
+      "source_file_sha256": "deb2290eca4ccdd9171be5244a2810bed08bff1b6a14461c0f601a949a39aee8",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "437a6695c9e89c151ea4be0b21fe629ab497cacdf83b2d4dec3529e1d6809a4c"
+    },
+    {
+      "event": "GW240919_061559",
+      "source_record_sha256": "52eecfb77b6a07e2034683bb825918a09f27608e15560aeb3ebc463a34d85922",
+      "source_file_sha256": "2e207c9fc5296988e7545bdbbf22490fbaf10f297d85b113da4b3c17588396bb",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241111_111552",
+      "source_record_sha256": "016aa0eee31e14151997333b6f6c76f2b87e0c8a8421704d31d4970b1d847de8",
+      "source_file_sha256": "62caa9a301d7a3874b211655ab2f8bd2e73162095096efc61c5779d863dddfd1",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "fa0076a6a4ad6ed7e42c3ea1d5abe9657e67eceb47d251e9466fbc6f785f58b7"
+    },
+    {
+      "event": "GW241007_082943",
+      "source_record_sha256": "cc39674fa253825aa2a5cabef5a9a65438b244f00d13d031d689290637df3426",
+      "source_file_sha256": "80a6719bbd16926aea343cfd7cb07a76140a619cdd28d70b89e10e2855427525",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240513_183302",
+      "source_record_sha256": "e72586097d1a1c79d9542282902a3234bf519130d2b76ea02a96d8973b8adc90",
+      "source_file_sha256": "8e34a2fa93fd75edf2ea98505dd9b10ad928408bb3a0f64dc19a9ff474205166",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "db3f29da2b4317f2b233e6b995b2679b839a692edd6b569d47c02883598a5588"
+    },
+    {
+      "event": "GW240530_012417",
+      "source_record_sha256": "4c75d980723c8ca959602af5f9e617cca11e83c3a383b6e2d19d75a4454c5506",
+      "source_file_sha256": "d21d130403aca7d357ee7b3b23cc0ce8fbbba1594b81d90442b7a3dbd10aa80d",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "5d39c869fa51f6c5c0360fd03b4a7ad91ec24f99d5d6354c0ce5c271eb4a4e6f"
+    },
+    {
+      "event": "GW240925_005809",
+      "source_record_sha256": "bdd140bc96c1af97cc1fb4a795aff0e417a4ef765aac3ef09c0567dc0523de4a",
+      "source_file_sha256": "764efc942482661a81f99e5988f4fee7891d43699891e36b191180c19f96ce30",
+      "source_group": "C01:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=1000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240621_195059",
+      "source_record_sha256": "52bf4dddde8af1275dc5b52ca76a840571b8efc470b2c1b66abc2415e54ca61f",
+      "source_file_sha256": "7f3921bf6598d47ad5d07e9c1d0e9d8d7336bb011b3ec0ef872e3abf33bdacbc",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240902_143306",
+      "source_record_sha256": "c1fea4c596ed250467e60c306688b62e880cc5aae93eb06f8e216e5bc531fe97",
+      "source_file_sha256": "3dbf10cd5a0c679ce7ddc02a10c7f14d026d919da742353c5f82e3ae56056abf",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "71e037aefaa206fa3d86837ed7c12118c8b6181fd4272bb8ff834613ee75fab9"
+    },
+    {
+      "event": "GW241230_233618",
+      "source_record_sha256": "7c1a579a5cc5c2250d193b44f1ff770f8a8652a37a392aad216f45fea9e24ff5",
+      "source_file_sha256": "9f9e55c3ebd036020f77601a6b17f63a00be2ded191859f11726bee6f08713b8",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240922_142106",
+      "source_record_sha256": "54d42f0ea9cb13ab338073a119e5b90b6a9d44cb40ac0fbea828af2ab9ab2204",
+      "source_file_sha256": "d6b3feadfc1dc247a79c09b5491f01b00ae5b4b34a150b408081811ffb26282e",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "6a6058fd7e8176af1e659e51306c56f230f9a903ac8834c643cc6d3e0fc03476"
+    },
+    {
+      "event": "GW240601_061200",
+      "source_record_sha256": "e8fd992728cd72694a04acf742edd44cea12fa91e899404608c4817044b37e37",
+      "source_file_sha256": "02bc9b42be221aab6dd3150018cb86363333455ce8434c73bd5c0071c905c111",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=30000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241002_030559",
+      "source_record_sha256": "b899693338fab8a8ea2d8b8eae294a628f20d8106bbcf61351a611bd639df393",
+      "source_file_sha256": "5b0a1899bcff48666c3e19657f2a7fc60198607fd3d20c4d1f255dd706251c6a",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240507_041632",
+      "source_record_sha256": "0bc49edc89a96f16f8c51b1ff1b233918c9248d0c07524d30726e2846e592a73",
+      "source_file_sha256": "3e478cc6b85fbf9323c75152fcd987ff48fe0a192ad86f46a7dda12bd12c1e7c",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW250119_190238",
+      "source_record_sha256": "ef43699422e3e211d75b76362e557610fd1fbee2a7ab0f8eeeca6f1491f9fa7f",
+      "source_file_sha256": "1e9214ee5d362485d417f4e599d06263c50af9537e5ee507c90eae642b178ac8",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "b79098f615de0075897cd9e1bff8f2b613999edcbb3b4f82678ee673ef920a21"
+    },
+    {
+      "event": "GW241130_110422",
+      "source_record_sha256": "b5098e8d4fcc90980d2c752968e337103fd439ab2c029f20612f2561d1aefdc9",
+      "source_file_sha256": "6be4fbd558645b177e6decd1b803b950d1c6d4d70bf5fdfcd1cb4c61c32a50c4",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "1c96bc73cda636ed1c5b02209fa588374e85ac05c5209cecb01d7a7a971e5cb2"
+    },
+    {
+      "event": "GW250116_015318",
+      "source_record_sha256": "3662c94af718dba201b104d77e041177ef98296e4065f9a56635c9d9da2cf904",
+      "source_file_sha256": "034ef3260e0e77c4bea7ac701040a498ba674a484a3fd6c0fa6e26005146604f",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "397e776be4c4673075019bab49352d49e67bc3b66ddb9a43d4ad8b12cf7f107a"
+    },
+    {
+      "event": "GW240630_101703",
+      "source_record_sha256": "b3b3622c6670c87e01b49356f4189c7e40721b5d6659955f9d007732b5baf69c",
+      "source_file_sha256": "6d79880eb6a7101b17be2852f0705bece387fcb31cdae569aebc944efe646cd4",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240824_205609",
+      "source_record_sha256": "a5604ecd1a9edbf7f8645512ff035c8dba9c29862dec3921b9aa0f945783fa89",
+      "source_file_sha256": "28a5f7145763c61dbf1c334d14e801f3abd1cbae57f43f55f16fe14970669630",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241210_060606",
+      "source_record_sha256": "6ff66177eb8fc249ae5f1ce119dcfc3cf3db210a7eb86d7bf1b3b7a39949fec1",
+      "source_file_sha256": "f8c880ee558f3c28ee259f9357b0c156dd0b455b2205f7ec898879b8f29232b9",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW250104_015122",
+      "source_record_sha256": "09ead18876cc6007a19c7a71820e63809d9b543f4dee013ce938553c5ade58f2",
+      "source_file_sha256": "6c581b5a3ec71771ce8b3197e6ec3172810d621a7c3a2bbef4801993ccd4ad6b",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240531_040326",
+      "source_record_sha256": "ee571b815caed51915d557efac7b30e6a653d3db6a2b98e06fc17b9d1d4631d9",
+      "source_file_sha256": "462db8e7264fba53b1927ce50069ece891d017106fc78bbcbdfa22eb0d0b7f6c",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "8556564253b3a1aace387e6213fb428f7cb59b6b2d21fcb27fc2e253af4d65eb"
+    },
+    {
+      "event": "GW240526_093944",
+      "source_record_sha256": "3f03f7caffeed63fae774241345411516d22d0272267ef7dca123bf67c807310",
+      "source_file_sha256": "6d1563e9e5e009727663bff0aa1a2b47b9c4be1e95e3df3a66961c4d73f77ec5",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "6277a569d11f7ec1c52856c7af3c9494235ddcd9537f0021b7828217b65727e7"
+    },
+    {
+      "event": "GW240907_153833",
+      "source_record_sha256": "0f8cebde470d28d89d916612c0f8bb2aae8c9aff9a585870a68459d05c881455",
+      "source_file_sha256": "30eba66ed1f8cf883422a1e77a151bc37fb16651c366e9a426a87d7e11b9603b",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240921_201835",
+      "source_record_sha256": "01c4934604c8c38b3c6d4903e281ad2343c08d10c50e376f5ae4288a0fc93576",
+      "source_file_sha256": "fe387f27d326e60e77bc663182359f7a9c02efec963477eeb37983443378ae89",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "3940cf0a66c00fb1712866c3ee397df09122a1bc97e8faed511acc0276ea7019"
+    },
+    {
+      "event": "GW240413_022019",
+      "source_record_sha256": "18ce263ed6c4ea64936f28a5e4b40ed09824e397e5e9e00983b947008de8ceb3",
+      "source_file_sha256": "67da983b6cef0bf86e7d59228c21852142fbeff6054782c7ac5ba2a88e4b7277",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=4000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240621_214041",
+      "source_record_sha256": "32e6b20438c55cb58c1753eb68a0ae3d5095fd41539394030dfc5d3de40c0abc",
+      "source_file_sha256": "7ceb8d1d7e9a50d373d4d638b894b5ae9207ec180d6fdb83df6371d6b2348241",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240629_145256",
+      "source_record_sha256": "56c3adabda9359517ab8915baca8a9c7f299746f337e8edaa3c05f8abb52541c",
+      "source_file_sha256": "d5ee7811e67891f83ef21269ea8641842e40c02c1abe01d683aae297fe2929e9",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "69eac956dd0a9a518017e117067601f51a5fda6a1c8def6b0f4d7b8ff738ba79"
+    },
+    {
+      "event": "GW240501_033534",
+      "source_record_sha256": "09fd0ab4b71940e5ca9561d20532d136ef02f1b334caf5627f295ad5056e09e1",
+      "source_file_sha256": "5c920dc722760a989ef8dde11ebe77b484f10f312ecd011137fc61c8e7113f5b",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240716_034900",
+      "source_record_sha256": "bfe56439b1eca35f375673aa6da871674fe0ad0c4fdea1dc14541fe8c23491b6",
+      "source_file_sha256": "b2c96eddf991890098dd2196f7572ae7a60bc39ee3fe0ef6e4e498493c0b40c3",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW250101_011205",
+      "source_record_sha256": "41e344ad1466ac92095583066e1c882cda348741e31bb32ba67a1b0303751453",
+      "source_file_sha256": "1599d5e15f69807e79dd4c378d8c0dfc8cecf7f4b07f47b7e9c471e934ac90b5",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241009_220455",
+      "source_record_sha256": "340a05ba44a3f92ab988a90183377f2ab94165f64858395f5f3963716656d60f",
+      "source_file_sha256": "d7e8ee6b5397d9fb9c0d90c4f6bbbcbaaa63180d41d500768385a01ed62ecc38",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240916_184352",
+      "source_record_sha256": "1fc9a5dc106bfcd8d492927d0adabe5fe60e5aa947c1f1763091f108f936bc94",
+      "source_file_sha256": "20b8c51a2adae09c25bf0452325d9d0700551907ee23577ba6211d19ed288461",
+      "source_group": "C00:IMRPhenomXPHM-SpinTaylor",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=5000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240627_131622",
+      "source_record_sha256": "ff1085837c60e5c0206fab461ae269c60fe2ec8583a7b6d928cd735da0da9e0c",
+      "source_file_sha256": "1976239ce054427a333f70580fc3964a15dd17423ac6b7c006a275baac2e6e89",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "159a6a79f980e6a2121bd47100f6d05b7604cd5340511596746fbf4c0f2bb569"
+    },
+    {
+      "event": "GW241114_024711",
+      "source_record_sha256": "b1f77ed203be4746ddc5a799300c2ef7ab9e37e2d6b2b8106f55f0de8962ec07",
+      "source_file_sha256": "716c9fb80a05f973e5d6e4ef290b38eff57ef8124ad6986ba762736cc3a75353",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241006_015333",
+      "source_record_sha256": "f139a3e99f19f424ba48c311ea28ce55b4e30c8583dcdc6229d5eaccf2d076e0",
+      "source_file_sha256": "d27f6d036ecffcff564bd00afc769708d932192e250cbae2eea00b4738ab532d",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "4bd3502370c523d438981c1e6708d451ac95bdc3a6013738a2bcdaf7e380efdb"
+    },
+    {
+      "event": "GW240920_073424",
+      "source_record_sha256": "b3cd27410ca949c5c6375148d23853702922af015bd23c5878b1f38306c34ce9",
+      "source_file_sha256": "6a0675d7b85ad70558f7ce5594bfb47b1c51c00a8b2bc4ee9aceb4e75f4864a0",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "fe0902e0511ddb48c0154fd02268f55654cf264fa04cf97757a273c4ce6cc614"
+    },
+    {
+      "event": "GW241102_124058",
+      "source_record_sha256": "c6d160bb97112563aafbaf2ce86d4feb0cbf6bc4f662a28692d40f2080601f53",
+      "source_file_sha256": "a154edbf870570a70d90b4d6fa47bbc24b77f8e81dbcbe528b20444c4e5dbf5e",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "8091861f105c710d68d866d5f451020e47c2e22fbf4d7743704d2c1bb44b756d"
+    },
+    {
+      "event": "GW241225_042553",
+      "source_record_sha256": "f74e1faeff809a2c9085e3dce04717782f87933826bba7b7e4971dec9127c8ee",
+      "source_file_sha256": "cccab8ddd103403880e9507d2e579dfc76c79c2662948092bb1dd89b7eeadbb6",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "1de629b70560fc9ba14c3b532bc3965b597c780308a65048e9fedc5ca7ba3770"
+    },
+    {
+      "event": "GW240519_012815",
+      "source_record_sha256": "eca98d11be1d89a8d31ebbd7fa689f50a589681e379736520f862e989fa08da3",
+      "source_file_sha256": "332b255e87af9337747c869204e519a0b722154c08546f8c15a3f812598b56ea",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240924_000316",
+      "source_record_sha256": "d3cf9a0b681e9831f82b5443d02fae0afbf00c0e43780685daf4b7a217b03b50",
+      "source_file_sha256": "8c2c05b4fdd3d8c533bd11ac9f4e49c5416d699af0ec2ca474925d7df31a0e4e",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240615_113620",
+      "source_record_sha256": "c78582c2f41da11aa48931ebc8544c758eb2c5c77c6487184a51681fe163396b",
+      "source_file_sha256": "ec12d7048b9f5cffdc37ffb236336d91e5ead8fc33cbcace1934bf4ec4e659ce",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240703_191355",
+      "source_record_sha256": "1696162bdd865bd25514628cd46ce3c3c02089c6276d99c62e94d78a0967d2ad",
+      "source_file_sha256": "5f6c052e64c25c1b50ead17c3ec498be29887a1e0dad2f1b75bb818a05c75540",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241129_021832",
+      "source_record_sha256": "7a5c5c4c5c629865aeaafd1c82953048c1879d2bc3c5353418aed9098ab7e713",
+      "source_file_sha256": "2db0a4f44dcf81044d4d97e6825f06c7db7eef8a0753c2bab841332c0aa08809",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241130_034908",
+      "source_record_sha256": "f187ea13478aeac0b5058bd2710e85c890a86192c08c5bda4de5cfbbf435da7a",
+      "source_file_sha256": "e31771a4db7b15d2de0e0b0f7441717182cd6cf85746f462f26d42ae2f46c0b2",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241127_061008",
+      "source_record_sha256": "cbdd010a4e5e16602185a9bd4d68c67bf9c5b25a5623bbe650f3d1c6515f779b",
+      "source_file_sha256": "64e69b87bc2e697b44aba0ad3e89e1624724e992eb3d0c5821d92e8073a5a5c0",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241229_155844",
+      "source_record_sha256": "642a222dd224062233abc15b8f9f4b757439d23fbc206ea710732c343d8eca55",
+      "source_file_sha256": "ec4324e7ac744fa9a378d76df771a3bfdb3e32a956c8c8ec75dcf6f597ed6d3c",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241101_220523",
+      "source_record_sha256": "19aacd7d654b0eca395585f826ee169687e937239476385e7a634a8ec3933eda",
+      "source_file_sha256": "0fb14a047bded6483535087837dfeab46078b0ec40b4c96c5fc65e6e924f7e7d",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240420_175625",
+      "source_record_sha256": "6d506ddc25536524212b4ef9c9940e4fa4b6c7e801989ad640bc3785f1640bfc",
+      "source_file_sha256": "7cbd8f605f7eaeb40006f4e63acfd387854c49799c46719290aad6dd9dbfcdd7",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW241116_151753",
+      "source_record_sha256": "a0b0377d03a15e8c85fbab18b11cddfed8826296704bcff6ded4b812ac1f315a",
+      "source_file_sha256": "9440d28b609d955d421b6ae9cfecd5710494949849724bf414046bf0c5fe7bd2",
+      "source_group": "C00:IMRPhenomXPHM-SpinTaylor",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=20000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240930_234614",
+      "source_record_sha256": "4c8d2b5081584f10fd5985f5f6a87dd4653226ad33861f17a95c0ed137651ad0",
+      "source_file_sha256": "164191b68ba6ae914401c6fe673947bbf94c3ac465dd4b8cd4652252ebdb5a8d",
+      "source_group": "C00:NRSur7dq4",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": null,
+      "recorded_analytic_distance_prior": [
+        "bilby.gw.prior.UniformSourceFrame(minimum=10.0, maximum=10000.0, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+      ],
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification"
+    },
+    {
+      "event": "GW240512_024139",
+      "source_record_sha256": "e717d6b1e290abfc05cda5ac227bad8a8da113864a4ee6b69cfa570fbf9f6d43",
+      "source_file_sha256": "a3dcc4b632c6f4309a154d60f4874801d877c5cb48725939287ea2bb77e068d8",
+      "source_group": "C00:SEOBNRv5PHM",
+      "model_distance_kind": "source_time",
+      "recorded_RIFT_distance_option": [
+        "'cosmo_sourceframe'"
+      ],
+      "recorded_analytic_distance_prior": null,
+      "expected_distance_kind_from_public_metadata": "source_time",
+      "status": "consistent_with_public_metadata",
+      "scope": "Public configuration contract audit, not executed-binary or final-prior-transformation certification",
+      "correction": "Our RIFT dispatch bug corrected; official cosmo_sourceframe contract unambiguous",
+      "upstream_model_distance_kind": "DL_squared",
+      "corrected_fit_sha256": "90e8cc88481d80c80eddb6841834ee0eb17eea1dd709d21bf97c617008c3efb1"
+    }
+  ],
+  "counts": {
+    "consistent_with_public_metadata": 104
+  }
+}

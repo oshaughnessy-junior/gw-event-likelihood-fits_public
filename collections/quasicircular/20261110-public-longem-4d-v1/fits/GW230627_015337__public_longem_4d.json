@@ -1,0 +1,551 @@
+{
+  "schema": "public-native-redshift-artifact-v1",
+  "event": "GW230627_015337",
+  "analysis_id": "GW230627_015337__public_longem_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "upstream_model_sha256": "ae740ecfce57a5109281b368ecbce6924fb12fd8044ad86bcd06f4ddc77aa1f4",
+  "model_canonical_sha256": "4448e32d4e740790f5944dad11a211d397872daa6ea0919361988c485bfead8a",
+  "fit": {
+    "schema": "aligned-redshift-native-spin-base-posterior-v1",
+    "event": "GW230627_015337",
+    "coordinates": [
+      "mc_source",
+      "eta",
+      "chi_eff",
+      "z"
+    ],
+    "density_chart": [
+      "mc_detector",
+      "delta",
+      "chi_eff",
+      "logz"
+    ],
+    "density_target": "Native posterior = pi_native(chi_eff|q) * fitted mixture; scalar likelihood is the mixture over the remaining native prior factors",
+    "analysis_support": {
+      "mc_det_min": 6.38537095164235,
+      "mc_det_max": 6.4428834107576165,
+      "q_min": 0.05,
+      "q_max": 1.0,
+      "m1_det_min": 1.0,
+      "m1_det_max": 1000.0,
+      "m2_det_min": 1.0,
+      "m2_det_max": 1000.0,
+      "amax": 0.99,
+      "a1max": 0.99,
+      "a2max": 0.99,
+      "dL_min": 50.0,
+      "dL_max": 471.599,
+      "z_min": 0.01122780872769088,
+      "z_max": 0.09946473821116747,
+      "mc_min": 5.8077087238208005,
+      "mc_max": 6.37134714369054
+    },
+    "prior_contract": {
+      "schema": "aligned-redshift-native-prior-v1",
+      "event": "GW230627_015337",
+      "coordinate_order": [
+        "mc_source",
+        "eta",
+        "chi_eff",
+        "z"
+      ],
+      "analysis_support": {
+        "mc_det_min": 6.38537095164235,
+        "mc_det_max": 6.4428834107576165,
+        "q_min": 0.05,
+        "q_max": 1.0,
+        "m1_det_min": 1.0,
+        "m1_det_max": 1000.0,
+        "m2_det_min": 1.0,
+        "m2_det_max": 1000.0,
+        "amax": 0.99,
+        "a1max": 0.99,
+        "a2max": 0.99,
+        "dL_min": 50.0,
+        "dL_max": 471.599,
+        "z_min": 0.01122780872769088,
+        "z_max": 0.09946473821116747,
+        "mc_min": 5.8077087238208005,
+        "mc_max": 6.37134714369054
+      },
+      "spin_caps": [
+        0.99,
+        0.99
+      ],
+      "spin_quadrature_order": 128,
+      "distance_prior": {
+        "kind": "UniformSourceFrame",
+        "analytic": "bilby.gw.prior.UniformSourceFrame(minimum=50.0, maximum=471.599, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)",
+        "status": "public_serialized_analytic_prior"
+      },
+      "common_cosmology": {
+        "H0": 67.9,
+        "Om0": 0.3065,
+        "Tcmb0": 0.0
+      },
+      "conditional_nuisance": "Original public waveform-specific conditional nuisance prior; no nuisance population change",
+      "metadata_provenance": {
+        "kind": "official_public_release_file_checksum_match",
+        "doi": "10.5281/zenodo.20275769",
+        "release_version": null,
+        "file": "IGWN-GWTC4p1-18965dda8_5-GW230627_015337-combined_PEDataRelease.hdf5",
+        "group": "C00:IMRPhenomXPHM-SpinTaylor",
+        "public_metadata_sha256": "50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00"
+      },
+      "native_settings": {
+        "priors/analytic/H1_time": [
+          "Uniform(minimum=1371866035.719336, maximum=1371866035.9193358, name='H1_time', latex_label='$t_H$', unit='$s$', boundary=None)"
+        ],
+        "priors/analytic/a_1": [
+          "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+        ],
+        "priors/analytic/a_2": [
+          "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+        ],
+        "priors/analytic/azimuth": [
+          "Uniform(minimum=0, maximum=6.283185307179586, name=None, latex_label='$\\\\epsilon$', unit=None, boundary='periodic')"
+        ],
+        "priors/analytic/chirp_mass": [
+          "bilby.gw.prior.UniformInComponentsChirpMass(minimum=6.38537095164235, maximum=6.4428834107576165, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_\\\\{\\\\{\\\\odot\\\\}\\\\}$', boundary=None)"
+        ],
+        "priors/analytic/luminosity_distance": [
+          "bilby.gw.prior.UniformSourceFrame(minimum=50.0, maximum=471.599, cosmology='Planck15_LAL', name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+        ],
+        "priors/analytic/mass_1": [
+          "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+        ],
+        "priors/analytic/mass_2": [
+          "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+        ],
+        "priors/analytic/mass_ratio": [
+          "bilby.gw.prior.UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None, equal_mass=False)"
+        ],
+        "priors/analytic/phase": [
+          "Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\\\phi$', unit=None, boundary='periodic')"
+        ],
+        "priors/analytic/phi_12": [
+          "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+        ],
+        "priors/analytic/phi_jl": [
+          "Uniform(minimum=0, maximum=6.283185307179586, name='phi_jl', latex_label='$\\\\phi_{JL}$', unit=None, boundary='periodic')"
+        ],
+        "priors/analytic/psi": [
+          "Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\\\psi$', unit=None, boundary='periodic')"
+        ],
+        "priors/analytic/theta_jn": [
+          "Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\\\theta_{JN}$', unit=None, boundary=None)"
+        ],
+        "priors/analytic/tilt_1": [
+          "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+        ],
+        "priors/analytic/tilt_2": [
+          "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+        ],
+        "priors/analytic/zenith": [
+          "Sine(minimum=0, maximum=3.141592653589793, name=None, latex_label='$\\\\kappa$', unit=None, boundary=None)"
+        ]
+      }
+    },
+    "spin_caps": [
+      0.99,
+      0.99
+    ],
+    "rho_embedded_in_scalar_likelihood": false,
+    "validation_status": "candidate_unvalidated",
+    "center": [
+      0.19232563546809683,
+      0.03415409214989184
+    ],
+    "scale": [
+      0.10178094046603108,
+      0.04036134181858654
+    ],
+    "components": [
+      {
+        "theta": [
+          11.55808918454959,
+          -3.291388880198882,
+          -7.271069989342964,
+          5.919299564844309,
+          -1.59337731477778
+        ],
+        "logZ": 1.3927306682525407,
+        "coef": [
+          [
+            6.414652645655142,
+            -2.7787723825377033
+          ],
+          [
+            -0.005220100371790192,
+            0.04392862409951282
+          ],
+          [
+            0.007570949114376545,
+            0.009255349220000042
+          ]
+        ],
+        "cov": [
+          [
+            1.5405106719562497e-05,
+            1.506696774888608e-05
+          ],
+          [
+            1.5066967748886077e-05,
+            0.010720306747346543
+          ]
+        ]
+      },
+      {
+        "theta": [
+          3.2104800350470484,
+          -4.136597779785947,
+          -8.581143889783686,
+          16.969179202292725,
+          -10.450504367154707
+        ],
+        "logZ": -4.73993196604904,
+        "coef": [
+          [
+            6.416023044950548,
+            -2.658578252774496
+          ],
+          [
+            -0.012989876781486132,
+            -0.03857663585317179
+          ],
+          [
+            0.019182139807798985,
+            0.0017102575880908592
+          ]
+        ],
+        "cov": [
+          [
+            7.640187602906593e-06,
+            -1.0536612438158388e-05
+          ],
+          [
+            -1.0536612438158388e-05,
+            0.006903385113770194
+          ]
+        ]
+      },
+      {
+        "theta": [
+          2.8647432381482756,
+          -8.254663828439549,
+          -8.031928839717011,
+          18.987385081556994,
+          -15.104429341947034
+        ],
+        "logZ": -3.623006438781438,
+        "coef": [
+          [
+            6.418681657921064,
+            -2.872718197031469
+          ],
+          [
+            -0.012234713009478098,
+            -0.11874717487462803
+          ],
+          [
+            0.024182713940063022,
+            -0.028002815740516242
+          ]
+        ],
+        "cov": [
+          [
+            3.918973192473727e-06,
+            8.671048802881934e-06
+          ],
+          [
+            8.67104880288194e-06,
+            0.019124570395688666
+          ]
+        ]
+      },
+      {
+        "theta": [
+          -0.910238846656598,
+          -25.420245949329967,
+          -3.0183342577930463,
+          8.508454592569278,
+          -18.740731244089538
+        ],
+        "logZ": 8.211852405317382,
+        "coef": [
+          [
+            6.42889183668612,
+            -2.706396339357323
+          ],
+          [
+            -0.005379598502816458,
+            0.015066163276149245
+          ],
+          [
+            0.026899264920313085,
+            -0.040390211278069264
+          ]
+        ],
+        "cov": [
+          [
+            3.149690393746449e-06,
+            5.681389434115358e-06
+          ],
+          [
+            5.681389434115358e-06,
+            0.01292482967955742
+          ]
+        ]
+      },
+      {
+        "theta": [
+          2.1651542930545733,
+          -13.08252773354858,
+          -4.410902848831049,
+          13.207848506079173,
+          -15.827521983144823
+        ],
+        "logZ": -1.0136374116117155,
+        "coef": [
+          [
+            6.42208575035644,
+            -3.162415522321221
+          ],
+          [
+            -0.007904697181928062,
+            0.009293092651165352
+          ],
+          [
+            0.023267428227409084,
+            -0.07219116210018556
+          ]
+        ],
+        "cov": [
+          [
+            4.615598910127773e-06,
+            8.478355988868812e-05
+          ],
+          [
+            8.478355988868812e-05,
+            0.07903402046566825
+          ]
+        ]
+      },
+      {
+        "theta": [
+          6.790256375017629,
+          -3.840525795473391,
+          -14.200509600044274,
+          21.326800046188392,
+          -9.665834715848224
+        ],
+        "logZ": -4.308853865502947,
+        "coef": [
+          [
+            6.415929924772755,
+            -2.9714335345641603
+          ],
+          [
+            -0.015728574154172136,
+            0.11625358941935872
+          ],
+          [
+            0.018016522300935114,
+            0.051255355308518026
+          ]
+        ],
+        "cov": [
+          [
+            7.333455698116898e-06,
+            -3.3579702022902285e-05
+          ],
+          [
+            -3.35797020229023e-05,
+            0.03121804064722268
+          ]
+        ]
+      },
+      {
+        "theta": [
+          6.840860910533642,
+          -3.0585971013778974,
+          -9.434364606416942,
+          12.28263495272585,
+          -4.7682545791071735
+        ],
+        "logZ": -2.9653286038254087,
+        "coef": [
+          [
+            6.41532187097255,
+            -2.6265210658959495
+          ],
+          [
+            -0.00984552976258296,
+            0.014791086479724172
+          ],
+          [
+            0.011089175357126505,
+            -0.011617928586964954
+          ]
+        ],
+        "cov": [
+          [
+            1.265646705583202e-05,
+            1.199398493946124e-05
+          ],
+          [
+            1.1993984939461242e-05,
+            0.004062532848509147
+          ]
+        ]
+      },
+      {
+        "theta": [
+          1.9645982379069025,
+          -0.5605132735857602,
+          -6.224244394441578,
+          8.79719510737988,
+          -3.6579669449074386
+        ],
+        "logZ": -3.9769688483968944,
+        "coef": [
+          [
+            6.414235867494914,
+            -3.237902459059075
+          ],
+          [
+            -0.0058090123042901665,
+            -0.24272476698990306
+          ],
+          [
+            0.008904512487428597,
+            0.24594117224335166
+          ]
+        ],
+        "cov": [
+          [
+            1.3205703724582574e-05,
+            -1.0337151188793265e-05
+          ],
+          [
+            -1.0337151188793255e-05,
+            0.10552778818998904
+          ]
+        ]
+      }
+    ],
+    "component_weights": [
+      0.08729885582062749,
+      0.21414601722101073,
+      0.12981158555901112,
+      0.13040189040936104,
+      0.10178656083148686,
+      0.13757507218946055,
+      0.15413730946210238,
+      0.04484270850693977
+    ],
+    "em_iterations": 69,
+    "em_objective_history": [
+      7.987431753143378,
+      8.05778306330749,
+      8.088040969715056,
+      8.10655388620973,
+      8.119833855411862,
+      8.13002005264432,
+      8.138154662425624,
+      8.144885970215766,
+      8.150068857519368,
+      8.154161705405276,
+      8.157514527168557,
+      8.160334687331726,
+      8.162754064312754,
+      8.164858193907623,
+      8.166702237300441,
+      8.16832158623195,
+      8.169739919116125,
+      8.170974639775794,
+      8.172039574164259,
+      8.172946460938471,
+      8.173706975416884,
+      8.174334951778247,
+      8.174847103823437,
+      8.175261845221659,
+      8.175597352696183,
+      8.175870002939858,
+      8.176093583357497,
+      8.176279163349552,
+      8.17643535648957,
+      8.176568740739857,
+      8.176684292685811,
+      8.176785767876204,
+      8.176876006966477,
+      8.176957171051717,
+      8.177030918382027,
+      8.177098535908453,
+      8.177161037321486,
+      8.177219236695048,
+      8.177273804475458,
+      8.177325310625617,
+      8.177374258205164,
+      8.177421109403742,
+      8.177466304877449,
+      8.177510276098712,
+      8.177553449417584,
+      8.177596240109764,
+      8.1776390356458,
+      8.177682170351432,
+      8.177725897722185,
+      8.177770368937887,
+      8.177815623437693,
+      8.177861590625064,
+      8.177908096611143,
+      8.177954871194046,
+      8.17800155629079,
+      8.178047721697688,
+      8.178092893211677,
+      8.178136592553631,
+      8.178178382191218,
+      8.178217905027612,
+      8.178254910489294,
+      8.178289263366826,
+      8.178320936981343,
+      8.178349995599037,
+      8.17837657186601,
+      8.178400844046156,
+      8.178423016099808,
+      8.178443301973505,
+      8.178461914272368
+    ],
+    "em_iteration_limit_reached": false,
+    "component_row_ess": [
+      1994.1784268853708,
+      4616.785505247446,
+      3618.901455829185,
+      2301.410789258284,
+      2006.8248761159593,
+      3272.978303083896,
+      3542.662628163679,
+      1016.2890842289031
+    ],
+    "grid_pi_mass_error": 5.107065496501306e-05,
+    "source": {
+      "reference_sha256": "a80cc951f767d06eb201241ed8efb78de560495b4de24a42872e9ed5e8a51206",
+      "metadata_sha256": "2be641375ec3de75ecfee44f278a1a0d2952b46dd6b6dda2494c0c9e6edc238e",
+      "fitter_sha256": "b24a0cbf492afdf3bd9c5be7b404d144699f3e339e1dc0abfb6bb7f2a33d8c3e",
+      "leaf_sha256": "bea8929dc0cd1cef0947a49c15b90faa6376d9b03a1b261db9c6fb558bf496b7"
+    },
+    "training": {
+      "split": "intrinsic-group split",
+      "split_seed": 73,
+      "n_train": 12953,
+      "n_heldout": 3238,
+      "native_posterior_row_ess": 12952.999999999636,
+      "component_attempt_failures": []
+    }
+  }
+}
