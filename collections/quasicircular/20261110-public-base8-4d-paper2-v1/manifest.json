@@ -1,0 +1,1817 @@
+{
+  "schema": "nal-collection-v1",
+  "collection_id": "quasicircular/20261110-public-base8-4d-paper2-v1",
+  "family": "quasicircular",
+  "likelihood_backend": "native_spin_base_redshift",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "coordinate_cosmology": {
+    "H0": 67.9,
+    "Om0": 0.3065,
+    "Tcmb0": 0
+  },
+  "source_revision": "sha256:9a1d2645841221ad5a666eb5d7674bc8ec5d41de2a807590c51d38f315ea9573",
+  "proof_source": {
+    "retrieval_host": "<host>",
+    "retrieval_sha256": "ce43b822c34711fb8fb2ea3e89f4d61640ffa49368aa02b99c4b66e7a357ae66",
+    "retrieval_sums_sha256": "f9f0601defcfacb17e1030071e509b9eb8aae10d4f610751ba229f5608d22323",
+    "retriever_sha256": "32a1bc2087d0be91e15149404505a40e3db9019d356a8f40415f0e6489f6ac85",
+    "retrieval_inputs": {
+      "<host-path>/fit_release_inventory.json": "cd5eca8887ed05a729dec22f9ca4b9e41739d18905bee3755d9b5450a4be7589",
+      "<host-path>/classification_20261109.json": "e1c88bc37b0b6f006242b043c007e9b83cda1d938638c99e1161a3f785cb2b0a",
+      "<host-path>/population_manifest.json": "0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc",
+      "<host-path>/source_audit_20261109.json": "ab1723009cc19e4660555df370c3d858bfd548fa775a11d9d0b950b8e72e6993",
+      "<host-path>/manifest.json": "04228741a5b4749603520c49bbc939b25ee7b15afe96ee935e87eb0029375c20",
+      "<host-path>/SHA256SUMS": "60ca907ae185e586b3a1a3a082e12d6fca5e694ba6972681846b9c736fda7297"
+    },
+    "classification_sha256": "e1c88bc37b0b6f006242b043c007e9b83cda1d938638c99e1161a3f785cb2b0a"
+  },
+  "proof_source_collection": "quasicircular/20261031-public-nativecdf-4d-v1",
+  "population_manifest_sha256": "0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc",
+  "selection_policy": "RO, 2026-11-10: release the base8 fits paper 2 uses wherever a public-source proof covers the training inputs, and record validation outcomes per event without selecting on them. Candidates are the 115 paper-2 fits not yet released byte-exact; the population manifest selects the exact model, validation and reference. Declared checks are recorded and do not select.",
+  "requested_events": [
+    "GW190408_181802",
+    "GW190412_053044",
+    "GW190413_052954",
+    "GW190413_134308",
+    "GW190421_213856",
+    "GW190503_185404",
+    "GW190512_180714",
+    "GW190513_205428",
+    "GW190517_055101",
+    "GW190519_153544",
+    "GW190521_074359",
+    "GW190527_092055",
+    "GW190602_175927",
+    "GW190620_030421",
+    "GW190630_185205",
+    "GW190701_203306",
+    "GW190706_222641",
+    "GW190707_093326",
+    "GW190708_232457",
+    "GW190719_215514",
+    "GW190720_000836",
+    "GW190727_060333",
+    "GW190728_064510",
+    "GW190731_140936",
+    "GW190803_022701",
+    "GW190805_211137",
+    "GW190828_063405",
+    "GW190828_065509",
+    "GW190910_112807",
+    "GW190915_235702",
+    "GW190924_021846",
+    "GW190929_012149",
+    "GW190930_133541",
+    "GW191105_143521",
+    "GW191109_010717",
+    "GW191129_134029",
+    "GW191204_171526",
+    "GW191216_213338",
+    "GW191230_180458",
+    "GW200202_154313",
+    "GW200208_130117",
+    "GW200209_085452",
+    "GW200219_094415",
+    "GW200225_060421",
+    "GW200302_015811",
+    "GW200316_215756",
+    "GW230601_224134",
+    "GW230605_065343",
+    "GW230608_205047",
+    "GW230624_113103",
+    "GW230627_015337",
+    "GW230628_231200",
+    "GW230630_125806",
+    "GW230630_234532",
+    "GW230702_185453",
+    "GW230706_104333",
+    "GW230707_124047",
+    "GW230708_053705",
+    "GW230708_230935",
+    "GW230709_122727",
+    "GW230712_090405",
+    "GW230723_101834",
+    "GW230726_002940",
+    "GW230729_082317",
+    "GW230731_215307",
+    "GW230803_033412",
+    "GW230805_034249",
+    "GW230806_204041",
+    "GW230811_032116",
+    "GW230814_061920",
+    "GW230814_230901",
+    "GW230820_212515",
+    "GW230824_033047",
+    "GW230825_041334",
+    "GW230831_015414",
+    "GW230911_195324",
+    "GW230914_111401",
+    "GW230919_215712",
+    "GW230920_071124",
+    "GW230922_020344",
+    "GW230922_040658",
+    "GW230924_124453",
+    "GW230927_043729",
+    "GW230927_153832",
+    "GW230928_215827",
+    "GW230930_110730",
+    "GW231005_021030",
+    "GW231008_142521",
+    "GW231014_040532",
+    "GW231018_233037",
+    "GW231020_142947",
+    "GW231028_153006",
+    "GW231029_111508",
+    "GW231102_071736",
+    "GW231104_133418",
+    "GW231108_125142",
+    "GW231110_040320",
+    "GW231113_122623",
+    "GW231113_200417",
+    "GW231114_043211",
+    "GW231118_005626",
+    "GW231118_071402",
+    "GW231118_090602",
+    "GW231123_135430",
+    "GW231129_081745",
+    "GW231206_233901",
+    "GW231213_111417",
+    "GW231223_075055",
+    "GW231223_202619",
+    "GW231224_024321",
+    "GW231226_101520",
+    "GW231231_154016",
+    "GW240104_164932",
+    "GW240107_013215",
+    "GW240109_050431"
+  ],
+  "entries": [
+    {
+      "event": "GW190408_181802",
+      "analysis_id": "GW190408_181802__public_base8_4d",
+      "source_id": "GW190408_181802__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190408_181802__public_base8_4d.json",
+        "sha256": "67576f756c8d4d3618e8131c757af6e93c19a1091bc7866165e5e096adb54f80"
+      },
+      "validation": {
+        "path": "validation/GW190408_181802__public_base8_4d.json",
+        "sha256": "59029daf500b9b299c5e04cf6ed75d1cc7dac9110278a0d527f0718a2d405172"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190408_181802"
+      ]
+    },
+    {
+      "event": "GW190412_053044",
+      "analysis_id": "GW190412_053044__public_base8_4d",
+      "source_id": "GW190412_053044__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190412_053044__public_base8_4d.json",
+        "sha256": "bbf45754a9bed2b894629fc1921f86930e4a9156d8c960b13a459e31483a2603"
+      },
+      "validation": {
+        "path": "validation/GW190412_053044__public_base8_4d.json",
+        "sha256": "0013e71db1682659f4c8b646473d68c8836f32e1f92a4d71766582b32cb908c5"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190412_053044"
+      ]
+    },
+    {
+      "event": "GW190413_052954",
+      "analysis_id": "GW190413_052954__public_base8_4d",
+      "source_id": "GW190413_052954__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190413_052954__public_base8_4d.json",
+        "sha256": "e40ee10699a49c0178df311a23414e96820826e6a6f0472d46ae430fd06ffe55"
+      },
+      "validation": {
+        "path": "validation/GW190413_052954__public_base8_4d.json",
+        "sha256": "6e0c83f765897d1e4e5ccbb88efa30c5f4611fd87cc7827cdfeb020c049de56a"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190413_052954"
+      ]
+    },
+    {
+      "event": "GW190413_134308",
+      "analysis_id": "GW190413_134308__public_base8_4d",
+      "source_id": "GW190413_134308__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190413_134308__public_base8_4d.json",
+        "sha256": "940482a650ea2738c940940375813d6a383fb3a6f774b03c9691a08756157d8d"
+      },
+      "validation": {
+        "path": "validation/GW190413_134308__public_base8_4d.json",
+        "sha256": "da633bc4d8fd426992997cdb112e3c9baf771121f50e7357d6c33375df6a4781"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190413_134308"
+      ]
+    },
+    {
+      "event": "GW190421_213856",
+      "analysis_id": "GW190421_213856__public_base8_4d",
+      "source_id": "GW190421_213856__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190421_213856__public_base8_4d.json",
+        "sha256": "9210e1e95870fd490bff6e56318b2d60e9ac57bc8b450bee2a3a96d0bf3adde0"
+      },
+      "validation": {
+        "path": "validation/GW190421_213856__public_base8_4d.json",
+        "sha256": "0deb8feb0f109567f2c24b3fd44a79d1b8fa2efc43705382b4398019cece8f2e"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190421_213856"
+      ]
+    },
+    {
+      "event": "GW190503_185404",
+      "analysis_id": "GW190503_185404__public_base8_4d",
+      "source_id": "GW190503_185404__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190503_185404__public_base8_4d.json",
+        "sha256": "cd4c1544de18d499866a58f88901fde5ae87e374de155bb437f51a118e04f4fc"
+      },
+      "validation": {
+        "path": "validation/GW190503_185404__public_base8_4d.json",
+        "sha256": "f70675636b18c788cac3f45608660812f00cd30c9693fae7531be6ee6768cdb1"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190503_185404"
+      ]
+    },
+    {
+      "event": "GW190512_180714",
+      "analysis_id": "GW190512_180714__public_base8_4d",
+      "source_id": "GW190512_180714__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190512_180714__public_base8_4d.json",
+        "sha256": "1b0cb884dbc501d03c5a5a44bb61073269b235a78f235109d3af0bc3ca4beef9"
+      },
+      "validation": {
+        "path": "validation/GW190512_180714__public_base8_4d.json",
+        "sha256": "bc0ec235588a524abb8e63806cc99a5e07bb30b0e9ef9896c026eea48b0c28ce"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190512_180714"
+      ]
+    },
+    {
+      "event": "GW190513_205428",
+      "analysis_id": "GW190513_205428__public_base8_4d",
+      "source_id": "GW190513_205428__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190513_205428__public_base8_4d.json",
+        "sha256": "8d406e4b288e29e6efa39b40834466802e5db9ac449b97ae2115c1468534a580"
+      },
+      "validation": {
+        "path": "validation/GW190513_205428__public_base8_4d.json",
+        "sha256": "6d9fc874dc301387c1ba4fab87bda94de5da1728e98d743bb5d7356d5f5a98be"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190513_205428"
+      ]
+    },
+    {
+      "event": "GW190517_055101",
+      "analysis_id": "GW190517_055101__public_base8_4d",
+      "source_id": "GW190517_055101__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190517_055101__public_base8_4d.json",
+        "sha256": "9ecca7e6adb3dcb14c3ce81732d8d4f4985e56d3427f23040e27922e74163481"
+      },
+      "validation": {
+        "path": "validation/GW190517_055101__public_base8_4d.json",
+        "sha256": "90150dadb29690719abc484c517b3038bdfbfd00d80bd04aad0123bbef968b1a"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_marginal_JS_bits, max_axis_KS, max_projection_JS_bits, max_conditional_q_given_z_JS_bits, min_reference_information_ess. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": false,
+          "failed_checks": [
+            "max_marginal_JS_bits",
+            "max_axis_KS",
+            "max_projection_JS_bits",
+            "max_conditional_q_given_z_JS_bits",
+            "min_reference_information_ess"
+          ],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190517_055101"
+      ]
+    },
+    {
+      "event": "GW190519_153544",
+      "analysis_id": "GW190519_153544__public_base8_4d",
+      "source_id": "GW190519_153544__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190519_153544__public_base8_4d.json",
+        "sha256": "730bc0b3ea46b933ff2b856c2a08cd615c26054c9e9539bcb0c56eb3d925b049"
+      },
+      "validation": {
+        "path": "validation/GW190519_153544__public_base8_4d.json",
+        "sha256": "a8291d0449495cb2c612f45d8194def17e8d952a3e42b99222d1abecca42f1cb"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_marginal_JS_bits, max_axis_KS, max_conditional_q_given_z_JS_bits. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": false,
+          "failed_checks": [
+            "max_marginal_JS_bits",
+            "max_axis_KS",
+            "max_conditional_q_given_z_JS_bits"
+          ],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190519_153544"
+      ]
+    },
+    {
+      "event": "GW190521_074359",
+      "analysis_id": "GW190521_074359__public_base8_4d",
+      "source_id": "GW190521_074359__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190521_074359__public_base8_4d.json",
+        "sha256": "8872237801d8014a309f079b61949c9821407422a7d50554c7423fbaec8fd04d"
+      },
+      "validation": {
+        "path": "validation/GW190521_074359__public_base8_4d.json",
+        "sha256": "18b804813820acafab2d6d3ed3d78f75b394c131f768e6c6b711fc3d692ab8ba"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190521_074359"
+      ]
+    },
+    {
+      "event": "GW190527_092055",
+      "analysis_id": "GW190527_092055__public_base8_4d",
+      "source_id": "GW190527_092055__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190527_092055__public_base8_4d.json",
+        "sha256": "af65f2a4721d6d0f93ccc91e5d6532c9f3a404994d386f45b8099663e3a6e6de"
+      },
+      "validation": {
+        "path": "validation/GW190527_092055__public_base8_4d.json",
+        "sha256": "b98f3ac4d0d677183c83d782509dcde7d70f41a1f58439db037f00ce325ec311"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190527_092055"
+      ]
+    },
+    {
+      "event": "GW190602_175927",
+      "analysis_id": "GW190602_175927__public_base8_4d",
+      "source_id": "GW190602_175927__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190602_175927__public_base8_4d.json",
+        "sha256": "59f79f4dd48f7cd31cc269226c1e92eb2849b1a58f4b2baa568f5344ef8d87ae"
+      },
+      "validation": {
+        "path": "validation/GW190602_175927__public_base8_4d.json",
+        "sha256": "e06b87a885f692ae6d820cead33e976099514974ddeb9a24c580f3e048e1e7a2"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190602_175927"
+      ]
+    },
+    {
+      "event": "GW190620_030421",
+      "analysis_id": "GW190620_030421__public_base8_4d",
+      "source_id": "GW190620_030421__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190620_030421__public_base8_4d.json",
+        "sha256": "e69e853dfee9fb008a126b4d1d0c4cfb4826d8f053f1e39eff4a7596ee572589"
+      },
+      "validation": {
+        "path": "validation/GW190620_030421__public_base8_4d.json",
+        "sha256": "3251a6568c8a34240543297189f0c790e719995bca85a2235e2a57514d9ac89d"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_marginal_JS_bits, max_projection_JS_bits, max_conditional_q_given_z_JS_bits. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": false,
+          "failed_checks": [
+            "max_marginal_JS_bits",
+            "max_projection_JS_bits",
+            "max_conditional_q_given_z_JS_bits"
+          ],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190620_030421"
+      ]
+    },
+    {
+      "event": "GW190630_185205",
+      "analysis_id": "GW190630_185205__public_base8_4d",
+      "source_id": "GW190630_185205__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190630_185205__public_base8_4d.json",
+        "sha256": "b219beb6869abd8e7c1145d385e0ee5a38297a7a7a1524d6b19f751cf2bafd5f"
+      },
+      "validation": {
+        "path": "validation/GW190630_185205__public_base8_4d.json",
+        "sha256": "7eccb946d738a132047e19cfab2bc6b0f8913b7046915c15a04e52e2c1b5b986"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190630_185205"
+      ]
+    },
+    {
+      "event": "GW190701_203306",
+      "analysis_id": "GW190701_203306__public_base8_4d",
+      "source_id": "GW190701_203306__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190701_203306__public_base8_4d.json",
+        "sha256": "cbddd84410f2a0fa179b8549b4a42174daf21c222c1a654100ba8659c172aae7"
+      },
+      "validation": {
+        "path": "validation/GW190701_203306__public_base8_4d.json",
+        "sha256": "a32567d6bcafeb945ebf3f54c1ebca735fbb206aba4c2444d43269741ffaee10"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190701_203306"
+      ]
+    },
+    {
+      "event": "GW190706_222641",
+      "analysis_id": "GW190706_222641__public_base8_4d",
+      "source_id": "GW190706_222641__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190706_222641__public_base8_4d.json",
+        "sha256": "2ec12e26a4484df2d28429289f89e402cb8b9854dc4208ea42da2de636956f88"
+      },
+      "validation": {
+        "path": "validation/GW190706_222641__public_base8_4d.json",
+        "sha256": "2a1546283c2b4c6263d2196a151179aeb1ef503d909b9a11ca58be4538179167"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190706_222641"
+      ]
+    },
+    {
+      "event": "GW190707_093326",
+      "analysis_id": "GW190707_093326__public_base8_4d",
+      "source_id": "GW190707_093326__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190707_093326__public_base8_4d.json",
+        "sha256": "07248ef6fd6cb8e4e81a0ed49da789d9712788664f77fa5dc6fdcd574c7de738"
+      },
+      "validation": {
+        "path": "validation/GW190707_093326__public_base8_4d.json",
+        "sha256": "5d2619e0d37fee4c59831b97bf9709a4a659f58acd37bdfd512ba879cca2a63a"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190707_093326"
+      ]
+    },
+    {
+      "event": "GW190708_232457",
+      "analysis_id": "GW190708_232457__public_base8_4d",
+      "source_id": "GW190708_232457__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190708_232457__public_base8_4d.json",
+        "sha256": "0ee60bfdb3395181717ca78e0d84179c18202b31f29b41f5809f3a03c99f9a77"
+      },
+      "validation": {
+        "path": "validation/GW190708_232457__public_base8_4d.json",
+        "sha256": "54264ffcf8694dc19446a675198375b24a33be3ff9b6997fc8476f692a806a0d"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190708_232457"
+      ]
+    },
+    {
+      "event": "GW190719_215514",
+      "analysis_id": "GW190719_215514__public_base8_4d",
+      "source_id": "GW190719_215514__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190719_215514__public_base8_4d.json",
+        "sha256": "03c86f0622e81152fefdeab1d04f47141f846074cdf15190b3f98b85753d1239"
+      },
+      "validation": {
+        "path": "validation/GW190719_215514__public_base8_4d.json",
+        "sha256": "cb1179f6e218ef51d8a642d691105ebe3e8afa573e4c0725366906a0c710b438"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_conditional_q_given_z_JS_bits. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": false,
+          "failed_checks": [
+            "max_conditional_q_given_z_JS_bits"
+          ],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190719_215514"
+      ]
+    },
+    {
+      "event": "GW190720_000836",
+      "analysis_id": "GW190720_000836__public_base8_4d",
+      "source_id": "GW190720_000836__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190720_000836__public_base8_4d.json",
+        "sha256": "9ba12a217f06045380a033f447ec2e7ff3c0f1208212044758e551b7b1c6928d"
+      },
+      "validation": {
+        "path": "validation/GW190720_000836__public_base8_4d.json",
+        "sha256": "fded85b0a014b3e4a301bd45020bc2d9825c5f512921d75f91eb373c85205c7f"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190720_000836"
+      ]
+    },
+    {
+      "event": "GW190727_060333",
+      "analysis_id": "GW190727_060333__public_base8_4d",
+      "source_id": "GW190727_060333__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190727_060333__public_base8_4d.json",
+        "sha256": "eb897192ab8ab5b3ccb99ba1dc35e3fde4a18410293bfbbece9d31091711e45e"
+      },
+      "validation": {
+        "path": "validation/GW190727_060333__public_base8_4d.json",
+        "sha256": "d1ebd988bbb2d96aeb51f9f740bfb6d3be3ceb1bb7a9311da9a817cd18769c3e"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190727_060333"
+      ]
+    },
+    {
+      "event": "GW190728_064510",
+      "analysis_id": "GW190728_064510__public_base8_4d",
+      "source_id": "GW190728_064510__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190728_064510__public_base8_4d.json",
+        "sha256": "d999dd514bc4759e91eddf5cc0a6b2033c39cf7aa268998bc0808c659f03d4a2"
+      },
+      "validation": {
+        "path": "validation/GW190728_064510__public_base8_4d.json",
+        "sha256": "d2ef6cbe812313a570a792465c3946f8f2584b87a04865ef9c9c38672f293925"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190728_064510"
+      ]
+    },
+    {
+      "event": "GW190731_140936",
+      "analysis_id": "GW190731_140936__public_base8_4d",
+      "source_id": "GW190731_140936__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190731_140936__public_base8_4d.json",
+        "sha256": "7465b101935882ce31c666cf21d7f08e115db841693bd816d41a443b66c96fb6"
+      },
+      "validation": {
+        "path": "validation/GW190731_140936__public_base8_4d.json",
+        "sha256": "87392878356529e638e49467ade199b1c07e4e155405c6d4724aff1334051691"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190731_140936"
+      ]
+    },
+    {
+      "event": "GW190803_022701",
+      "analysis_id": "GW190803_022701__public_base8_4d",
+      "source_id": "GW190803_022701__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190803_022701__public_base8_4d.json",
+        "sha256": "725c331142f7951b3ca3d87331fae4aaab83e0d2fed822e2705e9cc55f7a1d0f"
+      },
+      "validation": {
+        "path": "validation/GW190803_022701__public_base8_4d.json",
+        "sha256": "3acda259ff1992a23b6abd0eb6759892c99dc1f69f31ce90a2f55dd02e324c2d"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190803_022701"
+      ]
+    },
+    {
+      "event": "GW190805_211137",
+      "analysis_id": "GW190805_211137__public_base8_4d",
+      "source_id": "GW190805_211137__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190805_211137__public_base8_4d.json",
+        "sha256": "a12086185ddfc48e856a0ef2026e5c6350d462c8edd2a7207d6d3a7922a8477a"
+      },
+      "validation": {
+        "path": "validation/GW190805_211137__public_base8_4d.json",
+        "sha256": "e8c1f98b7b626cdc6a561d0b83aac4031e46ac039d6b0c59885d77ab267b9ebe"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_conditional_q_given_z_JS_bits. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": false,
+          "failed_checks": [
+            "max_conditional_q_given_z_JS_bits"
+          ],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190805_211137"
+      ]
+    },
+    {
+      "event": "GW190828_063405",
+      "analysis_id": "GW190828_063405__public_base8_4d",
+      "source_id": "GW190828_063405__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190828_063405__public_base8_4d.json",
+        "sha256": "05a8266fc0b09cb3e2c60818265728aed341638b6a90e6ed3179ad644ddd0299"
+      },
+      "validation": {
+        "path": "validation/GW190828_063405__public_base8_4d.json",
+        "sha256": "417584e056f5a5ec2c999c6568669b63bc88ac97e94e4677198f7bc8a2feef94"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190828_063405"
+      ]
+    },
+    {
+      "event": "GW190828_065509",
+      "analysis_id": "GW190828_065509__public_base8_4d",
+      "source_id": "GW190828_065509__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190828_065509__public_base8_4d.json",
+        "sha256": "1d3720279ea470f78923cc02544bae46c8dec1c065ca0ebb0b77f6611d8e1f2d"
+      },
+      "validation": {
+        "path": "validation/GW190828_065509__public_base8_4d.json",
+        "sha256": "91b21e744df33c25a2dae17ea683dc3292f58afb07b23226f4a4c91d2daff815"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190828_065509"
+      ]
+    },
+    {
+      "event": "GW190910_112807",
+      "analysis_id": "GW190910_112807__public_base8_4d",
+      "source_id": "GW190910_112807__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190910_112807__public_base8_4d.json",
+        "sha256": "5de5e0f1a138291e6541fc27e704e5fdbee27016e443b71737ffc8fd534614a4"
+      },
+      "validation": {
+        "path": "validation/GW190910_112807__public_base8_4d.json",
+        "sha256": "1c50be154281cebe8d7fd78ef17b180a5bbc5f5b4258affef3c60ea8aa7355eb"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190910_112807"
+      ]
+    },
+    {
+      "event": "GW190915_235702",
+      "analysis_id": "GW190915_235702__public_base8_4d",
+      "source_id": "GW190915_235702__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190915_235702__public_base8_4d.json",
+        "sha256": "8276a8b36be421cf02b7e71ea6911c7859f460f3b975699bd88ee85c1aeb1a95"
+      },
+      "validation": {
+        "path": "validation/GW190915_235702__public_base8_4d.json",
+        "sha256": "0f6ce530f653b2c26d31a2ae30bce552de625787f8046f95f1588fdfad3bb189"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190915_235702"
+      ]
+    },
+    {
+      "event": "GW190924_021846",
+      "analysis_id": "GW190924_021846__public_base8_4d",
+      "source_id": "GW190924_021846__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190924_021846__public_base8_4d.json",
+        "sha256": "378ebd36077fe133bf169e50a31efcec37f16bf990ed786d274a879ecc75deff"
+      },
+      "validation": {
+        "path": "validation/GW190924_021846__public_base8_4d.json",
+        "sha256": "77517cb8057e1965b195141151e30e6640fdd0ba01dff51a507415dd5036cb46"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190924_021846"
+      ]
+    },
+    {
+      "event": "GW190929_012149",
+      "analysis_id": "GW190929_012149__public_base8_4d",
+      "source_id": "GW190929_012149__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190929_012149__public_base8_4d.json",
+        "sha256": "84ca93c3836c59cfb03df18397ffd747d0d373f975bfe570c545f1d6681abcd0"
+      },
+      "validation": {
+        "path": "validation/GW190929_012149__public_base8_4d.json",
+        "sha256": "b90336419b4a1b6e483cf7b4203130a41de39cea32b0ef431156c075b2a48d8c"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_marginal_JS_bits, max_axis_KS, max_projection_JS_bits, max_conditional_q_given_z_JS_bits. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": false,
+          "failed_checks": [
+            "max_marginal_JS_bits",
+            "max_axis_KS",
+            "max_projection_JS_bits",
+            "max_conditional_q_given_z_JS_bits"
+          ],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190929_012149"
+      ]
+    },
+    {
+      "event": "GW190930_133541",
+      "analysis_id": "GW190930_133541__public_base8_4d",
+      "source_id": "GW190930_133541__public_base8_4d",
+      "fit": {
+        "path": "fits/GW190930_133541__public_base8_4d.json",
+        "sha256": "6c9bc5a7d2c2d3924be80f65ddf38fe1e05ffdeee00c702b894e80141fd775da"
+      },
+      "validation": {
+        "path": "validation/GW190930_133541__public_base8_4d.json",
+        "sha256": "526b8ba6f753f63af7a60394ea27ba5f85ecba44a39e793a84aba0e1cd5d3403"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW190930_133541"
+      ]
+    },
+    {
+      "event": "GW191105_143521",
+      "analysis_id": "GW191105_143521__public_base8_4d",
+      "source_id": "GW191105_143521__public_base8_4d",
+      "fit": {
+        "path": "fits/GW191105_143521__public_base8_4d.json",
+        "sha256": "8575d44511978cbc656f5387ec94e927696571550cd7d1460431dca0d8fab90e"
+      },
+      "validation": {
+        "path": "validation/GW191105_143521__public_base8_4d.json",
+        "sha256": "29d8f564e3aa6c5da30f3529f9066cbec79be88b0d3e8308b9f11d6b3618f559"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW191105_143521"
+      ]
+    },
+    {
+      "event": "GW191109_010717",
+      "analysis_id": "GW191109_010717__public_base8_4d",
+      "source_id": "GW191109_010717__public_base8_4d",
+      "fit": {
+        "path": "fits/GW191109_010717__public_base8_4d.json",
+        "sha256": "5a4a31591beb2b46ecd453cb8a618e12e6e31f40843043ab6af8816113166c60"
+      },
+      "validation": {
+        "path": "validation/GW191109_010717__public_base8_4d.json",
+        "sha256": "3fb37b22c791d7fff3a2f2bd288c0fb3bf168fec311e9f413957b0e37d0d9101"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_marginal_JS_bits, max_axis_KS, max_projection_JS_bits, max_conditional_q_given_z_JS_bits. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": false,
+          "failed_checks": [
+            "max_marginal_JS_bits",
+            "max_axis_KS",
+            "max_projection_JS_bits",
+            "max_conditional_q_given_z_JS_bits"
+          ],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW191109_010717"
+      ]
+    },
+    {
+      "event": "GW191129_134029",
+      "analysis_id": "GW191129_134029__public_base8_4d",
+      "source_id": "GW191129_134029__public_base8_4d",
+      "fit": {
+        "path": "fits/GW191129_134029__public_base8_4d.json",
+        "sha256": "2c3cf042e886f388f3ab4e9918c2f0f568d8998234245b23c44adafa1191e516"
+      },
+      "validation": {
+        "path": "validation/GW191129_134029__public_base8_4d.json",
+        "sha256": "a3a2405cb4ec8f72e1600cfd3fc9ffc7d820e0c56f3796a83835fbb8fd66af1f"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW191129_134029"
+      ]
+    },
+    {
+      "event": "GW191204_171526",
+      "analysis_id": "GW191204_171526__public_base8_4d",
+      "source_id": "GW191204_171526__public_base8_4d",
+      "fit": {
+        "path": "fits/GW191204_171526__public_base8_4d.json",
+        "sha256": "d8a52b43d322fdb3101bd10a578fda992b96fba86cf8ba2fb30b6121548f4a39"
+      },
+      "validation": {
+        "path": "validation/GW191204_171526__public_base8_4d.json",
+        "sha256": "4a4ffed7bbf919ea926272d88f60d1c52791d67794db644d9fcb2261e0b6c815"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW191204_171526"
+      ]
+    },
+    {
+      "event": "GW191216_213338",
+      "analysis_id": "GW191216_213338__public_base8_4d",
+      "source_id": "GW191216_213338__public_base8_4d",
+      "fit": {
+        "path": "fits/GW191216_213338__public_base8_4d.json",
+        "sha256": "c5d4971e091a6cf24c54ae501e2f2403ce922dae869db3fab6165fda60e75406"
+      },
+      "validation": {
+        "path": "validation/GW191216_213338__public_base8_4d.json",
+        "sha256": "1b2d281f740840664a7ae8725fbc5f999755945993ae30e68ccf928c1c483ef0"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW191216_213338"
+      ]
+    },
+    {
+      "event": "GW191230_180458",
+      "analysis_id": "GW191230_180458__public_base8_4d",
+      "source_id": "GW191230_180458__public_base8_4d",
+      "fit": {
+        "path": "fits/GW191230_180458__public_base8_4d.json",
+        "sha256": "7b33ed000cfb5af19fc273231a7e42d8059462fdaea9e650d888ae0a7e56b242"
+      },
+      "validation": {
+        "path": "validation/GW191230_180458__public_base8_4d.json",
+        "sha256": "004fe7ab4b3c8387cfc2166f6d51df46fad2bfde22b59b121e504533d60166ea"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW191230_180458"
+      ]
+    },
+    {
+      "event": "GW200202_154313",
+      "analysis_id": "GW200202_154313__public_base8_4d",
+      "source_id": "GW200202_154313__public_base8_4d",
+      "fit": {
+        "path": "fits/GW200202_154313__public_base8_4d.json",
+        "sha256": "da23d8a8e38716f8354094765523f5d036ef73bd6be899ee705b2b9256b2ff11"
+      },
+      "validation": {
+        "path": "validation/GW200202_154313__public_base8_4d.json",
+        "sha256": "357f7ecb8bacb0aead28c3cac3e4eedc0b7c2892064680b21e140acb4507d49b"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW200202_154313"
+      ]
+    },
+    {
+      "event": "GW200208_130117",
+      "analysis_id": "GW200208_130117__public_base8_4d",
+      "source_id": "GW200208_130117__public_base8_4d",
+      "fit": {
+        "path": "fits/GW200208_130117__public_base8_4d.json",
+        "sha256": "52ea6034677bfa3e036e21dfc0aea8410aa46b4280f95eb9011c48058d44de29"
+      },
+      "validation": {
+        "path": "validation/GW200208_130117__public_base8_4d.json",
+        "sha256": "9d6558776544655775059a9bf885975931a65871a3df54714aeed11306843008"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW200208_130117"
+      ]
+    },
+    {
+      "event": "GW200209_085452",
+      "analysis_id": "GW200209_085452__public_base8_4d",
+      "source_id": "GW200209_085452__public_base8_4d",
+      "fit": {
+        "path": "fits/GW200209_085452__public_base8_4d.json",
+        "sha256": "828f6457da0fc58facf44b537d01426ce7c31a0d47ed1be528a2fc6fd6af4f67"
+      },
+      "validation": {
+        "path": "validation/GW200209_085452__public_base8_4d.json",
+        "sha256": "abde925aa2d5063de7f79158eb285b281c5e83015077daf261d350d949313a64"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW200209_085452"
+      ]
+    },
+    {
+      "event": "GW200219_094415",
+      "analysis_id": "GW200219_094415__public_base8_4d",
+      "source_id": "GW200219_094415__public_base8_4d",
+      "fit": {
+        "path": "fits/GW200219_094415__public_base8_4d.json",
+        "sha256": "7ff70f0531d6dee001547946394396ef05b6acd0018fb19bc8d3729eb043bafc"
+      },
+      "validation": {
+        "path": "validation/GW200219_094415__public_base8_4d.json",
+        "sha256": "db2275f8a26df18e8a653a900f3f52b6aa52cba516b7d2c38e18b98d67343487"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW200219_094415"
+      ]
+    },
+    {
+      "event": "GW200225_060421",
+      "analysis_id": "GW200225_060421__public_base8_4d",
+      "source_id": "GW200225_060421__public_base8_4d",
+      "fit": {
+        "path": "fits/GW200225_060421__public_base8_4d.json",
+        "sha256": "4e92d3eadbd20f3bdc2ad5b0c31a32175052da0c0bc702a2ece11987f2bebddd"
+      },
+      "validation": {
+        "path": "validation/GW200225_060421__public_base8_4d.json",
+        "sha256": "573b3cd3397adef17e28022604e95d35606bfe74b8e503f6c50e8aa9b48a51a5"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW200225_060421"
+      ]
+    },
+    {
+      "event": "GW200302_015811",
+      "analysis_id": "GW200302_015811__public_base8_4d",
+      "source_id": "GW200302_015811__public_base8_4d",
+      "fit": {
+        "path": "fits/GW200302_015811__public_base8_4d.json",
+        "sha256": "480812dd00c56c31d38017f58cbf8c74eeed7f4ceb13ce91c66dddf8217e5e48"
+      },
+      "validation": {
+        "path": "validation/GW200302_015811__public_base8_4d.json",
+        "sha256": "2d516184f2a6b87022db7d80893b7e2f82c1674a91b1344efc0a98c64d22c643"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW200302_015811"
+      ]
+    },
+    {
+      "event": "GW200316_215756",
+      "analysis_id": "GW200316_215756__public_base8_4d",
+      "source_id": "GW200316_215756__public_base8_4d",
+      "fit": {
+        "path": "fits/GW200316_215756__public_base8_4d.json",
+        "sha256": "00f1d3eb16618087c1816e7c9399490c2ac56858044e72e92efed15c29ede687"
+      },
+      "validation": {
+        "path": "validation/GW200316_215756__public_base8_4d.json",
+        "sha256": "982b72f103d9e75752a8c093d8623b85e1aa9e0974f107f223e406b6a0c4bc2b"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Passes the producer declared checks on the published split (seed 73); no replication split was run. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": true,
+          "failed_checks": [],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW200316_215756"
+      ]
+    },
+    {
+      "event": "GW230820_212515",
+      "analysis_id": "GW230820_212515__public_base8_4d",
+      "source_id": "GW230820_212515__public_base8_4d",
+      "fit": {
+        "path": "fits/GW230820_212515__public_base8_4d.json",
+        "sha256": "2d00f78e638577015d16238d842ed201e91bed34e8a45dc3b9e69a2b71cbca3a"
+      },
+      "validation": {
+        "path": "validation/GW230820_212515__public_base8_4d.json",
+        "sha256": "2b1e94d5d08df84564e50a0d064e47176f95a6d2f8368ef8f4069c59e36930ac"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_marginal_JS_bits, max_axis_KS, max_projection_JS_bits, max_conditional_q_given_z_JS_bits, min_reference_information_ess. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": false,
+          "failed_checks": [
+            "max_marginal_JS_bits",
+            "max_axis_KS",
+            "max_projection_JS_bits",
+            "max_conditional_q_given_z_JS_bits",
+            "min_reference_information_ess"
+          ],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW230820_212515"
+      ]
+    },
+    {
+      "event": "GW230928_215827",
+      "analysis_id": "GW230928_215827__public_base8_4d",
+      "source_id": "GW230928_215827__public_base8_4d",
+      "fit": {
+        "path": "fits/GW230928_215827__public_base8_4d.json",
+        "sha256": "628243d87e916237d8411cd487cd26636f99045da00ede62b188069a8e43326b"
+      },
+      "validation": {
+        "path": "validation/GW230928_215827__public_base8_4d.json",
+        "sha256": "3e1be1bf371b20c59b77692168c2eeda46aeeab3e959e9f76d635e1acbb5e764"
+      },
+      "acceptance": {
+        "status": "public_source_verified_candidate",
+        "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_marginal_JS_bits, max_axis_KS, max_projection_JS_bits, max_conditional_q_given_z_JS_bits, min_reference_information_ess, population_response. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior.",
+        "declared_checks": {
+          "published_split_passes": false,
+          "failed_checks": [
+            "max_marginal_JS_bits",
+            "max_axis_KS",
+            "max_projection_JS_bits",
+            "max_conditional_q_given_z_JS_bits",
+            "min_reference_information_ess",
+            "population_response"
+          ],
+          "replication": []
+        }
+      },
+      "aliases": [
+        "GW230928_215827"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "event": "GW230601_224134",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (14451 rows); release 16053484 holds 14438 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW230605_065343",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15783 rows); release 16053484 holds 15769 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW230608_205047",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (13539 rows); release 16053484 holds 13528 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230624_113103",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15863 rows); release 16053484 holds 15846 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230627_015337",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (9692 rows); release 16053484 holds 9688 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230628_231200",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15462 rows); release 16053484 holds 15446 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230630_125806",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (16845 rows); release 16053484 holds 16819 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230630_234532",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15153 rows); release 16053484 holds 15135 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230702_185453",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (17304 rows); release 16053484 holds 17288 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230706_104333",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15252 rows); release 16053484 holds 15235 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230707_124047",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (13691 rows); release 16053484 holds 13678 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230708_053705",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15951 rows); release 16053484 holds 15934 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230708_230935",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (14992 rows); release 16053484 holds 14977 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW230709_122727",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (12279 rows); release 16053484 holds 12263 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230712_090405",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (26190 rows); release 16053484 holds 26163 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW230723_101834",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15019 rows); release 16053484 holds 15000 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230726_002940",
+      "route": "none",
+      "klass": "public_different_samples",
+      "reason": "No public release holds the training rows (public_different_samples): release reweighted a different bilby run (bilby-IMRPhenomXPHM-SpinTaylor-2, <host-path>/posterior_samples.h5) that shares no rows with the source; the transform reproduces the public rows from that run"
+    },
+    {
+      "event": "GW230729_082317",
+      "route": "none",
+      "klass": "public_different_samples",
+      "reason": "No public release holds the training rows (public_different_samples): release reweighted a different bilby run (bilby-IMRPhenomXPHM-SpinTaylor-6, <host-path>/posterior_samples.h5) that shares no rows with the source; the transform reproduces the public rows from that run"
+    },
+    {
+      "event": "GW230731_215307",
+      "route": "none",
+      "klass": "public_different_samples",
+      "reason": "No public release holds the training rows (public_different_samples): release reweighted a different bilby run (bilby-IMRPhenomXPHM-SpinTaylor-3, <host-path>/posterior_samples.h5) that shares no rows with the source; the transform reproduces the public rows from that run"
+    },
+    {
+      "event": "GW230803_033412",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (16810 rows); release 16053484 holds 16784 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW230805_034249",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (16961 rows); release 16053484 holds 16941 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230806_204041",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (14256 rows); release 16053484 holds 14235 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230811_032116",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (17896 rows); release 16053484 holds 17874 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230814_061920",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (13493 rows); release 16053484 holds 13478 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW230814_230901",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (13468 rows); release 16053484 holds 13460 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW230824_033047",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (13221 rows); release 16053484 holds 13206 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230825_041334",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (13855 rows); release 16053484 holds 13826 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW230831_015414",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (14537 rows); release 16053484 holds 14508 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230911_195324",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (18618 rows); release 16053484 holds 18595 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW230914_111401",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (18374 rows); release 16053484 holds 18353 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW230919_215712",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15685 rows); release 16053484 holds 15670 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230920_071124",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15211 rows); release 16053484 holds 15199 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230922_020344",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (19018 rows); release 16053484 holds 19000 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230922_040658",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (14222 rows); release 16053484 holds 14201 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230924_124453",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (14645 rows); release 16053484 holds 14630 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230927_043729",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (13159 rows); release 16053484 holds 13148 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW230927_153832",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (14174 rows); release 16053484 holds 14161 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW230930_110730",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (11748 rows); release 16053484 holds 11732 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW231005_021030",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (13759 rows); release 16053484 holds 13730 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW231008_142521",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (16820 rows); release 16053484 holds 16800 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW231014_040532",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (16925 rows); release 16053484 holds 16903 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW231018_233037",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15633 rows); release 16053484 holds 15611 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW231020_142947",
+      "route": "none",
+      "klass": "public_different_samples",
+      "reason": "No public release holds the training rows (public_different_samples): release reweighted a different bilby run (bilby-IMRPhenomXPHM-SpinTaylor-5, <host-path>/posterior_samples.h5) that shares no rows with the source; the transform reproduces the public rows from that run"
+    },
+    {
+      "event": "GW231028_153006",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15136 rows); release 16053484 holds 15128 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW231029_111508",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (13504 rows); release 16053484 holds 13488 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW231102_071736",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15343 rows); release 16053484 holds 15330 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW231104_133418",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (13055 rows); release 16053484 holds 13042 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW231108_125142",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (16042 rows); release 16053484 holds 16031 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW231110_040320",
+      "route": "none",
+      "klass": "public_different_samples",
+      "reason": "No public release holds the training rows (public_different_samples): release reweighted a different bilby run (bilby-IMRPhenomXPHM-SpinTaylor-3, <host-path>/posterior_samples.h5) that shares no rows with the source; the transform reproduces the public rows from that run"
+    },
+    {
+      "event": "GW231113_122623",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (17299 rows); release 16053484 holds 17278 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW231113_200417",
+      "route": "none",
+      "klass": "public_different_samples",
+      "reason": "No public release holds the training rows (public_different_samples): release reweighted a different bilby run (bilby-IMRPhenomXPHM-SpinTaylor-3, <host-path>/posterior_samples.h5) that shares no rows with the source; the transform reproduces the public rows from that run"
+    },
+    {
+      "event": "GW231114_043211",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (18006 rows); release 16053484 holds 17986 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW231118_005626",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (17902 rows); release 16053484 holds 17887 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW231118_071402",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15588 rows); release 16053484 holds 15567 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW231118_090602",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (17304 rows); release 16053484 holds 17286 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW231123_135430",
+      "route": "none",
+      "klass": "public_subset",
+      "reason": "No public release holds the training rows (public_subset): release input (<host-path>/posterior_samples.h5) holds 20000 of the 20120 source rows, in the same order; nothing declares that reduction; the transform reproduces the public rows from the release input"
+    },
+    {
+      "event": "GW231129_081745",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (14810 rows); release 16053484 holds 14785 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW231206_233901",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15050 rows); release 16053484 holds 15034 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW231213_111417",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (14393 rows); release 16053484 holds 14380 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW231223_075055",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (18412 rows); release 16053484 holds 18392 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW231223_202619",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (13909 rows); release 16053484 holds 13892 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW231224_024321",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (16792 rows); release 16053484 holds 16775 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW231226_101520",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15039 rows); release 16053484 holds 15030 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW231231_154016",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (13261 rows); release 16053484 holds 13245 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW240104_164932",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (14344 rows); release 16053484 holds 14325 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    },
+    {
+      "event": "GW240107_013215",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (18081 rows); release 16053484 holds 18048 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)). The training rows are not in a public release."
+    },
+    {
+      "event": "GW240109_050431",
+      "route": "transform",
+      "klass": "public_subset",
+      "reason": "Training rows are the pre-transform source (15303 rows); release 16053484 holds 15285 of them only after the declared transform (GWTC-4 O4a cosmology reweighting Planck15 to Planck15_LAL, seed 1234 (reweight-cosmology.py)); the release script is unrecorded. The training rows are not in a public release."
+    }
+  ],
+  "source_manifest": {
+    "path": "sources.json",
+    "sha256": "add9fe56a3b1910c3c16273189005f910f0f72b089f8770b66290711ac6046c5"
+  },
+  "counts": {
+    "public_source_verified_candidates": 48,
+    "passing_declared_checks": 39,
+    "em_iteration_limit_reached": 35,
+    "replication_splits_run": 0,
+    "by_route": {
+      "dcc": 30,
+      "public_export": 5,
+      "zenodo": 13
+    },
+    "unresolved": 67,
+    "scientifically_accepted": 0
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "event": "GW200302_015811",
+  "rows": 79872,
+  "analysis_support": {
+    "a1max": 0.99,
+    "a2max": 0.99,
+    "amax": 0.99,
+    "m1_det_min": 0,
+    "m2_det_min": 1.0,
+    "m1_det_max": null,
+    "m2_det_max": 1000.0,
+    "q_min": 0.049999999999999996,
+    "q_max": 0.9996000799841085,
+    "mc_det_min": 17.303273560355105,
+    "mc_det_max": 53.149027924375204,
+    "z_min": 0.00022645047581897542,
+    "z_max": 1.3689933730127648,
+    "mc_min": 7.304061614300628,
+    "mc_max": 53.13699502656785
+  },
+  "prior_contract": {
+    "schema": "aligned-redshift-native-prior-v1",
+    "event": "GW200302_015811",
+    "coordinate_order": [
+      "mc_source",
+      "eta",
+      "chi_eff",
+      "z"
+    ],
+    "analysis_support": {
+      "a1max": 0.99,
+      "a2max": 0.99,
+      "amax": 0.99,
+      "m1_det_min": 0,
+      "m2_det_min": 1.0,
+      "m1_det_max": null,
+      "m2_det_max": 1000.0,
+      "q_min": 0.049999999999999996,
+      "q_max": 0.9996000799841085,
+      "mc_det_min": 17.303273560355105,
+      "mc_det_max": 53.149027924375204,
+      "z_min": 0.00022645047581897542,
+      "z_max": 1.3689933730127648,
+      "mc_min": 7.304061614300628,
+      "mc_max": 53.13699502656785
+    },
+    "spin_caps": [
+      0.99,
+      0.99
+    ],
+    "spin_quadrature_order": 128,
+    "distance_prior": {
+      "kind": "common_source_time",
+      "status": "recorded_generating_RIFT_prior",
+      "analytic": "common source-time rho(z)/dDLdz, common cosmology",
+      "evidence": {
+        "posterior_path": "<host-path>/posterior_samples.h5",
+        "h5_analysis_label": "rift-v5PHM-true-4096",
+        "author_bundle_sha256": "799615f4c7fa01c1f9a69da93204d78186253691b60386b70bb509bf7cd30ce0",
+        "args_cip_path": "<host-path>/args_cip_list.txt",
+        "args_cip_sha256": "47e9276a99c5be6fe25e8fe3f141b9f333b1ca0ee6497b6b03f858528d153305",
+        "final_cip_arguments": "1 --internal-use-lnL --no-plots --fit-method rf --parameter-implied mu1 --parameter-implied mu2 --parameter-nofit mc --parameter delta_mc --mc-range [17.303273560355105,53.149027924375204] --eta-range [0.045351473922902494,0.24999999] --chi-max 0.99 --chi-small-max 0.99 --parameter-implied chiMinus --use-precessing --parameter-nofit chi1 --parameter-nofit chi2 --parameter-nofit cos_theta1 --parameter-nofit cos_theta2 --parameter-nofit phi1 --parameter-nofit phi2 --parameter-implied s1x --parameter-implied s1y --parameter-implied s2x --parameter-implied s2y --n-output-samples 208  --n-eff 104 --n-max 100000000  --fail-unless-n-eff 3  --downselect-parameter m2 --downselect-parameter-range [1,1000]  --sampler-method AV",
+        "evidence": "Author bundle SHA and exact final selector; freshly read generating CIP arguments"
+      }
+    },
+    "metadata_provenance": {
+      "kind": "source_bound_staged_posterior",
+      "source_sha256": "799615f4c7fa01c1f9a69da93204d78186253691b60386b70bb509bf7cd30ce0",
+      "export_sha256": "ed0b953f5e5aaa8e64a10422a27ee548abadc132876d1a0880b6ccdf4908b7c4"
+    },
+    "native_settings": {
+      "config_file/analysis/engine": [
+        ""
+      ],
+      "config_file/analysis/ifos": [
+        "['H1', 'V1']"
+      ],
+      "config_file/analysis/nparallel": [
+        "4"
+      ],
+      "config_file/analysis/osg": [
+        "True"
+      ],
+      "config_file/analysis/singularity": [
+        "True"
+      ],
+      "config_file/analysis/upload-to-gracedb": [
+        "False"
+      ],
+      "config_file/datafind/types": [
+        "{ \"H1\":\"H1_HOFT_CLEAN_SUB60HZ_C01\",\"V1\":\"V1Online\", }"
+      ],
+      "config_file/datafind/url-type": [
+        "file"
+      ],
+      "config_file/engine/H1-psd": [
+        "\"<host-path>/H1-psd.xml.gz\""
+      ],
+      "config_file/engine/H1-spcal-envelope": [
+        "\"<host-path>/2020-07-31_O3_LHO_GPSTime_1267151272_C01_RelativeResponseUncertainty_FinalResults.txt\""
+      ],
+      "config_file/engine/V1-psd": [
+        "\"<host-path>/V1-psd.xml.gz\""
+      ],
+      "config_file/engine/V1-spcal-envelope": [
+        "\"<host-path>/V_O3a_calibrationUncertaintyEnvelope_magnitude5percent_phase35milliradians10microseconds.txt\""
+      ],
+      "config_file/engine/a_spin1-max": [
+        "0.99"
+      ],
+      "config_file/engine/a_spin2-max": [
+        "0.99"
+      ],
+      "config_file/engine/amporder": [
+        "2"
+      ],
+      "config_file/engine/approx": [
+        "SEOBNRv5PHM"
+      ],
+      "config_file/engine/chirpmass-max": [
+        "53.149027924375204"
+      ],
+      "config_file/engine/chirpmass-min": [
+        "17.303273560355105"
+      ],
+      "config_file/engine/comp-max": [
+        "1000"
+      ],
+      "config_file/engine/comp-min": [
+        "1"
+      ],
+      "config_file/engine/distance-max": [
+        "10000"
+      ],
+      "config_file/engine/enable-spline-calibration": [
+        ""
+      ],
+      "config_file/engine/fmin-template": [
+        "5"
+      ],
+      "config_file/engine/fref": [
+        "20"
+      ],
+      "config_file/engine/q-max": [
+        "1.0"
+      ],
+      "config_file/engine/q-min": [
+        "0.05"
+      ],
+      "config_file/engine/seglen": [
+        "8"
+      ],
+      "config_file/engine/spcal-nodes": [
+        "10"
+      ],
+      "config_file/engine/srate": [
+        "4096"
+      ],
+      "config_file/input/analyse-all-time": [
+        "False"
+      ],
+      "config_file/input/events": [
+        "all"
+      ],
+      "config_file/input/gps-time-file": [
+        ""
+      ],
+      "config_file/input/ignore-gracedb-psd": [
+        "True"
+      ],
+      "config_file/input/ignore-state-vector": [
+        "True"
+      ],
+      "config_file/input/max-psd-length": [
+        "10000"
+      ],
+      "config_file/input/minimum_realizations_number": [
+        "8"
+      ],
+      "config_file/input/padding": [
+        "16"
+      ],
+      "config_file/input/threshold-snr": [
+        "3"
+      ],
+      "config_file/input/timeslides": [
+        "False"
+      ],
+      "config_file/lalinference/fhigh": [
+        "{ \"H1\":896,\"V1\":896, }"
+      ],
+      "config_file/lalinference/flow": [
+        "{ \"H1\":20,\"V1\":20, }"
+      ],
+      "config_file/ligo-skymap-from-samples/enable-multiresolution": [
+        ""
+      ],
+      "config_file/ligo-skymap-plot/annotate": [
+        ""
+      ],
+      "config_file/ligo-skymap-plot/contour": [
+        "50 90"
+      ],
+      "config_file/resultspage/deltaLogP": [
+        "7.5"
+      ],
+      "config_file/resultspage/skyres": [
+        "0.5"
+      ],
+      "config_file/rift-pseudo-pipe/add-extrinsic": [
+        "True"
+      ],
+      "config_file/rift-pseudo-pipe/add-extrinsic-time-resampling": [
+        "True"
+      ],
+      "config_file/rift-pseudo-pipe/approx": [
+        "\"SEOBNRv5PHM\""
+      ],
+      "config_file/rift-pseudo-pipe/batch-extrinsic": [
+        "True"
+      ],
+      "config_file/rift-pseudo-pipe/cip-explode-jobs": [
+        "3"
+      ],
+      "config_file/rift-pseudo-pipe/cip-explode-jobs-auto": [
+        "True"
+      ],
+      "config_file/rift-pseudo-pipe/cip-fit-method": [
+        "\"rf\""
+      ],
+      "config_file/rift-pseudo-pipe/cip-sampler-method": [
+        "'AV'"
+      ],
+      "config_file/rift-pseudo-pipe/event_time": [
+        "1267149509.516065"
+      ],
+      "config_file/rift-pseudo-pipe/fmax": [
+        "896"
+      ],
+      "config_file/rift-pseudo-pipe/fmin-template": [
+        "5"
+      ],
+      "config_file/rift-pseudo-pipe/force-chi-max": [
+        "0.99"
+      ],
+      "config_file/rift-pseudo-pipe/force-chi-small-max": [
+        "0.99"
+      ],
+      "config_file/rift-pseudo-pipe/force-mc-range": [
+        "\"[17.303273560355105, 53.149027924375204]\""
+      ],
+      "config_file/rift-pseudo-pipe/ile-copies": [
+        "1"
+      ],
+      "config_file/rift-pseudo-pipe/ile-distance-prior": [
+        "'cosmo_sourceframe'"
+      ],
+      "config_file/rift-pseudo-pipe/ile-jobs-per-worker": [
+        "50"
+      ],
+      "config_file/rift-pseudo-pipe/ile-n-eff": [
+        "10"
+      ],
+      "config_file/rift-pseudo-pipe/ile-runtime-max-minutes": [
+        "700"
+      ],
+      "config_file/rift-pseudo-pipe/ile-sampler-method": [
+        "'AV'"
+      ],
+      "config_file/rift-pseudo-pipe/internal-cip-request-disk": [
+        "\"4G\""
+      ],
+      "config_file/rift-pseudo-pipe/internal-cip-use-lnL": [
+        "True"
+      ],
+      "config_file/rift-pseudo-pipe/internal-correlate-default": [
+        "True"
+      ],
+      "config_file/rift-pseudo-pipe/internal-distance-max": [
+        "10000"
+      ],
+      "config_file/rift-pseudo-pipe/internal-ile-data-tukey-window-time": [
+        "1.0"
+      ],
+      "config_file/rift-pseudo-pipe/internal-ile-freezeadapt": [
+        "False"
+      ],
+      "config_file/rift-pseudo-pipe/internal-ile-request-disk": [
+        "\"4G\""
+      ],
+      "config_file/rift-pseudo-pipe/internal-marginalize-distance": [
+        "False"
+      ],
+      "config_file/rift-pseudo-pipe/internal-n-iterations-subdag-max": [
+        "50"
+      ],
+      "config_file/rift-pseudo-pipe/internal-propose-converge-last-stage": [
+        "True"
+      ],
+      "config_file/rift-pseudo-pipe/internal-truncate-files-for-osg-file-transfer": [
+        "True"
+      ],
+      "config_file/rift-pseudo-pipe/internal-use-aligned-phase-coordinates": [
+        "True"
+      ],
+      "config_file/rift-pseudo-pipe/internal-use-oauth-files": [
+        "'scitokens'"
+      ],
+      "config_file/rift-pseudo-pipe/internal-use-rescaled-transverse-spin-coordinates": [
+        "False"
+      ],
+      "config_file/rift-pseudo-pipe/l-max": [
+        "4"
+      ],
+      "config_file/rift-pseudo-pipe/n-output-samples": [
+        "5000"
+      ],
+      "config_file/rift-pseudo-pipe/n-output-samples-last": [
+        "20000"
+      ],
+      "config_file/rift-pseudo-pipe/use_osg": [
+        "True"
+      ],
+      "config_file/rift-pseudo-pipe/use_osg_cip": [
+        "True"
+      ],
+      "config_file/rift-pseudo-pipe/use_osg_file_transfer": [
+        "True"
+      ],
+      "config_file/skyarea/maxpts": [
+        "2000"
+      ],
+      "meta_data/meta_data/approximant": [
+        "SEOBNRv5PHM"
+      ],
+      "meta_data/meta_data/cosmology": [
+        "Planck15"
+      ],
+      "meta_data/meta_data/delta_f": [
+        0.00390625
+      ],
+      "meta_data/meta_data/f_final": [
+        1024.0
+      ],
+      "meta_data/meta_data/f_low": [
+        20.0
+      ],
+      "meta_data/meta_data/f_ref": [
+        20.0
+      ],
+      "meta_data/meta_data/f_start": [
+        20.0
+      ],
+      "meta_data/meta_data/final_mass_NR_fits": [
+        "function bbh_final_mass_non_precessing_UIB2016 at 0x14b1b4d0d000",
+        "function bbh_final_mass_non_precessing_Healyetal at 0x14b1c66a39a0"
+      ],
+      "meta_data/meta_data/final_spin_NR_fits": [
+        "function bbh_final_spin_precessing_projected_UIB2016 at 0x14b1b4d0d870",
+        "function bbh_final_spin_precessing_projected_Healyetal at 0x14b1b4d0d6c0",
+        "function bbh_final_spin_precessing_HBR2016 at 0x14b1b4d0da20"
+      ],
+      "meta_data/meta_data/peak_luminosity_NR_fits": [
+        "function bbh_peak_luminosity_non_precessing_UIB2016 at 0x14b1b4d0dab0",
+        "function bbh_peak_luminosity_non_precessing_Healyetal at 0x14b1b4d0db40"
+      ],
+      "meta_data/other/preferred": [
+        "True"
+      ],
+      "meta_data/sampler/nsamples": [
+        79872
+      ],
+      "version": [
+        "No version information found"
+      ]
+    },
+    "conditional_nuisance": "Original source conditional nuisance prior at retained source mass, eta, chi_eff, z; no hidden-spin prior change",
+    "common_cosmology": {
+      "H0": 67.9,
+      "Om0": 0.3065,
+      "Tcmb0": 0.0
+    },
+    "density_convention": "Native retained prior proportional to (1+z)^2 J(Mc_source,eta) p_chi(chi|q) p_native_DL(DL(z)) dDLcommon/dz. No population rho."
+  },
+  "paired_redshift_proof": {
+    "kind": "source_bound_existing_paired_z"
+  },
+  "previous_reference_sha256": "8a9326c2273389d6ac4e5cae71c9177d2250b1b9353ebc24a43f0c6346d014fb",
+  "previous_cohort_sha256": "31fb91b0bd23f04b686b4b95679d02f412510ce4036aeec91f4d2aaa4bb1b635",
+  "reference_sha256": "9c3321101262de17a07918edd4d5855d01d2138fe81bc6a90b91fe99638e1ccd",
+  "producer_sha256": "6769a7687391355273f9c25aef63d3d474ab274297d79d6697eae8ce658fc984",
+  "prior_code_sha256": "49d931177523025cd5cfca1d954a42402c0351cb9f8072f960729b9f410f3c81",
+  "historical_prior_evidence_sha256": "b3432ec6e9820b4b7393eda95788c2d44b2047002f7214f3d034d9d41436bfb9",
+  "fit_root_commit": "fa2ac1de0c20e4d60678bb4c7b94819788a6366b",
+  "native_prior_constant_free_max_log_error": 1.1368683772161603e-13,
+  "source": {
+    "path": "<host-path>/GW200302_015811_SEOBNRv5PHM.h5",
+    "dataset": "rift-v5PHM-true-4096",
+    "expected_sha256": "799615f4c7fa01c1f9a69da93204d78186253691b60386b70bb509bf7cd30ce0",
+    "sampled_geocent_time_median": 1267149509.5231564,
+    "geocent_time_abs_residual_seconds": 0.004187107086181641,
+    "record_path": "editions/population-aligned-validated-edition-20261028/sources/GW200302_015811.json",
+    "record_sha256": "0c161bb7be0f5f9344ea5e8b78d162b50071fc6bbdd362a41da06420af6de7a7",
+    "backend_match_to_existing_baseline": "Distinct source/group; not assumed interchangeable"
+  },
+  "flat_joint_row_ess": 26632.719454353995,
+  "group_identity_available": true,
+  "weight_definition": "w4 proportional to prior-corrected native posterior weights in dMc_source deta dchi_eff dz. Native distance prior removed event-wise; NO rho embedded. Native posterior weights retained separately; pi_x proportional to posterior_weights/w4.",
+  "seconds_since_start": 20.89791476100072
+}

@@ -24,6 +24,7 @@ from the working repository, so a draft cannot be traced to the commit named in 
 | [quasicircular/20261109-public-base8-4d-gwtc41-v1](collections/quasicircular/20261109-public-base8-4d-gwtc41-v1/README.md) | 7 |
 | [quasicircular/20261109-public-base8-4d-jointv2-v1](collections/quasicircular/20261109-public-base8-4d-jointv2-v1/README.md) | 38 |
 | [quasicircular/20261109-public-base8-4d-v1](collections/quasicircular/20261109-public-base8-4d-v1/README.md) | 2 |
+| [quasicircular/20261110-public-base8-4d-paper2-v1](collections/quasicircular/20261110-public-base8-4d-paper2-v1/README.md) | 48 |
 | [quasicircular/20261110-public-longem-4d-v1](collections/quasicircular/20261110-public-longem-4d-v1/README.md) | 203 |
 
 ## Loading a fit
@@ -60,6 +61,7 @@ python tools/check_collections.py --collection quasicircular/20261031-public-nat
 python tools/check_collections.py --collection quasicircular/20261109-public-base8-4d-gwtc41-v1
 python tools/check_collections.py --collection quasicircular/20261109-public-base8-4d-jointv2-v1
 python tools/check_collections.py --collection quasicircular/20261109-public-base8-4d-v1
+python tools/check_collections.py --collection quasicircular/20261110-public-base8-4d-paper2-v1
 python tools/check_collections.py --collection quasicircular/20261110-public-longem-4d-v1
 python -m unittest discover -s tests
 ```
@@ -69,7 +71,7 @@ Requires Python 3 with numpy and scipy.
 
 ## Citation and license
 
-Exported from commit `65a13772f675ecf27726ac25662d60ad1e860060` (tag `public-export-v1`) of the private working repository.
+Exported from commit `c6b366d971991d11bd97e945e082130e7e1059ac` (tag `public-export-v1.1.0`) of the private working repository.
 
 Cite with `CITATION.cff`. DOI: pending.
 License: CC BY 4.0 (`LICENSE`).

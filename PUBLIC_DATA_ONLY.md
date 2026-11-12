@@ -1,7 +1,7 @@
 # Public input eligibility
 
-Current active distribution: **255 public-source-certified four-dimensional
-candidates covering 238 events, and 104 public-source-certified, prior-consistent nine-dimensional
+Current active distribution: **303 public-source-certified four-dimensional
+candidates covering 259 events, and 104 public-source-certified, prior-consistent nine-dimensional
 recovery candidates; zero universally/generically accepted models**. The corrected
 9D edition repairs our erroneous `DL_squared` conversion for 37 public RIFT
 `cosmo_sourceframe` inputs and preserves the other 67 models. All37 corrected
@@ -20,6 +20,9 @@ producer declared checks, as recorded per event. A fourth,
 `collections/quasicircular/20261109-public-base8-4d-gwtc41-v1/`, adds 7 GWTC-4 events
 exported from GWTC-4.1 release files and refit; no population analysis uses them, and
 each passes the declared checks on three splits.
+A fifth, `collections/quasicircular/20261110-public-base8-4d-paper2-v1/`, adds 48 base8 fits that
+paper 2 uses, proven by GWTC-2 DCC archive members, Zenodo record 24094073, or reissued
+public-export proofs; 9 fail the declared checks on seed 73, as recorded per event.
 
 Only fits derived from verifiably public data may be distributed in this tree.
 Recovery accuracy, collaborator authorization and a planned public release are
@@ -59,6 +62,8 @@ It reads the named regular HDF5 member and compares its hash to the fit source.
 The runtime binds the page, archive, member, posterior group, reference and model.
 The witness labels its checksum authority as observed HTTPS retrieval.
 It does not claim a publisher-issued checksum or invent a Zenodo record.
+The archive and member names are the event identity, except for one pinned short name:
+GW190412_053044 is `GW190412.tar`.
 Other DCC documents and versions fail closed.
 
 The current long-EM edition adds 203 candidates with native shape checks on three splits.

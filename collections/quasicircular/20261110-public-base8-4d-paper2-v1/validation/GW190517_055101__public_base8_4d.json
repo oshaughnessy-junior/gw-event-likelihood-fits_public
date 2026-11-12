@@ -1,0 +1,41 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW190517_055101",
+  "analysis_id": "GW190517_055101__public_base8_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "diagnostic_coordinates": [
+    "mc_source",
+    "q",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "9ecca7e6adb3dcb14c3ce81732d8d4f4985e56d3427f23040e27922e74163481",
+  "upstream_model_sha256": "cf5d12c283423735d3949446f26c531b3e6786ea0792641deebdb2996df7aba8",
+  "model_canonical_sha256": "05bd389a9b19dc73216f5c80e4bbe10b6536a725dfab863dc48d51af6e3da6c7",
+  "original_validation": {
+    "path": "validation/GW190517_055101__public_base8_4d__original.json",
+    "sha256": "3faeae4cf8c37ed253a9c3484deef8e2b788a6cf0b7843900782a63f36797159"
+  },
+  "upstream_status": "candidate_unresolved_or_failed",
+  "upstream_passes_declared_checks": false,
+  "upstream_failed_checks": [
+    "max_marginal_JS_bits",
+    "max_axis_KS",
+    "max_projection_JS_bits",
+    "max_conditional_q_given_z_JS_bits",
+    "min_reference_information_ess"
+  ],
+  "used_by_population": {
+    "manifest_sha256": "0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc",
+    "fit_model_sha256": "cf5d12c283423735d3949446f26c531b3e6786ea0792641deebdb2996df7aba8"
+  },
+  "training_split": "row split; independent intrinsic groups unavailable",
+  "replication_splits": [],
+  "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_marginal_JS_bits, max_axis_KS, max_projection_JS_bits, max_conditional_q_given_z_JS_bits, min_reference_information_ess. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior."
+}
