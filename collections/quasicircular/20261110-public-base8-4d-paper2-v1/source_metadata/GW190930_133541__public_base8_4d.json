@@ -1,0 +1,205 @@
+{
+  "event": "GW190930_133541",
+  "rows": 38481,
+  "analysis_support": {
+    "m1_det_min": 1.0,
+    "m2_det_min": 1.0,
+    "m1_det_max": 100.0,
+    "m2_det_max": 100.0,
+    "mtotal_det_min": 20.0,
+    "mtotal_det_max": 80.0,
+    "mc_det_min": 8.0,
+    "mc_det_max": 11.0,
+    "q_min": 0.0555555556,
+    "q_max": 1.0,
+    "dL_min": 1.0,
+    "dL_max": 2000.0,
+    "amax": 0.99,
+    "z_min": 0.00022645053316891803,
+    "z_max": 0.3638646065162145,
+    "mc_min": 5.865684879406606,
+    "mc_max": 10.99750960808572,
+    "a1max": 0.99,
+    "a2max": 0.99
+  },
+  "prior_contract": {
+    "schema": "aligned-redshift-native-prior-v1",
+    "event": "GW190930_133541",
+    "coordinate_order": [
+      "mc_source",
+      "eta",
+      "chi_eff",
+      "z"
+    ],
+    "analysis_support": {
+      "m1_det_min": 1.0,
+      "m2_det_min": 1.0,
+      "m1_det_max": 100.0,
+      "m2_det_max": 100.0,
+      "mtotal_det_min": 20.0,
+      "mtotal_det_max": 80.0,
+      "mc_det_min": 8.0,
+      "mc_det_max": 11.0,
+      "q_min": 0.0555555556,
+      "q_max": 1.0,
+      "dL_min": 1.0,
+      "dL_max": 2000.0,
+      "amax": 0.99,
+      "z_min": 0.00022645053316891803,
+      "z_max": 0.3638646065162145,
+      "mc_min": 5.865684879406606,
+      "mc_max": 10.99750960808572,
+      "a1max": 0.99,
+      "a2max": 0.99
+    },
+    "spin_caps": [
+      0.99,
+      0.99
+    ],
+    "spin_quadrature_order": 64,
+    "distance_prior": {
+      "kind": "distance_squared",
+      "analytic": "historical LALInference default D_L^2",
+      "status": "versioned_default_verified_no_engine_override",
+      "version": "1.11.5",
+      "complete_engine_sha256": "cca435e76df23221a28fe0f569dba5625dc37e4ad0d67775c8bce1928e4a3bad",
+      "prior_override_flags_found": [],
+      "implementation_evidence_sha256": "b3432ec6e9820b4b7393eda95788c2d44b2047002f7214f3d034d9d41436bfb9",
+      "implementation_source_sha256": "8b7edabe6473c2849ef4239d4e728804eff3da20f68609f8dc81c3f6640bc778"
+    },
+    "metadata_provenance": {
+      "kind": "pinned_older_metadata",
+      "source_sha256": "ff7f71b979cdab8c00f5bfff81c2505c88f07a435b54173a10c0c7fb0bf92f09",
+      "historical_lalinference_version": "1.11.5",
+      "recorded_executables": {
+        "lalinferencemcmc": [
+          "/cvmfs/oasis.opensciencegrid.org/ligo/sw/conda/envs/igwn-py37-20200118//bin/lalinference_mcmc"
+        ],
+        "lalinferencenest": [
+          "/cvmfs/oasis.opensciencegrid.org/ligo/sw/conda/envs/igwn-py37-20200118//bin/lalinference_nest"
+        ]
+      }
+    },
+    "native_settings": {
+      "config_file/engine/H1-psd": [
+        "<host-path>/glitch_median_PSD_forLI_H1.dat"
+      ],
+      "config_file/engine/H1-spcal-envelope": [
+        "<host-path>/2019-11-01_O3_LHO_GPSTime_1253883003_C01_RelativeResponseUncertainty_FinalResults.txt"
+      ],
+      "config_file/engine/L1-psd": [
+        "<host-path>/glitch_median_PSD_forLI_L1.dat"
+      ],
+      "config_file/engine/L1-spcal-envelope": [
+        "<host-path>/2019-11-01_O3_LLO_GPSTime_1253887218_C01_RelativeResponseUncertainty_FinalResults.txt"
+      ],
+      "config_file/engine/a_spin1-max": [
+        "0.99"
+      ],
+      "config_file/engine/a_spin2-max": [
+        "0.99"
+      ],
+      "config_file/engine/adapt-temps": [
+        ""
+      ],
+      "config_file/engine/amporder": [
+        "0"
+      ],
+      "config_file/engine/approx": [
+        "IMRPhenomPv2"
+      ],
+      "config_file/engine/chirpmass-max": [
+        "11"
+      ],
+      "config_file/engine/chirpmass-min": [
+        "8"
+      ],
+      "config_file/engine/comp-max": [
+        "100"
+      ],
+      "config_file/engine/comp-min": [
+        "1"
+      ],
+      "config_file/engine/distance-max": [
+        "2000"
+      ],
+      "config_file/engine/enable-spline-calibration": [
+        ""
+      ],
+      "config_file/engine/fref": [
+        "20"
+      ],
+      "config_file/engine/maxmcmc": [
+        "5000"
+      ],
+      "config_file/engine/mtotal-max": [
+        "80.0"
+      ],
+      "config_file/engine/mtotal-min": [
+        "20.0"
+      ],
+      "config_file/engine/neff": [
+        "1000"
+      ],
+      "config_file/engine/nlive": [
+        "2048"
+      ],
+      "config_file/engine/ntemps": [
+        "8"
+      ],
+      "config_file/engine/progress": [
+        ""
+      ],
+      "config_file/engine/q-min": [
+        "0.0555555556"
+      ],
+      "config_file/engine/resume": [
+        ""
+      ],
+      "config_file/engine/seglen": [
+        "8"
+      ],
+      "config_file/engine/spcal-nodes": [
+        "10"
+      ],
+      "config_file/engine/srate": [
+        "2048"
+      ],
+      "config_file/engine/tolerance": [
+        "0.1"
+      ]
+    },
+    "conditional_nuisance": "Original source conditional nuisance prior at retained source mass, eta, chi_eff, z; no hidden-spin prior change",
+    "common_cosmology": {
+      "H0": 67.9,
+      "Om0": 0.3065,
+      "Tcmb0": 0.0
+    },
+    "density_convention": "Native retained prior proportional to (1+z)^2 J(Mc_source,eta) p_chi(chi|q) p_native_DL(DL(z)) dDLcommon/dz. No population rho."
+  },
+  "paired_redshift_proof": {
+    "kind": "source_bound_existing_paired_z"
+  },
+  "previous_reference_sha256": "d79cc5e2b3104528552101594d9cd5102f7b1e9452e04db6f53bf6ea43ff0d09",
+  "previous_cohort_sha256": "31fb91b0bd23f04b686b4b95679d02f412510ce4036aeec91f4d2aaa4bb1b635",
+  "reference_sha256": "67685633aa24f5368df1f718a393976e930e378624bd2a8d672faf7c4aca7f7b",
+  "producer_sha256": "6769a7687391355273f9c25aef63d3d474ab274297d79d6697eae8ce658fc984",
+  "prior_code_sha256": "49d931177523025cd5cfca1d954a42402c0351cb9f8072f960729b9f410f3c81",
+  "historical_prior_evidence_sha256": "b3432ec6e9820b4b7393eda95788c2d44b2047002f7214f3d034d9d41436bfb9",
+  "fit_root_commit": "fa2ac1de0c20e4d60678bb4c7b94819788a6366b",
+  "native_prior_constant_free_max_log_error": 6.572936328552714e-08,
+  "source": {
+    "path": "<host-path>/GW190930_133541.h5",
+    "dataset": "C01:IMRPhenomPv2",
+    "expected_sha256": "ff7f71b979cdab8c00f5bfff81c2505c88f07a435b54173a10c0c7fb0bf92f09",
+    "sampled_geocent_time_median": null,
+    "geocent_time_abs_residual_seconds": 0.006755828857421875,
+    "record_path": null,
+    "record_sha256": null,
+    "backend_match_to_existing_baseline": "Distinct source/group; not assumed interchangeable"
+  },
+  "flat_joint_row_ess": 11154.025203952853,
+  "group_identity_available": false,
+  "weight_definition": "w4 proportional to prior-corrected native posterior weights in dMc_source deta dchi_eff dz. Native distance prior removed event-wise; NO rho embedded. Native posterior weights retained separately; pi_x proportional to posterior_weights/w4.",
+  "seconds_since_start": 13.266918735000218
+}

@@ -96,5 +96,32 @@ class DCCWitnessTests(unittest.TestCase):
         self.source_metadata['source']['dataset']='ANOTHER'
         with self.assertRaisesRegex(ValueError,'posterior_group differs'):self.load()
 
+    def use_event(self,event,name):
+        self.event=event;self.url='https://dcc.ligo.org/public/0169/P2000223/007/'+name+'.tar'
+        self.page.write_text('<title>P2000223-v7</title><a href="'+self.url+'">synthetic fixture</a>')
+        self.metadata.update(event=event,landing_page=self.ref(self.page),archive_url=self.url,archive_member=name+'/'+name+'.h5')
+        self.proof.update(event=event,public_file_url=self.url,public_file_name=name+'.tar',archive_member=name+'/'+name+'.h5')
+
+    def test_pinned_short_archive_name_accepted(self):
+        self.use_event('GW190412_053044','GW190412')
+        self.assertEqual(self.load()['public_file_name'],'GW190412.tar')
+
+    def test_pinned_event_under_full_name_rejected(self):
+        self.use_event('GW190412_053044','GW190412_053044')
+        with self.assertRaisesRegex(ValueError,'does not name the event'):self.load()
+
+    def test_unpinned_short_archive_name_rejected(self):
+        self.use_event('GW000000_000000','GW000000')
+        with self.assertRaisesRegex(ValueError,'does not name the event'):self.load()
+
+    def test_short_name_with_full_member_rejected(self):
+        self.use_event('GW190412_053044','GW190412')
+        member='GW190412_053044/GW190412_053044.h5';self.metadata['archive_member']=member;self.proof['archive_member']=member
+        with self.assertRaisesRegex(ValueError,'audited layout'):self.load()
+
+    def test_short_name_on_zenodo_route_rejected(self):
+        self.use_event('GW190412_053044','GW190412');self.proof['method']='public_release_file_checksum_match'
+        with self.assertRaisesRegex(ValueError,'does not name the event'):self.load()
+
 
 if __name__=='__main__':unittest.main()

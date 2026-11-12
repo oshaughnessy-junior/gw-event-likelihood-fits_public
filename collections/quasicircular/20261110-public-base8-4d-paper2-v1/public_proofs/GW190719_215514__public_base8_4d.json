@@ -1,0 +1,63 @@
+{
+  "schema": "public-fit-source-proof-v1",
+  "status": "verified",
+  "event": "GW190719_215514",
+  "method": "public_release_file_checksum_match",
+  "release_id": "6513631",
+  "release_version": "v2",
+  "doi": "10.5281/zenodo.6513631",
+  "public_file_url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190719_215514_PEDataRelease_mixed_nocosmo.h5/content",
+  "public_file_checksum": {
+    "algorithm": "md5",
+    "value": "80fa386bd7ffd29550b90de830056ba5"
+  },
+  "public_metadata_sha256": "0e8391b90b918e9892ad0c4477a8f7c56f227b3f81ed75824384ab047eec419d",
+  "source_file_sha256": "0a1cb05e6e8fd1a8093008191a1f87fe1be43dc00c54df880c7947c82da56c89",
+  "public_filename": "IGWN-GWTC2p1-v2-GW190719_215514_PEDataRelease_mixed_nocosmo.h5",
+  "posterior_group": "C01:IMRPhenomXPHM",
+  "producer_revision": "a6613be579df7441283a66ebbfcc3ae8831ed5d4e75c2897e71e52a1e852180c",
+  "used_columns": [
+    "chirp_mass",
+    "mass_ratio",
+    "luminosity_distance",
+    "chi_eff",
+    "mass_1",
+    "mass_2",
+    "spin_1x",
+    "spin_1y",
+    "spin_1z",
+    "spin_2x",
+    "spin_2y",
+    "spin_2z"
+  ],
+  "used_projection_sha256": "57b033b5a5d7fe8eb571f580080c717c5c6e5c5b65b4b7ee856dc5644498805e",
+  "retained_prior_sha256": "bccff833bcd4b7624584a6edddb1de51122923e5e0eb426c3c3c1b5a8d5a263c",
+  "source_path": "<host-path>/IGWN-GWTC2p1-v2-GW190719_215514_PEDataRelease_mixed_nocosmo.h5",
+  "population_redshift_measure_embedded": false,
+  "reference_sha256": "5461c3e9efc92f47c22382ff411c243be7ee5f1bb63bb3c4ac6baf083bc91e20",
+  "fit_sha256": "03c86f0622e81152fefdeab1d04f47141f846074cdf15190b3f98b85753d1239",
+  "public_file_name": "IGWN-GWTC2p1-v2-GW190719_215514_PEDataRelease_mixed_nocosmo.h5",
+  "public_file_sha256": "0a1cb05e6e8fd1a8093008191a1f87fe1be43dc00c54df880c7947c82da56c89",
+  "observed_file_checksum": {
+    "algorithm": "md5",
+    "value": "80fa386bd7ffd29550b90de830056ba5"
+  },
+  "public_metadata": {
+    "path": "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/6513631_0e8391b90b918e9892ad0c4477a8f7c56f227b3f81ed75824384ab047eec419d.json",
+    "sha256": "0e8391b90b918e9892ad0c4477a8f7c56f227b3f81ed75824384ab047eec419d"
+  },
+  "export_producer_revision": "8c62795d608321348e666c9a4ec89c1359b6c698",
+  "source_model_sha256": "48c3789181cbc1cda475c0e68f76fb5e2fa5de04b5d147f1c7c68c240c93cb3e",
+  "source_validation_sha256": "3e99851b996c2ee77e3e1943efe2787e822366670df256d497152bad2f3d54db",
+  "source_export_manifest_sha256": "666a7fbdfca90cf123323c0083dfecedc7e924b75722c13074354ffbc5f29c6d",
+  "release_version_source": "metadata.version",
+  "leaf_revision": "bea8929dc0cd1cef0947a49c15b90faa6376d9b03a1b261db9c6fb558bf496b7",
+  "reissued_from": {
+    "collection": "quasicircular/20261031-public-nativecdf-4d-v1",
+    "fit_sha256": "571768d7229f994b8c27ed5b51820dcac60000ab8c6f7e3e6d45eb02e734ed96",
+    "proof": {
+      "path": "collections/quasicircular/20261031-public-nativecdf-4d-v1/public_proofs/GW190719_215514__public_nativecdf4d.json",
+      "sha256": "e69d4f7b87fbdf7c14c1ed1efb2922770f62aed716b041a2de82b5408a6f44b2"
+    }
+  }
+}

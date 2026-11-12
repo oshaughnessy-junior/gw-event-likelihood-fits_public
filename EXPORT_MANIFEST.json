@@ -3,9 +3,9 @@
  "rule_version": "public-repo-rule-v2",
  "rule": "PUBLIC_REPO_PLAN.md",
  "source_repository": "oshaughnessy-junior/gw-event-likelihood-fits",
- "source_commit": "65a13772f675ecf27726ac25662d60ad1e860060",
- "source_tag": "public-export-v1",
- "release_version": "1.0.0",
+ "source_commit": "c6b366d971991d11bd97e945e082130e7e1059ac",
+ "source_tag": "public-export-v1.1.0",
+ "release_version": "1.1.0",
  "exported_collections": {
   "precessing/20261102-o4b-cosmo-prior-corrected-v2": {
    "schema": "o4b-public-coefficient-archive-v1",
@@ -27,6 +27,10 @@
    "schema": "nal-collection-v1",
    "fits": 2
   },
+  "quasicircular/20261110-public-base8-4d-paper2-v1": {
+   "schema": "nal-collection-v1",
+   "fits": 48
+  },
   "quasicircular/20261110-public-longem-4d-v1": {
    "schema": "nal-collection-v1",
    "fits": 203
@@ -37,7 +41,7 @@
   "precessing/20261102-o4b-public-recovery-v1": "superseded by precessing/20261102-o4b-cosmo-prior-corrected-v2",
   "quasicircular/20261023-reviewed-v1": "no fit entries (public_data_status: withdrawn_pending_public_source_proof)"
  },
- "certificates": 359,
+ "certificates": 407,
  "license": "CC-BY-4.0",
  "provenance_cleaning": {
   "rule": "host-path-cleaning-v1",
@@ -64,6 +68,40 @@
    "collections/quasicircular/20261109-public-base8-4d-jointv2-v1/public_metadata/5546663_b044c359b5596846e57ed8bdeae714a167bfdacb7ab4adefe3463e5b75176022.json",
    "collections/quasicircular/20261109-public-base8-4d-jointv2-v1/public_metadata/6513631_b218eb002a7e7a44bcea44d379e379f7360671d72a9f94488dd53a26bbcf9b12.json",
    "collections/quasicircular/20261109-public-base8-4d-v1/public_metadata/6513631_0e8391b90b918e9892ad0c4477a8f7c56f227b3f81ed75824384ab047eec419d.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/20275769_7387201239bc9ed505366ce714dd0b36a7c15486fa729de44ecb5baf5d845b1d.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/24094073_e6e3f8e59bc41ae2a3ee32e3a1c313b15c7fe9925f1bf2334cf702e75bae3569.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/6513631_0e8391b90b918e9892ad0c4477a8f7c56f227b3f81ed75824384ab047eec419d.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190408_181802__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190412_053044__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190413_052954__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190413_134308__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190421_213856__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190503_185404__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190512_180714__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190513_205428__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190517_055101__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190519_153544__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190521_074359__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190527_092055__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190602_175927__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190620_030421__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190630_185205__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190701_203306__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190706_222641__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190707_093326__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190708_232457__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190720_000836__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190727_060333__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190728_064510__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190731_140936__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190803_022701__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190828_063405__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190828_065509__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190910_112807__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190915_235702__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190924_021846__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190930_133541__dcc.json",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/P2000223-v7.html",
    "collections/quasicircular/20261110-public-longem-4d-v1/public_metadata/50819fe847c6a1616c470b5289a214166cf0f90c7ca7b7be3dc8c1e4829e6c00.json",
    "collections/quasicircular/20261110-public-longem-4d-v1/public_metadata/5d7e4544c39d3317fdafdc036b94aa395178933ca27d25c267fa2d4936605876.json",
    "collections/quasicircular/20261110-public-longem-4d-v1/public_metadata/GW190424_180648__dcc.json",
@@ -123,6 +161,7 @@
    "collections/quasicircular/20261109-public-base8-4d-gwtc41-v1/README.md": "collections/quasicircular/20261109-public-base8-4d-gwtc41-v1/README.public.md",
    "collections/quasicircular/20261109-public-base8-4d-jointv2-v1/README.md": "collections/quasicircular/20261109-public-base8-4d-jointv2-v1/README.public.md",
    "collections/quasicircular/20261109-public-base8-4d-v1/README.md": "collections/quasicircular/20261109-public-base8-4d-v1/README.public.md",
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/README.md": "collections/quasicircular/20261110-public-base8-4d-paper2-v1/README.public.md",
    "collections/quasicircular/20261110-public-longem-4d-v1/README.md": "collections/quasicircular/20261110-public-longem-4d-v1/README.public.md"
   },
   "files": {
@@ -2660,6 +2699,991 @@
     "source_sha256": "f9920f312d70cd051a234f8a76792a2cd5b04fa6a3bb6e9f0012b9b869dcb059",
     "sha256": "1ae21f83559bef1f3f5eaaf5095a7bf5eb63a7acdd866e05527ad4023a099ba8",
     "host_paths_removed": 3
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/README.md": {
+    "source_sha256": "519911f5a9e3a35497ed819a7c84bd85015f0538545fd1f39568862caa1c2ccf",
+    "host_paths_removed": 0,
+    "sha256": "d3102977907b0c1ef453f4b15253fbfd493e0dd19e4e72b80654c61b9ddce870"
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190408_181802__public_base8_4d.json": {
+    "source_sha256": "8d45b439a4326669d6dfb68868a279dba7074f4e7d42cd315841ca59f0230539",
+    "sha256": "67576f756c8d4d3618e8131c757af6e93c19a1091bc7866165e5e096adb54f80",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190412_053044__public_base8_4d.json": {
+    "source_sha256": "9e35bc72070d60eb3c337667dd849477eeba9a1643df20c84d49ae0f7897c44c",
+    "sha256": "bbf45754a9bed2b894629fc1921f86930e4a9156d8c960b13a459e31483a2603",
+    "host_paths_removed": 8
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190413_052954__public_base8_4d.json": {
+    "source_sha256": "9c883e9054ad9630e81641aa0c16f98f927d71fa0b8247fe4d1fd9fa8ee05f2c",
+    "sha256": "e40ee10699a49c0178df311a23414e96820826e6a6f0472d46ae430fd06ffe55",
+    "host_paths_removed": 3
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190413_134308__public_base8_4d.json": {
+    "source_sha256": "3dd14a585f477afd2ed8e84c0fe9a83cc00aadc23fb949058e790719fcf30885",
+    "sha256": "940482a650ea2738c940940375813d6a383fb3a6f774b03c9691a08756157d8d",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190421_213856__public_base8_4d.json": {
+    "source_sha256": "ed62aa0d888b525a4cdb50f284a7dc2bbce54ba49c20de0bcb389c9c3ed55c44",
+    "sha256": "9210e1e95870fd490bff6e56318b2d60e9ac57bc8b450bee2a3a96d0bf3adde0",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190503_185404__public_base8_4d.json": {
+    "source_sha256": "22988f0614f36e0adda4de63bf71a497264e0c171c9e82a23c8a59211572c26b",
+    "sha256": "cd4c1544de18d499866a58f88901fde5ae87e374de155bb437f51a118e04f4fc",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190512_180714__public_base8_4d.json": {
+    "source_sha256": "fe1b383421ce1f5cfa5fdef03c6359ceb64dbcdbb0a1a0b9a2dc0ff4f4fa86fa",
+    "sha256": "1b0cb884dbc501d03c5a5a44bb61073269b235a78f235109d3af0bc3ca4beef9",
+    "host_paths_removed": 3
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190513_205428__public_base8_4d.json": {
+    "source_sha256": "630d7b21bfbd24676f9661810b03dfe8f5709e7324902cc9c87972724b15ca80",
+    "sha256": "8d406e4b288e29e6efa39b40834466802e5db9ac449b97ae2115c1468534a580",
+    "host_paths_removed": 3
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190517_055101__public_base8_4d.json": {
+    "source_sha256": "10dd7285aecafb700f1cf1e090d8ed235ff1b32f2891ce7319ca3770e67d6577",
+    "sha256": "9ecca7e6adb3dcb14c3ce81732d8d4f4985e56d3427f23040e27922e74163481",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190519_153544__public_base8_4d.json": {
+    "source_sha256": "364f8a31193284caee8f3b9c6486c659ba018320becd33b14c3f4fa68016769c",
+    "sha256": "730bc0b3ea46b933ff2b856c2a08cd615c26054c9e9539bcb0c56eb3d925b049",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190521_074359__public_base8_4d.json": {
+    "source_sha256": "9e04cd4c6a9bfc7c5adc7e7eade34875a3ec6c0932ce6de5320a21334e3e30b1",
+    "sha256": "8872237801d8014a309f079b61949c9821407422a7d50554c7423fbaec8fd04d",
+    "host_paths_removed": 3
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190527_092055__public_base8_4d.json": {
+    "source_sha256": "95017fd80dfc25615aa19797254d9b88a298c4a221a9017907953a4b5af82e9d",
+    "sha256": "af65f2a4721d6d0f93ccc91e5d6532c9f3a404994d386f45b8099663e3a6e6de",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190602_175927__public_base8_4d.json": {
+    "source_sha256": "98ec009fc0aeab64acaeb179dc480d01fedcee6bf981858a95f484818a9d0e0a",
+    "sha256": "59f79f4dd48f7cd31cc269226c1e92eb2849b1a58f4b2baa568f5344ef8d87ae",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190620_030421__public_base8_4d.json": {
+    "source_sha256": "be378077ad684b84b8ec32b7fa26a60e8625fd57fe7c2006d6fa919521b9e103",
+    "sha256": "e69e853dfee9fb008a126b4d1d0c4cfb4826d8f053f1e39eff4a7596ee572589",
+    "host_paths_removed": 2
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190630_185205__public_base8_4d.json": {
+    "source_sha256": "197e5044a56ffd545f2a69d5cc6e84a37c7144675c62408e8a095d832130380a",
+    "sha256": "b219beb6869abd8e7c1145d385e0ee5a38297a7a7a1524d6b19f751cf2bafd5f",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190701_203306__public_base8_4d.json": {
+    "source_sha256": "6879a4f716a0c6eeed50a08e9cd0e97dbd831df41b35bb630b72b8ce57b8fe18",
+    "sha256": "cbddd84410f2a0fa179b8549b4a42174daf21c222c1a654100ba8659c172aae7",
+    "host_paths_removed": 3
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190706_222641__public_base8_4d.json": {
+    "source_sha256": "d2c9ac6e8609a8f59979f96f7c9040d262500e70bb81336f5ca86b6a5c8695fa",
+    "sha256": "2ec12e26a4484df2d28429289f89e402cb8b9854dc4208ea42da2de636956f88",
+    "host_paths_removed": 3
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190707_093326__public_base8_4d.json": {
+    "source_sha256": "bf4158330e9c3ec77c91ec0f4b167fda978f4c633a469ca079d674cd57c47b97",
+    "sha256": "07248ef6fd6cb8e4e81a0ed49da789d9712788664f77fa5dc6fdcd574c7de738",
+    "host_paths_removed": 2
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190708_232457__public_base8_4d.json": {
+    "source_sha256": "978fb90cd341ec6d666d7680c8cbcbe6da619c8b4a97983d33f102d1482db993",
+    "sha256": "0ee60bfdb3395181717ca78e0d84179c18202b31f29b41f5809f3a03c99f9a77",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190719_215514__public_base8_4d.json": {
+    "source_sha256": "8037bbecf438843896e353b52899f1c6b89467daecaea8cf8eacd9170d94edc9",
+    "sha256": "03c86f0622e81152fefdeab1d04f47141f846074cdf15190b3f98b85753d1239",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190720_000836__public_base8_4d.json": {
+    "source_sha256": "1d5c3b5a246c258ef56769ecaa2cf6b2fa42850ca274840e7f400023dec71391",
+    "sha256": "9ba12a217f06045380a033f447ec2e7ff3c0f1208212044758e551b7b1c6928d",
+    "host_paths_removed": 3
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190727_060333__public_base8_4d.json": {
+    "source_sha256": "ae34582c1450c9314e556438d59ed0224defbb9dcb55e8f1ad856b0fed03713f",
+    "sha256": "eb897192ab8ab5b3ccb99ba1dc35e3fde4a18410293bfbbece9d31091711e45e",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190728_064510__public_base8_4d.json": {
+    "source_sha256": "1ee3c0332e8cb9b27ad7975e4e01bf85f8f5e63ab57b8f5d0f3f5e760dd01774",
+    "sha256": "d999dd514bc4759e91eddf5cc0a6b2033c39cf7aa268998bc0808c659f03d4a2",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190731_140936__public_base8_4d.json": {
+    "source_sha256": "d8c2a7d1ce71a8dafb547d1b8d9e0c6ed4d9067f1783ad84a8e58e0d3c29d0e8",
+    "sha256": "7465b101935882ce31c666cf21d7f08e115db841693bd816d41a443b66c96fb6",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190803_022701__public_base8_4d.json": {
+    "source_sha256": "7c3f82b2fa4b7ecddb07315d39851cb06279e0df929ec245c49e2529794f2ea1",
+    "sha256": "725c331142f7951b3ca3d87331fae4aaab83e0d2fed822e2705e9cc55f7a1d0f",
+    "host_paths_removed": 3
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190805_211137__public_base8_4d.json": {
+    "source_sha256": "cbe88682fac682f88ccc0e28a8841225c8195997d9a7fa12707ec96a87d32631",
+    "sha256": "a12086185ddfc48e856a0ef2026e5c6350d462c8edd2a7207d6d3a7922a8477a",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190828_063405__public_base8_4d.json": {
+    "source_sha256": "417d47fdea036c467d9365acb65f6dbff4614c446312a19bdc214bc680fb1b9a",
+    "sha256": "05a8266fc0b09cb3e2c60818265728aed341638b6a90e6ed3179ad644ddd0299",
+    "host_paths_removed": 3
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190828_065509__public_base8_4d.json": {
+    "source_sha256": "93f78fab4b3ebb108a34f61316f65c4be66b361371713f1e1a2deae0cdd91dba",
+    "sha256": "1d3720279ea470f78923cc02544bae46c8dec1c065ca0ebb0b77f6611d8e1f2d",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190910_112807__public_base8_4d.json": {
+    "source_sha256": "f52c74d08fd0154f17656d789ada59d6a1a30a3357dcc90af35d608f3d9d2901",
+    "sha256": "5de5e0f1a138291e6541fc27e704e5fdbee27016e443b71737ffc8fd534614a4",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190915_235702__public_base8_4d.json": {
+    "source_sha256": "b3932ae3edb02326ebbcf2f83fbbc7af0084949a60d1d44bc559c25cb2b86b51",
+    "sha256": "8276a8b36be421cf02b7e71ea6911c7859f460f3b975699bd88ee85c1aeb1a95",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190924_021846__public_base8_4d.json": {
+    "source_sha256": "9c2dfd09bcb4ce5324774a83cb9770f2a4e4161492173d22b33f2afd0f23f018",
+    "sha256": "378ebd36077fe133bf169e50a31efcec37f16bf990ed786d274a879ecc75deff",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190929_012149__public_base8_4d.json": {
+    "source_sha256": "50c389b6f8e8900d4b955f738aeeef52aebcd2241672c38665925cf47d22e62f",
+    "sha256": "84ca93c3836c59cfb03df18397ffd747d0d373f975bfe570c545f1d6681abcd0",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190930_133541__public_base8_4d.json": {
+    "source_sha256": "d1dd95715693042852fe8f031a0eeea951e7161ce3e6303fa9e36808934b4616",
+    "sha256": "6c9bc5a7d2c2d3924be80f65ddf38fe1e05ffdeee00c702b894e80141fd775da",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW191105_143521__public_base8_4d.json": {
+    "source_sha256": "e585cde6497364fb7089cbbd800a517d1b27f7fbfb5f6a7e5c9caafdf6ca5551",
+    "sha256": "8575d44511978cbc656f5387ec94e927696571550cd7d1460431dca0d8fab90e",
+    "host_paths_removed": 8
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW191109_010717__public_base8_4d.json": {
+    "source_sha256": "2e42a4149f06546f1d25d3e9dbf6972f19783bbb667fde20a63a3f327bb742ec",
+    "sha256": "5a4a31591beb2b46ecd453cb8a618e12e6e31f40843043ab6af8816113166c60",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW191129_134029__public_base8_4d.json": {
+    "source_sha256": "b4d5777708d7c67729661266cb8ff2b318c03a03c611701b20e197f2b0d4e7de",
+    "sha256": "2c3cf042e886f388f3ab4e9918c2f0f568d8998234245b23c44adafa1191e516",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW191204_171526__public_base8_4d.json": {
+    "source_sha256": "8c98324fd142553e73cd852d793528e8a2f9239c3d6a80938e6bb576c64cad50",
+    "sha256": "d8a52b43d322fdb3101bd10a578fda992b96fba86cf8ba2fb30b6121548f4a39",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW191216_213338__public_base8_4d.json": {
+    "source_sha256": "57dd1f67b32eea150720151e388aa1e5709e83b0ee2bff9ce7392773e569c0c3",
+    "sha256": "c5d4971e091a6cf24c54ae501e2f2403ce922dae869db3fab6165fda60e75406",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW191230_180458__public_base8_4d.json": {
+    "source_sha256": "86e379712575af159914750a2d1cd673e9a64a70a0872acb4f0046505b3b301d",
+    "sha256": "7b33ed000cfb5af19fc273231a7e42d8059462fdaea9e650d888ae0a7e56b242",
+    "host_paths_removed": 8
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200202_154313__public_base8_4d.json": {
+    "source_sha256": "33a0a4b9e05f14aed7563872856784a3cc4a73f24075643f4f119a30aa48c840",
+    "sha256": "da23d8a8e38716f8354094765523f5d036ef73bd6be899ee705b2b9256b2ff11",
+    "host_paths_removed": 8
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200208_130117__public_base8_4d.json": {
+    "source_sha256": "92ad6a940011ecd1a8a1dcc0bcbeaeda3257e9dc6e516af15e3a74df0634090d",
+    "sha256": "52ea6034677bfa3e036e21dfc0aea8410aa46b4280f95eb9011c48058d44de29",
+    "host_paths_removed": 8
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200209_085452__public_base8_4d.json": {
+    "source_sha256": "17929086608d26c29ee4461cc70a153f384431ed5968a2d55fb6637cc6c9571c",
+    "sha256": "828f6457da0fc58facf44b537d01426ce7c31a0d47ed1be528a2fc6fd6af4f67",
+    "host_paths_removed": 8
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200219_094415__public_base8_4d.json": {
+    "source_sha256": "50cfc0c0b6646f0c1d537adcf473127e3885333a024c0ef52a46a995bf678412",
+    "sha256": "7ff70f0531d6dee001547946394396ef05b6acd0018fb19bc8d3729eb043bafc",
+    "host_paths_removed": 8
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200225_060421__public_base8_4d.json": {
+    "source_sha256": "4090b79725595f2981cdd3bb7ed19641b2c70dfcef69718892b25cae2adc3c03",
+    "sha256": "4e92d3eadbd20f3bdc2ad5b0c31a32175052da0c0bc702a2ece11987f2bebddd",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200302_015811__public_base8_4d.json": {
+    "source_sha256": "ae6b76548d91c1f68696ca98af9e56ba6758980c3298c4792bc24b3b7c1484e7",
+    "sha256": "480812dd00c56c31d38017f58cbf8c74eeed7f4ceb13ce91c66dddf8217e5e48",
+    "host_paths_removed": 6
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200316_215756__public_base8_4d.json": {
+    "source_sha256": "6d16f611c3940fe270f7834f214d5bbec61e4172807678cb6e3adca07d4c6198",
+    "sha256": "00f1d3eb16618087c1816e7c9399490c2ac56858044e72e92efed15c29ede687",
+    "host_paths_removed": 8
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW230820_212515__public_base8_4d.json": {
+    "source_sha256": "62b36e23c17f62fd04cfdde04c6e7b085f9c5e7bf020fb084ac2e7eb3b0d1c95",
+    "sha256": "2d00f78e638577015d16238d842ed201e91bed34e8a45dc3b9e69a2b71cbca3a",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW230928_215827__public_base8_4d.json": {
+    "source_sha256": "c4f3d77b65c2cefc5df574a89dfcaa62ac48579be8a09c143f7e0eb2de1ebdd2",
+    "sha256": "628243d87e916237d8411cd487cd26636f99045da00ede62b188069a8e43326b",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/manifest.json": {
+    "source_sha256": "12b9787e54b28de46e110693f3896e1fd93ae8e31ae00772e0e11ce02c90d2b8",
+    "sha256": "1c248f1c7b6a9c90929314d1bd7ea5f9335c8fa8c2ae84981e60d2577068173f",
+    "host_paths_removed": 14
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190408_181802__public_base8_4d.json": {
+    "source_sha256": "c1dc9598408c7b468a4d4c957888656554bc72555bbf8db2612b4655e0fc341c",
+    "sha256": "4387939722a81e6f5cb8c575d6778dacd906554e603285a9ff34c34eb9d36df0",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190412_053044__public_base8_4d.json": {
+    "source_sha256": "430c49181d2787fef21ee2f1422259ee6f7f86f1ddb77634d258a12c911301c0",
+    "sha256": "915aaa9ee989bb0ad127c0b09d6e6021ba512dc20392f2199d19ef1a38a34177",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190413_052954__public_base8_4d.json": {
+    "source_sha256": "594d832b256bef8c50db7e15b6c8f6533e2e3caddeb5c083e3dcf2df89f7d2cf",
+    "sha256": "032a6ddacf6241b2bd3e38bcedf67e177710a24d9ebcced70513ef00971b2bd8",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190413_134308__public_base8_4d.json": {
+    "source_sha256": "085c6669b6501342f91baa22136446736aca99920447db50c4a9e3a8f1c4e852",
+    "sha256": "d3c871a4a115886db889b6cfa86c4dbd05f0d3768ee1fdcf54ce9ff27a387093",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190421_213856__public_base8_4d.json": {
+    "source_sha256": "d99cbf48e38d0301116fd812a7cbcde2892c6d88614388d42d255a794d29cac0",
+    "sha256": "64b31cbad4017df6e44f9e08600746dedbcaa99ade8c3dfae20211ab19b3fe80",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190503_185404__public_base8_4d.json": {
+    "source_sha256": "c4fd06c1e20a159ea4e48bb83636398f7bbe26620330914b8699b61a9d504c25",
+    "sha256": "fed614f59c3e43d2b2db3b497aa2a04e42e9fa71759a8509d1dfc05bc13a4a16",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190512_180714__public_base8_4d.json": {
+    "source_sha256": "c3058a71717e93ca453db64595a8cdc5191f94bd0f3c70cd6c02a5435f560911",
+    "sha256": "5507d8fabb91392763d0e7d719423402e70503ea3be86876e1834ce76fbd90f0",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190513_205428__public_base8_4d.json": {
+    "source_sha256": "fbd8b8ce5e151a02cb49f00b73995f2ec8908607c4256f3f2a6034f2a468de12",
+    "sha256": "766d68be8228f6a02c2f2b59f2d4fa66c56657c46aad9c960202355239e2714a",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190517_055101__public_base8_4d.json": {
+    "source_sha256": "0849ce55539cbd8f6828e827ef6a4e8024a18d9c69e7c6a77c76dcee733f21af",
+    "sha256": "43ce61540e9b8b2217de207b30e93a3614e0d5d0ec4a5ae793f295a035f74dd7",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190519_153544__public_base8_4d.json": {
+    "source_sha256": "f5a27c8fe98bd0a863cc739fecaeb423b909d9f113718de7a89bd766007dbaec",
+    "sha256": "07d0bd310a36f70889bb2aaca9a10a6aaff63bb7818032135234f310b534039e",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190521_074359__public_base8_4d.json": {
+    "source_sha256": "f31d884342b2220615dbc2b632b4e9cf8f5ca9090ad170cf98053cbab97a5f1a",
+    "sha256": "287244d7ad4b53fa5c85d5a1b5a99c10bc64286b442cb2ae80f288524e03eb31",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190527_092055__public_base8_4d.json": {
+    "source_sha256": "17b71a02a2a847d11931f07a0c13a229afc2dcdbeedb2a63452a900073287061",
+    "sha256": "ac4ee16dcfd3621954ac285433c70e9a1ca5c0f8c56681c4ecb3bdbe5ee0dd71",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190602_175927__public_base8_4d.json": {
+    "source_sha256": "cdbc128723a32d86f9a2f074e8ed3fff06c3dcf1c8ec0ff8f5eb0da24a533cea",
+    "sha256": "fd5d59ba703fa91546c0bc89907fccad9ab2d9ca3df1237fe5e6e576de24318d",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190620_030421__public_base8_4d.json": {
+    "source_sha256": "598b2dd3eb4eb330bbf55558d046f4cfc9f30c20878dd4bb42584058cfd6e61d",
+    "sha256": "eef38c95fbf472bb41cd26f993cb954586ad1b075f0a6336ac861930351dd490",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190630_185205__public_base8_4d.json": {
+    "source_sha256": "3fb2b7e9f2cf4baa3fb8512d1b2ffbbf3323c1235fd63cdbf3db4f38f6c648ab",
+    "sha256": "627a4104c6a47f69ca3be8b722121f5d0c5320313330dd0dc42fb41afd7b147f",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190701_203306__public_base8_4d.json": {
+    "source_sha256": "b5ac0c1f260fcbea73c6087b6e59b5a63b11892e96aaf935c82b19615edbba54",
+    "sha256": "aadb787e8478bfc19e1dbe186acae185be335cdb4117d1c04aacd40f25de5243",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190706_222641__public_base8_4d.json": {
+    "source_sha256": "cb3e96fb08e8f98cfb63344af78568b5400313b774d5fc0526203ddc97fb78b9",
+    "sha256": "9f185a8ad07e0226ffb53193c7718b6f04d961b17b0831bc72c2b4de02c2d383",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190707_093326__public_base8_4d.json": {
+    "source_sha256": "8b49ebf034fd7a6c5cd02e589372c77f26d96ed8991427561fd9aee8a07995cc",
+    "sha256": "bef57a9040a1d135bb6e16f25665aed6b0fb6fa901f57eac84b412aa2eda0dc0",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190708_232457__public_base8_4d.json": {
+    "source_sha256": "a7af5830e1e636b2f230592cd297d4460ffce06f9100acd732d80bef129f20d9",
+    "sha256": "2b34ddc6f7433f6f2c86ab58ff8f7700faa7ddc5804b06b7acca1b176f1efc42",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190719_215514__public_base8_4d.json": {
+    "source_sha256": "5311f03ea73f86960f7345eee8e967e34623bfc32acd622116c3b7608056e1d3",
+    "sha256": "38ac0b5f115b8030984f3616a173b8fdb12e3b9c2e25c339ad3764a4c9f51927",
+    "host_paths_removed": 1
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190720_000836__public_base8_4d.json": {
+    "source_sha256": "e0a801f6aa51721862f915fbcd6531bdd919fd1c1244788b29f904a913cea707",
+    "sha256": "c7d0d4a1a281910910d7a7592777bedec22f107bd79f2890981060fddc6edf90",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190727_060333__public_base8_4d.json": {
+    "source_sha256": "374597d38ceb1557ddfa7c6840bf76acd130473952353687ca2df0aa622a3d98",
+    "sha256": "d5dc8824dfbe586a5b2d2f1e4c38cc420f90b46ff895f114b7ac74fb19449fab",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190728_064510__public_base8_4d.json": {
+    "source_sha256": "c4e373ad49021ed4fd9094bb45518cb6fbfcb68d3a43c27c66b8d7e4245d2314",
+    "sha256": "966bdc1543ca571c2b84cc6676922d70d43201387b61cff033e09c0c4c7ed1f5",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190731_140936__public_base8_4d.json": {
+    "source_sha256": "281cd436b85d5185cb83e0e3d41ab5e94843383176191a307b01cd6d2b5b202a",
+    "sha256": "7faae5a8b514da3ca283ddd92e9a6ca96e96b36f313e3c0dbe8f36d68b6a79bb",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190803_022701__public_base8_4d.json": {
+    "source_sha256": "87b744d42f115b5f11f4e0c72034dc9285763743e4cb6f804d45b1b464cf6713",
+    "sha256": "fac342a5f5fa766ed9c49b617da012622d980f25e88dc5250dbf561fbf1a089b",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190805_211137__public_base8_4d.json": {
+    "source_sha256": "908f54c065538ff040ed8d227c755ef9b9bd3a45efdaebf8b9230d2740120e18",
+    "sha256": "9f059c2fd019be9e1229f1572cb2fbd69dba65622e3d077a720a27fdd7beead8",
+    "host_paths_removed": 1
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190828_063405__public_base8_4d.json": {
+    "source_sha256": "26397d65676a1aedc2761f22261b49526530d19db8e8a2f3e7db3d1503c21a28",
+    "sha256": "72b40f1dbfb41e96a1ba3ac18afa1d15853b6215c44270a5824c9377ed09c50e",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190828_065509__public_base8_4d.json": {
+    "source_sha256": "80ebb731fb0f2dd78379fadd35382085ff816f684026358fffa34b25632e8da1",
+    "sha256": "316f6b7b91a51c6fcee31065f1556e22c26cc78c9a5e6e9bd02889262ac774c1",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190910_112807__public_base8_4d.json": {
+    "source_sha256": "02872da102b920e6bd3b3776845c368e6df69bd2206183dac7a506116a429c7d",
+    "sha256": "480da30ce7cce16247242d156c12dfeaa6599320d0fdbc915e6ce51eac77707b",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190915_235702__public_base8_4d.json": {
+    "source_sha256": "3af6459a435046ee097332299a4e1260ef5c4742dd27f105040c4eeae3f1ce6b",
+    "sha256": "7ed844ab1eb752bd7113fa1abb3802cc78c699e7468e57f7084509114b899d23",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190924_021846__public_base8_4d.json": {
+    "source_sha256": "a5642458d54dcf19df981863e18b6956b4b85e4c5fa004f5666eef181e30d7db",
+    "sha256": "1ce5e3d2009722e192d77738e602ebb2805d7b839b177bcb376d96992b3c6206",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190929_012149__public_base8_4d.json": {
+    "source_sha256": "5f48560a79ccc5d9381e1121d4bd6f76bc6d0413cd042f5f0b3647e6d29f5886",
+    "sha256": "2ece7963610166d79318fcc1eb0e2213604166696bfaddae148de12d8978f21b",
+    "host_paths_removed": 1
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190930_133541__public_base8_4d.json": {
+    "source_sha256": "9ed76068f15cca1dbfe4281a4aed00fc56f4b6f929e810e98ac93a72e609340f",
+    "sha256": "f21f4893427d3c95b0b7462fb62404a0cf007b29f02d27beff1521b533ed8bb3",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW191105_143521__public_base8_4d.json": {
+    "source_sha256": "e96d680e8407ce387112f9fa89abac43cd9bc970a51fd56ac08e013c0b4e95e1",
+    "sha256": "37be9babdf4f22aa05aa63d650bb71fd9766925a81691257f0f332efd65456d4",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW191109_010717__public_base8_4d.json": {
+    "source_sha256": "2afc068bd02498300c6086726c3d3c2c6398b6fe81dbaadf3ab704487258dee4",
+    "sha256": "8b45e04ac2d741df6e9aeb4cb3d568f2d98e99066150781a39b4f5405180e811",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW191129_134029__public_base8_4d.json": {
+    "source_sha256": "2a38cdae099e22a14ae32c4756fa7611817b7aedce1972e548cd0345d8e62c9b",
+    "sha256": "e5aa0f29fee1f65cf69d16eeaeb09b84b9c240be8a07edd02c5bc2f1742a58f9",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW191204_171526__public_base8_4d.json": {
+    "source_sha256": "495f0710e9f1a42ad02dca30d72473120df92669ad7050547d21098d618cc9b5",
+    "sha256": "7f0a4f60e9887ea37175b049b25b9790c25ad0bec596594908c269c5b591ca45",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW191216_213338__public_base8_4d.json": {
+    "source_sha256": "42212bb07f7c883ac5f68495c16b86ab722278c1c0dce2c7188e05b4f933feb7",
+    "sha256": "5330fe3e2b38f5858fa912eabf4f6dc4afceac1cc8b920a7ff0d89efa0065f23",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW191230_180458__public_base8_4d.json": {
+    "source_sha256": "84b6f7bc15aee1564c054bdf09cf8ba49292e36d5a0773b80847a3327ca2f195",
+    "sha256": "3d6bf95d7e12029e34f02279938f278a23103da0567e9977eb03b8c409c04fc1",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200202_154313__public_base8_4d.json": {
+    "source_sha256": "3d24904e9c3414dd571491183ab1e53a0ce75f98d737a6bf8312fe09dd1072b6",
+    "sha256": "6842d60910a202186f7e58f2cc74d761c25130173f3e32e986f09c8ba5d96e1b",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200208_130117__public_base8_4d.json": {
+    "source_sha256": "9c5cefc7eefd7513689716bf974eaa0a53fd7783e954089f6973d1beeb32d8d5",
+    "sha256": "4f709c051d2994ec76b6fb5c44ccbed579410b27241ba02b1367d47ce4a35fd3",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200209_085452__public_base8_4d.json": {
+    "source_sha256": "4fa8a9b85494f018da1103ff690f211bdecd4cb3e5ddf6daf4fff90cf3680162",
+    "sha256": "57ae03410258c375edf1d2869531ee555579700df1afca0696bb92c56b7692f6",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200219_094415__public_base8_4d.json": {
+    "source_sha256": "0e1639f46f5fc0797f4481f2dde7a034ba4b1a93df75984db32eee5b806a083c",
+    "sha256": "f5b2830b855e0c6e6077923d30d618547bb1212523986d7c74a391e4caed6068",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200225_060421__public_base8_4d.json": {
+    "source_sha256": "b38184297d1d0d375f9ca435047afc87b038b083886f0add3a9a7736aea1ba99",
+    "sha256": "33b75b973600686a5c7eb861979104a76bc0f1116aec428335360f45bc071933",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200302_015811__public_base8_4d.json": {
+    "source_sha256": "7ae8b057c1a4e9a622f0d033f1b78ba45387bafaa05bdf2cbbe321adf8d711a8",
+    "sha256": "0d56443dd62809693be03265600eef978edeba1f4d3d3bd249d3376a493966bc",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200316_215756__public_base8_4d.json": {
+    "source_sha256": "d4783f1e924e228c40177e5e2c8ddd9d8c05d1d9369f9f59aca44ca9fc1a498d",
+    "sha256": "4c02f4bb17f25756adcd35c2e53066fcc9cee19f1e28d4e36300f30c1b5e5103",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW230820_212515__public_base8_4d.json": {
+    "source_sha256": "ec60666cdba8db1e070a934162e893ed5dcf5ff1eb00a7565bb7839e51e7e371",
+    "sha256": "6b115496554b7650706bd5095587eacf724bfd7edfa004a9d7b3a1ed2dd9d76c",
+    "host_paths_removed": 1
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW230928_215827__public_base8_4d.json": {
+    "source_sha256": "725490f2fbf6809a415458bc8385ebee52d614344c6aa437919a7325a821b5fa",
+    "sha256": "3a42fdf90a101ee1973857b2a4e9603b7e9d7f34ae8158beb1b7a1137ba25b6c",
+    "host_paths_removed": 1
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/runtime_parity.json": {
+    "source_sha256": "dd0153130255bfe590b53bfa782aaa2d4dda18e4dddaf537a6bb87bee74555b2",
+    "sha256": "6e97251b09a9abb18879c56d0f56e220cec8051745f4037bd3301a76aaa964eb",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190408_181802__public_base8_4d.json": {
+    "source_sha256": "76d627b38e23217dca079bb674a376ad6a36ec2533fe78de13b7e82ef041b0ac",
+    "sha256": "def11a10d78dbba142ebb416750b2bf15a0ee8ecc7bc778ab89bdee9a518a470",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190412_053044__public_base8_4d.json": {
+    "source_sha256": "079d281708deb9f78157f3b7f0a4e038b887213fb3ada772c45308d8f1be3ead",
+    "sha256": "d3174daa314a8592e15615d7d68e50285496234d104a92d7ccb337a729f834bc",
+    "host_paths_removed": 9
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190413_052954__public_base8_4d.json": {
+    "source_sha256": "4c50366d9f4d74c8cc64499c351f829afff3e930db782e99f4b67c563ef44e04",
+    "sha256": "2192ca253c3730eef38eff6c62b7b34c078e0bd3f9a2d733b49f71f8f0d9ce09",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190413_134308__public_base8_4d.json": {
+    "source_sha256": "cbfc4f62f0700173a15e1c1488856fa41136c232d7a9b5cae1c17eacbdb6739e",
+    "sha256": "14f1513075dae134f393f05637bf1cc385b42856f4774807ea57fcc11cb652f6",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190421_213856__public_base8_4d.json": {
+    "source_sha256": "7c2eb1011d28c865d2cfa22c6f8228f30e762e6b324a7e03ad2550812d366f19",
+    "sha256": "41bc698b3d0ff90a7c9b2a95434986474a32fbc0572bfa122b588293c4891ef2",
+    "host_paths_removed": 5
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190503_185404__public_base8_4d.json": {
+    "source_sha256": "00a8313e33044f50008c46bb3e104fb9bb3a1610eeb7f192c449b27765dc1606",
+    "sha256": "f21a8bf8a5efff942c87686dae985f9d3eb122fdca67cde0346f88a9286985de",
+    "host_paths_removed": 8
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190512_180714__public_base8_4d.json": {
+    "source_sha256": "1f497f95200600f043eb477211347add9fdb93147e3d75500836e970e5510d86",
+    "sha256": "be242ff138be2baec3ae7a8fcd0b55d964e02a5821a14dee95751903dcf18a29",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190513_205428__public_base8_4d.json": {
+    "source_sha256": "595160b309a46d21978c289c2e1f914069818842eb323ba365a3b8a179bc0595",
+    "sha256": "d621dd69059030966d26dcb45c1c5b1c10948244fa8b841ff16215379cdbc2f9",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190517_055101__public_base8_4d.json": {
+    "source_sha256": "92cbe836f781f87ae70a0c5883a06aaf2ef00080122b2c01bd8a48e3d66e4690",
+    "sha256": "200ffb0f6aff29fb4a19c5d963b71e62a9d9c3624daa4f514fa6130b5ff588ac",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190519_153544__public_base8_4d.json": {
+    "source_sha256": "45b09cc0ecaa8679e4800735dae9a1f9cb23956b9d3f1b8800aa6c4473e33768",
+    "sha256": "ffb127bf0492d162e5d78ffdb33933dc92646f81f68a4ace8b33b304df2fce26",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190521_074359__public_base8_4d.json": {
+    "source_sha256": "da91661ad590c0a130c9c524053b4dd0e5fdf6b2997c9ec744d435a6030b61c5",
+    "sha256": "e02bfec22e46841eba6317a7ebd70c91454e8672d88c13cbdbd97b77396e7ffb",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190527_092055__public_base8_4d.json": {
+    "source_sha256": "614e9a6fcd07c61bde09b695d29927604866435463a22a64ce6f2dec5310a552",
+    "sha256": "acb11a6769fff845193881419dcf501196b74104abe0c23614ff3473ebd2e0ac",
+    "host_paths_removed": 5
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190602_175927__public_base8_4d.json": {
+    "source_sha256": "390fb24721aa560bbe22dec6c463dbc7822fd73b7d162fe49d42b106c01d889e",
+    "sha256": "1e3f7d1ebed01f1acc59e33c09abff492dcec2a2df02fdf2dc386b04ec4d4c1b",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190620_030421__public_base8_4d.json": {
+    "source_sha256": "9c31fe4d90db6321a0555f88df4b5a351c11d88f83cf88f78779be60e3748cb3",
+    "sha256": "d2637b725dc9b33b14b139de269242da80e180904eabf86f3967a3e01fb6ff81",
+    "host_paths_removed": 3
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190630_185205__public_base8_4d.json": {
+    "source_sha256": "f67bb26f1b528fdeb9cfebba40837dad3989c9d39ef4a31430f7ee7a48363780",
+    "sha256": "c9ef12f6ac03bb40e0f60938f768e1f00516c1cec7e2144d8c56deaa6f679ba6",
+    "host_paths_removed": 5
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190701_203306__public_base8_4d.json": {
+    "source_sha256": "692ef77b94cfc9935629d2324c49793a18b67670d2771cb913c709c29f6ddea7",
+    "sha256": "4fc168286a3db8c5eda7d4a8cc8a804c58ce2c0e124a3b79477247cd80b1123d",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190706_222641__public_base8_4d.json": {
+    "source_sha256": "f4773e50f3b3bd1bd0172f77707b154afcefd19b08b356175fb77f6a7d5cd342",
+    "sha256": "4655cd209fe34bc49b680eb8b8c8dc37445bb4be74f7bb2c3151d4a2d8867109",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190707_093326__public_base8_4d.json": {
+    "source_sha256": "90d3e0af7949d1ab8307b2fdcb61e8b0d3cdb745769e3352cc2487ec65bd2cdb",
+    "sha256": "ae29e414d51eb916defcbf902c427139a3db606957aae48c6dd6701d99f7c018",
+    "host_paths_removed": 3
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190708_232457__public_base8_4d.json": {
+    "source_sha256": "70c35edd27cc4df6fe149209775b9b6224f8686fd5907c2d2f9c0aac5a92df6c",
+    "sha256": "9c35e74b469e23eddf744026191d61bff90e4fe6cb5c95765d0b2da94c948712",
+    "host_paths_removed": 5
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190719_215514__public_base8_4d.json": {
+    "source_sha256": "3637f912f8d7b7da08958ec250df8a001f095d4f5ac5914858d0aaaf10e258d2",
+    "sha256": "ff20bc27af8dbb8191774597697f0f5b6fb63f81dc5a13fe88d8847c1065aa80",
+    "host_paths_removed": 2
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190720_000836__public_base8_4d.json": {
+    "source_sha256": "8b9cd9b1c61418e07f2105e0c0fca8bbab3b147d9ad4f5d4186425634ea5ff0b",
+    "sha256": "473ab4182a576cc355e5a2384e71c6684c0a8f8ffadd4c769039f9e933767d0d",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190727_060333__public_base8_4d.json": {
+    "source_sha256": "1ff5529d264c80bdeaf6b627b8c33daa9ed6c2157a81f82a825ac089c8e1dc1e",
+    "sha256": "011cbfa353ef363ad9f2e86ac6059456e718e204441e0e324b93026f2d1ece78",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190728_064510__public_base8_4d.json": {
+    "source_sha256": "d83ffda20358c2e1c78b836d598ae35bdf8b850f7421a11950f277e0418b5cf9",
+    "sha256": "85c8b33fdafa8e8ae24c5f5abe97f730c0f9cc3a45e68aaf9d013b3ed39e9394",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190731_140936__public_base8_4d.json": {
+    "source_sha256": "d94837be83cd435ba6ff69a682de657fdf4bcd1c990a693a7c762b6563d4bc43",
+    "sha256": "4583c5e57177235b78639e08b1069b4ce16f04d9cec5603fb2c6a7a9f2460e47",
+    "host_paths_removed": 5
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190803_022701__public_base8_4d.json": {
+    "source_sha256": "4f76866d03de89059543a77b3b40e0aff0be137d84405fa5cede42e16df9443d",
+    "sha256": "20905bf366dbf9ce5c3aff94f9274244e1ee945a9b9c63b7d38a959fdcefb19f",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190805_211137__public_base8_4d.json": {
+    "source_sha256": "eed855beeef09232d2391f25f6df391c51aac1ae14ae9a6038097efed7a9b447",
+    "sha256": "6ab57efa5b4f39fe976becc8eb7fecf90b0d72561c06b6ee1a6ee308230ef39e",
+    "host_paths_removed": 2
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190828_063405__public_base8_4d.json": {
+    "source_sha256": "d1ce1e568b0cec10a1f5893888499c0a14c0da27c0528449f582c9af52eee1bc",
+    "sha256": "9181813c7fefa8e8968bd6169d078619e68004d05a8612af12da891039b2f76d",
+    "host_paths_removed": 4
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190828_065509__public_base8_4d.json": {
+    "source_sha256": "59ab277de97e9a750ce6e822838feace7ed2a580a72705bdb71b1dac19ba69b9",
+    "sha256": "f7961d52a90af4ca3aa302ebcde1ba98bcfff5ce8abb2068d5cbd899627143c2",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190910_112807__public_base8_4d.json": {
+    "source_sha256": "aab143563f44518fce384de5cbda02a945918c08ad874413d309758d97c8ec50",
+    "sha256": "a3c857beb9f339a8b521f9ce68c1d3ba7705a1f5689066fd0bacc9330b7be38f",
+    "host_paths_removed": 5
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190915_235702__public_base8_4d.json": {
+    "source_sha256": "4da0d0cbb2bd1f1273a4c768d012c7488910a09ebc75719dca0d01eb2a9668fb",
+    "sha256": "ecc17300a10dff2d5f733608b25191a08276412c2da7bb120ea0a369c778115e",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190924_021846__public_base8_4d.json": {
+    "source_sha256": "e507303ea7488917af6f2af7678e935347e29930f016f82edecc08752e167309",
+    "sha256": "877088ef6a58db069a0f9ebb12974d50d8758312b265f5656ba8f87646403324",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190929_012149__public_base8_4d.json": {
+    "source_sha256": "110a91253d69e6ff7838f2042d821b620ef89d63aed340dd97918b86190f7efa",
+    "sha256": "c05a1938c278d60e766f241a3120d93554a2e805b244b6de7a04167046029d6d",
+    "host_paths_removed": 2
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190930_133541__public_base8_4d.json": {
+    "source_sha256": "0f1dd4cdf74be28e097cb47220f5de9a93d419eaf896a7fbd66f2a367d7347d1",
+    "sha256": "316773d9f21b1463227da1278efaa00bac461c4e63bca0069881f638a8a8b6f8",
+    "host_paths_removed": 5
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW191105_143521__public_base8_4d.json": {
+    "source_sha256": "ac58065d4f99e8607676f63be2c56f74bfc5d2403f777b734ad05950b2e2dc53",
+    "sha256": "b5124c09e2a43da02931a1006f8194755151541b247c9acd45231bdb2211cd87",
+    "host_paths_removed": 9
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW191109_010717__public_base8_4d.json": {
+    "source_sha256": "f23acdfde48ff4a2f3c8a5a4fb29a72464a4820993863661cb7d7aa2a11e9c82",
+    "sha256": "983e6d8f728815c79662ea73c05d4f6cbe8772580868674b3720364b51da5e3a",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW191129_134029__public_base8_4d.json": {
+    "source_sha256": "52e987d8b8e7572a9b5c172dc1dc32ebe6959244402c6e34e14b2d30d0339b2f",
+    "sha256": "07d180e03ce2b78d684680ed39814115ef0208ad0530c2fe28b890a999643d8f",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW191204_171526__public_base8_4d.json": {
+    "source_sha256": "b94a5a3dac02e800e543ffbbe17caa01f567db05454ded32739fc10c05c2d0db",
+    "sha256": "5bf9373c5297ebfdf6a2aaa642bd0695a92508920144240927c4051f85ebec72",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW191216_213338__public_base8_4d.json": {
+    "source_sha256": "dd2c68fa7cd68ff8bec00f263b15e43f6b5638a859b6ab84b5cfe3cfd1e9bccf",
+    "sha256": "08c44d7b399a7f4a946eda9f956e3bca4076eb73b1f344247f2d7f3d1e2808d8",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW191230_180458__public_base8_4d.json": {
+    "source_sha256": "5af28604a260938bc9fc6b7e1896b36e8178149b9f9d22c6c57ee74d7644c1bd",
+    "sha256": "a1971baccb457ac48a8bf878e713db1075f7503398d2439a50618bc06ca9e529",
+    "host_paths_removed": 10
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200202_154313__public_base8_4d.json": {
+    "source_sha256": "9322f30512cc81ef0e369acfd0c0ebd04988495842d892eb4474b6caef87e983",
+    "sha256": "7cccc16754eaf0d7f2af8664e3bf841052d3567bec4c81baa6acf595ce4ac219",
+    "host_paths_removed": 9
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200208_130117__public_base8_4d.json": {
+    "source_sha256": "8255eb03efbb1a1e11701559cb6eb60ea79227e2299ce3e87624d8e4eaf29f39",
+    "sha256": "dbc4bb85664c4749accf572b0b05160c34d47ea97ae60055d77f406597b0e763",
+    "host_paths_removed": 9
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200209_085452__public_base8_4d.json": {
+    "source_sha256": "335560d0cc1190c05b4623e7a237c73719ddbebf6477fa91af7807b4bac1427d",
+    "sha256": "ed4e5dfc945108a25c8cd52eddb24c21c7aa1e782e81735e07cf00f8a28bed96",
+    "host_paths_removed": 10
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200219_094415__public_base8_4d.json": {
+    "source_sha256": "fc613b4e4f8eae6b5bf76c68b95d3d83d815273205a7efaa2cd3f5edb95f4868",
+    "sha256": "9bcf37aada65e0d3d34b7982ba0a1757f322b2c9a685f6001b7d0524be217f13",
+    "host_paths_removed": 10
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200225_060421__public_base8_4d.json": {
+    "source_sha256": "043d51d66851a72b1bf847ba4465099673d7c9386f3f78cc8a3ab5c5d22727fe",
+    "sha256": "e9e4f1a6ca81e7bccfaf854c1069e6f7257b3d1a09916936537a16b4f1f96784",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200302_015811__public_base8_4d.json": {
+    "source_sha256": "a17fac2db23a72f91c7ed2b3ae8dcd98d3888ceab624d015586e344084398145",
+    "sha256": "6ef7c086d78c5663cad1936d9a3bedd3ac43ff2eee913740e73a28ec1dc8af20",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200316_215756__public_base8_4d.json": {
+    "source_sha256": "c1e1ca8735fb5dc31f182757c10202610a379f42cd0d9053a24af8fb1ec29ccd",
+    "sha256": "a875bc0d12428c42cffab671fa7882b7fa74b83b470c1a06048b4d2aa1e818ac",
+    "host_paths_removed": 9
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW230820_212515__public_base8_4d.json": {
+    "source_sha256": "1fd259a5d87134e3cc1861bf81e77eecb0459c20972031dbf71fd8b692308a3e",
+    "sha256": "a719c914d77cd0f773149962b701b474370a880e394d463616b20d76b77c900f",
+    "host_paths_removed": 2
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW230928_215827__public_base8_4d.json": {
+    "source_sha256": "fe85bd323db23c34ea4421bcfdeabde2164bab2857b99723f97d140cd6c8b76f",
+    "sha256": "62e99989889277b759e60e4656c25abfe8e85cb45b709149e74c34869d225a4c",
+    "host_paths_removed": 2
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/sources.json": {
+    "source_sha256": "b5096bd51ce980755d1eace27ed788f9d0fed6c2ec04ce6647b6a9483e8001bb",
+    "sha256": "add9fe56a3b1910c3c16273189005f910f0f72b089f8770b66290711ac6046c5",
+    "host_paths_removed": 226
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/summary.json": {
+    "source_sha256": "2377e462262c2589b94e6b5d4bff9a9411fbb678abd9a4c2983471665f017a3a",
+    "sha256": "b62965d571f062aec610a9b79750c13ae84a2d6bfe1a747c43435fb91d494139",
+    "host_paths_removed": 7
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190408_181802__public_base8_4d.json": {
+    "source_sha256": "4647d11708b9db293ce14b8abb9ff3d4496b205755fd083bbd89b15d601995ee",
+    "sha256": "59029daf500b9b299c5e04cf6ed75d1cc7dac9110278a0d527f0718a2d405172",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190412_053044__public_base8_4d.json": {
+    "source_sha256": "905f95298bb78c36afa821abd12e50ef9ea338aab759d52fcedac117a052b4a5",
+    "sha256": "0013e71db1682659f4c8b646473d68c8836f32e1f92a4d71766582b32cb908c5",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190413_052954__public_base8_4d.json": {
+    "source_sha256": "28416b471b6603b8928866daf5b5e5e27a78c3bfab4a53b1ea491221d584d86f",
+    "sha256": "6e0c83f765897d1e4e5ccbb88efa30c5f4611fd87cc7827cdfeb020c049de56a",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190413_134308__public_base8_4d.json": {
+    "source_sha256": "2bbced4b72480a3c432e2fb62256c92a13f9c60731823136b47ae5ba8d8ce2cc",
+    "sha256": "da633bc4d8fd426992997cdb112e3c9baf771121f50e7357d6c33375df6a4781",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190421_213856__public_base8_4d.json": {
+    "source_sha256": "bd32806dcc43e328d34965b36be9842a7805ed5a2fd993ea85c43913c728def8",
+    "sha256": "0deb8feb0f109567f2c24b3fd44a79d1b8fa2efc43705382b4398019cece8f2e",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190503_185404__public_base8_4d.json": {
+    "source_sha256": "c43eb358678c947ed1d27e4cad8ead7dda2841835a9f2652a815d44f00175e8e",
+    "sha256": "f70675636b18c788cac3f45608660812f00cd30c9693fae7531be6ee6768cdb1",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190512_180714__public_base8_4d.json": {
+    "source_sha256": "1a16434453dbccc45724087978dcd8491a62e9068dfd85f1737aa71cc7d5602b",
+    "sha256": "bc0ec235588a524abb8e63806cc99a5e07bb30b0e9ef9896c026eea48b0c28ce",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190513_205428__public_base8_4d.json": {
+    "source_sha256": "45d053e5c39f47d65661f3a5631517d4a1ccb2b38bf13a9a649062a94415ce63",
+    "sha256": "6d9fc874dc301387c1ba4fab87bda94de5da1728e98d743bb5d7356d5f5a98be",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190517_055101__public_base8_4d.json": {
+    "source_sha256": "d2384ef29da260627b41efbda21b4e02e7e6853c34e6969f8352d90f1da9e395",
+    "sha256": "90150dadb29690719abc484c517b3038bdfbfd00d80bd04aad0123bbef968b1a",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190519_153544__public_base8_4d.json": {
+    "source_sha256": "667641136581ca934b7229cac9c66c923a784686b3e051dcf8fc3b4a240bb7d2",
+    "sha256": "a8291d0449495cb2c612f45d8194def17e8d952a3e42b99222d1abecca42f1cb",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190521_074359__public_base8_4d.json": {
+    "source_sha256": "93ba24639f62a1e8ed93f2072c1cd9cd4f1dccaf2fabe15e20d38030561ce350",
+    "sha256": "18b804813820acafab2d6d3ed3d78f75b394c131f768e6c6b711fc3d692ab8ba",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190527_092055__public_base8_4d.json": {
+    "source_sha256": "e9039374cf31744262fb6ad17f6af4f2127f29b286e4f94d14289391d74fbf84",
+    "sha256": "b98f3ac4d0d677183c83d782509dcde7d70f41a1f58439db037f00ce325ec311",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190602_175927__public_base8_4d.json": {
+    "source_sha256": "01684021616c6699c7620f02de4cb040ea8e617bb192e6bad463f22446b6ed5f",
+    "sha256": "e06b87a885f692ae6d820cead33e976099514974ddeb9a24c580f3e048e1e7a2",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190620_030421__public_base8_4d.json": {
+    "source_sha256": "1a4ea9dfa78d0c73612993f827099169b7bafbe3650fe09c5492807fab15e377",
+    "sha256": "3251a6568c8a34240543297189f0c790e719995bca85a2235e2a57514d9ac89d",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190630_185205__public_base8_4d.json": {
+    "source_sha256": "7ba8a4dee0b40d81b26d3c30509778b14d72c69c872bccac6b782a0461ccd046",
+    "sha256": "7eccb946d738a132047e19cfab2bc6b0f8913b7046915c15a04e52e2c1b5b986",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190701_203306__public_base8_4d.json": {
+    "source_sha256": "459ff97ea688da884cc7a0fa9bd901d6f2e6d7ded914ab64c18c4741ed01e672",
+    "sha256": "a32567d6bcafeb945ebf3f54c1ebca735fbb206aba4c2444d43269741ffaee10",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190706_222641__public_base8_4d.json": {
+    "source_sha256": "d81c7670ad52cd73be9bff5d74317d42ff12cff27744942e1da0fc37ed978adb",
+    "sha256": "2a1546283c2b4c6263d2196a151179aeb1ef503d909b9a11ca58be4538179167",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190707_093326__public_base8_4d.json": {
+    "source_sha256": "3ed9efc91c2eee83a82f907967c83b96ed56d0fa1c0e0fc903c55b00e76a82fe",
+    "sha256": "5d2619e0d37fee4c59831b97bf9709a4a659f58acd37bdfd512ba879cca2a63a",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190708_232457__public_base8_4d.json": {
+    "source_sha256": "4446fb5b9b312beaf8b147265317b54ba129c46e68042a27c55ac0e090df9888",
+    "sha256": "54264ffcf8694dc19446a675198375b24a33be3ff9b6997fc8476f692a806a0d",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190719_215514__public_base8_4d.json": {
+    "source_sha256": "7d28ecd49cce148e01dc142f5cfacb2fc2c61dd6b09b81c05c8a306a50dc54a5",
+    "sha256": "cb1179f6e218ef51d8a642d691105ebe3e8afa573e4c0725366906a0c710b438",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190720_000836__public_base8_4d.json": {
+    "source_sha256": "47b2b2ec330bc39b3acb687f240c2c1beab67ca11649f760ac9a7069daa20702",
+    "sha256": "fded85b0a014b3e4a301bd45020bc2d9825c5f512921d75f91eb373c85205c7f",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190727_060333__public_base8_4d.json": {
+    "source_sha256": "70b21260afa3b51050616e18c60176505fbf898280c0cbda88d40d6a4d0c5a5c",
+    "sha256": "d1ebd988bbb2d96aeb51f9f740bfb6d3be3ceb1bb7a9311da9a817cd18769c3e",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190728_064510__public_base8_4d.json": {
+    "source_sha256": "2e99c8a7a8c1cd15e38e01e6b2189ba232c6e25feda36e379345c928f9886606",
+    "sha256": "d2ef6cbe812313a570a792465c3946f8f2584b87a04865ef9c9c38672f293925",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190731_140936__public_base8_4d.json": {
+    "source_sha256": "dce16ad395901ee65e6457787425512d346346a10284c948a23f89ebd4e5a30e",
+    "sha256": "87392878356529e638e49467ade199b1c07e4e155405c6d4724aff1334051691",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190803_022701__public_base8_4d.json": {
+    "source_sha256": "6cdf68085382c0bf3eea59854adfab85334c1d1203fe730659b81c87564f1692",
+    "sha256": "3acda259ff1992a23b6abd0eb6759892c99dc1f69f31ce90a2f55dd02e324c2d",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190805_211137__public_base8_4d.json": {
+    "source_sha256": "4f89e822efe280807103f7cf9443149409ba3a374012d588d5ca53a50e4c7210",
+    "sha256": "e8c1f98b7b626cdc6a561d0b83aac4031e46ac039d6b0c59885d77ab267b9ebe",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190828_063405__public_base8_4d.json": {
+    "source_sha256": "c91e8e15fe284cf5027482a6e1dd8472db38dde005332d1b2bb1e3b91aca5650",
+    "sha256": "417584e056f5a5ec2c999c6568669b63bc88ac97e94e4677198f7bc8a2feef94",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190828_065509__public_base8_4d.json": {
+    "source_sha256": "624675a90cdcff33a9c81eeed663d5c24c008c8e085789b1953dd6eaa17d343a",
+    "sha256": "91b21e744df33c25a2dae17ea683dc3292f58afb07b23226f4a4c91d2daff815",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190910_112807__public_base8_4d.json": {
+    "source_sha256": "9e1b02d9a686783e94ba6501a80d374962b7e8647ce72c9ea664bff07fae7533",
+    "sha256": "1c50be154281cebe8d7fd78ef17b180a5bbc5f5b4258affef3c60ea8aa7355eb",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190915_235702__public_base8_4d.json": {
+    "source_sha256": "833c3dc48e043b55cca3cee575f4226bedf35b0576d15453dc80083194d70e60",
+    "sha256": "0f6ce530f653b2c26d31a2ae30bce552de625787f8046f95f1588fdfad3bb189",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190924_021846__public_base8_4d.json": {
+    "source_sha256": "c3fd593a6bbd905edbc1a033ef6827c2fa3bed910227f239eaad4fd12a61f331",
+    "sha256": "77517cb8057e1965b195141151e30e6640fdd0ba01dff51a507415dd5036cb46",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190929_012149__public_base8_4d.json": {
+    "source_sha256": "0bfe177a3e4bf462b5f4d8e422765a63c6c6c85137c40bb36fcbc3a34fa31bdc",
+    "sha256": "b90336419b4a1b6e483cf7b4203130a41de39cea32b0ef431156c075b2a48d8c",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190930_133541__public_base8_4d.json": {
+    "source_sha256": "620d094b54119df8a4fe53e5fcec1c34a4aecd9b28024102ac414a7dce656727",
+    "sha256": "526b8ba6f753f63af7a60394ea27ba5f85ecba44a39e793a84aba0e1cd5d3403",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191105_143521__public_base8_4d.json": {
+    "source_sha256": "09be8f3050644b95af22dc61fa2224c4466406bc0f113958d7b37a7f5c2ca6d5",
+    "sha256": "29d8f564e3aa6c5da30f3529f9066cbec79be88b0d3e8308b9f11d6b3618f559",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191109_010717__public_base8_4d.json": {
+    "source_sha256": "c96cc671074f9a7fa6504ca96d5fdd45e16cb2faa17ae9f7aa9835c6ad12fd36",
+    "sha256": "3fb37b22c791d7fff3a2f2bd288c0fb3bf168fec311e9f413957b0e37d0d9101",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191129_134029__public_base8_4d.json": {
+    "source_sha256": "9e2495c6aa05836ed74c6336f0578fef5157093de2c83d19f19e89d265763a80",
+    "sha256": "a3a2405cb4ec8f72e1600cfd3fc9ffc7d820e0c56f3796a83835fbb8fd66af1f",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191204_171526__public_base8_4d.json": {
+    "source_sha256": "05a04bc8f05bb2298c88d7334152cda9a94f220213cba2aa0892d859b753145b",
+    "sha256": "4a4ffed7bbf919ea926272d88f60d1c52791d67794db644d9fcb2261e0b6c815",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191216_213338__public_base8_4d.json": {
+    "source_sha256": "4b72c4d094bcea7f25b656192e24b1fd19f6e58019401542c71ea293f5d1e0fd",
+    "sha256": "1b2d281f740840664a7ae8725fbc5f999755945993ae30e68ccf928c1c483ef0",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191230_180458__public_base8_4d.json": {
+    "source_sha256": "28e484ee54e4e3fb922e7863403c667bf3495baccdc2154f159789a721c86ea5",
+    "sha256": "004fe7ab4b3c8387cfc2166f6d51df46fad2bfde22b59b121e504533d60166ea",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200202_154313__public_base8_4d.json": {
+    "source_sha256": "4f97eb0ee4b0026944957b49e43bc65a6c85b3b394fd8f1e30b1295692b38017",
+    "sha256": "357f7ecb8bacb0aead28c3cac3e4eedc0b7c2892064680b21e140acb4507d49b",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200208_130117__public_base8_4d.json": {
+    "source_sha256": "429651a45362b7841bde9632fc83d03f4f9dabec02f2bcb28169091d1e6f5fab",
+    "sha256": "9d6558776544655775059a9bf885975931a65871a3df54714aeed11306843008",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200209_085452__public_base8_4d.json": {
+    "source_sha256": "039d7e763fa21b80447c473442accd2ce6f5d72837fffb76dee038e9c0fc864c",
+    "sha256": "abde925aa2d5063de7f79158eb285b281c5e83015077daf261d350d949313a64",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200219_094415__public_base8_4d.json": {
+    "source_sha256": "9eeca72cfa8e2fbdc0fb81adc7a4e9f1d6042f7a56c2203ecf1128a517561b1d",
+    "sha256": "db2275f8a26df18e8a653a900f3f52b6aa52cba516b7d2c38e18b98d67343487",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200225_060421__public_base8_4d.json": {
+    "source_sha256": "02a30e9d9f39943e55acbbf9c0febf9951c9405887dee4776483f81f062052a9",
+    "sha256": "573b3cd3397adef17e28022604e95d35606bfe74b8e503f6c50e8aa9b48a51a5",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200302_015811__public_base8_4d.json": {
+    "source_sha256": "a3a1862a86a4bde31faeb3787cd5872385266dab8844e1923417b90c63c18dba",
+    "sha256": "2d516184f2a6b87022db7d80893b7e2f82c1674a91b1344efc0a98c64d22c643",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200316_215756__public_base8_4d.json": {
+    "source_sha256": "b3d45d6f029c9f98728d5ad928c2c4b521d5f8e1bb09548824b1020695a805e2",
+    "sha256": "982b72f103d9e75752a8c093d8623b85e1aa9e0974f107f223e406b6a0c4bc2b",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW230820_212515__public_base8_4d.json": {
+    "source_sha256": "944eafa98f33ef81205fefb0e0b2f25edb26aa4e3f79332e5ef72110f7906ab3",
+    "sha256": "2b1e94d5d08df84564e50a0d064e47176f95a6d2f8368ef8f4069c59e36930ac",
+    "host_paths_removed": 0
+   },
+   "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW230928_215827__public_base8_4d.json": {
+    "source_sha256": "a408e7d89c09de3ce4a0068d7acace29928a9d187f152a5da28a7a326c5bb0a6",
+    "sha256": "3e1be1bf371b20c59b77692168c2eeda46aeeab3e959e9f76d635e1acbb5e764",
+    "host_paths_removed": 0
    },
    "collections/quasicircular/20261110-public-longem-4d-v1/README.md": {
     "source_sha256": "6f0b99febe549f2bea5383f9ac03ed18579165538ec2bbcbc6eaeadd5691b2ca",
@@ -7871,6 +8895,7 @@
  },
  "excluded_tests": {
   "tests/test_build_public_base_drafts.py": "imports non-exported tool tools/build_public_base_collection_drafts.py",
+  "tests/test_build_public_paper2.py": "reads non-exported path tools/retrieve_paper2_public_sources.py",
   "tests/test_detector_exporter.py": "reads non-exported path tools/export_detector_distance_pe.py",
   "tests/test_detector_prior.py": "reads non-exported path tools/fit_detector_distance.py",
   "tests/test_detector_validation.py": "reads non-exported path tools/fit_detector_distance.py",
@@ -7880,21 +8905,21 @@
   "tests/test_index_policy.py": "reads non-exported path provenance/older_event_union.json",
   "tests/test_normalization_gates.py": "imports non-exported tool tools/catalog_validation_v2.py",
   "tests/test_o4b_adversarial.py": "reads excluded collection precessing/20261102-o4b-public-recovery-v1",
-  "tests/test_prior_folded_bank_proposal.py": "imports non-exported tool tools/prior_folded_q_proposal.py",
+  "tests/test_prior_folded_bank_proposal.py": "imports non-exported tool tools/prior_folded_bank_proposal.py",
   "tests/test_prior_folded_dual.py": "imports non-exported tool tools/prior_folded_dual_view.py",
   "tests/test_prior_folded_ess_constraints.py": "imports non-exported tool tools/prior_folded_dual_view.py",
   "tests/test_prior_folded_psd_kkt.py": "imports non-exported tool tools/prior_folded_psd_kkt.py",
   "tests/test_prior_folded_q_proposal.py": "imports non-exported tool tools/prior_folded_prototype.py",
-  "tests/test_prior_folded_split.py": "imports non-exported tool tools/prior_folded_dual_view.py",
+  "tests/test_prior_folded_split.py": "imports non-exported tool tools/initialize_prior_folded_split.py",
   "tests/test_public_equivalence.py": "imports non-exported tool tools/verify_public_equivalence.py",
   "tests/test_quasicircular_cache.py": "imports non-exported tool tools/quasicircular_diagnostics.py",
   "tests/test_rift_distance_dispatch.py": "reads non-exported path tools/o4b_cosmo_prior_repair/setup_campaign.py",
-  "tests/test_validation_v2.py": "imports non-exported tool tools/validate_posteriors.py"
+  "tests/test_validation_v2.py": "imports non-exported tool tools/catalog_validation_v2.py"
  },
  "checks": {
   "check_public_data": {
    "status": "pass",
-   "certified_coefficient_files": 359
+   "certified_coefficient_files": 407
   },
   "collection_readers": {
    "precessing/20261102-o4b-cosmo-prior-corrected-v2": 104,
@@ -7902,9 +8927,10 @@
    "quasicircular/20261109-public-base8-4d-gwtc41-v1": 7,
    "quasicircular/20261109-public-base8-4d-jointv2-v1": 38,
    "quasicircular/20261109-public-base8-4d-v1": 2,
+   "quasicircular/20261110-public-base8-4d-paper2-v1": 48,
    "quasicircular/20261110-public-longem-4d-v1": 203
   },
-  "tests": "Ran 123 tests in 15.208s  OK"
+  "tests": "Ran 128 tests in 15.533s  OK"
  },
  "scan": {
   "status": "pass",
@@ -7912,18 +8938,18 @@
   "flagged_files": [],
   "unnamed_superevents": [],
   "warnings_by_rule": {
-   "site_name_CIT": 4
+   "site_name_CIT": 6
   }
  },
  "files": {
   ".gitignore": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b",
-  ".zenodo.json": "82d1b482660ec3d1f0da7aba7d492ac545dc42f9a6e06dfedc60cbf25f69e727",
-  "CITATION.cff": "4d41117b43727c43a48871ec3ef92d813cd393e5db4d0f3e52fb7fd72c4335af",
+  ".zenodo.json": "6b631ee1cb9cbb07f38823a4abdf809d9074ddb4f09b518da1782139ab1fbc5c",
+  "CITATION.cff": "09001f4909485968b5c3037db9fa7fc3bc36712e5bcd1c4ab3e0f091d74be048",
   "LICENSE": "99ce12063c27b121f6c9fb13aec66aab92736599143e9d6bf6392440947bb473",
   "NATIVE_POSTERIOR_REDSHIFT.md": "7c87045676de2a52501eab38613e38bc02283893471a27928cf99ca6034634d4",
   "NATIVE_SPIN_BASE_REDSHIFT.md": "14273c5d953740d835e4662f72e536dfd348180439ccae5ee7be4432554b2df5",
-  "PUBLIC_DATA_ONLY.md": "f95aefb397266d6a5d45efbe6240cbfe60dde670d15950e8145ff64b94c86a0b",
-  "README.md": "758d2bfd22458d74d9887b968ecb90b2d58bf5e49e45e0227c67c3f9d08c429a",
+  "PUBLIC_DATA_ONLY.md": "4ddee315db6049cca70ed3c94092655ef534153e5636cf1da86b34f5b66fc133",
+  "README.md": "41b65904a971f9122ae17afc2f667d334b28b0c8fbad8da2c9ad9869f391629a",
   "collections/precessing/20261102-o4b-cosmo-prior-corrected-v2/README.md": "f321c61cb4a015df72631ebb97a97b6ea87086ddad77c70faf7fa29f62156875",
   "collections/precessing/20261102-o4b-cosmo-prior-corrected-v2/coverage-by-FAR.json": "22c4f4ba24a61a8d756df0ef8af4f00ffc5e9bb1060718dbd7899b6c6f5c5680",
   "collections/precessing/20261102-o4b-cosmo-prior-corrected-v2/export-receipt.json": "987c630c1ddb820bf9d15c67cff95daeab253056abe41ec2f8a2afd3c5358604",
@@ -8606,6 +9632,285 @@
   "collections/quasicircular/20261109-public-base8-4d-v1/validation/GW190719_215514__public_base8_4d__original.json": "4d9ec98f31ecbbb9c64bdaf67b25afe7faad1cac60371e2083b64b1ba44ffe2e",
   "collections/quasicircular/20261109-public-base8-4d-v1/validation/GW190805_211137__public_base8_4d.json": "1ae21f83559bef1f3f5eaaf5095a7bf5eb63a7acdd866e05527ad4023a099ba8",
   "collections/quasicircular/20261109-public-base8-4d-v1/validation/GW190805_211137__public_base8_4d__original.json": "9eec42106056e42fa8ab65a49de02e018d45956fe15e1861f4fe881b8548b407",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/README.md": "d3102977907b0c1ef453f4b15253fbfd493e0dd19e4e72b80654c61b9ddce870",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190408_181802__public_base8_4d.json": "67576f756c8d4d3618e8131c757af6e93c19a1091bc7866165e5e096adb54f80",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190412_053044__public_base8_4d.json": "bbf45754a9bed2b894629fc1921f86930e4a9156d8c960b13a459e31483a2603",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190413_052954__public_base8_4d.json": "e40ee10699a49c0178df311a23414e96820826e6a6f0472d46ae430fd06ffe55",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190413_134308__public_base8_4d.json": "940482a650ea2738c940940375813d6a383fb3a6f774b03c9691a08756157d8d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190421_213856__public_base8_4d.json": "9210e1e95870fd490bff6e56318b2d60e9ac57bc8b450bee2a3a96d0bf3adde0",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190503_185404__public_base8_4d.json": "cd4c1544de18d499866a58f88901fde5ae87e374de155bb437f51a118e04f4fc",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190512_180714__public_base8_4d.json": "1b0cb884dbc501d03c5a5a44bb61073269b235a78f235109d3af0bc3ca4beef9",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190513_205428__public_base8_4d.json": "8d406e4b288e29e6efa39b40834466802e5db9ac449b97ae2115c1468534a580",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190517_055101__public_base8_4d.json": "9ecca7e6adb3dcb14c3ce81732d8d4f4985e56d3427f23040e27922e74163481",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190519_153544__public_base8_4d.json": "730bc0b3ea46b933ff2b856c2a08cd615c26054c9e9539bcb0c56eb3d925b049",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190521_074359__public_base8_4d.json": "8872237801d8014a309f079b61949c9821407422a7d50554c7423fbaec8fd04d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190527_092055__public_base8_4d.json": "af65f2a4721d6d0f93ccc91e5d6532c9f3a404994d386f45b8099663e3a6e6de",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190602_175927__public_base8_4d.json": "59f79f4dd48f7cd31cc269226c1e92eb2849b1a58f4b2baa568f5344ef8d87ae",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190620_030421__public_base8_4d.json": "e69e853dfee9fb008a126b4d1d0c4cfb4826d8f053f1e39eff4a7596ee572589",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190630_185205__public_base8_4d.json": "b219beb6869abd8e7c1145d385e0ee5a38297a7a7a1524d6b19f751cf2bafd5f",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190701_203306__public_base8_4d.json": "cbddd84410f2a0fa179b8549b4a42174daf21c222c1a654100ba8659c172aae7",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190706_222641__public_base8_4d.json": "2ec12e26a4484df2d28429289f89e402cb8b9854dc4208ea42da2de636956f88",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190707_093326__public_base8_4d.json": "07248ef6fd6cb8e4e81a0ed49da789d9712788664f77fa5dc6fdcd574c7de738",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190708_232457__public_base8_4d.json": "0ee60bfdb3395181717ca78e0d84179c18202b31f29b41f5809f3a03c99f9a77",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190719_215514__public_base8_4d.json": "03c86f0622e81152fefdeab1d04f47141f846074cdf15190b3f98b85753d1239",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190720_000836__public_base8_4d.json": "9ba12a217f06045380a033f447ec2e7ff3c0f1208212044758e551b7b1c6928d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190727_060333__public_base8_4d.json": "eb897192ab8ab5b3ccb99ba1dc35e3fde4a18410293bfbbece9d31091711e45e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190728_064510__public_base8_4d.json": "d999dd514bc4759e91eddf5cc0a6b2033c39cf7aa268998bc0808c659f03d4a2",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190731_140936__public_base8_4d.json": "7465b101935882ce31c666cf21d7f08e115db841693bd816d41a443b66c96fb6",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190803_022701__public_base8_4d.json": "725c331142f7951b3ca3d87331fae4aaab83e0d2fed822e2705e9cc55f7a1d0f",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190805_211137__public_base8_4d.json": "a12086185ddfc48e856a0ef2026e5c6350d462c8edd2a7207d6d3a7922a8477a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190828_063405__public_base8_4d.json": "05a8266fc0b09cb3e2c60818265728aed341638b6a90e6ed3179ad644ddd0299",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190828_065509__public_base8_4d.json": "1d3720279ea470f78923cc02544bae46c8dec1c065ca0ebb0b77f6611d8e1f2d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190910_112807__public_base8_4d.json": "5de5e0f1a138291e6541fc27e704e5fdbee27016e443b71737ffc8fd534614a4",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190915_235702__public_base8_4d.json": "8276a8b36be421cf02b7e71ea6911c7859f460f3b975699bd88ee85c1aeb1a95",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190924_021846__public_base8_4d.json": "378ebd36077fe133bf169e50a31efcec37f16bf990ed786d274a879ecc75deff",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190929_012149__public_base8_4d.json": "84ca93c3836c59cfb03df18397ffd747d0d373f975bfe570c545f1d6681abcd0",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW190930_133541__public_base8_4d.json": "6c9bc5a7d2c2d3924be80f65ddf38fe1e05ffdeee00c702b894e80141fd775da",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW191105_143521__public_base8_4d.json": "8575d44511978cbc656f5387ec94e927696571550cd7d1460431dca0d8fab90e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW191109_010717__public_base8_4d.json": "5a4a31591beb2b46ecd453cb8a618e12e6e31f40843043ab6af8816113166c60",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW191129_134029__public_base8_4d.json": "2c3cf042e886f388f3ab4e9918c2f0f568d8998234245b23c44adafa1191e516",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW191204_171526__public_base8_4d.json": "d8a52b43d322fdb3101bd10a578fda992b96fba86cf8ba2fb30b6121548f4a39",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW191216_213338__public_base8_4d.json": "c5d4971e091a6cf24c54ae501e2f2403ce922dae869db3fab6165fda60e75406",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW191230_180458__public_base8_4d.json": "7b33ed000cfb5af19fc273231a7e42d8059462fdaea9e650d888ae0a7e56b242",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200202_154313__public_base8_4d.json": "da23d8a8e38716f8354094765523f5d036ef73bd6be899ee705b2b9256b2ff11",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200208_130117__public_base8_4d.json": "52ea6034677bfa3e036e21dfc0aea8410aa46b4280f95eb9011c48058d44de29",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200209_085452__public_base8_4d.json": "828f6457da0fc58facf44b537d01426ce7c31a0d47ed1be528a2fc6fd6af4f67",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200219_094415__public_base8_4d.json": "7ff70f0531d6dee001547946394396ef05b6acd0018fb19bc8d3729eb043bafc",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200225_060421__public_base8_4d.json": "4e92d3eadbd20f3bdc2ad5b0c31a32175052da0c0bc702a2ece11987f2bebddd",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200302_015811__public_base8_4d.json": "480812dd00c56c31d38017f58cbf8c74eeed7f4ceb13ce91c66dddf8217e5e48",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW200316_215756__public_base8_4d.json": "00f1d3eb16618087c1816e7c9399490c2ac56858044e72e92efed15c29ede687",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW230820_212515__public_base8_4d.json": "2d00f78e638577015d16238d842ed201e91bed34e8a45dc3b9e69a2b71cbca3a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/fits/GW230928_215827__public_base8_4d.json": "628243d87e916237d8411cd487cd26636f99045da00ede62b188069a8e43326b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/manifest.json": "1c248f1c7b6a9c90929314d1bd7ea5f9335c8fa8c2ae84981e60d2577068173f",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/20275769_7387201239bc9ed505366ce714dd0b36a7c15486fa729de44ecb5baf5d845b1d.json": "7387201239bc9ed505366ce714dd0b36a7c15486fa729de44ecb5baf5d845b1d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/24094073_e6e3f8e59bc41ae2a3ee32e3a1c313b15c7fe9925f1bf2334cf702e75bae3569.json": "e6e3f8e59bc41ae2a3ee32e3a1c313b15c7fe9925f1bf2334cf702e75bae3569",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/6513631_0e8391b90b918e9892ad0c4477a8f7c56f227b3f81ed75824384ab047eec419d.json": "0e8391b90b918e9892ad0c4477a8f7c56f227b3f81ed75824384ab047eec419d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190408_181802__dcc.json": "0e49c3de8d2a4f0fa37433900951d985a1b3675a9ff821871f951dd7dd9b3eed",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190412_053044__dcc.json": "14ad724d7dceb2730303f65a4cfe30ecc90dc6174bcdaf3f0cc402ac4fcd51d1",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190413_052954__dcc.json": "54041cf18d402bd8967e02c6d80aad70dc940715c1a504cc8fa43f9e4aac497e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190413_134308__dcc.json": "febda4962b4de7e2fb406a79a6b59c842b7082c1f8e94a721958eae4f13a57a9",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190421_213856__dcc.json": "6f823f2f04cde3d86fef851e82324a6db5fed4fc4376a72d954ad2a578322043",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190503_185404__dcc.json": "e8a79b58adeadf2bf842bd4a08ed17422c77562f7a68cdb32e76e7d5f3b01111",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190512_180714__dcc.json": "7bff56ed187fdd7653694eb760756782e337573bcdd4daee8f21daccb4c7253e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190513_205428__dcc.json": "87bab7e9aff1ba7dbe9657ab1235d92bacb8853c7bde958ba4ef134ebebea2d4",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190517_055101__dcc.json": "7af045390b02f89865f52a72fc86d6b77b3eccdbd431853d9b9b9ceb52653a7c",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190519_153544__dcc.json": "f24d97a0d004e4e02e40b3a3ab5e1ca48135ade0fddb768100bb1931bcc97810",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190521_074359__dcc.json": "713730e0dbae0d8b9b1cc92019eadd6037500d55220afd1af25131d0d5d4c398",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190527_092055__dcc.json": "407f70ee217065eecd8ec1f7372016f320ec782e95f2e5751b6bc1a62f62ec47",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190602_175927__dcc.json": "60e592fd057cf5e383dbe2679f498b122b6816cffd27193e6376e0995137062d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190620_030421__dcc.json": "4931215d501baedee7e5407003be201cef37cfe472b670540babec4ae5eb4364",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190630_185205__dcc.json": "9b8edda4b3f125aba9b4317be2af707834c92af3d15b92cb529afec610bb0112",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190701_203306__dcc.json": "d87196999fcec0c840cce248ac7c1589a80e509ca69083e900da97aca864a96c",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190706_222641__dcc.json": "c446c455919d05b67f55d7ce5432b7628e10b0bc2770e64ed4df8dda754ef5dc",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190707_093326__dcc.json": "6aba82af55b969ed89b1549adc65af5c57ccccdbb23c74c1fe30ef44b87e7e9d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190708_232457__dcc.json": "61f2a3d9f594fd7d925ce263b8ca8fe6ba1222a9eb61044ab17d5ed608b033ff",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190720_000836__dcc.json": "614fd174d10a450f2d8c958225571398e0ada7a4a03a62df65658273f9d7372b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190727_060333__dcc.json": "26acad50d29784ea23269ac0409fe3eaa5641c63b2844edb109131817bb2f26d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190728_064510__dcc.json": "bede8b358be96a6251ceee47948d13bcd1c7b885501f2bf2c48a68895edb823b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190731_140936__dcc.json": "7ee34cc64516b46a265440057f0cf3b3142584f4f014e34740bd0e950b2411b4",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190803_022701__dcc.json": "27c242b368c4a4f1f5ca63881e26790c21d0458aa1bb0115b12d7d143cb57254",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190828_063405__dcc.json": "246743c55b88cbb3fe817ae419303729c64ed5bb6e1d4bf3bfb632b8635cd3df",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190828_065509__dcc.json": "f1797103b76b755562fa262a54f768ea961a82209c7269f034c6fc5d47a911a0",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190910_112807__dcc.json": "008e7d65b8b837f8e1b355b022f69523a126d41ebd9bc3e001ce11713530760d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190915_235702__dcc.json": "c70f78e5286f45382300e9ddf9a0a810dd3dc28fc10574c487278e0ca146e120",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190924_021846__dcc.json": "07b778a69c82743a799ce51d12429b251529ae1bfb71032150655d42a7334396",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190930_133541__dcc.json": "358afdf1dee38a5f54e15b0062b85b5fa0345b9710cca9394b39f0095621c13e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/P2000223-v7.html": "310d2b96461cb8a9e1c83f1c783d1dc19a9aa428f445ba2bdb5364eaeec95757",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190408_181802__public_base8_4d.json": "4387939722a81e6f5cb8c575d6778dacd906554e603285a9ff34c34eb9d36df0",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190412_053044__public_base8_4d.json": "915aaa9ee989bb0ad127c0b09d6e6021ba512dc20392f2199d19ef1a38a34177",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190413_052954__public_base8_4d.json": "032a6ddacf6241b2bd3e38bcedf67e177710a24d9ebcced70513ef00971b2bd8",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190413_134308__public_base8_4d.json": "d3c871a4a115886db889b6cfa86c4dbd05f0d3768ee1fdcf54ce9ff27a387093",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190421_213856__public_base8_4d.json": "64b31cbad4017df6e44f9e08600746dedbcaa99ade8c3dfae20211ab19b3fe80",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190503_185404__public_base8_4d.json": "fed614f59c3e43d2b2db3b497aa2a04e42e9fa71759a8509d1dfc05bc13a4a16",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190512_180714__public_base8_4d.json": "5507d8fabb91392763d0e7d719423402e70503ea3be86876e1834ce76fbd90f0",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190513_205428__public_base8_4d.json": "766d68be8228f6a02c2f2b59f2d4fa66c56657c46aad9c960202355239e2714a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190517_055101__public_base8_4d.json": "43ce61540e9b8b2217de207b30e93a3614e0d5d0ec4a5ae793f295a035f74dd7",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190519_153544__public_base8_4d.json": "07d0bd310a36f70889bb2aaca9a10a6aaff63bb7818032135234f310b534039e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190521_074359__public_base8_4d.json": "287244d7ad4b53fa5c85d5a1b5a99c10bc64286b442cb2ae80f288524e03eb31",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190527_092055__public_base8_4d.json": "ac4ee16dcfd3621954ac285433c70e9a1ca5c0f8c56681c4ecb3bdbe5ee0dd71",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190602_175927__public_base8_4d.json": "fd5d59ba703fa91546c0bc89907fccad9ab2d9ca3df1237fe5e6e576de24318d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190620_030421__public_base8_4d.json": "eef38c95fbf472bb41cd26f993cb954586ad1b075f0a6336ac861930351dd490",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190630_185205__public_base8_4d.json": "627a4104c6a47f69ca3be8b722121f5d0c5320313330dd0dc42fb41afd7b147f",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190701_203306__public_base8_4d.json": "aadb787e8478bfc19e1dbe186acae185be335cdb4117d1c04aacd40f25de5243",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190706_222641__public_base8_4d.json": "9f185a8ad07e0226ffb53193c7718b6f04d961b17b0831bc72c2b4de02c2d383",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190707_093326__public_base8_4d.json": "bef57a9040a1d135bb6e16f25665aed6b0fb6fa901f57eac84b412aa2eda0dc0",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190708_232457__public_base8_4d.json": "2b34ddc6f7433f6f2c86ab58ff8f7700faa7ddc5804b06b7acca1b176f1efc42",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190719_215514__public_base8_4d.json": "38ac0b5f115b8030984f3616a173b8fdb12e3b9c2e25c339ad3764a4c9f51927",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190720_000836__public_base8_4d.json": "c7d0d4a1a281910910d7a7592777bedec22f107bd79f2890981060fddc6edf90",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190727_060333__public_base8_4d.json": "d5dc8824dfbe586a5b2d2f1e4c38cc420f90b46ff895f114b7ac74fb19449fab",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190728_064510__public_base8_4d.json": "966bdc1543ca571c2b84cc6676922d70d43201387b61cff033e09c0c4c7ed1f5",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190731_140936__public_base8_4d.json": "7faae5a8b514da3ca283ddd92e9a6ca96e96b36f313e3c0dbe8f36d68b6a79bb",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190803_022701__public_base8_4d.json": "fac342a5f5fa766ed9c49b617da012622d980f25e88dc5250dbf561fbf1a089b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190805_211137__public_base8_4d.json": "9f059c2fd019be9e1229f1572cb2fbd69dba65622e3d077a720a27fdd7beead8",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190828_063405__public_base8_4d.json": "72b40f1dbfb41e96a1ba3ac18afa1d15853b6215c44270a5824c9377ed09c50e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190828_065509__public_base8_4d.json": "316f6b7b91a51c6fcee31065f1556e22c26cc78c9a5e6e9bd02889262ac774c1",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190910_112807__public_base8_4d.json": "480da30ce7cce16247242d156c12dfeaa6599320d0fdbc915e6ce51eac77707b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190915_235702__public_base8_4d.json": "7ed844ab1eb752bd7113fa1abb3802cc78c699e7468e57f7084509114b899d23",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190924_021846__public_base8_4d.json": "1ce5e3d2009722e192d77738e602ebb2805d7b839b177bcb376d96992b3c6206",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190929_012149__public_base8_4d.json": "2ece7963610166d79318fcc1eb0e2213604166696bfaddae148de12d8978f21b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW190930_133541__public_base8_4d.json": "f21f4893427d3c95b0b7462fb62404a0cf007b29f02d27beff1521b533ed8bb3",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW191105_143521__public_base8_4d.json": "37be9babdf4f22aa05aa63d650bb71fd9766925a81691257f0f332efd65456d4",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW191109_010717__public_base8_4d.json": "8b45e04ac2d741df6e9aeb4cb3d568f2d98e99066150781a39b4f5405180e811",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW191129_134029__public_base8_4d.json": "e5aa0f29fee1f65cf69d16eeaeb09b84b9c240be8a07edd02c5bc2f1742a58f9",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW191204_171526__public_base8_4d.json": "7f0a4f60e9887ea37175b049b25b9790c25ad0bec596594908c269c5b591ca45",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW191216_213338__public_base8_4d.json": "5330fe3e2b38f5858fa912eabf4f6dc4afceac1cc8b920a7ff0d89efa0065f23",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW191230_180458__public_base8_4d.json": "3d6bf95d7e12029e34f02279938f278a23103da0567e9977eb03b8c409c04fc1",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200202_154313__public_base8_4d.json": "6842d60910a202186f7e58f2cc74d761c25130173f3e32e986f09c8ba5d96e1b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200208_130117__public_base8_4d.json": "4f709c051d2994ec76b6fb5c44ccbed579410b27241ba02b1367d47ce4a35fd3",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200209_085452__public_base8_4d.json": "57ae03410258c375edf1d2869531ee555579700df1afca0696bb92c56b7692f6",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200219_094415__public_base8_4d.json": "f5b2830b855e0c6e6077923d30d618547bb1212523986d7c74a391e4caed6068",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200225_060421__public_base8_4d.json": "33b75b973600686a5c7eb861979104a76bc0f1116aec428335360f45bc071933",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200302_015811__public_base8_4d.json": "0d56443dd62809693be03265600eef978edeba1f4d3d3bd249d3376a493966bc",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW200316_215756__public_base8_4d.json": "4c02f4bb17f25756adcd35c2e53066fcc9cee19f1e28d4e36300f30c1b5e5103",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW230820_212515__public_base8_4d.json": "6b115496554b7650706bd5095587eacf724bfd7edfa004a9d7b3a1ed2dd9d76c",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_proofs/GW230928_215827__public_base8_4d.json": "3a42fdf90a101ee1973857b2a4e9603b7e9d7f34ae8158beb1b7a1137ba25b6c",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/runtime_parity.json": "6e97251b09a9abb18879c56d0f56e220cec8051745f4037bd3301a76aaa964eb",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190408_181802__public_base8_4d.json": "def11a10d78dbba142ebb416750b2bf15a0ee8ecc7bc778ab89bdee9a518a470",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190412_053044__public_base8_4d.json": "d3174daa314a8592e15615d7d68e50285496234d104a92d7ccb337a729f834bc",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190413_052954__public_base8_4d.json": "2192ca253c3730eef38eff6c62b7b34c078e0bd3f9a2d733b49f71f8f0d9ce09",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190413_134308__public_base8_4d.json": "14f1513075dae134f393f05637bf1cc385b42856f4774807ea57fcc11cb652f6",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190421_213856__public_base8_4d.json": "41bc698b3d0ff90a7c9b2a95434986474a32fbc0572bfa122b588293c4891ef2",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190503_185404__public_base8_4d.json": "f21a8bf8a5efff942c87686dae985f9d3eb122fdca67cde0346f88a9286985de",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190512_180714__public_base8_4d.json": "be242ff138be2baec3ae7a8fcd0b55d964e02a5821a14dee95751903dcf18a29",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190513_205428__public_base8_4d.json": "d621dd69059030966d26dcb45c1c5b1c10948244fa8b841ff16215379cdbc2f9",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190517_055101__public_base8_4d.json": "200ffb0f6aff29fb4a19c5d963b71e62a9d9c3624daa4f514fa6130b5ff588ac",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190519_153544__public_base8_4d.json": "ffb127bf0492d162e5d78ffdb33933dc92646f81f68a4ace8b33b304df2fce26",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190521_074359__public_base8_4d.json": "e02bfec22e46841eba6317a7ebd70c91454e8672d88c13cbdbd97b77396e7ffb",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190527_092055__public_base8_4d.json": "acb11a6769fff845193881419dcf501196b74104abe0c23614ff3473ebd2e0ac",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190602_175927__public_base8_4d.json": "1e3f7d1ebed01f1acc59e33c09abff492dcec2a2df02fdf2dc386b04ec4d4c1b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190620_030421__public_base8_4d.json": "d2637b725dc9b33b14b139de269242da80e180904eabf86f3967a3e01fb6ff81",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190630_185205__public_base8_4d.json": "c9ef12f6ac03bb40e0f60938f768e1f00516c1cec7e2144d8c56deaa6f679ba6",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190701_203306__public_base8_4d.json": "4fc168286a3db8c5eda7d4a8cc8a804c58ce2c0e124a3b79477247cd80b1123d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190706_222641__public_base8_4d.json": "4655cd209fe34bc49b680eb8b8c8dc37445bb4be74f7bb2c3151d4a2d8867109",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190707_093326__public_base8_4d.json": "ae29e414d51eb916defcbf902c427139a3db606957aae48c6dd6701d99f7c018",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190708_232457__public_base8_4d.json": "9c35e74b469e23eddf744026191d61bff90e4fe6cb5c95765d0b2da94c948712",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190719_215514__public_base8_4d.json": "ff20bc27af8dbb8191774597697f0f5b6fb63f81dc5a13fe88d8847c1065aa80",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190720_000836__public_base8_4d.json": "473ab4182a576cc355e5a2384e71c6684c0a8f8ffadd4c769039f9e933767d0d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190727_060333__public_base8_4d.json": "011cbfa353ef363ad9f2e86ac6059456e718e204441e0e324b93026f2d1ece78",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190728_064510__public_base8_4d.json": "85c8b33fdafa8e8ae24c5f5abe97f730c0f9cc3a45e68aaf9d013b3ed39e9394",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190731_140936__public_base8_4d.json": "4583c5e57177235b78639e08b1069b4ce16f04d9cec5603fb2c6a7a9f2460e47",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190803_022701__public_base8_4d.json": "20905bf366dbf9ce5c3aff94f9274244e1ee945a9b9c63b7d38a959fdcefb19f",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190805_211137__public_base8_4d.json": "6ab57efa5b4f39fe976becc8eb7fecf90b0d72561c06b6ee1a6ee308230ef39e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190828_063405__public_base8_4d.json": "9181813c7fefa8e8968bd6169d078619e68004d05a8612af12da891039b2f76d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190828_065509__public_base8_4d.json": "f7961d52a90af4ca3aa302ebcde1ba98bcfff5ce8abb2068d5cbd899627143c2",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190910_112807__public_base8_4d.json": "a3c857beb9f339a8b521f9ce68c1d3ba7705a1f5689066fd0bacc9330b7be38f",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190915_235702__public_base8_4d.json": "ecc17300a10dff2d5f733608b25191a08276412c2da7bb120ea0a369c778115e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190924_021846__public_base8_4d.json": "877088ef6a58db069a0f9ebb12974d50d8758312b265f5656ba8f87646403324",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190929_012149__public_base8_4d.json": "c05a1938c278d60e766f241a3120d93554a2e805b244b6de7a04167046029d6d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW190930_133541__public_base8_4d.json": "316773d9f21b1463227da1278efaa00bac461c4e63bca0069881f638a8a8b6f8",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW191105_143521__public_base8_4d.json": "b5124c09e2a43da02931a1006f8194755151541b247c9acd45231bdb2211cd87",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW191109_010717__public_base8_4d.json": "983e6d8f728815c79662ea73c05d4f6cbe8772580868674b3720364b51da5e3a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW191129_134029__public_base8_4d.json": "07d180e03ce2b78d684680ed39814115ef0208ad0530c2fe28b890a999643d8f",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW191204_171526__public_base8_4d.json": "5bf9373c5297ebfdf6a2aaa642bd0695a92508920144240927c4051f85ebec72",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW191216_213338__public_base8_4d.json": "08c44d7b399a7f4a946eda9f956e3bca4076eb73b1f344247f2d7f3d1e2808d8",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW191230_180458__public_base8_4d.json": "a1971baccb457ac48a8bf878e713db1075f7503398d2439a50618bc06ca9e529",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200202_154313__public_base8_4d.json": "7cccc16754eaf0d7f2af8664e3bf841052d3567bec4c81baa6acf595ce4ac219",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200208_130117__public_base8_4d.json": "dbc4bb85664c4749accf572b0b05160c34d47ea97ae60055d77f406597b0e763",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200209_085452__public_base8_4d.json": "ed4e5dfc945108a25c8cd52eddb24c21c7aa1e782e81735e07cf00f8a28bed96",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200219_094415__public_base8_4d.json": "9bcf37aada65e0d3d34b7982ba0a1757f322b2c9a685f6001b7d0524be217f13",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200225_060421__public_base8_4d.json": "e9e4f1a6ca81e7bccfaf854c1069e6f7257b3d1a09916936537a16b4f1f96784",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200302_015811__public_base8_4d.json": "6ef7c086d78c5663cad1936d9a3bedd3ac43ff2eee913740e73a28ec1dc8af20",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW200316_215756__public_base8_4d.json": "a875bc0d12428c42cffab671fa7882b7fa74b83b470c1a06048b4d2aa1e818ac",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW230820_212515__public_base8_4d.json": "a719c914d77cd0f773149962b701b474370a880e394d463616b20d76b77c900f",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/source_metadata/GW230928_215827__public_base8_4d.json": "62e99989889277b759e60e4656c25abfe8e85cb45b709149e74c34869d225a4c",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/sources.json": "add9fe56a3b1910c3c16273189005f910f0f72b089f8770b66290711ac6046c5",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/summary.json": "b62965d571f062aec610a9b79750c13ae84a2d6bfe1a747c43435fb91d494139",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190408_181802__public_base8_4d.json": "59029daf500b9b299c5e04cf6ed75d1cc7dac9110278a0d527f0718a2d405172",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190408_181802__public_base8_4d__original.json": "111e9f30d54504eb212ce17dc6a2eeee89b3e6f914a9684bd26caa57c093c66b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190412_053044__public_base8_4d.json": "0013e71db1682659f4c8b646473d68c8836f32e1f92a4d71766582b32cb908c5",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190412_053044__public_base8_4d__original.json": "fe5576979f723c35f07b1006495d94a9460c38f815c556f2301581a85363af08",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190413_052954__public_base8_4d.json": "6e0c83f765897d1e4e5ccbb88efa30c5f4611fd87cc7827cdfeb020c049de56a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190413_052954__public_base8_4d__original.json": "13e397c487349f92404ac24d5bc2c99ef9465b12c1d1c185ee963b9db32be8e3",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190413_134308__public_base8_4d.json": "da633bc4d8fd426992997cdb112e3c9baf771121f50e7357d6c33375df6a4781",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190413_134308__public_base8_4d__original.json": "6e6c76a46bc599aa77179675e2c3465d551fedbee009ac340d5b7b15b9385de8",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190421_213856__public_base8_4d.json": "0deb8feb0f109567f2c24b3fd44a79d1b8fa2efc43705382b4398019cece8f2e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190421_213856__public_base8_4d__original.json": "bea9355101b21217ea912aa64ca0c01747d77e3a7e8a1fb7e91551a8a4bb801a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190503_185404__public_base8_4d.json": "f70675636b18c788cac3f45608660812f00cd30c9693fae7531be6ee6768cdb1",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190503_185404__public_base8_4d__original.json": "208724ffe7c97426de9d03392fd6d8b5a10fbad76ab7c5bf75463deacbd06745",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190512_180714__public_base8_4d.json": "bc0ec235588a524abb8e63806cc99a5e07bb30b0e9ef9896c026eea48b0c28ce",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190512_180714__public_base8_4d__original.json": "d8d000479f1c9554ca4fc58d5e91c51b983575b95fb1d3065a8f1930884dfa5a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190513_205428__public_base8_4d.json": "6d9fc874dc301387c1ba4fab87bda94de5da1728e98d743bb5d7356d5f5a98be",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190513_205428__public_base8_4d__original.json": "3f580880ee8719f0765b66e0ea430f8dc6562bf6705a7ca742c903f9a4492163",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190517_055101__public_base8_4d.json": "90150dadb29690719abc484c517b3038bdfbfd00d80bd04aad0123bbef968b1a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190517_055101__public_base8_4d__original.json": "3faeae4cf8c37ed253a9c3484deef8e2b788a6cf0b7843900782a63f36797159",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190519_153544__public_base8_4d.json": "a8291d0449495cb2c612f45d8194def17e8d952a3e42b99222d1abecca42f1cb",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190519_153544__public_base8_4d__original.json": "44f894fb450b03189167e6c47d43a13be5bb101abae32c477793cb61b5b2406b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190521_074359__public_base8_4d.json": "18b804813820acafab2d6d3ed3d78f75b394c131f768e6c6b711fc3d692ab8ba",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190521_074359__public_base8_4d__original.json": "388d01e3c09d339defc9827da88cdc1061e8c390d92608102fe707ad5e743f5a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190527_092055__public_base8_4d.json": "b98f3ac4d0d677183c83d782509dcde7d70f41a1f58439db037f00ce325ec311",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190527_092055__public_base8_4d__original.json": "f149f6e703413aa1b5bf7be3b6a0e4c17244475a368b0934b46d4563187351df",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190602_175927__public_base8_4d.json": "e06b87a885f692ae6d820cead33e976099514974ddeb9a24c580f3e048e1e7a2",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190602_175927__public_base8_4d__original.json": "e218b1f21a01275acf7ba88efc6e339014c345fb5ac0c964c6356b793e7bdd07",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190620_030421__public_base8_4d.json": "3251a6568c8a34240543297189f0c790e719995bca85a2235e2a57514d9ac89d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190620_030421__public_base8_4d__original.json": "67324ae138bb48d58a1c7904be6346243a72544a46e3a6c44b2dfed47dc6378c",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190630_185205__public_base8_4d.json": "7eccb946d738a132047e19cfab2bc6b0f8913b7046915c15a04e52e2c1b5b986",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190630_185205__public_base8_4d__original.json": "82234520ab744cf6b329958fb7b5ad280c0afe485b280ff049141c3006b66794",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190701_203306__public_base8_4d.json": "a32567d6bcafeb945ebf3f54c1ebca735fbb206aba4c2444d43269741ffaee10",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190701_203306__public_base8_4d__original.json": "79725185cb619dbd7bfdcbc758cc93e6d25fe90acae664361e29ce5ba9ca3b02",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190706_222641__public_base8_4d.json": "2a1546283c2b4c6263d2196a151179aeb1ef503d909b9a11ca58be4538179167",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190706_222641__public_base8_4d__original.json": "ca078ebd7bef9b995e4fae4ead4cbf5a6423176cf61f0f587d0d41f915df4c59",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190707_093326__public_base8_4d.json": "5d2619e0d37fee4c59831b97bf9709a4a659f58acd37bdfd512ba879cca2a63a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190707_093326__public_base8_4d__original.json": "5449b65c8d0b436be2bb7de0ed6af7822a8e7582345897fc8b107228dce2034d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190708_232457__public_base8_4d.json": "54264ffcf8694dc19446a675198375b24a33be3ff9b6997fc8476f692a806a0d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190708_232457__public_base8_4d__original.json": "3124302c4404f1ae891a2fcdaea753452bf45bada1eebf66940aed7005b1e687",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190719_215514__public_base8_4d.json": "cb1179f6e218ef51d8a642d691105ebe3e8afa573e4c0725366906a0c710b438",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190719_215514__public_base8_4d__original.json": "3e99851b996c2ee77e3e1943efe2787e822366670df256d497152bad2f3d54db",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190720_000836__public_base8_4d.json": "fded85b0a014b3e4a301bd45020bc2d9825c5f512921d75f91eb373c85205c7f",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190720_000836__public_base8_4d__original.json": "143a0394ca2ce6be00d2169b92c5c6fe1938c639d7129b39ef4f440ff6c0c405",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190727_060333__public_base8_4d.json": "d1ebd988bbb2d96aeb51f9f740bfb6d3be3ceb1bb7a9311da9a817cd18769c3e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190727_060333__public_base8_4d__original.json": "06a28d46f7e994aa825b71b1d12ed3db2e8e078fa4af177ca8b6ce1d7c2d3017",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190728_064510__public_base8_4d.json": "d2ef6cbe812313a570a792465c3946f8f2584b87a04865ef9c9c38672f293925",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190728_064510__public_base8_4d__original.json": "7c1baa52ce5047b48a42c440de47de8ec4190b0ac2bbce3a5f45b7655e32e4a7",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190731_140936__public_base8_4d.json": "87392878356529e638e49467ade199b1c07e4e155405c6d4724aff1334051691",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190731_140936__public_base8_4d__original.json": "ddb30a312396d096543968056e42802417824672a1c594065710ade17168f037",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190803_022701__public_base8_4d.json": "3acda259ff1992a23b6abd0eb6759892c99dc1f69f31ce90a2f55dd02e324c2d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190803_022701__public_base8_4d__original.json": "43e4f3bc9f64b25645a57a77aaae3e27353a29e1358b755b8f02da3817e05abf",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190805_211137__public_base8_4d.json": "e8c1f98b7b626cdc6a561d0b83aac4031e46ac039d6b0c59885d77ab267b9ebe",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190805_211137__public_base8_4d__original.json": "2f9ec128cf0a9605747994612f7c7a6a52cef3496fd4207dacd53cc7780d4341",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190828_063405__public_base8_4d.json": "417584e056f5a5ec2c999c6568669b63bc88ac97e94e4677198f7bc8a2feef94",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190828_063405__public_base8_4d__original.json": "9496d6e6f32a34bf88e15c98d1cedfe482be9467accd16eb695fdb58aa4c610a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190828_065509__public_base8_4d.json": "91b21e744df33c25a2dae17ea683dc3292f58afb07b23226f4a4c91d2daff815",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190828_065509__public_base8_4d__original.json": "56973f2af7a3be8c4efa9a2cbfa1aeeecc646c3728b13fb027ac08477a57a299",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190910_112807__public_base8_4d.json": "1c50be154281cebe8d7fd78ef17b180a5bbc5f5b4258affef3c60ea8aa7355eb",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190910_112807__public_base8_4d__original.json": "175a5b5fce5b2dfe9d4d966068ae1353b612d5d59953752e407ff445a7e00272",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190915_235702__public_base8_4d.json": "0f6ce530f653b2c26d31a2ae30bce552de625787f8046f95f1588fdfad3bb189",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190915_235702__public_base8_4d__original.json": "33b7d7121b8a57d8a9b2c3bafb58e59b910c29b413f94f5d8437bcb01f6766f2",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190924_021846__public_base8_4d.json": "77517cb8057e1965b195141151e30e6640fdd0ba01dff51a507415dd5036cb46",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190924_021846__public_base8_4d__original.json": "5565ca1e83a66d6859f9457f488f700d520944d2ef708de1ab7ae243fc14f18d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190929_012149__public_base8_4d.json": "b90336419b4a1b6e483cf7b4203130a41de39cea32b0ef431156c075b2a48d8c",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190929_012149__public_base8_4d__original.json": "4b0434e38cbec30249b1582ddefcdfe1f1057e13ada9f12411c2d7a2edded33c",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190930_133541__public_base8_4d.json": "526b8ba6f753f63af7a60394ea27ba5f85ecba44a39e793a84aba0e1cd5d3403",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW190930_133541__public_base8_4d__original.json": "de66b0d9a5f6d39cb62ed619a4d8c8397e5765b2b5cf63cfda3fff63f795e117",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191105_143521__public_base8_4d.json": "29d8f564e3aa6c5da30f3529f9066cbec79be88b0d3e8308b9f11d6b3618f559",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191105_143521__public_base8_4d__original.json": "a7b2c1a7d243be0b10ee411c035b2898f850ed69f4777845b9f19cca59de33cd",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191109_010717__public_base8_4d.json": "3fb37b22c791d7fff3a2f2bd288c0fb3bf168fec311e9f413957b0e37d0d9101",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191109_010717__public_base8_4d__original.json": "25fd18630e1d2a0b821b8943b367a4ec2ee55e72427ac5c584e4850975585ef7",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191129_134029__public_base8_4d.json": "a3a2405cb4ec8f72e1600cfd3fc9ffc7d820e0c56f3796a83835fbb8fd66af1f",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191129_134029__public_base8_4d__original.json": "f7872a37589f89f191388dcaac66ed7faa1672e25bd2e66d7add30fb0c4c77dd",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191204_171526__public_base8_4d.json": "4a4ffed7bbf919ea926272d88f60d1c52791d67794db644d9fcb2261e0b6c815",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191204_171526__public_base8_4d__original.json": "72ec6fcfee0b8ea7597ca254ae85f65505028be13b0f11cd1926ff8f574a783d",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191216_213338__public_base8_4d.json": "1b2d281f740840664a7ae8725fbc5f999755945993ae30e68ccf928c1c483ef0",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191216_213338__public_base8_4d__original.json": "3bed4183e3d52108a77895910c9e31814ad89c4eeabea6d7a1bbde34ce05ef6e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191230_180458__public_base8_4d.json": "004fe7ab4b3c8387cfc2166f6d51df46fad2bfde22b59b121e504533d60166ea",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW191230_180458__public_base8_4d__original.json": "4e5ee8ffa261c041c165608478e6273ec8cb8bcbeb2aa5e2fadf5aa3aa5e8bda",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200202_154313__public_base8_4d.json": "357f7ecb8bacb0aead28c3cac3e4eedc0b7c2892064680b21e140acb4507d49b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200202_154313__public_base8_4d__original.json": "1845abc573565097612db120c0f122178d9683bfa5f2cfb4cb4bb2fd055a199a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200208_130117__public_base8_4d.json": "9d6558776544655775059a9bf885975931a65871a3df54714aeed11306843008",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200208_130117__public_base8_4d__original.json": "5e1a62a42ef37abe0d9a1e1aafb1a7f0ab3cade9f1ed0e5d208d7e481b5aef0b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200209_085452__public_base8_4d.json": "abde925aa2d5063de7f79158eb285b281c5e83015077daf261d350d949313a64",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200209_085452__public_base8_4d__original.json": "941d898a8a2e37abb948e0129d6c8f3c72ecd6afe31ae06a687e1ce9c5d154b2",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200219_094415__public_base8_4d.json": "db2275f8a26df18e8a653a900f3f52b6aa52cba516b7d2c38e18b98d67343487",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200219_094415__public_base8_4d__original.json": "4d6bdcc21d81e0ae2a8681676cd5efe6724fd49a43c6acc0dd526ee9853fc7b8",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200225_060421__public_base8_4d.json": "573b3cd3397adef17e28022604e95d35606bfe74b8e503f6c50e8aa9b48a51a5",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200225_060421__public_base8_4d__original.json": "25f15957b1250e341dc5a513a4d62b3095b8ea95ec71dcf503b23dfb5578767c",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200302_015811__public_base8_4d.json": "2d516184f2a6b87022db7d80893b7e2f82c1674a91b1344efc0a98c64d22c643",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200302_015811__public_base8_4d__original.json": "a4d9cbe7034e0705aa687986ec222e0049fb5102c5830f0761010740369e454a",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200316_215756__public_base8_4d.json": "982b72f103d9e75752a8c093d8623b85e1aa9e0974f107f223e406b6a0c4bc2b",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW200316_215756__public_base8_4d__original.json": "cd1c51926ce21a3ba1ef61fe6bff8f80c0ff13c0965dfff5226d64a127dddc9e",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW230820_212515__public_base8_4d.json": "2b1e94d5d08df84564e50a0d064e47176f95a6d2f8368ef8f4069c59e36930ac",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW230820_212515__public_base8_4d__original.json": "0e616020d36305b16decfb076ca6905f41be4ecf5580486a64a896030193f9e9",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW230928_215827__public_base8_4d.json": "3e1be1bf371b20c59b77692168c2eeda46aeeab3e959e9f76d635e1acbb5e764",
+  "collections/quasicircular/20261110-public-base8-4d-paper2-v1/validation/GW230928_215827__public_base8_4d__original.json": "5e38a3b004325606a2791465ea735bb57f08015b3488e160eb1a28ee482de560",
   "collections/quasicircular/20261110-public-longem-4d-v1/README.md": "0c95d29582908267557b292cf2fe67e8d94eaa4361a7d14ef62197b8904afae5",
   "collections/quasicircular/20261110-public-longem-4d-v1/fits/GW170729_185629__public_longem_4d.json": "35c5c86d6f7d8b6c2134500d16e022e64ebd9adb1e9018ba3280888d04e9ffd9",
   "collections/quasicircular/20261110-public-longem-4d-v1/fits/GW190403_051519__public_longem_4d.json": "18ef49287eb432e528d53b86a064dad389752681f163c2419d2c3129cdb91413",
@@ -10288,7 +11593,7 @@
   "provenance/drafts/20261109-joint-v2-public-sources/public_proofs/GW231221_135041__base8.json": "237e1eac8ab90068ab3c24b97ceceae789e5d4a0ea900abdc07dab4c62b25037",
   "provenance/drafts/20261109-joint-v2-public-sources/public_proofs/GW231223_032836__base8.json": "5807fc248289aff54332ddec6f8e656cc70e62457aa7007d9c92423d0d845a1a",
   "provenance/drafts/20261109-joint-v2-public-sources/public_proofs/GW231230_170116__base8.json": "91bbe1e1b8aa641eed8d5f8f6116777247688b448cf0f375f73f24131e03cc91",
-  "provenance/public_data_certificates.json": "6c6f7df409192965354ed638a8d27a2e9fd1c0a74d9af49032b7180c9c4e5b93",
+  "provenance/public_data_certificates.json": "dca88de54c8c643884dd317d4576dfadf7637bff6e198a2a18cb87e8edc7b44e",
   "src/aligned_redshift.py": "a9efac73b4b1d049f172714f079b1b3397107365af275352450186e9254daa2e",
   "src/bounded2d_fit.py": "2eb87e9f399408bb1d0e0d0f66aa1a2f93c547666677f828caec81f9c169a586",
   "src/bounded_fit.py": "02504a042698efbd5657f4521f06dbf385ed5edb669a3befdb810ee70fee5267",
@@ -10308,8 +11613,8 @@
   "src/native_spin_base_redshift.py": "86fac95b498a5b940571c1dbb376d25d80808048088cee590b751201e6dca7d8",
   "src/o4b_recovery.py": "173a33f0ae989c1b38d6d07b03b38f9f5ffba92fb98ef439c65491b93633c7c2",
   "src/prior_folded_likelihood.py": "78611701f9ec2129bb5ab3c3aef4e857e3e360f92bb528d7f23edcacbc6e27b8",
-  "src/public_dcc_provenance.py": "a368a2e915d8221d09190cddd4300b3dca09b88221cb1694ad23fee92e7d64b7",
-  "src/public_provenance.py": "c3e9094a54c7a72ee0d8143eddb168b100d34cbb6d62959aa954fccabad5bd7a",
+  "src/public_dcc_provenance.py": "0c1c6085506fa6e5ec596da7e90db6f09d1dd07b1e602f5cccfe4b4fda9fcdd4",
+  "src/public_provenance.py": "24cd60dbb87bda98f69478bd0c46c8fda0654c149d150931b417b6236954c3f1",
   "tests/public_fixture_certificate.py": "462b91626f50194e5b0411ec0b868147fdde97f314c1861bfdfba1a73d4862b5",
   "tests/test_bounded2d_dispatch.py": "bf12dca8d786b7e97e0f2402b233d0465ed3a8619387737068e6fece012648d9",
   "tests/test_bounded2d_fit.py": "bace1571ab4b8be0075077010440e6025de10a6c5bc6e0e6a0fe62d41577b905",
@@ -10328,7 +11633,7 @@
   "tests/test_native_spin_base_redshift.py": "5ab44d98ad4f22a4f2fa99d774aa1505f6149cf47a30019d2019a83442f802fb",
   "tests/test_o4b_recovery.py": "57335a63979e8776eb1e4f3aa68701286bd7ded6bd15f4791661397cd8fc31e3",
   "tests/test_prior_folded_likelihood.py": "5578b122989c785de96be2c26299af8b4e77c6318ff73960c9a163b64340ac05",
-  "tests/test_public_dcc_provenance.py": "f372d44d5062026d0367894e0d1ad2d4972ef7ce1011b3e78584592d635cf151",
+  "tests/test_public_dcc_provenance.py": "72a2add4efd85f1448596b8162ea3203d2aafaeb6e03c79f6cd442bcfb3389b4",
   "tests/test_public_provenance.py": "9dc7b15ddda36ddaecb31a70590614b8df0d398358a6f18f754a53b9b582d027",
   "tests/test_public_redshift_collection.py": "17c1ef3da3552c2a55022e6f17aef23c7854a0eb0a6df24b16dd5807c719633c",
   "tools/check_collections.py": "70490f81607ce7a5c0104758370da836ccc15921ddf78952c5a0d9bc3480160f",

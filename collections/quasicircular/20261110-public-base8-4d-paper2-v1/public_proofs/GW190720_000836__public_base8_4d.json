@@ -1,0 +1,61 @@
+{
+  "schema": "public-fit-source-proof-v1",
+  "status": "verified",
+  "event": "GW190720_000836",
+  "fit_sha256": "9ba12a217f06045380a033f447ec2e7ff3c0f1208212044758e551b7b1c6928d",
+  "reference_sha256": "ed377094552f002848bbd8556b76dc2143669b9b97a22c7bebd64c21e49bacd2",
+  "producer_revision": "a6613be579df7441283a66ebbfcc3ae8831ed5d4e75c2897e71e52a1e852180c",
+  "leaf_revision": "bea8929dc0cd1cef0947a49c15b90faa6376d9b03a1b261db9c6fb558bf496b7",
+  "source_model_sha256": "8a939854d1ed4448b95122083c3ae07788df0c1b90be0f47c82019e4c3cfe2bc",
+  "source_validation_sha256": "143a0394ca2ce6be00d2169b92c5c6fe1938c639d7129b39ef4f440ff6c0c405",
+  "method": "public_dcc_archive_member_match",
+  "release_id": "P2000223",
+  "release_version": "v7",
+  "posterior_group": "C01:IMRPhenomPv2",
+  "public_file_url": "https://dcc.ligo.org/public/0169/P2000223/007/GW190720_000836.tar",
+  "public_file_name": "GW190720_000836.tar",
+  "public_file_sha256": "64593c09bbd7aa451c7f7f29ee073f1f1bbc5c8d07ac72b0354819e7b1a9d17d",
+  "source_file_sha256": "e0bf1868740184407ee292ffea5d246e9d9d68116bd1bdce7b0b4b3491cbfc90",
+  "archive_member": "GW190720_000836/GW190720_000836.h5",
+  "archive_member_sha256": "e0bf1868740184407ee292ffea5d246e9d9d68116bd1bdce7b0b4b3491cbfc90",
+  "public_file_checksum": {
+    "algorithm": "sha256",
+    "value": "64593c09bbd7aa451c7f7f29ee073f1f1bbc5c8d07ac72b0354819e7b1a9d17d"
+  },
+  "observed_file_checksum": {
+    "algorithm": "sha256",
+    "value": "64593c09bbd7aa451c7f7f29ee073f1f1bbc5c8d07ac72b0354819e7b1a9d17d"
+  },
+  "public_metadata": {
+    "path": "collections/quasicircular/20261110-public-base8-4d-paper2-v1/public_metadata/GW190720_000836__dcc.json",
+    "sha256": "614fd174d10a450f2d8c958225571398e0ada7a4a03a62df65658273f9d7372b"
+  },
+  "public_metadata_sha256": "614fd174d10a450f2d8c958225571398e0ada7a4a03a62df65658273f9d7372b",
+  "export_producer_revision": "6769a7687391355273f9c25aef63d3d474ab274297d79d6697eae8ce658fc984",
+  "reference_rows": 30523,
+  "reference_rowwise_check": {
+    "max_relative_error": {
+      "chi_eff": 0.0,
+      "eta": 1.6653345369377348e-16,
+      "luminosity_distance": 5.5189260717014577e-08,
+      "mc_det": 5.27455368969098e-16
+    },
+    "rowwise": "match"
+  },
+  "used_columns": [
+    "mass_1",
+    "mass_2",
+    "luminosity_distance",
+    "chi_eff",
+    "spin_1x",
+    "spin_1y",
+    "spin_1z",
+    "spin_2x",
+    "spin_2y",
+    "spin_2z",
+    "chirp_mass",
+    "mass_ratio"
+  ],
+  "original_used_columns_sha256": "8f671c2fb9d0785c43ee287435667e971d8864fd8972578697c770b3ec749d38",
+  "original_prior_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+}

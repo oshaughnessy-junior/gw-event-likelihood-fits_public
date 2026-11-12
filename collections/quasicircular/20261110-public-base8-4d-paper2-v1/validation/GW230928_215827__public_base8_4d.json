@@ -1,0 +1,42 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW230928_215827",
+  "analysis_id": "GW230928_215827__public_base8_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "diagnostic_coordinates": [
+    "mc_source",
+    "q",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "628243d87e916237d8411cd487cd26636f99045da00ede62b188069a8e43326b",
+  "upstream_model_sha256": "ef054944be29df7503a7ded36f8af6ee99d8eabbdbbf6d24acda4c9fa9fd8111",
+  "model_canonical_sha256": "06ed3d90ad7ddb8627775431dfe217d4b219f5ad254250cdecf29ef0a23b3222",
+  "original_validation": {
+    "path": "validation/GW230928_215827__public_base8_4d__original.json",
+    "sha256": "5e38a3b004325606a2791465ea735bb57f08015b3488e160eb1a28ee482de560"
+  },
+  "upstream_status": "candidate_unresolved_or_failed",
+  "upstream_passes_declared_checks": false,
+  "upstream_failed_checks": [
+    "max_marginal_JS_bits",
+    "max_axis_KS",
+    "max_projection_JS_bits",
+    "max_conditional_q_given_z_JS_bits",
+    "min_reference_information_ess",
+    "population_response"
+  ],
+  "used_by_population": {
+    "manifest_sha256": "0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc",
+    "fit_model_sha256": "ef054944be29df7503a7ded36f8af6ee99d8eabbdbbf6d24acda4c9fa9fd8111"
+  },
+  "training_split": "intrinsic-group split",
+  "replication_splits": [],
+  "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_marginal_JS_bits, max_axis_KS, max_projection_JS_bits, max_conditional_q_given_z_JS_bits, min_reference_information_ess, population_response. Split: intrinsic-group split. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior."
+}

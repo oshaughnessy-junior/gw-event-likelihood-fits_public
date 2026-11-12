@@ -1,0 +1,583 @@
+{
+  "schema": "public-native-redshift-artifact-v1",
+  "event": "GW190527_092055",
+  "analysis_id": "GW190527_092055__public_base8_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "upstream_model_sha256": "a23d5d9801092f1a94872955095de9f34504595a7fcd5366a8ba1e8fef78acdc",
+  "model_canonical_sha256": "2dc4568ab3848d448b4fb1f3d4dbc360b722dddcde464a812b1431222039fb11",
+  "fit": {
+    "schema": "aligned-redshift-native-spin-base-posterior-v1",
+    "event": "GW190527_092055",
+    "coordinates": [
+      "mc_source",
+      "eta",
+      "chi_eff",
+      "z"
+    ],
+    "density_chart": [
+      "mc_detector",
+      "delta",
+      "chi_eff",
+      "logz"
+    ],
+    "density_target": "Native posterior = pi_native(chi_eff|q) * fitted mixture; scalar likelihood is the mixture over the remaining native prior factors",
+    "analysis_support": {
+      "m1_det_min": 1.0,
+      "m2_det_min": 1.0,
+      "m1_det_max": 200.0,
+      "m2_det_max": 200.0,
+      "mtotal_det_min": 55.0,
+      "mtotal_det_max": 400.0,
+      "mc_det_min": 12.0,
+      "mc_det_max": 90.0,
+      "q_min": 0.05,
+      "q_max": 1.0,
+      "dL_min": 1.0,
+      "dL_max": 12000.0,
+      "amax": 0.99,
+      "z_min": 0.00022645053316891803,
+      "z_max": 1.5873270942048512,
+      "mc_min": 4.63799108619774,
+      "mc_max": 89.97962406615589,
+      "a1max": 0.99,
+      "a2max": 0.99
+    },
+    "prior_contract": {
+      "schema": "aligned-redshift-native-prior-v1",
+      "event": "GW190527_092055",
+      "coordinate_order": [
+        "mc_source",
+        "eta",
+        "chi_eff",
+        "z"
+      ],
+      "analysis_support": {
+        "m1_det_min": 1.0,
+        "m2_det_min": 1.0,
+        "m1_det_max": 200.0,
+        "m2_det_max": 200.0,
+        "mtotal_det_min": 55.0,
+        "mtotal_det_max": 400.0,
+        "mc_det_min": 12.0,
+        "mc_det_max": 90.0,
+        "q_min": 0.05,
+        "q_max": 1.0,
+        "dL_min": 1.0,
+        "dL_max": 12000.0,
+        "amax": 0.99,
+        "z_min": 0.00022645053316891803,
+        "z_max": 1.5873270942048512,
+        "mc_min": 4.63799108619774,
+        "mc_max": 89.97962406615589,
+        "a1max": 0.99,
+        "a2max": 0.99
+      },
+      "spin_caps": [
+        0.99,
+        0.99
+      ],
+      "spin_quadrature_order": 64,
+      "distance_prior": {
+        "kind": "distance_squared",
+        "analytic": "historical LALInference default D_L^2",
+        "status": "versioned_default_verified_no_engine_override",
+        "version": "1.11.5",
+        "complete_engine_sha256": "c034699d8abfd0ed818efe0a5711738dd7fc67b4d05ec9b01a4f0537214b1d9e",
+        "prior_override_flags_found": [],
+        "implementation_evidence_sha256": "b3432ec6e9820b4b7393eda95788c2d44b2047002f7214f3d034d9d41436bfb9",
+        "implementation_source_sha256": "8b7edabe6473c2849ef4239d4e728804eff3da20f68609f8dc81c3f6640bc778"
+      },
+      "metadata_provenance": {
+        "kind": "pinned_older_metadata",
+        "source_sha256": "d8260727cae351930b6538f26df066645ff624dd3b912684d5b4d6e6f2d97959",
+        "historical_lalinference_version": "1.11.5",
+        "recorded_executables": {
+          "lalinferencemcmc": [
+            "/cvmfs/oasis.opensciencegrid.org/ligo/sw/conda/envs/igwn-py37-20200118//bin/lalinference_mcmc"
+          ],
+          "lalinferencenest": [
+            "/cvmfs/oasis.opensciencegrid.org/ligo/sw/conda/envs/igwn-py37-20200118//bin/lalinference_nest"
+          ]
+        }
+      },
+      "native_settings": {
+        "config_file/engine/H1-psd": [
+          "<host-path>/glitch_median_PSD_forLI_H1.dat"
+        ],
+        "config_file/engine/H1-spcal-envelope": [
+          "<host-path>/Aug-24-2019_O3_LHO_GPSTime_1242982884_C01_RelativeResponseUncertainty_FinalResults.txt"
+        ],
+        "config_file/engine/L1-psd": [
+          "<host-path>/glitch_median_PSD_forLI_L1.dat"
+        ],
+        "config_file/engine/L1-spcal-envelope": [
+          "<host-path>/Aug-24-2019_O3_LLO_GPSTime_1242983764_C01_RelativeResponseUncertainty_FinalResults.txt"
+        ],
+        "config_file/engine/a_spin1-max": [
+          "0.99"
+        ],
+        "config_file/engine/a_spin2-max": [
+          "0.99"
+        ],
+        "config_file/engine/adapt-temps": [
+          ""
+        ],
+        "config_file/engine/approx": [
+          "IMRPhenomPv2pseudoFourPN"
+        ],
+        "config_file/engine/chirpmass-max": [
+          "90"
+        ],
+        "config_file/engine/chirpmass-min": [
+          "12"
+        ],
+        "config_file/engine/comp-max": [
+          "200"
+        ],
+        "config_file/engine/distance-max": [
+          "12000"
+        ],
+        "config_file/engine/enable-spline-calibration": [
+          ""
+        ],
+        "config_file/engine/fref": [
+          "20"
+        ],
+        "config_file/engine/maxmcmc": [
+          "5000"
+        ],
+        "config_file/engine/mtotal-max": [
+          "400"
+        ],
+        "config_file/engine/mtotal-min": [
+          "55"
+        ],
+        "config_file/engine/neff": [
+          "1000"
+        ],
+        "config_file/engine/nlive": [
+          "2048"
+        ],
+        "config_file/engine/ntemps": [
+          "8"
+        ],
+        "config_file/engine/progress": [
+          ""
+        ],
+        "config_file/engine/q-min": [
+          "0.05"
+        ],
+        "config_file/engine/resume": [
+          ""
+        ],
+        "config_file/engine/seglen": [
+          "16"
+        ],
+        "config_file/engine/spcal-nodes": [
+          "10"
+        ],
+        "config_file/engine/srate": [
+          "1024"
+        ],
+        "config_file/engine/tolerance": [
+          "0.1"
+        ]
+      },
+      "conditional_nuisance": "Original source conditional nuisance prior at retained source mass, eta, chi_eff, z; no hidden-spin prior change",
+      "common_cosmology": {
+        "H0": 67.9,
+        "Om0": 0.3065,
+        "Tcmb0": 0.0
+      },
+      "density_convention": "Native retained prior proportional to (1+z)^2 J(Mc_source,eta) p_chi(chi|q) p_native_DL(DL(z)) dDLcommon/dz. No population rho."
+    },
+    "spin_caps": [
+      0.99,
+      0.99
+    ],
+    "rho_embedded_in_scalar_likelihood": false,
+    "validation_status": "candidate_unvalidated",
+    "center": [
+      0.28628011598063774,
+      0.11726309227040002
+    ],
+    "scale": [
+      0.1799595815473044,
+      0.1859910355391939
+    ],
+    "components": [
+      {
+        "theta": [
+          -1.4926296986353207,
+          1.172677680640856,
+          -0.5251555690648039,
+          0.1719900641844155,
+          -0.6605744351402032
+        ],
+        "logZ": -0.9240531735010915,
+        "coef": [
+          [
+            34.79976902503335,
+            -0.8397897135567542
+          ],
+          [
+            -0.47463903259849705,
+            -0.054994100226041794
+          ],
+          [
+            2.8748356683220035,
+            0.07967149737862274
+          ]
+        ],
+        "cov": [
+          [
+            0.8159466536061658,
+            0.028421403686900205
+          ],
+          [
+            0.028421403686900198,
+            0.08288827804447968
+          ]
+        ]
+      },
+      {
+        "theta": [
+          -0.576450534067376,
+          0.9263860585972298,
+          -0.5028995526065031,
+          -0.10274668604835809,
+          -0.3350083922869938
+        ],
+        "logZ": -1.1777433708643876,
+        "coef": [
+          [
+            58.48453407338606,
+            -0.3279368964653083
+          ],
+          [
+            -3.634716129931402,
+            -0.1050783973044629
+          ],
+          [
+            7.08363969930034,
+            0.011618466990066134
+          ]
+        ],
+        "cov": [
+          [
+            41.32984924045028,
+            0.5004837267779708
+          ],
+          [
+            0.5004837267779706,
+            0.06261990973151599
+          ]
+        ]
+      },
+      {
+        "theta": [
+          -0.3748421444169957,
+          2.455106303494796,
+          -0.7295471780297048,
+          -0.10888302618740803,
+          -0.5335112651871511
+        ],
+        "logZ": -0.3023527486300974,
+        "coef": [
+          [
+            58.969960479507144,
+            -0.13884695366949207
+          ],
+          [
+            -2.6082097937397877,
+            -0.056238821298978045
+          ],
+          [
+            6.015151112764906,
+            0.09340476651918243
+          ]
+        ],
+        "cov": [
+          [
+            27.022232620717045,
+            0.2383227458527715
+          ],
+          [
+            0.2383227458527715,
+            0.03053042785255624
+          ]
+        ]
+      },
+      {
+        "theta": [
+          1.3632682487790668,
+          0.002052975515083399,
+          -0.8574329068066243,
+          0.16834091920222868,
+          -0.019958089730782034
+        ],
+        "logZ": -0.6131836234541872,
+        "coef": [
+          [
+            54.78389434819277,
+            -0.24834982093641822
+          ],
+          [
+            -5.200081253540532,
+            -0.2336779028504008
+          ],
+          [
+            1.914835588887142,
+            0.10609048175746717
+          ]
+        ],
+        "cov": [
+          [
+            63.29061675713427,
+            1.095427878888577
+          ],
+          [
+            1.095427878888577,
+            0.07078948333203507
+          ]
+        ]
+      },
+      {
+        "theta": [
+          8.648399766253394,
+          -4.00574240009562,
+          -2.1804198283573917,
+          1.67910116450129,
+          -0.6967966250259756
+        ],
+        "logZ": 6.896201767332959,
+        "coef": [
+          [
+            37.874697715819366,
+            -0.5459065341167534
+          ],
+          [
+            -4.314479855756184,
+            -0.267656059936343
+          ],
+          [
+            2.554996854571127,
+            0.13455385701639494
+          ]
+        ],
+        "cov": [
+          [
+            1.057984589309659,
+            0.016111280447081797
+          ],
+          [
+            0.016111280447081797,
+            0.05923607113564052
+          ]
+        ]
+      },
+      {
+        "theta": [
+          -1.27178463676089,
+          0.33979434047333895,
+          -0.3672422014778238,
+          0.14573293399066506,
+          -0.15157339481727541
+        ],
+        "logZ": -0.6384326790011823,
+        "coef": [
+          [
+            56.055515642907935,
+            -0.5440262626864839
+          ],
+          [
+            -2.168537065374086,
+            -0.17140761161244736
+          ],
+          [
+            4.255244550990934,
+            0.07328427920100568
+          ]
+        ],
+        "cov": [
+          [
+            114.13008794717297,
+            1.5220895657369418
+          ],
+          [
+            1.522089565736942,
+            0.12018438915213193
+          ]
+        ]
+      },
+      {
+        "theta": [
+          0.6866801976184623,
+          0.7450939233791544,
+          -0.6168881555179025,
+          0.2009078843805452,
+          -0.6342920634388929
+        ],
+        "logZ": -1.3727439354241575,
+        "coef": [
+          [
+            35.578504278961894,
+            -0.9131169936249075
+          ],
+          [
+            -2.230971669096908,
+            -0.12638324471773002
+          ],
+          [
+            3.489968093596725,
+            0.2167546700538667
+          ]
+        ],
+        "cov": [
+          [
+            1.8108566547967773,
+            0.13344202651575396
+          ],
+          [
+            0.13344202651575396,
+            0.0957005456343501
+          ]
+        ]
+      },
+      {
+        "theta": [
+          0.280531958458059,
+          -0.611852912457269,
+          -0.8574834403347249,
+          0.05621634356404857,
+          -0.5569524535466
+        ],
+        "logZ": -1.403336166376275,
+        "coef": [
+          [
+            34.35410304948044,
+            -0.7121567092324359
+          ],
+          [
+            -1.29289081841292,
+            -0.08328838445858726
+          ],
+          [
+            2.4028749254230304,
+            0.12984303837277195
+          ]
+        ],
+        "cov": [
+          [
+            0.720287235823805,
+            0.019215993785075745
+          ],
+          [
+            0.01921599378507574,
+            0.04855344118362616
+          ]
+        ]
+      }
+    ],
+    "component_weights": [
+      0.24916871100697957,
+      0.08811633368541728,
+      0.06660427927568888,
+      0.043138891527144126,
+      0.07600817777002088,
+      0.08050840785066748,
+      0.13608344365536526,
+      0.2603717552287166
+    ],
+    "em_iterations": 56,
+    "em_objective_history": [
+      -2.578206587892662,
+      -2.2516098135712594,
+      -2.15516388109766,
+      -2.131450048657004,
+      -2.1215484382880976,
+      -2.115649618482351,
+      -2.1115995419981095,
+      -2.1086326913693796,
+      -2.1063677729637202,
+      -2.1045796258369776,
+      -2.103120262504639,
+      -2.101889185474369,
+      -2.1008190173058003,
+      -2.0998653746328815,
+      -2.098999572833311,
+      -2.0982032586329895,
+      -2.097464000140945,
+      -2.0967723810538414,
+      -2.096121185684693,
+      -2.095505612279997,
+      -2.094922653873505,
+      -2.0943695862655725,
+      -2.09384326735427,
+      -2.0933407847315575,
+      -2.0928605452979268,
+      -2.0924029055643665,
+      -2.091969966891759,
+      -2.0915646614265313,
+      -2.0911896181760747,
+      -2.0908463642299076,
+      -2.090535133823871,
+      -2.090255157623598,
+      -2.0900050877858547,
+      -2.0897832828549285,
+      -2.0895878948390574,
+      -2.089416860713306,
+      -2.0892679136063235,
+      -2.0891386560782053,
+      -2.089026673272265,
+      -2.088929645131499,
+      -2.0888454301172636,
+      -2.0887721125578502,
+      -2.0887080185456997,
+      -2.088651709874978,
+      -2.088601965131608,
+      -2.088557754811096,
+      -2.088518214955208,
+      -2.0884826219090247,
+      -2.0884503695021244,
+      -2.088420949148534,
+      -2.088393932896694,
+      -2.0883689592216355,
+      -2.0883457212477454,
+      -2.0883239570643246,
+      -2.088303441809942,
+      -2.08828398123454
+    ],
+    "em_iteration_limit_reached": false,
+    "component_row_ess": [
+      14000.94055278909,
+      7437.097646288021,
+      4284.46005906181,
+      3309.9796469274493,
+      4330.047969501092,
+      5888.378765027448,
+      10229.90055991946,
+      16090.740929567604
+    ],
+    "grid_pi_mass_error": 5.107065496501306e-05,
+    "source": {
+      "reference_sha256": "c577d0febf0b53693b16277700473ec3f783bccc18c0cba80ecdb23e75fa4de7",
+      "metadata_sha256": "acb11a6769fff845193881419dcf501196b74104abe0c23614ff3473ebd2e0ac",
+      "fitter_sha256": "a6613be579df7441283a66ebbfcc3ae8831ed5d4e75c2897e71e52a1e852180c",
+      "leaf_sha256": "bea8929dc0cd1cef0947a49c15b90faa6376d9b03a1b261db9c6fb558bf496b7"
+    },
+    "training": {
+      "split": "row split; independent intrinsic groups unavailable",
+      "split_seed": 73,
+      "n_train": 39845,
+      "n_heldout": 9961,
+      "native_posterior_row_ess": 39844.99999999571,
+      "component_attempt_failures": []
+    }
+  }
+}

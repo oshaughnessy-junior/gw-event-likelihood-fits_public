@@ -6,6 +6,15 @@ import re
 from urllib.parse import urljoin
 
 
+# Archives that P2000223-v7 names by a short designation, not the full event identity.
+# Pinned from the archived landing page; any other event must use its full identity.
+ARCHIVE_NAMES={'GW190412_053044':'GW190412'}
+
+
+def archive_name(event):
+    return ARCHIVE_NAMES.get(event,event)
+
+
 class Links(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -23,9 +32,10 @@ def require_dcc_witness(root,proof,metadata):
         raise ValueError('DCC event identity is malformed')
     if proof['release_id']!='P2000223' or proof['release_version']!='v7':
         raise ValueError('Only the audited GWTC-2 DCC v7 release is supported')
-    archive='https://dcc.ligo.org/public/0169/P2000223/007/'+event+'.tar'
+    name=archive_name(event)
+    archive='https://dcc.ligo.org/public/0169/P2000223/007/'+name+'.tar'
     page='https://dcc.ligo.org/LIGO-P2000223-v7/public'
-    if proof['public_file_url']!=archive or proof['public_file_name']!=event+'.tar':
+    if proof['public_file_url']!=archive or proof['public_file_name']!=name+'.tar':
         raise ValueError('DCC archive URL or filename differs from its pinned release')
     if metadata.get('schema')!='dcc-public-archive-witness-v1' or metadata.get('event')!=event:
         raise ValueError('DCC retrieval witness has another schema/event')
@@ -40,7 +50,7 @@ def require_dcc_witness(root,proof,metadata):
     if proof['public_file_checksum']!=checksum or proof.get('observed_file_checksum')!=checksum or proof['public_file_sha256']!=checksum['value']:
         raise ValueError('DCC archive checksum differs from its retrieval witness')
     member=metadata.get('archive_member')
-    if member!=event+'/'+event+'.h5' or proof.get('archive_member')!=member:
+    if member!=name+'/'+name+'.h5' or proof.get('archive_member')!=member:
         raise ValueError('DCC archive member differs from the audited layout')
     digest=metadata.get('member_sha256')
     if not re.fullmatch('[0-9a-f]{64}',str(digest)):

@@ -1,0 +1,39 @@
+{
+  "schema": "native-redshift-candidate-validation-v1",
+  "status": "candidate_unvalidated",
+  "event": "GW190519_153544",
+  "analysis_id": "GW190519_153544__public_base8_4d",
+  "coordinates": [
+    "mc_source",
+    "eta",
+    "chi_eff",
+    "z"
+  ],
+  "diagnostic_coordinates": [
+    "mc_source",
+    "q",
+    "chi_eff",
+    "z"
+  ],
+  "fit_sha256": "730bc0b3ea46b933ff2b856c2a08cd615c26054c9e9539bcb0c56eb3d925b049",
+  "upstream_model_sha256": "f4fe81148e0ad7dc96309ada5bf15d7e7d95c409a297db6cba36291de1aacc96",
+  "model_canonical_sha256": "10b2bd74673036e9fa071af56a0c55c1afb3b37562ff54219933da1a74c7bc72",
+  "original_validation": {
+    "path": "validation/GW190519_153544__public_base8_4d__original.json",
+    "sha256": "44f894fb450b03189167e6c47d43a13be5bb101abae32c477793cb61b5b2406b"
+  },
+  "upstream_status": "candidate_unresolved_or_failed",
+  "upstream_passes_declared_checks": false,
+  "upstream_failed_checks": [
+    "max_marginal_JS_bits",
+    "max_axis_KS",
+    "max_conditional_q_given_z_JS_bits"
+  ],
+  "used_by_population": {
+    "manifest_sha256": "0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc",
+    "fit_model_sha256": "f4fe81148e0ad7dc96309ada5bf15d7e7d95c409a297db6cba36291de1aacc96"
+  },
+  "training_split": "row split; independent intrinsic groups unavailable",
+  "replication_splits": [],
+  "scope": "Released because the population analysis uses these exact model bytes (population manifest sha256 0b28b11fcc8932c296486a497c5a723ec3ae90c55d93d3fa3bdfa0a0ea50c5dc). Public native posterior and predeclared generic-forward diagnostics; scientific candidate only. Fails the producer declared checks on the published split (seed 73): max_marginal_JS_bits, max_axis_KS, max_conditional_q_given_z_JS_bits. Split: row split; independent intrinsic groups unavailable. No universal retained-prior or population-recovery certification. population_5 is a predeclared test prior."
+}

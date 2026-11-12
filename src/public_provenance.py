@@ -91,7 +91,10 @@ def require_public_fit(root,fit_sha256,event,artifact=None,source_metadata=None)
     proof=json.loads(evidence.read_text())
     if proof.get('schema')!='public-fit-source-proof-v1'or proof.get('status')!='verified':raise ValueError('Public source proof is not verified')
     if proof.get('fit_sha256')!=fit_sha256 or proof.get('event')!=event:raise ValueError('Public proof does not bind these fit bytes/event')
-    if not isinstance(proof.get('public_file_name'),str)or event not in proof['public_file_name']:raise ValueError('Public file name does not name the event: '+event)
+    if proof.get('method')=='public_dcc_archive_member_match':
+        from public_dcc_provenance import archive_name
+        if proof.get('public_file_name')!=archive_name(event)+'.tar':raise ValueError('Public file name does not name the event: '+event)
+    elif not isinstance(proof.get('public_file_name'),str)or event not in proof['public_file_name']:raise ValueError('Public file name does not name the event: '+event)
     if proof.get('method')not in METHODS:raise ValueError('Unsupported public-source proof method')
     for key in ['release_id','release_version','posterior_group','producer_revision']:
         if not isinstance(proof.get(key),str)or not proof[key].strip():raise ValueError('Public proof lacks '+key)
